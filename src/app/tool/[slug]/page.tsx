@@ -17,7 +17,7 @@ interface Article {
 
 function getArticle(slug: string): Article | null {
   try {
-    const p = path.join(process.cwd(), "src", "lib", "content", `${slug}.json`);
+    const p = path.join(process.cwd(), "src", "lib", "content", "zh", `${slug}.json`);
     if (!fs.existsSync(p)) return null;
     return JSON.parse(fs.readFileSync(p, "utf8"));
   } catch {
@@ -26,7 +26,7 @@ function getArticle(slug: string): Article | null {
 }
 
 export async function generateStaticParams() {
-  const idxPath = path.join(process.cwd(), "src", "lib", "content", "index.json");
+  const idxPath = path.join(process.cwd(), "src", "lib", "content", "zh", "index.json");
   if (!fs.existsSync(idxPath)) return [];
   const idx = JSON.parse(fs.readFileSync(idxPath, "utf8"));
   return (idx.tool || []).map((a: any) => ({ slug: a.slug }));

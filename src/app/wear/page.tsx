@@ -30,7 +30,7 @@ const icons: Record<string, string> = {
 };
 
 export default function WearPage() {
-  const idxPath = path.join(process.cwd(), "src", "lib", "content", "index.json");
+  const idxPath = path.join(process.cwd(), "src", "lib", "content", "zh", "index.json");
   const articles: { slug: string; title: string; excerpt: string }[] = [];
   if (fs.existsSync(idxPath)) {
     const idx = JSON.parse(fs.readFileSync(idxPath, "utf8"));

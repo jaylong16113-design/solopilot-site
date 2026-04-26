@@ -2,7 +2,7 @@ const fs = require("fs");
 const path = require("path");
 
 const base = "https://agentclaw.sale";
-const idxPath = path.join(process.cwd(), "src", "lib", "content", "index.json");
+const idxPath = path.join(process.cwd(), "src", "lib", "content", "zh", "index.json");
 const idx = JSON.parse(fs.readFileSync(idxPath, "utf8"));
 
 let urls = [
