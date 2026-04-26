@@ -2,23 +2,23 @@
   "tool": [
     {
       "slug": "10-free-ecommerce-tools",
-      "title": "电商新手必备的10个免费工具2026版",
-      "excerpt": "10个完全免费的电商工具推荐"
+      "title": "2026年电商小白必看：10款零成本工具把店铺做到月入3万",
+      "excerpt": "飞书、Canva、剪映、ChatGPT……10款免费电商工具组合使用攻略，从选品到出单全流程实操，一人公司运营也能轻松上手"
     },
     {
       "slug": "ai-ab-testing-product-images",
-      "title": "用AI做商品主图A/B测试：从设计到数据输出的完整实操流程",
-      "excerpt": "一套完整的AI商品主图A/B测试工作流，涵盖用AI批量生成不同设计版本、搭建测试Campaign、分析数据找出最佳转化方案"
+      "title": "AI商品主图A/B测试完全实操指南：从AI批量出图到数据决策的闭环流程",
+      "excerpt": "用AI批量生成几十套主图版本、搭建免费测试Campaign、用GA4分析转化数据找出最佳方案——完整闭环流程，单次测试成本不到200元"
     },
     {
       "slug": "ai-ad-optimization-guide",
-      "title": "AI广告投放优化工具实操指南：用自动化算法把ROI翻三倍",
-      "excerpt": "从Facebook到Google再到TikTok，AI自动优化广告投放全流程"
+      "title": "AI广告投放优化实操指南：用自动化算法把ROI翻三倍的真实方法",
+      "excerpt": "从Facebook到Google到TikTok，AI广告工具全平台横向对比。Madgicx、Optmyzr、Pacvue实操测评，手把手搭建跨平台AI广告自动化体系"
     },
     {
       "slug": "ai-auto-price-monitoring",
-      "title": "淘宝/拼多多自动跟价AI工具：实现智能调价的完整方案",
-      "excerpt": "从规则引擎到AI动态定价，手把手搭建一套自动监控竞品价格、实时调整自家售价的跟价系统，覆盖淘宝、拼多多和1688三大平台"
+      "title": "AI自动价格监控与智能调价完全指南：从规则引擎到动态定价的实战方案",
+      "excerpt": "淘宝、拼多多、1688三平台自动跟价攻略。从官方工具到Python自建系统到Coze/AI工作流，三种方案覆盖不同技术背景的卖家需求"
     },
     {
       "slug": "ai-auto-reply-messages",
@@ -62,43 +62,43 @@
     },
     {
       "slug": "ai-customer-service-automation",
-      "title": "AI自动客服搭建教程完全免费版",
-      "excerpt": "用ChatGPT加飞书7x24小时自动回复"
+      "title": "AI客服自动化完全指南：用ChatGPT+飞书搭建7×24小时智能回复系统",
+      "excerpt": "覆盖80%常见问题，转人工率控制在20%以内，月成本不到人工的十分之一"
     },
     {
       "slug": "ai-ecommerce-data-analysis",
-      "title": "用AI分析生意参谋数据实操教程",
-      "excerpt": "喂AI自动诊断给建议"
+      "title": "用AI分析生意参谋数据：从导出到执行优化的完整实操流程",
+      "excerpt": "每天看一眼数据就关了？用这个方法，AI自动诊断问题并给出可执行的优化方案"
     },
     {
       "slug": "ai-free-video-editing-ecommerce",
-      "title": "用免费AI工具做电商短视频完整指南",
-      "excerpt": "AI脚本到配音到剪辑全免费"
+      "title": "用免费AI工具批量做电商短视频：从脚本到剪辑再到配音的完整流程",
+      "excerpt": "2026年淘宝短视频权重提升到30%以上，零基础也能一天产出10-15条成品视频"
     },
     {
       "slug": "ai-image-ecommerce-tools",
-      "title": "AI作图工具电商场景横向评测：哪一款能真正帮你降本增效卖出货",
-      "excerpt": "ZMO.ai、Remove.bg、Canva AI、Midjourney，看谁的电商图片方案最强"
+      "title": "AI作图工具电商场景横向评测：ZMO.ai、Canva、Midjourney谁最能帮卖家省钱卖货？",
+      "excerpt": "覆盖去背景、场景图、模特图、批量处理全场景，附新手卖家AI作图起步路线图"
     },
     {
       "slug": "ai-product-description-writer",
-      "title": "用AI批量生成商品描述完整教程",
-      "excerpt": "一个Prompt批量100条效率10倍"
+      "title": "AI商品描述生成器深度评测：7款工具让转化率翻倍的真实数据",
+      "excerpt": "哪款AI写商品描述最靠谱？实测7款工具，从转化率、SEO友好度、批量效率给你真实答案"
     },
     {
       "slug": "ai-remove-background-comparison",
-      "title": "AI一键去商品背景5个免费工具深度对比",
-      "excerpt": "从精度边缘处理批量能力全面对比"
+      "title": "AI去背景工具深度对比：5款免费工具实测，哪款去得最快最干净",
+      "excerpt": "衣物、毛绒、透明材质五类商品全面测试，佐糖、Remove.bg、Adobe Express谁最好用"
     },
     {
       "slug": "ai-seo-content-generators",
-      "title": "AI SEO内容生成工具横评：Jasper/Writesonic/Anyword/Berry谁最实用",
-      "excerpt": "用同一组关键词在四款主流AI写作工具中生成SEO文章，从内容质量、SEO优化能力、成本和批量效率四个维度横向对比"
+      "title": "AI SEO内容生成器横评：Jasper、Writesonic、Anyword、Berry四款实测对比",
+      "excerpt": "用同一组关键词实测四款主流AI写作工具，从内容质量、SEO优化、成本和批量效率四个维度告诉你哪款最适合你的内容站"
     },
     {
       "slug": "ai-seo-tools-comparison-2026",
-      "title": "AI SEO工具对比实战评测：从关键词研究到内容排名的全流程自动化",
-      "excerpt": "Ahrefs、Semrush、Surfer SEO、Frase谁在AI时代最能打"
+      "title": "AI SEO工具对比2026实测：从关键词研究到内容排名的全链路自动化",
+      "excerpt": "Ahrefs、Semrush、Surfer SEO、Frase、ContentShake五款AI SEO工具深度横向评测，帮你找到最适合自己业务的那一款"
     },
     {
       "slug": "ai-tools-2026-comparison",
@@ -123,7 +123,7 @@
     {
       "slug": "aliexpress-ai-translation-tools",
       "title": "速卖通AI翻译工具推荐",
-      "excerpt": "覆盖英西法等主要市场"
+      "excerpt": "覆盖英西法等主要市场，小语种利润更高"
     },
     {
       "slug": "chatgpt-cross-border-listing",
@@ -132,13 +132,13 @@
     },
     {
       "slug": "chatgpt-taobao-title-prompts",
-      "title": "ChatGPT做淘宝标题优化的5个高级Prompt",
-      "excerpt": "点击率提升30%的完整公式加案例"
+      "title": "ChatGPT写淘宝标题的Prompt模板：关键词挖掘到标题写作",
+      "excerpt": "从关键词挖掘到标题写作再到A/B测试，AI辅助提升搜索流量60%"
     },
     {
       "slug": "cross-border-ecommerce-ai-tools",
-      "title": "跨境卖家必备AI工具合集14款",
-      "excerpt": "翻译商品图文案客服全链路"
+      "title": "跨境电商AI工具推荐：选品、Listing、图片、广告、客服全覆盖",
+      "excerpt": "覆盖选品、Listing、图片、广告、客服五大核心环节的AI工具清单"
     },
     {
       "slug": "ecommerce-funnel-optimization",
@@ -189,63 +189,63 @@
   "wear": [
     {
       "slug": "big-body-suit-guide",
-      "title": "胖体型男士西装怎么选——遮肉显瘦的版型面料全攻略",
+      "title": "胖体型西装选购指南——遮肉显瘦的版型面料全攻略",
       "excerpt": "通过正确的版型选择和面料搭配，让西装成为你最好的修饰"
     },
     {
       "slug": "business-perfume-guide",
-      "title": "男士香水怎么选——商务场景的季节指南和场合攻略",
-      "excerpt": "从春夏秋冬的季节搭配到会议晚宴的场合选择，一篇帮你选对职场香水"
+      "title": "商务香水怎么选——从季节到场合的男士用香全攻略",
+      "excerpt": "春夏秋冬的季节搭配，会议晚宴的场合策略，一篇帮你选对职场香水"
     },
     {
       "slug": "business-travel-pack-suit",
-      "title": "商务出差西服怎么打包——不皱打包法+出差搭配方案",
+      "title": "商务出差西服打包指南——不皱打包法+3天出差方案",
       "excerpt": "5步打包法让西服到酒店就笔挺，3天行程一套西服搞定"
     },
     {
       "slug": "business-wear-101",
-      "title": "男士商务穿搭从入门到精通",
-      "excerpt": "职场新人到精英进阶"
+      "title": "商务穿搭入门指南——从职场新人到得体绅士",
+      "excerpt": "从第一套西装配齐到穿出质感的完整路线图"
     },
     {
       "slug": "custom-vs-rtw-suit",
-      "title": "西装定制 vs 成衣怎么选——什么时候该定制、什么时候买成衣",
-      "excerpt": "从价格工艺场景多维度对比，帮你做最聪明的选择"
+      "title": "定制西服 vs 成衣怎么选——什么时候该定制、什么时候买成衣",
+      "excerpt": "从价格、工艺、场景三个维度深度对比，帮你做最聪明的选择"
     },
     {
       "slug": "dating-outfit-guide",
-      "title": "男生约会穿搭指南——从咖啡到晚餐到正式约会的完整方案",
-      "excerpt": "覆盖3种约会场景的完整穿搭方案，帮你用衣服说话"
+      "title": "男生约会穿搭指南——从咖啡到晚餐到正式晚宴的完整搭配方案",
+      "excerpt": "覆盖3种约会场景的完整穿搭方案，帮你用衣着传达尊重与品味"
     },
     {
       "slug": "first-suit-guide",
-      "title": "第一次买西服最全指南",
-      "excerpt": "从量体到选款到试穿全程避坑"
+      "title": "第一次买西服最全指南——从版型面料到试穿搭配一步到位",
+      "excerpt": "从量体到选款到试穿的全程避坑指南，新手看完就能自己去买"
     },
     {
       "slug": "interview-suit-guide",
       "title": "面试穿搭全攻略——不同行业怎么穿西服才能加分",
-      "excerpt": "金融/互联网/销售/四大等行业的面试穿搭细节，一个行业一套方案"
+      "excerpt": "金融、互联网、销售、国企四大行业的面试穿搭方案，一个行业一套打法"
     },
     {
       "slug": "short-men-suit-tips",
-      "title": "矮个子男士西装选购技巧——170cm以下也能穿出气场",
-      "excerpt": "身高不够搭配来凑，从版型到细节全面优化身型比例"
+      "title": "矮个子男士西装选购穿搭全攻略——170cm以下也能穿出气场两米八",
+      "excerpt": "身高不够搭配来凑，从版型、颜色到细节全面优化身材比例，矮个子男生也能把西装穿出顶级质感"
     },
     {
       "slug": "smart-casual-suit-guide",
-      "title": "休闲西装搭配指南——从办公室到周末约会一件搞定",
-      "excerpt": "用一件休闲西装切换不同场景，掌握smart casual风格的核心搭配法则"
+      "title": "休闲西装搭配全指南——从办公室到周末约会，一件搞定所有场合",
+      "excerpt": "掌握Smart Casual风格的核心法则，用休闲西装轻松切换工作、约会、出行等多个场景"
     },
     {
       "slug": "sports-suit-vs-suit",
-      "title": "运动西服和传统西服区别",
-      "excerpt": "面料版型场景全面对比"
+      "title": "运动西服vs传统西装——面料、版型、场景全对比，一篇看懂怎么选",
+      "excerpt": "你适合穿运动西服还是传统西装？从穿着体验到场景定位全面解析两种西装的本质区别"
     },
     {
       "slug": "sports-vs-business-vs-casual-suit",
-      "title": "运动西装、商务西装、休闲西装到底有什么区别——一篇看懂怎么选",
-      "excerpt": "三种西装完全对比：版型、面料、用途、搭配全解析"
+      "title": "运动西装、商务西装、休闲西装到底有什么区别——三篇看懂怎么选怎么穿",
+      "excerpt": "三种西装看起来差不多，但从版型面料到搭配逻辑完全不同。一篇彻底搞懂它们的区别和各自的正确打开方式"
     },
     {
       "slug": "suit-accessories-guide",
@@ -274,130 +274,130 @@
     },
     {
       "slug": "suit-care-guide",
-      "title": "西服保养指南一件穿3年",
-      "excerpt": "保养不变形不起球"
+      "title": "西服保养指南——一件穿3年，不变形不起球",
+      "excerpt": "从日常穿着到收纳清洗熨烫，全套保养方法一次讲清"
     },
     {
       "slug": "suit-color-guide",
-      "title": "西服颜色怎么选从黑灰蓝到大地色",
-      "excerpt": "不同场合入门从深蓝开始"
+      "title": "西服颜色怎么选——从黑灰蓝到大地色，不同场合全攻略",
+      "excerpt": "不同场合穿什么颜色，入门先从深蓝开始"
     },
     {
       "slug": "suit-fabric-guide",
-      "title": "西服面料知识大全",
-      "excerpt": "看懂面料标签选对西服"
+      "title": "西服面料知识大全——看懂面料标签，选对西服",
+      "excerpt": "从纯羊毛到混纺到化纤到亚麻，看完你就知道什么面料适合你"
     },
     {
       "slug": "suit-ironing-guide",
-      "title": "西服熨烫教程在家烫笔挺",
-      "excerpt": "蒸汽反面熨垫棉布"
+      "title": "西服熨烫终极指南：在家也能烫出笔挺效果",
+      "excerpt": "蒸汽挂烫与平烫定型全攻略，告别褶皱烦恼"
     },
     {
       "slug": "suit-materials-tech",
-      "title": "运动西服面料科技揭秘",
-      "excerpt": "弹力透气科技全解析"
+      "title": "运动西服面料科技全解析：聚酯、氨纶、涂层一次讲透",
+      "excerpt": "从纤维成分到功能性工艺，看懂面料不再被坑"
     },
     {
       "slug": "suit-measure-guide",
-      "title": "西服量体教程自己测量不求人",
-      "excerpt": "在家量体一张表格搞定"
+      "title": "西服自测量体教程：在家量出专业裁缝级尺寸",
+      "excerpt": "七步量体法+尺码对照表，网购西服不再踩坑"
     },
     {
       "slug": "suit-mistakes-beginners",
-      "title": "新手穿西服最常见的10个错误",
-      "excerpt": "袖长扣子全盘点"
+      "title": "新手穿西服十大常见错误：附避坑指南",
+      "excerpt": "袖长扣子领带袜子全踩点，看完马上进阶"
     },
     {
       "slug": "suit-occasion-guide",
-      "title": "不同场合穿什么西服",
-      "excerpt": "面试会议婚礼晚宴建议"
+      "title": "不同场合西服穿搭完整指南——面试、会议、婚礼、日常、晚宴全覆盖",
+      "excerpt": "从面试到婚礼到晚宴，各场合的西装穿搭逻辑与细节全拆解"
     },
     {
       "slug": "suit-online-shopping-tips",
-      "title": "网购西服不想踩坑5点必看",
-      "excerpt": "防踩坑指南"
+      "title": "网购西服避坑指南——五个必看要点加三个高阶技巧",
+      "excerpt": "从尺码到面料到退换政策，网购西服前必须确认的五件事"
     },
     {
       "slug": "suit-pocket-guide",
-      "title": "西服口袋里到底放什么——从口袋方巾折法到实用物品收纳",
-      "excerpt": "胸袋装饰方巾的7种折法加裤袋实用物品收纳方案，别再让口袋鼓成面包"
+      "title": "西服口袋完全指南——从口袋方巾折法到实用物品收纳",
+      "excerpt": "口袋方巾7种经典折法，西服和西裤口袋的正确使用方式，别再让口袋鼓成面包"
     },
     {
       "slug": "suit-seasonal-guide",
-      "title": "春夏秋冬穿什么西服",
-      "excerpt": "四季面料版型指南"
+      "title": "春夏秋冬分别穿什么西服——四季穿搭与面料选择完整指南",
+      "excerpt": "从亚麻到羊毛从浅色到深色，一份搞定全年的西服季节穿搭方案"
     },
     {
       "slug": "suit-shoes-guide",
-      "title": "西服搭配什么鞋皮鞋选购指南",
-      "excerpt": "牛津德比乐福一篇看懂"
+      "title": "西服配什么鞋？从牛津到乐福，一篇讲透皮鞋搭配全攻略",
+      "excerpt": "三种鞋型四大颜色法则，照着买永远不会错"
     },
     {
       "slug": "suit-size-guide",
-      "title": "西服尺码对照表",
-      "excerpt": "网购不纠结"
+      "title": "西服尺码对照完全指南——网购不再买错",
+      "excerpt": "从身高体重到胸围肩宽，不同品牌尺码体系全破解"
     },
     {
       "slug": "suit-styling-rules",
-      "title": "西服搭配5个黄金法则",
-      "excerpt": "覆盖90%场景"
+      "title": "西服搭配五大黄金法则——90%的场合都不会出错",
+      "excerpt": "三色原则、领口一厘米、扣子规矩……记住这五条就够了"
     },
     {
       "slug": "suit-tailoring-process",
-      "title": "西装定制全流程详解——从量体到取衣一次讲清",
-      "excerpt": "第一次定制西装不用慌，量体、选料、试穿全流程拆解"
+      "title": "西装定制全流程拆解——从量体到取衣，每一步都讲清楚",
+      "excerpt": "第一次定制西装不慌不忙，量体选料试穿取衣全流程指南"
     },
     {
       "slug": "suit-trends-2026",
-      "title": "2026年男装西服流行趋势",
-      "excerpt": "今年穿什么最潮"
+      "title": "2026年男装西服流行趋势——今年穿什么才不落伍",
+      "excerpt": "从版型到颜色到搭配方式，5大趋势帮你把下一件西服买对"
     },
     {
       "slug": "suit-underwear-guide",
-      "title": "穿西服时内衣怎么选",
-      "excerpt": "衬衣不露的秘诀"
+      "title": "穿西服时内衣怎么选——从打底衫到袜子的完整指南",
+      "excerpt": "6步搞定全套西服内搭，告别衬衫露边、打底探头、袜子太短的尴尬"
     },
     {
       "slug": "tie-knot-guide",
-      "title": "男士领带打法大全——从温莎结到四手结的完整教程",
-      "excerpt": "7种领带打法的详细步骤图解，从入门到进阶一篇搞定"
+      "title": "男士领带打法大全——从新手到高手，8种系法一次学会",
+      "excerpt": "痛点引入：明明领带不差，就是打不好？8种打法从易到难，附场景推荐和常见错误排查"
     },
     {
       "slug": "wedding-suit-guide",
-      "title": "婚礼穿什么——新郎西服与宾客穿搭完全指南",
-      "excerpt": "新郎礼服怎么选、嘉宾怎么穿不抢风头不丢分，一场婚礼两个角色全覆盖"
+      "title": "婚礼穿什么——新郎选礼服与宾客搭配的完整攻略",
+      "excerpt": "7步搞定婚礼穿搭，新郎和宾客都能找到自己的答案"
     }
   ],
   "ops": [
     {
       "slug": "15-free-tools-solo",
-      "title": "一人公司必用15个免费工具",
-      "excerpt": "覆盖建站内容营销全链路"
+      "title": "一人公司必用15个免费工具——从建站到运营的全链路解决方案",
+      "excerpt": "覆盖建站、设计、内容、数据分析、自动化、运营六个环节的免费工具组合，一人公司低成本起步的完整工具箱"
     },
     {
       "slug": "adsense-first-month",
-      "title": "Google AdSense第一月能赚多少钱",
-      "excerpt": "新站AdSense真实收入预期与提升策略"
+      "title": "Google AdSense第一月真实收入——新站收益预期与六步提升策略",
+      "excerpt": "新站第一个月AdSense到底能赚多少？真实收入预期、收入公式拆解、六大实操步骤，帮你从零开始搭建可持续的AdSense收入体系"
     },
     {
       "slug": "ai-assisted-product-prototyping",
-      "title": "AI辅助产品原型设计——一人公司用AI工具快速验证产品想法的完整指南",
-      "excerpt": "不用招设计师、不用花钱开发，一人公司如何用AI工具从草图到可交互原型，快速验证你的产品想法。"
+      "title": "AI辅助产品原型设计——零基础独立开发者快速验证产品想法的完整指南",
+      "excerpt": "不用招设计师、不用花钱开发，一人公司如何用AI工具从草图到可交互原型，快速验证你的产品想法"
     },
     {
       "slug": "ai-automation-workflow",
-      "title": "AI自动化工作流搭建教程从零到一",
-      "excerpt": "一人公司如何用AI自动化做一周工作量"
+      "title": "AI自动化工作流搭建教程——从零到一，一人公司如何用AI把一周工作量压缩到一天",
+      "excerpt": "从流程梳理到自动化部署，八步搭建AI自动化工作流，把每周40小时的重复工作压缩到10小时以内"
     },
     {
       "slug": "ai-writing-workflow",
-      "title": "用AI批量写文章全流程自动化",
-      "excerpt": "选题到发布全自动"
+      "title": "用AI批量写文章全流程自动化——从关键词到上线的完整教程",
+      "excerpt": "从关键词研究到配图生成到自动部署，完整拆解AI批量写作流程的六个环节，效率提升10倍的具体方法"
     },
     {
       "slug": "build-in-public",
-      "title": "Build in Public一人公司落地",
-      "excerpt": "AgentClaw从0上线记录"
+      "title": "Build in Public——一人公司落地的最快方式：AgentClaw 4小时上线全记录",
+      "excerpt": "从买域名到55篇文章上线，4小时完成传统模式需要16000元和两周的工作量。Build in Public的核心理念和实操方法"
     },
     {
       "slug": "content-site-1000-month",
@@ -436,68 +436,68 @@
     },
     {
       "slug": "from-0-to-1000-visitors",
-      "title": "内容站从0到日UV1000实操",
-      "excerpt": "三个月增长路线"
+      "title": "内容站从0到日UV1000实操路线",
+      "excerpt": "三个月增长路线图——不需要花钱做推广，只需要正确的SEO策略和持续输出。"
     },
     {
       "slug": "github-actions-automation",
-      "title": "GitHub Actions网站自动更新",
-      "excerpt": "全自动部署方案"
+      "title": "GitHub Actions网站自动更新——从push到上线只需30秒",
+      "excerpt": "全自动部署方案：写完文章git push，剩下的全部自动化。"
     },
     {
       "slug": "keyword-research-guide",
       "title": "内容站SEO关键词研究指南——工具、方法与实战案例分析",
-      "excerpt": "从零开始做关键词研究，用免费和付费工具找到高转化低竞争的关键词"
+      "excerpt": "从零开始做关键词研究，用免费和付费工具找到高转化、低竞争的关键词。"
     },
     {
       "slug": "multi-site-one-domain",
-      "title": "一个域名开三个内容站",
-      "excerpt": "Next.js Vercel子路径架构"
+      "title": "一个域名开三个内容站——Next.js子路径架构实战",
+      "excerpt": "一个域名、一个GitHub仓库、一个Vercel项目，运维三个内容站，域名费省三分之二。"
     },
     {
       "slug": "nextjs-solo-devs-guide",
-      "title": "技术选型为什么选Next.js",
-      "excerpt": "独立开发者技术栈"
+      "title": "独立开发者技术选型：为什么Next.js是内容站的最佳选择",
+      "excerpt": "对比WordPress、Hugo、Astro、Next.js四套方案，用数据告诉你为什么Next.js + Vercel是一人公司的最优解。"
     },
     {
       "slug": "niche-selection-guide",
-      "title": "一人公司怎么选利基市场",
-      "excerpt": "从兴趣+技能+市场容量三个维度分析，找到最适合你的利基方向"
+      "title": "一人公司利基市场选择完整指南：从零找到属于你的蓝海赛道",
+      "excerpt": "通过兴趣、技能、市场需求三轴定位法，系统化找到最适合一人公司的利基市场，附真实案例和避坑指南"
     },
     {
       "slug": "no-code-automation-workflow",
-      "title": "用Make/Zapier自动化工作流——10个一人公司必备的实用案例",
-      "excerpt": "从零开始搭建自动化工作流，10个真实场景案例让你每周省出20小时"
+      "title": "无代码自动化工作流搭建指南：一人公司每周省出20小时的实战方法",
+      "excerpt": "用Make和Zapier从零搭建自动化工作流，10个真实案例覆盖客户服务、内容发布、财务管理和竞品监控等核心场景"
     },
     {
       "slug": "one-person-ai-agent",
-      "title": "用AI Agent做运营团队",
-      "excerpt": "AI扮产品经理文案客服"
+      "title": "一人公司AI Agent团队搭建指南：四个AI成员让你的运营效率提升10倍",
+      "excerpt": "一个人加四个AI Agent等于一个完整运营团队。从内容创作、数据分析到客服和运营监控，手把手搭建你的AI虚拟团队"
     },
     {
       "slug": "project-management-solo",
-      "title": "用飞书多维表格管理一人公司项目",
-      "excerpt": "飞书多维表格做项目管理实操，从搭建到自动化的完整教程"
+      "title": "一人公司项目管理完全指南：用飞书多维表格从零搭建运营系统",
+      "excerpt": "从任务跟踪到内容日历到数据复盘，用飞书多维表格搭建完整的一人公司项目管理体系，每天只需10分钟管理所有事项"
     },
     {
       "slug": "seo-guide-solo-company",
-      "title": "一人公司SEO指南不花钱拿流量",
-      "excerpt": "免费SEO策略"
+      "title": "一人公司SEO实战指南：不花钱也能获取精准流量的完整策略",
+      "excerpt": "零广告预算的内容站SEO策略，从关键词研究到内容优化到外链建设，覆盖一人公司获取自然搜索流量的全部关键环节"
     },
     {
       "slug": "social-media-automation",
-      "title": "自动化社交媒体发布工作流",
-      "excerpt": "用Buffer/Make等工具自动发布内容到多个平台，一人公司也能有专业社交媒体运营"
+      "title": "社交媒体自动化发布工作流：一人公司如何用工具管好所有平台的社媒运营",
+      "excerpt": "用Buffer、Make、飞书等工具搭建全自动化社媒发布系统，覆盖Twitter、知乎、微信公众号等多平台，每天只需15分钟管理"
     },
     {
       "slug": "solo-booking-system",
       "title": "使用Calendly/飞书日历做预约系统——一人公司的客户预约自动化完整指南",
-      "excerpt": "从零搭建自动化的客户预约系统，支持不同服务类型、自动提醒、自动跟进"
+      "excerpt": "从零搭建自动化的客户预约系统，支持不同服务类型、自动提醒和自动跟进"
     },
     {
       "slug": "solo-content-operations",
-      "title": "一人管理255篇文章内容体系",
-      "excerpt": "飞书多维表格管理"
+      "title": "一人管理255篇文章内容体系——用飞书多维表格搭建内容运营系统",
+      "excerpt": "飞书多维表格支撑255篇文章的持续生产和维护，涵盖生命周期管理、关键词关联和排名追踪"
     },
     {
       "slug": "solo-customer-acquisition",
@@ -507,7 +507,7 @@
     {
       "slug": "solo-founder-product-docs",
       "title": "独立开发者如何写好产品文档——一人公司SaaS产品文档编写实操指南",
-      "excerpt": "产品文档不是大公司的专利。独立开发者写一份好的产品文档，能大幅降低客服压力、提升转化率、建立用户信任。"
+      "excerpt": "产品文档不是大公司的专利。独立开发者写一份好的产品文档，能大幅降低客服压力、提升转化率、建立用户信任"
     },
     {
       "slug": "solo-income-diversification",
@@ -521,33 +521,33 @@
     },
     {
       "slug": "solo-tax-guide",
-      "title": "一人公司税务与注册指南",
-      "excerpt": "个体工商户注册、开票、报税全流程实操指南"
+      "title": "一人公司税务与注册实操指南：从零搞定营业执照和报税",
+      "excerpt": "个体工商户注册、开票、报税全流程，一人公司创始人必看的税务实操手册"
     },
     {
       "slug": "tech-blog-traffic-start",
-      "title": "从0开始写技术博客赚流量",
-      "excerpt": "选题、SEO、分发全流程，一个新站如何从零获取搜索引擎流量"
+      "title": "技术博客从0获取流量：选题、SEO、分发的完整实操流程",
+      "excerpt": "一个人运营技术博客的完整方法论，从选话题到写文章再到从搜索引擎拿流量的每一步"
     },
     {
       "slug": "vercel-deployment-guide",
-      "title": "Vercel免费部署完整教程",
-      "excerpt": "GitHub到Vercel一键"
+      "title": "Vercel免费部署完整教程：从GitHub到域名绑定的每一步",
+      "excerpt": "不用服务器、不花钱、不用运维——Vercel免费部署网站的全流程实操指南"
     },
     {
       "slug": "what-is-solo-company",
-      "title": "一人公司是什么为什么最好的时代",
-      "excerpt": "从零到一记录全过程"
+      "title": "一人公司是什么？这是独立开发者在AI时代最好的创业方式",
+      "excerpt": "一人公司的完整定义、适合做什么、怎么起步——读完你就能判断这条路是否适合你"
     },
     {
       "slug": "zero-cost-roadmap",
-      "title": "零成本从0到1一人公司路线图",
-      "excerpt": "不花钱启动"
+      "title": "零成本一人公司路线图：从0到1如何不花一分钱启动",
+      "excerpt": "分享一个不花钱启动一人公司的完整路径，从方向选择到建站到内容生产再到流量获取"
     },
     {
       "slug": "zero-cost-user-research",
-      "title": "一人公司如何零成本做用户调研——独立开发者必备的6个实战方法",
-      "excerpt": "没有预算也能做深度用户调研？这6个零成本方法让独立开发者用最小投入获取最有价值的用户洞察。"
+      "title": "一人公司用户调研零成本实操指南：独立开发者必备的6个实战方法",
+      "excerpt": "没有预算也能深入了解用户需求——6个零成本调研方法，让独立开发者用最小投入获取最有价值的用户洞察"
     }
   ]
 }
