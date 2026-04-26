@@ -338,6 +338,36 @@
       "slug": "zero-cost-roadmap",
       "title": "Zero-Cost Solo Company Roadmap: From 0 to 1",
       "excerpt": "Getting started without spending money"
+    },
+    {
+      "slug": "niche-selection-guide",
+      "title": "How to Choose a Niche Market as a Solo Entrepreneur",
+      "excerpt": "Analyze from three dimensions — interest, skill, and market size — to find the niche that's right for you."
+    },
+    {
+      "slug": "project-management-solo",
+      "title": "Managing Solo Projects with Feishu Multidimensional Tables",
+      "excerpt": "A complete hands-on guide to project management with Feishu (Lark) — from setup to automation."
+    },
+    {
+      "slug": "tech-blog-traffic-start",
+      "title": "Starting a Tech Blog From Zero to Get Traffic",
+      "excerpt": "Topic selection, SEO, and distribution — how a brand-new site can start getting search engine traffic."
+    },
+    {
+      "slug": "solo-tax-guide",
+      "title": "Solo Entrepreneur Tax & Business Registration Guide",
+      "excerpt": "A complete step-by-step guide to registering as a sole proprietor, issuing invoices, and filing taxes."
+    },
+    {
+      "slug": "social-media-automation",
+      "title": "Automated Social Media Publishing Workflow",
+      "excerpt": "Auto-publish content to multiple platforms using Buffer, Make, and other tools — run professional social media solo."
+    },
+    {
+      "slug": "content-site-monetization",
+      "title": "Content Site Monetization Models — A Deep Comparison",
+      "excerpt": "AdSense, CPS, digital products, and services — a detailed comparison to help you find the right path."
     }
   ]
 }

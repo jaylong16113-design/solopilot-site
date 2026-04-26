@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "node gen_sitemap.cjs && next build",
+    "build": "node check_json.js && node gen_sitemap.cjs && next build",
     "start": "next start",
     "lint": "eslint"
   },
