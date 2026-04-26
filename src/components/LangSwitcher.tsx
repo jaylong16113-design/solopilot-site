@@ -5,25 +5,11 @@ import { usePathname, useRouter } from "next/navigation";
 const locales: Record<string, string> = {
   en: "🇺🇸 English",
   zh: "🇨🇳 中文",
-  ja: "🇯🇵 日本語",
-  ko: "🇰🇷 한국어",
-  fr: "🇫🇷 Français",
-  de: "🇩🇪 Deutsch",
-  es: "🇪🇸 Español",
-  pt: "🇧🇷 Português",
-  id: "🇮🇩 Indonesia",
-  ar: "🇸🇦 العربية",
 };
 
-const localePrefixes = ["/en/", "/en"];
-
 function stripLocale(path: string): string {
-  for (const p of localePrefixes) {
-    if (path.startsWith(p)) return path.slice(p.length - (p.endsWith("/") ? 1 : 1)) || "/";
-  }
-  // also check /ja/ /ko/ etc
-  const match = path.match(/^\/([a-z]{2})\//);
-  if (match) return path.slice(3) || "/";
+  if (path.startsWith("/en/")) return path.slice(3) || "/";
+  if (path === "/en") return "/";
   return path;
 }
 
@@ -36,11 +22,8 @@ export default function LangSwitcher() {
     setLocale(newLocale as any);
     const basePath = stripLocale(pathname);
     if (newLocale === "en") {
-      // only English gets /en/ prefix (others keep zh/root)
-      const target = `/en${basePath === "/" ? "" : basePath}`;
-      router.push(target);
+      router.push(`/en${basePath === "/" ? "" : basePath}`);
     } else {
-      // Chinese (or other languages) → strip /en/ prefix
       router.push(basePath);
     }
   };

@@ -16,8 +16,6 @@ function getInitialLocale(): LocaleKey {
   if (typeof window === "undefined") return "en";
   const saved = localStorage.getItem("agentclaw-locale") as LocaleKey;
   if (saved && (locales as any)[saved]) return saved;
-  const nav = navigator.language?.slice(0, 2);
-  if (nav && (locales as any)[nav]) return nav as LocaleKey;
   return "en";
 }
 
@@ -42,7 +40,6 @@ export function I18nProvider({ children }: { children: ReactNode }) {
     return val;
   }, [locale]);
 
-  // sync on mount (edge: double-render in dev)
   useEffect(() => {
     const saved = localStorage.getItem("agentclaw-locale") as LocaleKey;
     if (saved && saved !== locale && (locales as any)[saved]) {
