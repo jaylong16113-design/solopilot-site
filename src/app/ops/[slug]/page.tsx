@@ -71,9 +71,10 @@ export default async function ArticlePage({ params }: any) {
           remarkPlugins={[remarkGfm]}
           components={{
             img({ src, alt }) {
+              const imgSrc = typeof src === "string" ? src : "";
               return (
                 <span className="block my-4">
-                  <Image src={src || ""} alt={alt || ""} width={800} height={400} className="rounded-lg object-cover w-full h-auto" />
+                  <Image src={imgSrc} alt={alt || ""} width={800} height={400} className="rounded-lg object-cover w-full h-auto" />
                 </span>
               );
             },
