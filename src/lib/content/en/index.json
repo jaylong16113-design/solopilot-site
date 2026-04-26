@@ -1,6 +1,36 @@
 {
   "tool": [
     {
+      "slug": "ai-video-generator-review",
+      "title": "AI Video Generator Showdown: Runway vs Pika vs Kling vs Kling for E-Commerce",
+      "excerpt": "Put four major AI video tools to the test with the same product footage — scored on quality, control, and cost"
+    },
+    {
+      "slug": "chatgpt-cross-border-listing",
+      "title": "ChatGPT for Cross-Border E-Commerce Listing Optimization: 15 Practical Prompt Templates Tested",
+      "excerpt": "From titles to five bullet points to A+ content — testing ChatGPT, Claude, and Gemini on real Amazon listing performance"
+    },
+    {
+      "slug": "ai-voice-clone-livestream",
+      "title": "AI Voice Clone Tools for Livestream Selling: From ElevenLabs to Fish Audio — A Complete Tutorial",
+      "excerpt": "Clone your host's voice for 24/7 unmanned livestreams — testing 4 voice cloning tools on Douyin and Taobao live scenarios"
+    },
+    {
+      "slug": "ai-banner-generator",
+      "title": "AI Batch Banner Generation for E-Commerce: Canva, Gaoding, Alimama — The Complete Guide",
+      "excerpt": "Testing Canva Magic Design, Gaoding AI, and Alimama Creative Center — learn to mass-produce e-commerce ad creatives at scale"
+    },
+    {
+      "slug": "ai-auto-reply-messages",
+      "title": "Best AI Auto-Reply for Buyer Messages: Feishu + DeepSeek + Qianniu Full-Chain Automation",
+      "excerpt": "Build a completely free AI auto-reply system from scratch — handle buyer inquiries 24/7 and reduce human escalation by 60%"
+    },
+    {
+      "slug": "ai-competitor-analysis",
+      "title": "AI-Powered Competitor Analysis for E-Commerce: From Product Selection to Pricing — Fully Automated",
+      "excerpt": "Using Oulu + DataHawk + AI models for a complete workflow — dissecting competitor strategies and turning their data into your decisions"
+    },
+    {
       "slug": "10-free-ecommerce-tools",
       "title": "10 Free E-Commerce Tools Essential for Beginners (2026 Edition)",
       "excerpt": "10 completely free e-commerce tool recommendations"
@@ -98,6 +128,21 @@
   ],
   "wear": [
     {
+      "slug": "business-travel-pack-suit",
+      "title": "How to Pack a Suit for Business Travel — Wrinkle-Free Packing + Outfit Strategy",
+      "excerpt": "A 5-step packing method that keeps your suit crisp when you arrive, plus a 3-day outfit plan with just one suit"
+    },
+    {
+      "slug": "custom-vs-rtw-suit",
+      "title": "Custom Suit vs Ready-to-Wear: Which Should You Choose and When",
+      "excerpt": "A multi-dimensional comparison of price, craft, and occasion — helping you make the smartest choice"
+    },
+    {
+      "slug": "dating-outfit-guide",
+      "title": "Men's Dating Outfit Guide — From Coffee to Dinner to Formal Dates, Complete Looks",
+      "excerpt": "Complete outfit plans for 3 dating scenarios — let your clothes do the talking"
+    },
+    {
       "slug": "business-wear-101",
       "title": "Men's Business Wear: From Beginner to Pro",
       "excerpt": "From office newcomer to style-savvy professional — a complete roadmap"
@@ -186,6 +231,21 @@
       "slug": "suit-underwear-guide",
       "title": "What to Wear Under a Suit – The Complete Undergarment Guide",
       "excerpt": "Secrets to keeping your shirt invisible and clean"
+    },
+    {
+      "slug": "interview-suit-guide",
+      "title": "What to Wear to a Job Interview — How to Choose a Suit by Industry",
+      "excerpt": "Industry-specific interview outfit details for finance, tech, sales, law, and more — one playbook per field"
+    },
+    {
+      "slug": "suit-body-type-guide",
+      "title": "How to Choose a Suit for Your Body Type — A Complete Guide for Slim, Stocky, Short, and Tall Men",
+      "excerpt": "Core techniques for 4 body types — from cut to fabric to every detail"
+    },
+    {
+      "slug": "suit-budget-guide",
+      "title": "Suit Buying Guide at $150 / $400 / $700 — Best Brands and Styles at Every Price Point",
+      "excerpt": "Three budget tiers fully broken down — fabric, fit, and brand recommendations so you buy smart"
     }
   ],
   "ops": [
