@@ -124,6 +124,42 @@
       "slug": "wechat-xiaohongshu-ecommerce-traffic",
       "title": "How to Drive Traffic from WeChat and Xiaohongshu to Taobao – Complete Tutorial",
       "excerpt": "Turning social traffic into low-cost conversions"
+    },
+    {
+      "slug": "ai-seo-content-generators",
+      "title": "AI SEO Content Generator Showdown: Jasper vs Writesonic vs Anyword vs Berry — Which One Is Most Practical?",
+      "excerpt": "Testing four major AI writing tools with the same keyword set — comparing content quality, SEO optimization, cost, and batch efficiency across five dimensions",
+      "site": "tool"
+    },
+    {
+      "slug": "ai-ab-testing-product-images",
+      "title": "A/B Testing Product Images with AI: A Complete Hands-On Workflow from Design to Data Analysis",
+      "excerpt": "A full AI-powered product image A/B testing workflow — batch-generate different design versions, set up test campaigns, analyze data to find the best-converting option",
+      "site": "tool"
+    },
+    {
+      "slug": "ai-auto-price-monitoring",
+      "title": "Taobao/Pinduoduo Auto Price Tracking with AI: A Complete Guide to Intelligent Price Adjustment",
+      "excerpt": "From rule engines to AI dynamic pricing — build a system that automatically monitors competitor prices and adjusts your own in real time, covering Taobao, Pinduoduo, and 1688",
+      "site": "tool"
+    },
+    {
+      "slug": "ai-chatbot-setup-guide",
+      "title": "AI Customer Service Bot Setup: A Complete Hands-On Guide from Registration to Launch",
+      "excerpt": "Build an AI customer service bot from scratch — covering tech selection, knowledge base setup, conversation training, multi-channel integration, and launch monitoring",
+      "site": "tool"
+    },
+    {
+      "slug": "ai-xiaohongshu-copywriting",
+      "title": "Writing Xiaohongshu Viral Posts with AI: Prompt Templates and Real-World Case Studies",
+      "excerpt": "12 battle-tested prompt templates covering beauty, food, home, tech, and fashion — from note structure to viral formulas to data review",
+      "site": "tool"
+    },
+    {
+      "slug": "ai-auto-subtitle-translate",
+      "title": "AI-Powered Auto Subtitles and Translation: A Complete Guide for Cross-Border E-Commerce Sellers",
+      "excerpt": "An end-to-end AI workflow from speech recognition to subtitle generation to multi-language translation — testing Whisper, CapCut, Jianying, HeyGen and more for cross-border e-commerce video production",
+      "site": "tool"
     }
   ],
   "wear": [
@@ -246,6 +282,42 @@
       "slug": "suit-budget-guide",
       "title": "Suit Buying Guide at $150 / $400 / $700 — Best Brands and Styles at Every Price Point",
       "excerpt": "Three budget tiers fully broken down — fabric, fit, and brand recommendations so you buy smart"
+    },
+    {
+      "slug": "tie-knot-guide",
+      "title": "The Complete Guide to Tying a Tie: From Windsor to Four-in-Hand — A Full Tutorial",
+      "excerpt": "7 necktie knots explained step by step — from beginner basics to advanced moves, all in one guide",
+      "site": "wear"
+    },
+    {
+      "slug": "wedding-suit-guide",
+      "title": "What to Wear to a Wedding — The Complete Guide for Grooms and Guests",
+      "excerpt": "How the groom should pick his formalwear and how guests should dress without stealing the spotlight — one wedding, two roles, fully covered",
+      "site": "wear"
+    },
+    {
+      "slug": "suit-belt-guide",
+      "title": "How to Match a Belt with a Suit — The Complete Rules of Color, Width, and Material",
+      "excerpt": "The color, width, and material of your belt determine whether your outfit looks refined or cheap",
+      "site": "wear"
+    },
+    {
+      "slug": "suit-pocket-guide",
+      "title": "What to Put in Your Suit Pockets — From Pocket Square Folds to Practical Storage",
+      "excerpt": "7 ways to fold a pocket square plus a practical trouser pocket storage plan — no more bulging pockets",
+      "site": "wear"
+    },
+    {
+      "slug": "business-perfume-guide",
+      "title": "How to Choose Men's Fragrance — A Seasonal Guide and Occasion Strategy for the Workplace",
+      "excerpt": "From spring/summer to fall/winter seasonal pairings to conference and dinner occasion tips — one guide to get your office fragrance right",
+      "site": "wear"
+    },
+    {
+      "slug": "suit-bag-guide",
+      "title": "Men's Bag Pairing — Briefcase, Tote, or Backpack: How to Match Each with Your Suit",
+      "excerpt": "A complete bag guide for different suit styles — from office elite to business travel",
+      "site": "wear"
     }
   ],
   "ops": [
