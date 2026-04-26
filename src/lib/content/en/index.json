@@ -440,6 +440,42 @@
       "slug": "content-site-monetization",
       "title": "Content Site Monetization Models — A Deep Comparison",
       "excerpt": "AdSense, CPS, digital products, and services — a detailed comparison to help you find the right path."
+    },
+    {
+      "slug": "solo-customer-acquisition",
+      "title": "How Solo Entrepreneurs Acquire Customers — Free Channels and Proven Methods",
+      "excerpt": "7 channels and a complete workflow for landing your first customers from zero, without spending a dime on ads",
+      "site": "ops"
+    },
+    {
+      "slug": "no-code-automation-workflow",
+      "title": "Automating Your Workflow with Make/Zapier — 10 Practical Use Cases for Solo Entrepreneurs",
+      "excerpt": "Build automated workflows from scratch with 10 real-world scenarios that save you 20 hours per week",
+      "site": "ops"
+    },
+    {
+      "slug": "keyword-research-guide",
+      "title": "SEO Keyword Research Guide for Content Sites — Tools, Methods, and Real-World Case Studies",
+      "excerpt": "Start keyword research from scratch using free and paid tools to find high-conversion, low-competition keywords",
+      "site": "ops"
+    },
+    {
+      "slug": "solo-pricing-strategy",
+      "title": "How Solo Entrepreneurs Should Price — SaaS, Content, and Consulting Pricing Strategies",
+      "excerpt": "Covers pricing methods, psychology, and battle-tested templates for the 3 most common solo business models",
+      "site": "ops"
+    },
+    {
+      "slug": "solo-booking-system",
+      "title": "Setting Up a Booking System with Calendly/Feishu Calendar — A Complete Guide to Client Scheduling Automation",
+      "excerpt": "Build an automated client booking system from scratch with support for different service types, auto-reminders, and auto-follow-ups",
+      "site": "ops"
+    },
+    {
+      "slug": "content-site-1000-month",
+      "title": "From Zero to $1,000/Month with a Content Site — A Real Breakdown with Milestones",
+      "excerpt": "A real content site's complete journey from zero to $1,000/month in 12 months, including key actions and core data for each month",
+      "site": "ops"
     }
   ]
 }
