@@ -24,9 +24,9 @@ export default function Footer() {
           <div>
             <h4 className="text-white text-sm font-semibold mb-3">{t("footer_popular")}</h4>
             <ul className="space-y-1.5 text-xs text-gray-400">
-              <li><Link href={p("/tool/free-ai-product-image-tools")} className="hover:text-white transition-colors">AI商品図生成</Link></li>
-              <li><Link href={p("/wear/first-suit-guide")} className="hover:text-white transition-colors">{t("suit_style")}ガイド</Link></li>
-              <li><Link href={p("/ops/what-is-solo-company")} className="hover:text-white transition-colors">一人起業</Link></li>
+              <li><Link href={p("/tool/10-free-ecommerce-tools")} className="hover:text-white transition-colors">{t("free_tools")}</Link></li>
+              <li><Link href={p("/wear/first-suit-guide")} className="hover:text-white transition-colors">{t("suit_style")}</Link></li>
+              <li><Link href={p("/ops/what-is-solo-company")} className="hover:text-white transition-colors">Solo OPS</Link></li>
             </ul>
           </div>
           <div>
@@ -34,15 +34,13 @@ export default function Footer() {
             <ul className="space-y-1.5 text-xs text-gray-400">
               <li><span className="cursor-default">{t("footer_about")}</span></li>
               <li><span className="cursor-default">{t("footer_desc")}</span></li>
-              <li><span className="cursor-default">{t("footer_powered")}</span></li>
+              <li><span className="cursor-default">Ricky</span></li>
             </ul>
           </div>
           <div>
-            <h4 className="text-white text-sm font-semibold mb-3">{t("footer_stats")}</h4>
+            <h4 className="text-white text-sm font-semibold mb-3">{t("contact")}</h4>
             <ul className="space-y-1.5 text-xs text-gray-400">
-              <li>{t("articles")}: 57</li>
-              <li>{t("pages")}: 63</li>
-              <li>{t("sites")}: 3</li>
+              <li><a href="mailto:jaylong16113@gmail.com" className="hover:text-white transition-colors">jaylong16113@gmail.com</a></li>
             </ul>
           </div>
         </div>
