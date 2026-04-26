@@ -8,7 +8,6 @@ if (process.env.VERCEL || process.env.NOW) {
 }
 
 const BASE = "C:\\Users\\31232\\.openclaw\\workspace\\solopilot-site";
-const SRC = path.join(BASE, "src", "app");
 
 let errors = [];
 let warnings = [];
@@ -34,9 +33,51 @@ dirs.forEach((lang) => {
     let content;
     try { content = JSON.parse(fs.readFileSync(p, "utf8")); }
     catch (e) { errors.push(`JSON broken: ${lang}/${f}`); return; }
-    if (typeof content.content !== "string" || content.content.length < 2000) {
-      errors.push(`Short content: ${lang}/${f} (${content.content?.length || 0} chars)`);
+
+    const text = content.content || "";
+    
+    // Content length check
+    if (typeof text !== "string" || text.length < 2000) {
+      errors.push(`Short content: ${lang}/${f} (${text.length} chars)`);
     }
+
+    // --- PARAGRAPH STRUCTURE CHECKS ---
+
+    // Check 1: Must have at least one ## heading
+    const headings = text.match(/^## /gm);
+    if (!headings || headings.length < 3) {
+      errors.push(`Too few h2 sections: ${lang}/${f} (${headings?.length || 0} h2)`);
+    }
+
+    // Check 2: Must have double-newline paragraph breaks
+    const doubleNewlines = (text.match(/\n\n/g) || []).length;
+    if (doubleNewlines < 5) {
+      errors.push(`Too few paragraph breaks: ${lang}/${f} (${doubleNewlines} double-newlines)`);
+    }
+
+    // Check 3: longest paragraph (block between \n\n) should not exceed 800 chars
+    // (no single massive block of text without breaks)
+    const paragraphs = text.split(/\n\n+/);
+    let maxParaLen = 0;
+    let maxParaIdx = -1;
+    paragraphs.forEach((para, i) => {
+      const clean = para.replace(/^#+ /gm, "").replace(/^!\[.*\]\(.*\)$/gm, "").trim();
+      if (clean.length > maxParaLen) {
+        maxParaLen = clean.length;
+        maxParaIdx = i;
+      }
+    });
+    if (maxParaLen > 1200) {
+      errors.push(`Giant paragraph (${maxParaLen} chars): ${lang}/${f} — para #${maxParaIdx}`);
+    }
+
+    // Check 4: content should not contain raw HTML tags (should be markdown)
+    if (/<[a-z]+>/i.test(text) && !/```[\s\S]*?```/g.test(text)) {
+      warnings.push(`Contains HTML tags: ${lang}/${f}`);
+    }
+
+    if (!content.title) warnings.push(`No title: ${lang}/${f}`);
+    if (!content.site) errors.push(`No site field: ${lang}/${f}`);
     if (!indexSlugs.has(slug)) errors.push(`Not in index: ${lang}/${f}`);
   });
 
@@ -46,12 +87,12 @@ dirs.forEach((lang) => {
 
 // 2. Check key config files
 const configs = [
-  ["robots.txt", "public", "robots.txt"],
-  ["gen_sitemap.cjs", "gen_sitemap.cjs"],
-  ["next.config.js", "next.config.js"],
+  ["robots.txt", BASE, "public", "robots.txt"],
+  ["gen_sitemap.cjs", BASE, "gen_sitemap.cjs"],
+  ["next.config.js", BASE, "next.config.js"],
 ];
 configs.forEach(([name, ...parts]) => {
-  const p = path.join(BASE, ...parts);
+  const p = path.join(...parts);
   if (!fs.existsSync(p)) warnings.push(`Missing: ${name}`);
 });
 
