@@ -1,24 +1,24 @@
 {
   "tool": [
     {
-      "slug": "ai-video-generator-review",
-      "title": "AI Video Generator Showdown: Runway vs Pika vs Kling vs Kling for E-Commerce",
-      "excerpt": "Put four major AI video tools to the test with the same product footage — scored on quality, control, and cost"
+      "slug": "10-free-ecommerce-tools",
+      "title": "10 Free E-Commerce Tools Essential for Beginners (2026 Edition)",
+      "excerpt": "10 completely free e-commerce tool recommendations"
     },
     {
-      "slug": "chatgpt-cross-border-listing",
-      "title": "ChatGPT for Cross-Border E-Commerce Listing Optimization: 15 Practical Prompt Templates Tested",
-      "excerpt": "From titles to five bullet points to A+ content — testing ChatGPT, Claude, and Gemini on real Amazon listing performance"
+      "slug": "ai-ab-testing-product-images",
+      "title": "A/B Testing Product Images with AI: A Complete Hands-On Workflow from Design to Data Analysis",
+      "excerpt": "A full AI-powered product image A/B testing workflow — batch-generate different design versions, set up test campaigns, analyze data to find the best-converting option"
     },
     {
-      "slug": "ai-voice-clone-livestream",
-      "title": "AI Voice Clone Tools for Livestream Selling: From ElevenLabs to Fish Audio — A Complete Tutorial",
-      "excerpt": "Clone your host's voice for 24/7 unmanned livestreams — testing 4 voice cloning tools on Douyin and Taobao live scenarios"
+      "slug": "ai-ad-optimization-guide",
+      "title": "AI Ad Optimization Tools Playbook: Triple Your ROI with Automated Algorithms",
+      "excerpt": "From Facebook to Google to TikTok — a complete guide to AI-powered ad optimization"
     },
     {
-      "slug": "ai-banner-generator",
-      "title": "AI Batch Banner Generation for E-Commerce: Canva, Gaoding, Alimama — The Complete Guide",
-      "excerpt": "Testing Canva Magic Design, Gaoding AI, and Alimama Creative Center — learn to mass-produce e-commerce ad creatives at scale"
+      "slug": "ai-auto-price-monitoring",
+      "title": "Taobao/Pinduoduo Auto Price Tracking with AI: A Complete Guide to Intelligent Price Adjustment",
+      "excerpt": "From rule engines to AI dynamic pricing — build a system that automatically monitors competitor prices and adjusts your own in real time, covering Taobao, Pinduoduo, and 1688"
     },
     {
       "slug": "ai-auto-reply-messages",
@@ -26,14 +26,39 @@
       "excerpt": "Build a completely free AI auto-reply system from scratch — handle buyer inquiries 24/7 and reduce human escalation by 60%"
     },
     {
+      "slug": "ai-auto-subtitle-translate",
+      "title": "AI-Powered Auto Subtitles and Translation: A Complete Guide for Cross-Border E-Commerce Sellers",
+      "excerpt": "An end-to-end AI workflow from speech recognition to subtitle generation to multi-language translation — testing Whisper, CapCut, Jianying, HeyGen and more for cross-border e-commerce video production"
+    },
+    {
+      "slug": "ai-banner-generator",
+      "title": "AI Batch Banner Generation for E-Commerce: Canva, Gaoding, Alimama — The Complete Guide",
+      "excerpt": "Testing Canva Magic Design, Gaoding AI, and Alimama Creative Center — learn to mass-produce e-commerce ad creatives at scale"
+    },
+    {
+      "slug": "ai-batch-video-ecommerce",
+      "title": "AI Batch Product Video Tutorial: Make Your Products Come Alive and Double Conversions",
+      "excerpt": "From editing newbie to batch-producing product showcase videos — a full AI video tool workflow breakdown"
+    },
+    {
+      "slug": "ai-chatbot-setup-guide",
+      "title": "AI Customer Service Bot Setup: A Complete Hands-On Guide from Registration to Launch",
+      "excerpt": "Build an AI customer service bot from scratch — covering tech selection, knowledge base setup, conversation training, multi-channel integration, and launch monitoring"
+    },
+    {
       "slug": "ai-competitor-analysis",
       "title": "AI-Powered Competitor Analysis for E-Commerce: From Product Selection to Pricing — Fully Automated",
       "excerpt": "Using Oulu + DataHawk + AI models for a complete workflow — dissecting competitor strategies and turning their data into your decisions"
     },
     {
-      "slug": "10-free-ecommerce-tools",
-      "title": "10 Free E-Commerce Tools Essential for Beginners (2026 Edition)",
-      "excerpt": "10 completely free e-commerce tool recommendations"
+      "slug": "ai-cross-border-product-research",
+      "title": "AI Cross-Border Product Research Tools Deep Dive: Finding Real Winning Products",
+      "excerpt": "Use AI product research to uncover the next bestseller from massive data — no more gut-feel decisions"
+    },
+    {
+      "slug": "ai-customer-service-automation-2026",
+      "title": "AI Customer Service Automation Compared Across Platforms: From Shopify to Amazon",
+      "excerpt": "Tidio, Gorgias, Zendesk, and ChatGPT-based solutions — which one is the ecommerce customer service king?"
     },
     {
       "slug": "ai-customer-service-automation",
@@ -51,6 +76,11 @@
       "excerpt": "From AI scripts to voiceover to editing — all free"
     },
     {
+      "slug": "ai-image-ecommerce-tools",
+      "title": "AI Image Tools for Ecommerce: Which One Actually Helps You Save Costs and Sell More?",
+      "excerpt": "ZMO.ai, Remove.bg, Canva AI, Midjourney — who has the strongest ecommerce image solution?"
+    },
+    {
       "slug": "ai-product-description-writer",
       "title": "Complete Tutorial: Batch-Generate Product Descriptions with AI",
       "excerpt": "One prompt generates 100 descriptions — 10x efficiency"
@@ -61,14 +91,44 @@
       "excerpt": "Comprehensive comparison of precision, edge handling, and batch processing capabilities"
     },
     {
+      "slug": "ai-seo-content-generators",
+      "title": "AI SEO Content Generator Showdown: Jasper vs Writesonic vs Anyword vs Berry — Which One Is Most Practical?",
+      "excerpt": "Testing four major AI writing tools with the same keyword set — comparing content quality, SEO optimization, cost, and batch efficiency across five dimensions"
+    },
+    {
+      "slug": "ai-seo-tools-comparison-2026",
+      "title": "AI SEO Tools Compared: From Keyword Research to Content Ranking — Full Workflow Automation",
+      "excerpt": "Ahrefs, Semrush, Surfer SEO, Frase — who's the most powerful in the AI era?"
+    },
+    {
       "slug": "ai-tools-2026-comparison",
       "title": "2026 AI E-Commerce Tools Mega Roundup",
       "excerpt": "Complete coverage of images, copywriting, video, and customer service"
     },
     {
+      "slug": "ai-video-generator-review",
+      "title": "AI Video Generator Showdown: Runway vs Pika vs Kling vs Kling for E-Commerce",
+      "excerpt": "Put four major AI video tools to the test with the same product footage — scored on quality, control, and cost"
+    },
+    {
+      "slug": "ai-voice-clone-livestream",
+      "title": "AI Voice Clone Tools for Livestream Selling: From ElevenLabs to Fish Audio — A Complete Tutorial",
+      "excerpt": "Clone your host's voice for 24/7 unmanned livestreams — testing 4 voice cloning tools on Douyin and Taobao live scenarios"
+    },
+    {
+      "slug": "ai-xiaohongshu-copywriting",
+      "title": "Writing Xiaohongshu Viral Posts with AI: Prompt Templates and Real-World Case Studies",
+      "excerpt": "12 battle-tested prompt templates covering beauty, food, home, tech, and fashion — from note structure to viral formulas to data review"
+    },
+    {
       "slug": "aliexpress-ai-translation-tools",
       "title": "Best AI Translation Tools for AliExpress Sellers",
       "excerpt": "Covering English, Spanish, French and other major markets"
+    },
+    {
+      "slug": "chatgpt-cross-border-listing",
+      "title": "ChatGPT for Cross-Border E-Commerce Listing Optimization: 15 Practical Prompt Templates Tested",
+      "excerpt": "From titles to five bullet points to A+ content — testing ChatGPT, Claude, and Gemini on real Amazon listing performance"
     },
     {
       "slug": "chatgpt-taobao-title-prompts",
@@ -124,49 +184,28 @@
       "slug": "wechat-xiaohongshu-ecommerce-traffic",
       "title": "How to Drive Traffic from WeChat and Xiaohongshu to Taobao – Complete Tutorial",
       "excerpt": "Turning social traffic into low-cost conversions"
-    },
-    {
-      "slug": "ai-seo-content-generators",
-      "title": "AI SEO Content Generator Showdown: Jasper vs Writesonic vs Anyword vs Berry — Which One Is Most Practical?",
-      "excerpt": "Testing four major AI writing tools with the same keyword set — comparing content quality, SEO optimization, cost, and batch efficiency across five dimensions",
-      "site": "tool"
-    },
-    {
-      "slug": "ai-ab-testing-product-images",
-      "title": "A/B Testing Product Images with AI: A Complete Hands-On Workflow from Design to Data Analysis",
-      "excerpt": "A full AI-powered product image A/B testing workflow — batch-generate different design versions, set up test campaigns, analyze data to find the best-converting option",
-      "site": "tool"
-    },
-    {
-      "slug": "ai-auto-price-monitoring",
-      "title": "Taobao/Pinduoduo Auto Price Tracking with AI: A Complete Guide to Intelligent Price Adjustment",
-      "excerpt": "From rule engines to AI dynamic pricing — build a system that automatically monitors competitor prices and adjusts your own in real time, covering Taobao, Pinduoduo, and 1688",
-      "site": "tool"
-    },
-    {
-      "slug": "ai-chatbot-setup-guide",
-      "title": "AI Customer Service Bot Setup: A Complete Hands-On Guide from Registration to Launch",
-      "excerpt": "Build an AI customer service bot from scratch — covering tech selection, knowledge base setup, conversation training, multi-channel integration, and launch monitoring",
-      "site": "tool"
-    },
-    {
-      "slug": "ai-xiaohongshu-copywriting",
-      "title": "Writing Xiaohongshu Viral Posts with AI: Prompt Templates and Real-World Case Studies",
-      "excerpt": "12 battle-tested prompt templates covering beauty, food, home, tech, and fashion — from note structure to viral formulas to data review",
-      "site": "tool"
-    },
-    {
-      "slug": "ai-auto-subtitle-translate",
-      "title": "AI-Powered Auto Subtitles and Translation: A Complete Guide for Cross-Border E-Commerce Sellers",
-      "excerpt": "An end-to-end AI workflow from speech recognition to subtitle generation to multi-language translation — testing Whisper, CapCut, Jianying, HeyGen and more for cross-border e-commerce video production",
-      "site": "tool"
     }
   ],
   "wear": [
     {
+      "slug": "big-body-suit-guide",
+      "title": "How Bigger Men Should Choose Suits — The Complete Guide to Slimming Cuts and Fabrics",
+      "excerpt": "With the right cut and fabric choices, a suit becomes your best silhouette-shaping tool."
+    },
+    {
+      "slug": "business-perfume-guide",
+      "title": "How to Choose Men's Fragrance — A Seasonal Guide and Occasion Strategy for the Workplace",
+      "excerpt": "From spring/summer to fall/winter seasonal pairings to conference and dinner occasion tips — one guide to get your office fragrance right"
+    },
+    {
       "slug": "business-travel-pack-suit",
       "title": "How to Pack a Suit for Business Travel — Wrinkle-Free Packing + Outfit Strategy",
       "excerpt": "A 5-step packing method that keeps your suit crisp when you arrive, plus a 3-day outfit plan with just one suit"
+    },
+    {
+      "slug": "business-wear-101",
+      "title": "Men's Business Wear: From Beginner to Pro",
+      "excerpt": "From office newcomer to style-savvy professional — a complete roadmap"
     },
     {
       "slug": "custom-vs-rtw-suit",
@@ -179,19 +218,59 @@
       "excerpt": "Complete outfit plans for 3 dating scenarios — let your clothes do the talking"
     },
     {
-      "slug": "business-wear-101",
-      "title": "Men's Business Wear: From Beginner to Pro",
-      "excerpt": "From office newcomer to style-savvy professional — a complete roadmap"
-    },
-    {
       "slug": "first-suit-guide",
       "title": "The Ultimate Guide to Buying Your First Suit",
       "excerpt": "From measurements to selection to try-on — avoid every pitfall"
     },
     {
+      "slug": "interview-suit-guide",
+      "title": "What to Wear to a Job Interview — How to Choose a Suit by Industry",
+      "excerpt": "Industry-specific interview outfit details for finance, tech, sales, law, and more — one playbook per field"
+    },
+    {
+      "slug": "short-men-suit-tips",
+      "title": "Suit Tips for Shorter Men — How to Look Commanding at 5'7\" and Under",
+      "excerpt": "Not tall enough? Let styling do the work. Optimize your proportions from cut to details."
+    },
+    {
+      "slug": "smart-casual-suit-guide",
+      "title": "The Smart Casual Suit Guide — From Office to Weekend Dates in One Jacket",
+      "excerpt": "Master the art of smart casual with one versatile blazer, switching effortlessly between different occasions"
+    },
+    {
       "slug": "sports-suit-vs-suit",
       "title": "Sports Suit vs. Traditional Suit: Key Differences",
       "excerpt": "Fabric, fit, and occasion — a complete side-by-side comparison"
+    },
+    {
+      "slug": "sports-vs-business-vs-casual-suit",
+      "title": "Sports Jacket vs Business Suit vs Blazer — What's the Difference and How to Choose",
+      "excerpt": "A complete comparison of three types of jackets: fit, fabric, use cases, and styling — all explained."
+    },
+    {
+      "slug": "suit-accessories-guide",
+      "title": "Suit Accessories Guide — Pocket Squares, Lapel Pins, and Cufflinks to Elevate Your Look",
+      "excerpt": "From pocket square folds to cufflink etiquette, master suit accessories and take your style up a notch."
+    },
+    {
+      "slug": "suit-bag-guide",
+      "title": "Men's Bag Pairing — Briefcase, Tote, or Backpack: How to Match Each with Your Suit",
+      "excerpt": "A complete bag guide for different suit styles — from office elite to business travel"
+    },
+    {
+      "slug": "suit-belt-guide",
+      "title": "How to Match a Belt with a Suit — The Complete Rules of Color, Width, and Material",
+      "excerpt": "The color, width, and material of your belt determine whether your outfit looks refined or cheap"
+    },
+    {
+      "slug": "suit-body-type-guide",
+      "title": "How to Choose a Suit for Your Body Type — A Complete Guide for Slim, Stocky, Short, and Tall Men",
+      "excerpt": "Core techniques for 4 body types — from cut to fabric to every detail"
+    },
+    {
+      "slug": "suit-budget-guide",
+      "title": "Suit Buying Guide at $150 / $400 / $700 — Best Brands and Styles at Every Price Point",
+      "excerpt": "Three budget tiers fully broken down — fabric, fit, and brand recommendations so you buy smart"
     },
     {
       "slug": "suit-care-guide",
@@ -239,6 +318,11 @@
       "excerpt": "Your complete anti-regret shopping guide"
     },
     {
+      "slug": "suit-pocket-guide",
+      "title": "What to Put in Your Suit Pockets — From Pocket Square Folds to Practical Storage",
+      "excerpt": "7 ways to fold a pocket square plus a practical trouser pocket storage plan — no more bulging pockets"
+    },
+    {
       "slug": "suit-seasonal-guide",
       "title": "What Suit to Wear in Spring, Summer, Fall, and Winter",
       "excerpt": "A seasonal guide to fabrics and silhouettes"
@@ -259,6 +343,11 @@
       "excerpt": "Covering 90% of your styling scenarios"
     },
     {
+      "slug": "suit-tailoring-process",
+      "title": "The Complete Suit Tailoring Process — From Measurements to Pickup, Explained Step by Step",
+      "excerpt": "First time getting a custom suit? No need to worry. We break down the entire process: measuring, fabric selection, fittings, and more."
+    },
+    {
       "slug": "suit-trends-2026",
       "title": "Men's Suit Trends for 2026",
       "excerpt": "What's hottest to wear this year"
@@ -269,55 +358,14 @@
       "excerpt": "Secrets to keeping your shirt invisible and clean"
     },
     {
-      "slug": "interview-suit-guide",
-      "title": "What to Wear to a Job Interview — How to Choose a Suit by Industry",
-      "excerpt": "Industry-specific interview outfit details for finance, tech, sales, law, and more — one playbook per field"
-    },
-    {
-      "slug": "suit-body-type-guide",
-      "title": "How to Choose a Suit for Your Body Type — A Complete Guide for Slim, Stocky, Short, and Tall Men",
-      "excerpt": "Core techniques for 4 body types — from cut to fabric to every detail"
-    },
-    {
-      "slug": "suit-budget-guide",
-      "title": "Suit Buying Guide at $150 / $400 / $700 — Best Brands and Styles at Every Price Point",
-      "excerpt": "Three budget tiers fully broken down — fabric, fit, and brand recommendations so you buy smart"
-    },
-    {
       "slug": "tie-knot-guide",
       "title": "The Complete Guide to Tying a Tie: From Windsor to Four-in-Hand — A Full Tutorial",
-      "excerpt": "7 necktie knots explained step by step — from beginner basics to advanced moves, all in one guide",
-      "site": "wear"
+      "excerpt": "7 necktie knots explained step by step — from beginner basics to advanced moves, all in one guide"
     },
     {
       "slug": "wedding-suit-guide",
       "title": "What to Wear to a Wedding — The Complete Guide for Grooms and Guests",
-      "excerpt": "How the groom should pick his formalwear and how guests should dress without stealing the spotlight — one wedding, two roles, fully covered",
-      "site": "wear"
-    },
-    {
-      "slug": "suit-belt-guide",
-      "title": "How to Match a Belt with a Suit — The Complete Rules of Color, Width, and Material",
-      "excerpt": "The color, width, and material of your belt determine whether your outfit looks refined or cheap",
-      "site": "wear"
-    },
-    {
-      "slug": "suit-pocket-guide",
-      "title": "What to Put in Your Suit Pockets — From Pocket Square Folds to Practical Storage",
-      "excerpt": "7 ways to fold a pocket square plus a practical trouser pocket storage plan — no more bulging pockets",
-      "site": "wear"
-    },
-    {
-      "slug": "business-perfume-guide",
-      "title": "How to Choose Men's Fragrance — A Seasonal Guide and Occasion Strategy for the Workplace",
-      "excerpt": "From spring/summer to fall/winter seasonal pairings to conference and dinner occasion tips — one guide to get your office fragrance right",
-      "site": "wear"
-    },
-    {
-      "slug": "suit-bag-guide",
-      "title": "Men's Bag Pairing — Briefcase, Tote, or Backpack: How to Match Each with Your Suit",
-      "excerpt": "A complete bag guide for different suit styles — from office elite to business travel",
-      "site": "wear"
+      "excerpt": "How the groom should pick his formalwear and how guests should dress without stealing the spotlight — one wedding, two roles, fully covered"
     }
   ],
   "ops": [
@@ -330,6 +378,11 @@
       "slug": "adsense-first-month",
       "title": "How Much Can You Earn With Google AdSense in the First Month?",
       "excerpt": "Realistic AdSense revenue expectations for new sites and strategies to improve"
+    },
+    {
+      "slug": "ai-assisted-product-prototyping",
+      "title": "AI-Assisted Product Prototyping — A Complete Guide for Solo Founders to Rapidly Validate Product Ideas with AI Tools",
+      "excerpt": "No designer needed, no costly development — here's how solo companies use AI tools to go from sketch to interactive prototype and quickly validate product ideas."
     },
     {
       "slug": "ai-automation-workflow",
@@ -347,14 +400,39 @@
       "excerpt": "Tracking AgentClaw's journey from zero to launch"
     },
     {
+      "slug": "content-site-1000-month",
+      "title": "From Zero to $1,000/Month with a Content Site — A Real Breakdown with Milestones",
+      "excerpt": "A real content site's complete journey from zero to $1,000/month in 12 months, including key actions and core data for each month"
+    },
+    {
+      "slug": "content-site-monetization",
+      "title": "Content Site Monetization Models — A Deep Comparison",
+      "excerpt": "AdSense, CPS, digital products, and services — a detailed comparison to help you find the right path."
+    },
+    {
       "slug": "cps-affiliate-strategy",
       "title": "CPS Affiliate Monetization Strategy for Solo Entrepreneurs",
       "excerpt": "Earning commissions through Taobao and JD affiliate programs"
     },
     {
+      "slug": "customer-success-solo",
+      "title": "How to Do Customer Success as a Solo Founder — Efficient Strategies for Indie Developers to Retain Users",
+      "excerpt": "Customer success isn't just for big companies. A systematic approach lets solo founders dramatically reduce churn, boost repeat purchases, and spark word-of-mouth growth."
+    },
+    {
       "slug": "data-driven-content",
       "title": "Driving Content Strategy with 1,992 Data Points",
       "excerpt": "Using data to create precisely targeted content"
+    },
+    {
+      "slug": "email-list-from-zero",
+      "title": "Building an Email List from Zero — Practical Strategies to Get 1,000 Real Subscribers as an Indie Developer",
+      "excerpt": "An email list is an indie developer's most underrated asset. Here are concrete methods to get 1,000 subscribers without spending money, plus content strategy and growth loops."
+    },
+    {
+      "slug": "feishu-bitable-project-management",
+      "title": "A Solo Company's Must-Have: Complete Guide to Managing Startup Projects with Feishu Bitable",
+      "excerpt": "Set up your startup project management system with Feishu Bitable for free — from task tracking to data analysis, manage everything solo."
     },
     {
       "slug": "from-0-to-1000-visitors",
@@ -367,6 +445,11 @@
       "excerpt": "A fully automated deployment solution"
     },
     {
+      "slug": "keyword-research-guide",
+      "title": "SEO Keyword Research Guide for Content Sites — Tools, Methods, and Real-World Case Studies",
+      "excerpt": "Start keyword research from scratch using free and paid tools to find high-conversion, low-competition keywords"
+    },
+    {
       "slug": "multi-site-one-domain",
       "title": "Running Three Content Sites on One Domain",
       "excerpt": "A Next.js + Vercel sub-path architecture"
@@ -377,9 +460,24 @@
       "excerpt": "The independent developer's technology stack"
     },
     {
+      "slug": "niche-selection-guide",
+      "title": "How to Choose a Niche Market as a Solo Entrepreneur",
+      "excerpt": "Analyze from three dimensions — interest, skill, and market size — to find the niche that's right for you."
+    },
+    {
+      "slug": "no-code-automation-workflow",
+      "title": "Automating Your Workflow with Make/Zapier — 10 Practical Use Cases for Solo Entrepreneurs",
+      "excerpt": "Build automated workflows from scratch with 10 real-world scenarios that save you 20 hours per week"
+    },
+    {
       "slug": "one-person-ai-agent",
       "title": "Using AI Agents as Your Operations Team",
       "excerpt": "AI playing the roles of product manager, copywriter, and customer service"
+    },
+    {
+      "slug": "project-management-solo",
+      "title": "Managing Solo Projects with Feishu Multidimensional Tables",
+      "excerpt": "A complete hands-on guide to project management with Feishu (Lark) — from setup to automation."
     },
     {
       "slug": "seo-guide-solo-company",
@@ -387,14 +485,49 @@
       "excerpt": "Free SEO strategies for solo entrepreneurs"
     },
     {
+      "slug": "social-media-automation",
+      "title": "Automated Social Media Publishing Workflow",
+      "excerpt": "Auto-publish content to multiple platforms using Buffer, Make, and other tools — run professional social media solo."
+    },
+    {
+      "slug": "solo-booking-system",
+      "title": "Setting Up a Booking System with Calendly/Feishu Calendar — A Complete Guide to Client Scheduling Automation",
+      "excerpt": "Build an automated client booking system from scratch with support for different service types, auto-reminders, and auto-follow-ups"
+    },
+    {
       "slug": "solo-content-operations",
       "title": "Managing 255 Articles Solo: A Content Operations System",
       "excerpt": "Using Feishu (Lark) multidimensional tables for content management"
     },
     {
+      "slug": "solo-customer-acquisition",
+      "title": "How Solo Entrepreneurs Acquire Customers — Free Channels and Proven Methods",
+      "excerpt": "7 channels and a complete workflow for landing your first customers from zero, without spending a dime on ads"
+    },
+    {
+      "slug": "solo-founder-product-docs",
+      "title": "How Indie Developers Write Great Product Docs — A Practical Guide for Solo-Founder SaaS Products",
+      "excerpt": "Product documentation isn't just for big companies. A well-written guide can slash support tickets, boost conversions, and build user trust for solo founders."
+    },
+    {
       "slug": "solo-income-diversification",
       "title": "Diversified Income Model for Solo Companies",
       "excerpt": "Monetizing through AdSense, CPS affiliates, SaaS, and more"
+    },
+    {
+      "slug": "solo-pricing-strategy",
+      "title": "How Solo Entrepreneurs Should Price — SaaS, Content, and Consulting Pricing Strategies",
+      "excerpt": "Covers pricing methods, psychology, and battle-tested templates for the 3 most common solo business models"
+    },
+    {
+      "slug": "solo-tax-guide",
+      "title": "Solo Entrepreneur Tax & Business Registration Guide",
+      "excerpt": "A complete step-by-step guide to registering as a sole proprietor, issuing invoices, and filing taxes."
+    },
+    {
+      "slug": "tech-blog-traffic-start",
+      "title": "Starting a Tech Blog From Zero to Get Traffic",
+      "excerpt": "Topic selection, SEO, and distribution — how a brand-new site can start getting search engine traffic."
     },
     {
       "slug": "vercel-deployment-guide",
@@ -412,70 +545,9 @@
       "excerpt": "Getting started without spending money"
     },
     {
-      "slug": "niche-selection-guide",
-      "title": "How to Choose a Niche Market as a Solo Entrepreneur",
-      "excerpt": "Analyze from three dimensions — interest, skill, and market size — to find the niche that's right for you."
-    },
-    {
-      "slug": "project-management-solo",
-      "title": "Managing Solo Projects with Feishu Multidimensional Tables",
-      "excerpt": "A complete hands-on guide to project management with Feishu (Lark) — from setup to automation."
-    },
-    {
-      "slug": "tech-blog-traffic-start",
-      "title": "Starting a Tech Blog From Zero to Get Traffic",
-      "excerpt": "Topic selection, SEO, and distribution — how a brand-new site can start getting search engine traffic."
-    },
-    {
-      "slug": "solo-tax-guide",
-      "title": "Solo Entrepreneur Tax & Business Registration Guide",
-      "excerpt": "A complete step-by-step guide to registering as a sole proprietor, issuing invoices, and filing taxes."
-    },
-    {
-      "slug": "social-media-automation",
-      "title": "Automated Social Media Publishing Workflow",
-      "excerpt": "Auto-publish content to multiple platforms using Buffer, Make, and other tools — run professional social media solo."
-    },
-    {
-      "slug": "content-site-monetization",
-      "title": "Content Site Monetization Models — A Deep Comparison",
-      "excerpt": "AdSense, CPS, digital products, and services — a detailed comparison to help you find the right path."
-    },
-    {
-      "slug": "solo-customer-acquisition",
-      "title": "How Solo Entrepreneurs Acquire Customers — Free Channels and Proven Methods",
-      "excerpt": "7 channels and a complete workflow for landing your first customers from zero, without spending a dime on ads",
-      "site": "ops"
-    },
-    {
-      "slug": "no-code-automation-workflow",
-      "title": "Automating Your Workflow with Make/Zapier — 10 Practical Use Cases for Solo Entrepreneurs",
-      "excerpt": "Build automated workflows from scratch with 10 real-world scenarios that save you 20 hours per week",
-      "site": "ops"
-    },
-    {
-      "slug": "keyword-research-guide",
-      "title": "SEO Keyword Research Guide for Content Sites — Tools, Methods, and Real-World Case Studies",
-      "excerpt": "Start keyword research from scratch using free and paid tools to find high-conversion, low-competition keywords",
-      "site": "ops"
-    },
-    {
-      "slug": "solo-pricing-strategy",
-      "title": "How Solo Entrepreneurs Should Price — SaaS, Content, and Consulting Pricing Strategies",
-      "excerpt": "Covers pricing methods, psychology, and battle-tested templates for the 3 most common solo business models",
-      "site": "ops"
-    },
-    {
-      "slug": "solo-booking-system",
-      "title": "Setting Up a Booking System with Calendly/Feishu Calendar — A Complete Guide to Client Scheduling Automation",
-      "excerpt": "Build an automated client booking system from scratch with support for different service types, auto-reminders, and auto-follow-ups",
-      "site": "ops"
-    },
-    {
-      "slug": "content-site-1000-month",
-      "title": "From Zero to $1,000/Month with a Content Site — A Real Breakdown with Milestones",
-      "excerpt": "A real content site's complete journey from zero to $1,000/month in 12 months, including key actions and core data for each month",
-      "site": "ops"
+      "slug": "zero-cost-user-research",
+      "title": "How to Do User Research for Free as a Solo Founder — 6 Proven Methods for Indie Developers",
+      "excerpt": "No budget for deep user research? These 6 zero-cost methods help indie developers gain the most valuable user insights with minimal investment."
     }
   ]
 }
