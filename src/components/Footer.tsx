@@ -4,6 +4,9 @@ import { useI18n } from "@/lib/i18n/i18n";
 
 export default function Footer() {
   const { t } = useI18n();
+  const pathname = typeof window !== "undefined" ? window.location.pathname : "";
+  const isEn = pathname?.startsWith("/en");
+  const p = (href: string) => isEn ? `/en${href}` : href;
 
   return (
     <footer className="site-footer">
@@ -12,18 +15,18 @@ export default function Footer() {
           <div>
             <h4 className="text-white text-sm font-semibold mb-3">{t("footer_nav")}</h4>
             <ul className="space-y-1.5 text-xs text-gray-400">
-              <li><Link href="/" className="hover:text-white transition-colors">{t("nav_home")}</Link></li>
-              <li><Link href="/tool" className="hover:text-white transition-colors">{t("nav_tool")}</Link></li>
-              <li><Link href="/wear" className="hover:text-white transition-colors">{t("nav_wear")}</Link></li>
-              <li><Link href="/ops" className="hover:text-white transition-colors">{t("nav_ops")}</Link></li>
+              <li><Link href={p("/")} className="hover:text-white transition-colors">{t("nav_home")}</Link></li>
+              <li><Link href={p("/tool")} className="hover:text-white transition-colors">{t("nav_tool")}</Link></li>
+              <li><Link href={p("/wear")} className="hover:text-white transition-colors">{t("nav_wear")}</Link></li>
+              <li><Link href={p("/ops")} className="hover:text-white transition-colors">{t("nav_ops")}</Link></li>
             </ul>
           </div>
           <div>
             <h4 className="text-white text-sm font-semibold mb-3">{t("footer_popular")}</h4>
             <ul className="space-y-1.5 text-xs text-gray-400">
-              <li><Link href="/tool/free-ai-product-image-tools" className="hover:text-white transition-colors">AI商品図生成</Link></li>
-              <li><Link href="/wear/first-suit-guide" className="hover:text-white transition-colors">{t("suit_style")}ガイド</Link></li>
-              <li><Link href="/ops/what-is-solo-company" className="hover:text-white transition-colors">一人起業</Link></li>
+              <li><Link href={p("/tool/free-ai-product-image-tools")} className="hover:text-white transition-colors">AI商品図生成</Link></li>
+              <li><Link href={p("/wear/first-suit-guide")} className="hover:text-white transition-colors">{t("suit_style")}ガイド</Link></li>
+              <li><Link href={p("/ops/what-is-solo-company")} className="hover:text-white transition-colors">一人起業</Link></li>
             </ul>
           </div>
           <div>

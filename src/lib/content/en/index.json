@@ -1,0 +1,283 @@
+{
+  "tool": [
+    {
+      "slug": "10-free-ecommerce-tools",
+      "title": "10 Free E-Commerce Tools Essential for Beginners (2026 Edition)",
+      "excerpt": "10 completely free e-commerce tool recommendations"
+    },
+    {
+      "slug": "ai-customer-service-automation",
+      "title": "AI Customer Service Setup Tutorial — Completely Free",
+      "excerpt": "24/7 automated replies with ChatGPT and Feishu"
+    },
+    {
+      "slug": "ai-ecommerce-data-analysis",
+      "title": "Analyzing Business Advisor Data with AI — Hands-On Tutorial",
+      "excerpt": "Feed data to AI for automatic diagnosis and recommendations"
+    },
+    {
+      "slug": "ai-free-video-editing-ecommerce",
+      "title": "Complete Guide to Making E-Commerce Short Videos with Free AI Tools",
+      "excerpt": "From AI scripts to voiceover to editing — all free"
+    },
+    {
+      "slug": "ai-product-description-writer",
+      "title": "Complete Tutorial: Batch-Generate Product Descriptions with AI",
+      "excerpt": "One prompt generates 100 descriptions — 10x efficiency"
+    },
+    {
+      "slug": "ai-remove-background-comparison",
+      "title": "AI One-Click Background Removal — Deep Comparison of 5 Free Tools",
+      "excerpt": "Comprehensive comparison of precision, edge handling, and batch processing capabilities"
+    },
+    {
+      "slug": "ai-tools-2026-comparison",
+      "title": "2026 AI E-Commerce Tools Mega Roundup",
+      "excerpt": "Complete coverage of images, copywriting, video, and customer service"
+    },
+    {
+      "slug": "aliexpress-ai-translation-tools",
+      "title": "Best AI Translation Tools for AliExpress Sellers",
+      "excerpt": "Covering English, Spanish, French and other major markets"
+    },
+    {
+      "slug": "chatgpt-taobao-title-prompts",
+      "title": "5 Advanced ChatGPT Prompts for Taobao Title Optimization",
+      "excerpt": "Complete formula + case studies for 30% CTR improvement"
+    },
+    {
+      "slug": "cross-border-ecommerce-ai-tools",
+      "title": "14 Must-Have AI Tools for Cross-Border E-Commerce Sellers",
+      "excerpt": "Full chain: translation, product images, copywriting, customer service"
+    },
+    {
+      "slug": "ecommerce-funnel-optimization",
+      "title": "E-Commerce Conversion Funnel Optimization Guide",
+      "excerpt": "Break down each stage to improve ROI"
+    },
+    {
+      "slug": "free-ai-product-image-tools",
+      "title": "Free AI Product Image Generation Tools — Recommendations & Tutorials",
+      "excerpt": "5 free AI product image tools compared and reviewed"
+    },
+    {
+      "slug": "pinduoduo-zero-cost-traffic",
+      "title": "5 Zero-Cost Organic Traffic Strategies for Pinduoduo",
+      "excerpt": "Get search traffic without spending on ads"
+    },
+    {
+      "slug": "shein-temu-ai-tools",
+      "title": "AI Product Selection Tools for SHEIN and TEMU Sellers",
+      "excerpt": "Analyze trending categories and find high-potential products"
+    },
+    {
+      "slug": "shopify-free-apps-2026",
+      "title": "15 Essential Free Shopify Apps for Independent Stores (2026)",
+      "excerpt": "Get your store running without spending a cent"
+    },
+    {
+      "slug": "taobao-keyword-tool-free",
+      "title": "3 Free Taobao Keyword Research Tools",
+      "excerpt": "Find hidden high-conversion keywords at zero cost"
+    },
+    {
+      "slug": "taobao-live-ai-digital-human",
+      "title": "Complete Beginner's Guide to AI Digital Human Livestreaming",
+      "excerpt": "From tools to setup — everything covered in one article"
+    },
+    {
+      "slug": "taobao-seo-guide-2026",
+      "title": "Complete Taobao SEO Guide 2026 — Latest Edition",
+      "excerpt": "3 major search algorithm changes and 15 optimization dimensions"
+    },
+    {
+      "slug": "wechat-xiaohongshu-ecommerce-traffic",
+      "title": "How to Drive Traffic from WeChat and Xiaohongshu to Taobao – Complete Tutorial",
+      "excerpt": "Turning social traffic into low-cost conversions"
+    }
+  ],
+  "wear": [
+    {
+      "slug": "business-wear-101",
+      "title": "Men's Business Wear: From Beginner to Pro",
+      "excerpt": "From office newcomer to style-savvy professional — a complete roadmap"
+    },
+    {
+      "slug": "first-suit-guide",
+      "title": "The Ultimate Guide to Buying Your First Suit",
+      "excerpt": "From measurements to selection to try-on — avoid every pitfall"
+    },
+    {
+      "slug": "sports-suit-vs-suit",
+      "title": "Sports Suit vs. Traditional Suit: Key Differences",
+      "excerpt": "Fabric, fit, and occasion — a complete side-by-side comparison"
+    },
+    {
+      "slug": "suit-care-guide",
+      "title": "Suit Care Guide: Make One Suit Last 3 Years",
+      "excerpt": "Keep it from losing shape, pilling, or wearing out"
+    },
+    {
+      "slug": "suit-color-guide",
+      "title": "How to Choose Suit Colors — From Black, Gray, and Navy to Earth Tones",
+      "excerpt": "Different occasions, different colors — start with navy"
+    },
+    {
+      "slug": "suit-fabric-guide",
+      "title": "The Complete Guide to Suit Fabrics",
+      "excerpt": "Read the label, choose the right suit"
+    },
+    {
+      "slug": "suit-ironing-guide",
+      "title": "How to Iron a Suit at Home — Crisp and Sharp",
+      "excerpt": "Steam, iron inside-out, and always use a pressing cloth"
+    },
+    {
+      "slug": "suit-materials-tech",
+      "title": "Sports Suit Fabric Technology Demystified",
+      "excerpt": "Stretch, breathability, and tech — fully explained"
+    },
+    {
+      "slug": "suit-measure-guide",
+      "title": "DIY Suit Measurement Guide — Measure Yourself at Home",
+      "excerpt": "A single measurement sheet that covers everything"
+    },
+    {
+      "slug": "suit-mistakes-beginners",
+      "title": "10 Most Common Suit Mistakes Beginners Make",
+      "excerpt": "Sleeve length, button rules, and more — all covered"
+    },
+    {
+      "slug": "suit-occasion-guide",
+      "title": "What to Wear for Every Occasion — Suit Guide",
+      "excerpt": "Interview, meeting, wedding, dinner — tailored advice"
+    },
+    {
+      "slug": "suit-online-shopping-tips",
+      "title": "5 Must-Know Tips for Buying Suits Online — Avoid the Pitfalls",
+      "excerpt": "Your complete anti-regret shopping guide"
+    },
+    {
+      "slug": "suit-seasonal-guide",
+      "title": "What Suit to Wear in Spring, Summer, Fall, and Winter",
+      "excerpt": "A seasonal guide to fabrics and silhouettes"
+    },
+    {
+      "slug": "suit-shoes-guide",
+      "title": "What Shoes to Wear with a Suit — A Complete Dress Shoe Buying Guide",
+      "excerpt": "Oxford, Derby, Loafers — one article to understand them all"
+    },
+    {
+      "slug": "suit-size-guide",
+      "title": "Suit Size Chart — No More Guessing When Shopping Online",
+      "excerpt": "Find your perfect fit, every time"
+    },
+    {
+      "slug": "suit-styling-rules",
+      "title": "5 Golden Rules of Suit Styling",
+      "excerpt": "Covering 90% of your styling scenarios"
+    },
+    {
+      "slug": "suit-trends-2026",
+      "title": "Men's Suit Trends for 2026",
+      "excerpt": "What's hottest to wear this year"
+    },
+    {
+      "slug": "suit-underwear-guide",
+      "title": "What to Wear Under a Suit – The Complete Undergarment Guide",
+      "excerpt": "Secrets to keeping your shirt invisible and clean"
+    }
+  ],
+  "ops": [
+    {
+      "slug": "15-free-tools-solo",
+      "title": "15 Must-Have Free Tools for Solo Entrepreneurs",
+      "excerpt": "Covers the full pipeline from website building to content marketing"
+    },
+    {
+      "slug": "adsense-first-month",
+      "title": "How Much Can You Earn With Google AdSense in the First Month?",
+      "excerpt": "Realistic AdSense revenue expectations for new sites and strategies to improve"
+    },
+    {
+      "slug": "ai-automation-workflow",
+      "title": "How to Build an AI Automation Workflow From Zero",
+      "excerpt": "How a solo entrepreneur can use AI automation to do a week's work"
+    },
+    {
+      "slug": "ai-writing-workflow",
+      "title": "Full Automated AI Batch Writing Workflow",
+      "excerpt": "From topic selection to publishing, fully automated"
+    },
+    {
+      "slug": "build-in-public",
+      "title": "Build in Public: How I Launched a Solo Company",
+      "excerpt": "Tracking AgentClaw's journey from zero to launch"
+    },
+    {
+      "slug": "cps-affiliate-strategy",
+      "title": "CPS Affiliate Monetization Strategy for Solo Entrepreneurs",
+      "excerpt": "Earning commissions through Taobao and JD affiliate programs"
+    },
+    {
+      "slug": "data-driven-content",
+      "title": "Driving Content Strategy with 1,992 Data Points",
+      "excerpt": "Using data to create precisely targeted content"
+    },
+    {
+      "slug": "from-0-to-1000-visitors",
+      "title": "From Zero to 1,000 Daily Visitors: A Practical Guide",
+      "excerpt": "A three-month growth roadmap for content sites"
+    },
+    {
+      "slug": "github-actions-automation",
+      "title": "GitHub Actions: Automating Your Website Updates",
+      "excerpt": "A fully automated deployment solution"
+    },
+    {
+      "slug": "multi-site-one-domain",
+      "title": "Running Three Content Sites on One Domain",
+      "excerpt": "A Next.js + Vercel sub-path architecture"
+    },
+    {
+      "slug": "nextjs-solo-devs-guide",
+      "title": "Why Next.js Is the Right Tech Stack for Solo Developers",
+      "excerpt": "The independent developer's technology stack"
+    },
+    {
+      "slug": "one-person-ai-agent",
+      "title": "Using AI Agents as Your Operations Team",
+      "excerpt": "AI playing the roles of product manager, copywriter, and customer service"
+    },
+    {
+      "slug": "seo-guide-solo-company",
+      "title": "SEO Guide for Solo Companies: Get Traffic Without Spending Money",
+      "excerpt": "Free SEO strategies for solo entrepreneurs"
+    },
+    {
+      "slug": "solo-content-operations",
+      "title": "Managing 255 Articles Solo: A Content Operations System",
+      "excerpt": "Using Feishu (Lark) multidimensional tables for content management"
+    },
+    {
+      "slug": "solo-income-diversification",
+      "title": "Diversified Income Model for Solo Companies",
+      "excerpt": "Monetizing through AdSense, CPS affiliates, SaaS, and more"
+    },
+    {
+      "slug": "vercel-deployment-guide",
+      "title": "Complete Vercel Free Deployment Guide",
+      "excerpt": "One-click deployment from GitHub to Vercel"
+    },
+    {
+      "slug": "what-is-solo-company",
+      "title": "What Is a Solo Company and Why This Is the Best Era for One",
+      "excerpt": "A complete record from zero to one"
+    },
+    {
+      "slug": "zero-cost-roadmap",
+      "title": "Zero-Cost Solo Company Roadmap: From 0 to 1",
+      "excerpt": "Getting started without spending money"
+    }
+  ]
+}
