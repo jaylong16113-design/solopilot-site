@@ -46,18 +46,19 @@ export async function generateMetadata({ params }: any): Promise<Metadata> {
   };
 }
 
+/** 每篇文章配一张真正主题相关的 Hero 图 */
 const heroImages: Record<string, string> = {
   "free-ai-product-image-tools": "/images/ai-tools.jpg",
-  "chatgpt-taobao-title-prompts": "/images/ai-tools.jpg",
-  "ai-remove-background-comparison": "/images/tool-collage1.jpg",
-  "taobao-seo-guide-2026": "/images/ai-tools.jpg",
-  "ai-product-description-writer": "/images/tool-collage2.jpg",
+  "chatgpt-taobao-title-prompts": "/images/ecommerce-chat.jpg",
+  "ai-remove-background-comparison": "/images/ecommerce-package.jpg",
+  "taobao-seo-guide-2026": "/images/seo-keyword.jpg",
+  "ai-product-description-writer": "/images/ecommerce-laptop.jpg",
   "cross-border-ecommerce-ai-tools": "/images/translation.jpg",
   "taobao-live-ai-digital-human": "/images/video-editing.jpg",
-  "10-free-ecommerce-tools": "/images/tool-collage1.jpg",
-  "ai-customer-service-automation": "/images/tool-collage2.jpg",
-  "pinduoduo-zero-cost-traffic": "/images/ai-tools.jpg",
-  "ai-ecommerce-data-analysis": "/images/ecommerce-data.jpg",
+  "10-free-ecommerce-tools": "/images/ecommerce-dashboard.jpg",
+  "ai-customer-service-automation": "/images/ecommerce-chat.jpg",
+  "pinduoduo-zero-cost-traffic": "/images/ecommerce-data.jpg",
+  "ai-ecommerce-data-analysis": "/images/ecommerce-dashboard.jpg",
   "ecommerce-funnel-optimization": "/images/ecommerce-funnel.jpg",
   "shopify-free-apps-2026": "/images/shopify-free.jpg",
   "taobao-keyword-tool-free": "/images/taobao-keyword.jpg",
@@ -73,7 +74,7 @@ export default async function ArticlePage({ params }: any) {
   const article = getArticle(slug);
   if (!article) notFound();
 
-  const heroImg = heroImages[slug] || "/images/tool-collage1.jpg";
+  const heroImg = heroImages[slug] || "/images/ecommerce-laptop.jpg";
 
   // JSON-LD Structured Data
   const jsonLd = {
@@ -91,7 +92,7 @@ export default async function ArticlePage({ params }: any) {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <article className="max-w-3xl mx-auto article-content">
-        {/* Breadcrumb + Back */}
+        {/* Breadcrumb */}
         <div className="flex items-center gap-2 text-xs text-gray-400 mb-4 px-4 pt-6">
           <Link href="/" className="hover:text-gray-600">首页</Link>
           <span>/</span>

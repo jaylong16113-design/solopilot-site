@@ -39,17 +39,20 @@ const heroImages: Record<string, string> = {
   "zero-cost-roadmap": "/images/ops-setup.jpg",
   "ai-writing-workflow": "/images/ops-automation.jpg",
   "seo-guide-solo-company": "/images/ops-seo.jpg",
-  "cps-affiliate-strategy": "/images/ops-collage.jpg",
+  "cps-affiliate-strategy": "/images/ecommerce-funnel.jpg",
   "github-actions-automation": "/images/ops-automation.jpg",
   "from-0-to-1000-visitors": "/images/ops-seo.jpg",
   "solo-content-operations": "/images/ops-setup.jpg",
   "multi-site-one-domain": "/images/ops-setup.jpg",
   "vercel-deployment-guide": "/images/ops-automation.jpg",
-  "data-driven-content": "/images/ops-seo.jpg",
+  "data-driven-content": "/images/ecommerce-data.jpg",
   "build-in-public": "/images/ops-collage.jpg",
-  "adsense-first-month": "/images/ops-collage.jpg",
+  "adsense-first-month": "/images/ecommerce-dashboard.jpg",
   "ai-automation-workflow": "/images/ops-automation.jpg",
   "15-free-tools-solo": "/images/ops-setup.jpg",
+  "nextjs-solo-devs-guide": "/images/ecommerce-laptop.jpg",
+  "one-person-ai-agent": "/images/ecommerce-chat.jpg",
+  "solo-income-diversification": "/images/ecommerce-funnel.jpg",
 };
 
 export default async function ArticlePage({ params }: any) {
