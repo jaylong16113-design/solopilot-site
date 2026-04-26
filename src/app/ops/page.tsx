@@ -3,7 +3,28 @@ import type { Metadata } from "next";
 import fs from "fs";
 import path from "path";
 
-export const metadata: Metadata = { title: "一人公司", description: "一人公司方法论+AI自动化实战" };
+export const metadata: Metadata = { 
+  title: "一人公司运营指南 — 自动化·SEO·零成本创业", 
+  description: "一人公司自动化运营、AI工作流、SEO指南、CPS联盟变现、零成本创业路线图" 
+};
+
+const icons: Record<string, string> = {
+  "what-is-solo-company": "🏢",
+  "zero-cost-roadmap": "🗺️",
+  "ai-writing-workflow": "🤖",
+  "seo-guide-solo-company": "🔍",
+  "cps-affiliate-strategy": "💰",
+  "github-actions-automation": "⚙️",
+  "from-0-to-1000-visitors": "📈",
+  "solo-content-operations": "📝",
+  "multi-site-one-domain": "🌐",
+  "vercel-deployment-guide": "🚀",
+  "data-driven-content": "📊",
+  "build-in-public": "📢",
+  "adsense-first-month": "📣",
+  "ai-automation-workflow": "🔄",
+  "15-free-tools-solo": "🛠️",
+};
 
 export default function OpsPage() {
   const idxPath = path.join(process.cwd(), "src", "lib", "content", "index.json");
@@ -14,19 +35,35 @@ export default function OpsPage() {
   }
 
   return (
-    <div className="space-y-8">
-      <section>
-        <h1 className="text-3xl font-bold tracking-tight">一人公司/AI自动化创业站</h1>
-        <p className="text-gray-500 mt-2 text-sm">从零到一，记录一人公司的完整创业过程</p>
+    <div>
+      <section className="bg-gradient-to-b from-amber-50 to-white px-4 py-12 md:py-16 -mx-4">
+        <div className="max-w-3xl mx-auto text-center">
+          <div className="text-4xl mb-3">🚀</div>
+          <h1 className="text-2xl md:text-4xl font-extrabold tracking-tight mb-3">一人公司运营</h1>
+          <p className="text-sm text-gray-500 max-w-lg mx-auto leading-relaxed">
+            AI自动化工作流、SEO策略、CPS联盟变现、零成本创业<br/>
+            一个人也能运作的完整商业系统
+          </p>
+          <div className="flex justify-center gap-2 mt-4 text-xs text-gray-400">
+            <span className="tag bg-amber-100 text-amber-600">{articles.length} 篇文章</span>
+          </div>
+        </div>
       </section>
-      <div className="border-t border-gray-100 pt-4">
-        {articles.map(a => (
-          <Link key={a.slug} href={`/ops/${a.slug}`}
-            className="block py-3 border-b border-gray-50 group">
-            <span className="text-sm font-medium group-hover:text-blue-600 transition-colors">{a.title}</span>
-            <p className="text-xs text-gray-400 mt-1">{a.excerpt}</p>
-          </Link>
-        ))}
+
+      <div className="max-w-3xl mx-auto px-4 py-8">
+        <div className="grid gap-3">
+          {articles.map((a, i) => (
+            <Link key={a.slug} href={`/ops/${a.slug}`} className="article-card block animate-fade-in-up" style={{animationDelay: `${i*0.03}s`}}>
+              <div className="flex items-start gap-3">
+                <span className="text-xl mt-0.5 flex-shrink-0">{icons[a.slug] || "📄"}</span>
+                <div className="min-w-0">
+                  <h3 className="font-semibold text-sm text-gray-900">{a.title}</h3>
+                  <p className="text-xs text-gray-400 mt-1 line-clamp-1">{a.excerpt}</p>
+                </div>
+              </div>
+            </Link>
+          ))}
+        </div>
       </div>
     </div>
   );

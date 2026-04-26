@@ -35,11 +35,18 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: any): Promise<Metadata> {
   const { slug } = await params;
   const a = getArticle(slug);
-  return { title: a?.title || "文章", description: a?.excerpt };
+  return {
+    title: a?.title || "文章",
+    description: a?.excerpt,
+    openGraph: {
+      title: a?.title,
+      description: a?.excerpt,
+      type: "article",
+    },
+  };
 }
 
-// Image mapping based on article slug
-const articleImages: Record<string, string> = {
+const heroImages: Record<string, string> = {
   "free-ai-product-image-tools": "/images/ai-tools.jpg",
   "chatgpt-taobao-title-prompts": "/images/ai-tools.jpg",
   "ai-remove-background-comparison": "/images/tool-collage1.jpg",
@@ -61,100 +68,96 @@ const articleImages: Record<string, string> = {
   "shein-temu-ai-tools": "/images/shein-temu.jpg",
 };
 
-const sectionImages: Record<string, string[]> = {
-  "free-ai-product-image-tools": ["/images/ai-tools.jpg", "/images/tool-collage1.jpg"],
-  "chatgpt-taobao-title-prompts": ["/images/tool-collage2.jpg"],
-  "taobao-seo-guide-2026": ["/images/ai-tools.jpg"],
-  "ai-product-description-writer": ["/images/tool-collage1.jpg"],
-  "cross-border-ecommerce-ai-tools": ["/images/translation.jpg", "/images/ai-tools.jpg"],
-  "ai-remove-background-comparison": ["/images/tool-collage2.jpg"],
-  "taobao-live-ai-digital-human": ["/images/video-editing.jpg"],
-  "ali-express-ai-translation-tools": ["/images/translation.jpg", "/images/ai-tools.jpg"],
-  "shein-temu-ai-tools": ["/images/shein-temu.jpg", "/images/ecommerce-data.jpg"],
-};
-
 export default async function ArticlePage({ params }: any) {
   const { slug } = await params;
   const article = getArticle(slug);
   if (!article) notFound();
 
-  const heroImg = articleImages[slug] || "/images/tool-collage1.jpg";
-  const sections = sectionImages[slug] || [];
+  const heroImg = heroImages[slug] || "/images/tool-collage1.jpg";
+
+  // JSON-LD Structured Data
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: article.title,
+    description: article.excerpt,
+    url: `https://agentclaw.sale/tool/${slug}`,
+    author: { "@type": "Organization", name: "AgentClaw" },
+    datePublished: "2026-04-26",
+    publisher: { "@type": "Organization", name: "AgentClaw" },
+  };
 
   return (
-    <article className="max-w-3xl mx-auto article-content">
-      <Link href="/tool" className="text-xs text-gray-400 hover:text-gray-600 mb-4 inline-block">← 返回列表</Link>
-      
-      {/* Hero image */}
-      <div className="relative w-full h-64 md:h-80 mb-6 rounded-lg overflow-hidden">
-        <Image src={heroImg} alt={article.title} fill className="object-cover" priority />
-      </div>
-      
-      <h1 className="text-2xl md:text-3xl font-bold mb-2">{article.title}</h1>
-      <p className="text-sm text-gray-500 mb-6">{article.excerpt}</p>
-      
-      <div className="prose prose-gray max-w-none">
-        <ReactMarkdown 
-          remarkPlugins={[remarkGfm]}
-          components={{
-            img({ src, alt }) {
-              const imgSrc = typeof src === "string" ? src : "";
-              return (
-                <span className="block my-4">
-                  <Image 
-                    src={imgSrc} 
-                    alt={alt || ""} 
-                    width={800} 
-                    height={400} 
-                    className="rounded-lg object-cover w-full h-auto"
-                  />
-                </span>
-              );
-            },
-            h2({ children }) {
-              return <h2 className="text-xl font-bold mt-8 mb-4 pb-2 border-b border-gray-100">{children}</h2>;
-            },
-            h3({ children }) {
-              return <h3 className="text-lg font-semibold mt-6 mb-3">{children}</h3>;
-            },
-            ul({ children }) {
-              return <ul className="list-disc pl-5 mb-4 space-y-1">{children}</ul>;
-            },
-            ol({ children }) {
-              return <ol className="list-decimal pl-5 mb-4 space-y-1">{children}</ol>;
-            },
-            table({ children }) {
-              return (
-                <div className="overflow-x-auto mb-4">
-                  <table className="min-w-full border-collapse border border-gray-200 text-sm">{children}</table>
-                </div>
-              );
-            },
-            th({ children }) {
-              return <th className="border border-gray-200 bg-gray-50 px-3 py-2 text-left font-semibold">{children}</th>;
-            },
-            td({ children }) {
-              return <td className="border border-gray-200 px-3 py-2">{children}</td>;
-            },
-            blockquote({ children }) {
-              return <blockquote className="border-l-4 border-blue-200 bg-blue-50 px-4 py-3 my-4 italic text-gray-600">{children}</blockquote>;
-            },
-            p({ children }) {
-              return <p className="mb-4 leading-relaxed text-gray-700">{children}</p>;
-            }
-          }}
-        >
-          {article.content}
-        </ReactMarkdown>
-      </div>
-      
-      {/* Bottom CTA */}
-      <div className="mt-10 p-4 bg-gray-50 rounded-lg border border-gray-100 text-center">
-        <p className="text-sm text-gray-500 mb-2">觉得有用？分享给朋友</p>
-        <div className="flex justify-center gap-3 text-xs text-gray-400">
-          <span>AI电商工具站 · 提升效率的好工具</span>
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <article className="max-w-3xl mx-auto article-content">
+        {/* Breadcrumb + Back */}
+        <div className="flex items-center gap-2 text-xs text-gray-400 mb-4 px-4 pt-6">
+          <Link href="/" className="hover:text-gray-600">首页</Link>
+          <span>/</span>
+          <Link href="/tool" className="hover:text-gray-600">AI工具</Link>
+          <span>/</span>
+          <span className="text-gray-600 truncate max-w-[120px]">{article.title}</span>
         </div>
-      </div>
-    </article>
+
+        {/* Hero Image */}
+        <div className="relative w-full h-56 md:h-72 mb-6 rounded-xl overflow-hidden mx-4" style={{width: "calc(100% - 2rem)"}}>
+          <Image src={heroImg} alt={article.title} fill className="object-cover" priority />
+        </div>
+
+        <div className="px-4">
+          {/* Title */}
+          <h1 className="text-xl md:text-3xl font-extrabold mb-2 leading-tight">{article.title}</h1>
+          <p className="text-sm text-gray-400 mb-6 border-l-2 border-blue-200 pl-3 italic">{article.excerpt}</p>
+
+          {/* Content */}
+          <div className="prose prose-gray max-w-none">
+            <ReactMarkdown 
+              remarkPlugins={[remarkGfm]}
+              components={{
+                img({ src, alt }) {
+                  const imgSrc = typeof src === "string" ? src : "";
+                  return (
+                    <span className="block my-6">
+                      <Image src={imgSrc} alt={alt || ""} width={800} height={400} className="rounded-xl object-cover w-full h-auto shadow-sm" />
+                    </span>
+                  );
+                },
+                h2({ children }) { return <h2 className="text-lg md:text-xl font-bold mt-10 mb-4 pb-2 border-b border-gray-100">{children}</h2>; },
+                h3({ children }) { return <h3 className="text-base md:text-lg font-semibold mt-6 mb-3">{children}</h3>; },
+                ul({ children }) { return <ul className="list-disc pl-5 mb-4 space-y-1.5">{children}</ul>; },
+                ol({ children }) { return <ol className="list-decimal pl-5 mb-4 space-y-1.5">{children}</ol>; },
+                table({ children }) {
+                  return (
+                    <div className="overflow-x-auto mb-6">
+                      <table className="min-w-full border-collapse border border-gray-200 text-sm rounded-lg overflow-hidden">{children}</table>
+                    </div>
+                  );
+                },
+                th({ children }) { return <th className="border border-gray-200 bg-gray-50 px-3 py-2 text-left text-xs font-semibold text-gray-600">{children}</th>; },
+                td({ children }) { return <td className="border border-gray-200 px-3 py-2 text-sm">{children}</td>; },
+                blockquote({ children }) { return <blockquote className="border-l-4 border-blue-200 bg-blue-50/50 px-4 py-3 my-6 italic text-gray-500 text-sm rounded-r-lg">{children}</blockquote>; },
+                p({ children }) { return <p className="mb-4 leading-relaxed text-gray-700 text-sm md:text-base">{children}</p>; }
+              }}
+            >
+              {article.content}
+            </ReactMarkdown>
+          </div>
+
+          {/* Tags */}
+          <div className="flex flex-wrap gap-2 mt-8 pt-6 border-t border-gray-100">
+            <span className="tag bg-blue-100 text-blue-600">AI工具</span>
+            <span className="tag bg-gray-100 text-gray-500">电商</span>
+            <span className="tag bg-gray-100 text-gray-500">免费工具</span>
+          </div>
+
+          {/* Navigation */}
+          <div className="flex justify-between mt-8 pt-4 border-t border-gray-100 text-sm">
+            <Link href="/tool" className="text-blue-600 hover:underline">← 返回AI工具列表</Link>
+            <Link href="/" className="text-gray-400 hover:text-gray-600">首页 →</Link>
+          </div>
+        </div>
+      </article>
+    </>
   );
 }
