@@ -1,110 +1,108 @@
-export default async function WearArticlePage({ params }: { params: Promise<{ slug: string }> }) {
+import { notFound } from "next/navigation";
+import Link from "next/link";
+import type { Metadata } from "next";
+import fs from "fs";
+import path from "path";
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
+import Image from "next/image";
+
+interface Article { slug: string; title: string; excerpt: string; content: string; site: string; }
+
+function getArticle(slug: string): Article | null {
+  try {
+    const p = path.join(process.cwd(), "src", "lib", "content", `${slug}.json`);
+    if (!fs.existsSync(p)) return null;
+    return JSON.parse(fs.readFileSync(p, "utf8"));
+  } catch { return null; }
+}
+
+export async function generateStaticParams() {
+  const idxPath = path.join(process.cwd(), "src", "lib", "content", "index.json");
+  if (!fs.existsSync(idxPath)) return [];
+  const idx = JSON.parse(fs.readFileSync(idxPath, "utf8"));
+  return (idx.wear || []).map((a: any) => ({ slug: a.slug }));
+}
+
+export async function generateMetadata({ params }: any): Promise<Metadata> {
   const { slug } = await params;
-  const article = articles[slug];
-  if (!article) return <p>文章不存在</p>;
+  const a = getArticle(slug);
+  return { title: a?.title || "文章", description: a?.excerpt };
+}
+
+const heroImages: Record<string, string> = {
+  "first-suit-guide": "/images/suit-buying-guide.jpg",
+  "suit-color-guide": "/images/suit-color.jpg",
+  "suit-styling-rules": "/images/suit-styling.jpg",
+  "sports-suit-vs-suit": "/images/suit-fabric.jpg",
+  "business-wear-101": "/images/business-suit.jpg",
+  "suit-fabric-guide": "/images/suit-fabric.jpg",
+  "suit-measure-guide": "/images/suit-measure.jpg",
+  "suit-care-guide": "/images/suit-care.jpg",
+  "suit-underwear-guide": "/images/suit-accessories.jpg",
+  "suit-size-guide": "/images/suit-measure.jpg",
+  "suit-shoes-guide": "/images/suit-shoes.jpg",
+  "suit-occasion-guide": "/images/suit-styling.jpg",
+  "suit-materials-tech": "/images/suit-fabric.jpg",
+  "suit-mistakes-beginners": "/images/suit-buying-guide.jpg",
+  "suit-seasonal-guide": "/images/suit-styling.jpg",
+  "suit-trends-2026": "/images/suit-color.jpg",
+  "suit-online-shopping-tips": "/images/business-suit.jpg",
+  "suit-ironing-guide": "/images/suit-care.jpg",
+};
+
+export default async function ArticlePage({ params }: any) {
+  const { slug } = await params;
+  const article = getArticle(slug);
+  if (!article) notFound();
+
+  const heroImg = heroImages[slug] || "/images/business-suit.jpg";
 
   return (
-    <article className="max-w-2xl mx-auto">
-      <h1 className="text-2xl font-bold mb-6">{article.title}</h1>
-      <div className="text-xs text-gray-400 mb-4">{article.date}</div>
-      <div className="prose prose-gray prose-sm max-w-none leading-relaxed whitespace-pre-line">
-        {article.content}
+    <article className="max-w-3xl mx-auto article-content">
+      <Link href="/wear" className="text-xs text-gray-400 hover:text-gray-600 mb-4 inline-block">← 返回列表</Link>
+      
+      <div className="relative w-full h-64 md:h-80 mb-6 rounded-lg overflow-hidden">
+        <Image src={heroImg} alt={article.title} fill className="object-cover" priority />
+      </div>
+      
+      <h1 className="text-2xl md:text-3xl font-bold mb-2">{article.title}</h1>
+      <p className="text-sm text-gray-500 mb-6">{article.excerpt}</p>
+      
+      <div className="prose prose-gray max-w-none">
+        <ReactMarkdown 
+          remarkPlugins={[remarkGfm]}
+          components={{
+            img({ src, alt }) {
+              return (
+                <span className="block my-4">
+                  <Image src={src || ""} alt={alt || ""} width={800} height={400} className="rounded-lg object-cover w-full h-auto" />
+                </span>
+              );
+            },
+            h2({ children }) { return <h2 className="text-xl font-bold mt-8 mb-4 pb-2 border-b border-gray-100">{children}</h2>; },
+            h3({ children }) { return <h3 className="text-lg font-semibold mt-6 mb-3">{children}</h3>; },
+            ul({ children }) { return <ul className="list-disc pl-5 mb-4 space-y-1">{children}</ul>; },
+            ol({ children }) { return <ol className="list-decimal pl-5 mb-4 space-y-1">{children}</ol>; },
+            table({ children }) {
+              return <div className="overflow-x-auto mb-4"><table className="min-w-full border-collapse border border-gray-200 text-sm">{children}</table></div>;
+            },
+            th({ children }) { return <th className="border border-gray-200 bg-gray-50 px-3 py-2 text-left font-semibold">{children}</th>; },
+            td({ children }) { return <td className="border border-gray-200 px-3 py-2">{children}</td>; },
+            blockquote({ children }) { return <blockquote className="border-l-4 border-blue-200 bg-blue-50 px-4 py-3 my-4 italic text-gray-600">{children}</blockquote>; },
+            p({ children }) { return <p className="mb-4 leading-relaxed text-gray-700">{children}</p>; }
+          }}
+        >
+          {article.content}
+        </ReactMarkdown>
+      </div>
+      
+      <div className="mt-10 p-4 bg-gray-50 rounded-lg border border-gray-100 text-center">
+        <p className="text-sm text-gray-500 mb-2">觉得有用？分享给朋友</p>
+        <div className="flex justify-center gap-3 text-xs text-gray-400">
+          <span>男装穿搭站 · 从入门到精通</span>
+        </div>
       </div>
     </article>
   );
 }
-
-const articles: Record<string, { title: string; content: string; date: string }> = {
-  "first-suit-guide": {
-    title: "第一次买西服最全指南（从量体到试穿）",
-    date: "即将发布",
-    content: `
-## 第一步：了解自己的体型
-
-买西服之前，先了解自己的身材特点：
-
-- **标准型**：肩宽=臀宽，腰线明显 → 大多数版型都适合
-- **微胖型**：腰围大于胸围 → 选择单排扣、深色系
-- **偏瘦型**：肩窄、胸平 → 选择意式版型，肩部有垫肩
-- **矮小型（170以下）**：注意裤长和袖长 → 选择意式短版
-
-## 第二步：量体（自己就能量）
-
-准备一个软尺，测量以下数据：
-
-1. **领围**：脖子根部一圈
-2. **胸围**：胸部最宽处
-3. **腰围**：肚脐上方最细处
-4. **臀围**：臀部最宽处
-5. **肩宽**：左肩到右肩
-6. **袖长**：肩膀到手腕
-7. **衣长**：后颈到臀部
-
-## 第三步：选版型
-
-**意式版型**：肩部自然、收腰、较短 → 适合亚洲人、年轻人
-**英式版型**：肩部方正、宽松、较长 → 适合高大、正式场合
-**美式版型**：最宽松、不修身 → 舒适但不好看
-
-推荐第一次买西服选**意式版型**。
-
-## 第四步：选面料
-
-- **羊毛**：首选，透气、挺括、耐穿
-- **羊毛+弹性纤维**：舒适、不易皱
-- **化纤**：便宜但闷热、容易反光
-
-建议：预算允许选**纯羊毛**，500元以上的西服基本都是羊毛混纺。
-
-## 第五步：试穿要点
-
-1. 肩部：不压肩，不空肩
-2. 扣上扣子后：胸部不紧绷不太松
-3. 袖长：手臂自然下垂时露出衬衫1-1.5cm
-4. 衣长：手自然下垂时刚好到虎口
-5. 裤长：后面刚好到鞋跟顶部
-
-## 总结
-
-第一次买西服，意式版型 + 羊毛面料 + 深蓝色，基本不会出错。
-    `
-  },
-  "suit-color-guide": {
-    title: "西服颜色怎么选：从黑灰蓝到大地色",
-    date: "即将发布",
-    content: `
-## 黑色西服
-
-**适合场合**：正式晚宴、葬礼、颁奖典礼
-**不建议**：日常办公、面试（太正式）
-**搭配建议**：白衬衫、黑领带、黑皮鞋
-
-黑色是最正式的西服颜色，但也是使用场景最受限的。
-
-## 深蓝色西服（海军蓝）
-
-**最适合的入门色**——90%的场合都能穿
-
-**适合场合**：面试、上班、商务会议、婚礼
-**搭配建议**：白/浅蓝衬衫、棕色皮鞋
-**为什么推荐**：比黑色休闲，比灰色正式
-
-## 灰色西服
-
-**适合场合**：日常办公、商务会议、商务休闲
-**亮点**：灰色是最百搭的过渡色
-**搭配建议**：粉色衬衫更年轻，白色衬衫更正式
-
-## 大地色系（卡其、棕色、橄榄绿）
-
-**适合场合**：商务休闲、外出见客户、春秋季穿搭
-**不建议**：正式会议、面试
-**搭配亮点**：搭配白色T恤更有松弛感
-
-## 总结
-
-新手入门顺序：深蓝 → 灰色 → 黑色 → 大地色
-第一套西服：**深蓝色**永远不会错。
-    `
-  }
-};

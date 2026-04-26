@@ -1,127 +1,158 @@
 import { notFound } from "next/navigation";
+import Link from "next/link";
+import type { Metadata } from "next";
+import fs from "fs";
+import path from "path";
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
+import Image from "next/image";
 
-// Article content map
-const articles: Record<string, { title: string; content: string; site: string }> = {
-  // AI Tool - ready sample
-  "free-ai-product-image-tools": {
-    title: "免费AI商品图生成工具推荐及使用教程",
-    site: "tool",
-    content: `
-## 为什么需要AI商品图？
+interface Article {
+  slug: string;
+  title: string;
+  excerpt: string;
+  content: string;
+  site: string;
+}
 
-电商卖家的核心痛点之一就是商品图片。请专业摄影师成本高，自己拍效果差。AI商品图生成工具可以帮你：
+function getArticle(slug: string): Article | null {
+  try {
+    const p = path.join(process.cwd(), "src", "lib", "content", `${slug}.json`);
+    if (!fs.existsSync(p)) return null;
+    return JSON.parse(fs.readFileSync(p, "utf8"));
+  } catch {
+    return null;
+  }
+}
 
-- 一键生成白底图
-- AI模特换装
-- 商品场景图自动合成
-- 批量处理节省时间
+export async function generateStaticParams() {
+  const idxPath = path.join(process.cwd(), "src", "lib", "content", "index.json");
+  if (!fs.existsSync(idxPath)) return [];
+  const idx = JSON.parse(fs.readFileSync(idxPath, "utf8"));
+  return (idx.tool || []).map((a: any) => ({ slug: a.slug }));
+}
 
----
+export async function generateMetadata({ params }: any): Promise<Metadata> {
+  const { slug } = await params;
+  const a = getArticle(slug);
+  return { title: a?.title || "文章", description: a?.excerpt };
+}
 
-## 5款免费AI商品图工具推荐
-
-### 1. 稿定AI
-
-稿定设计的AI商品图功能，支持上传商品照片自动去背景、换背景、AI模特穿戴。免费版每天可生成5张。
-
-**优点：** 中文界面，操作简单，模板丰富
-
-### 2. Canva AI
-
-Canva内置的Magic Studio，通过文本描述直接生成商品场景图。免费版提供大量模板和AI功能。
-
-**优点：** 国际化模板，AI生图质量高
-
-### 3. Remove.bg（去背景专用）
-
-最知名的商品图去背景工具，支持批量处理。免费版支持预览，高清下载需付费。
-
-**优点：** 去背景效果业界最佳
-
-### 4. 佐糖
-
-国产去背景和AI商品图工具，完全免费。支持批量上传，衣物类商品效果不错。
-
-**优点：** 完全免费，中文支持好
-
-### 5. Leonardo AI
-
-免费生图AI工具，可以生成电商产品展示图。有专门的电商模板，支持ControlNet精准控制。
-
-**优点：** 生成质量高，免费额度充足
-
----
-
-## 实战：用AI生成商品主图（3步）
-
-**第一步：** 拍摄或准备商品白底照片
-**第二步：** 用Remove.bg去背景
-**第三步：** 用稿定AI或Canva选择合适的场景模板合成
-
----
-
-## 小结
-
-这些免费工具已经能满足大部分电商卖家的日常需求。建议从稿定AI开始尝试（中文界面最友好），有特殊需求再搭配其他工具。
-    `,
-  },
-  "10-free-ecommerce-tools": {
-    title: "电商新手必备的10个免费工具",
-    site: "tool",
-    content: `
-## 1. 飞书多维表格 — 商品管理和数据追踪
-
-飞书多维表格拥有强大的数据库功能，可以管理商品信息、订单状态、客户数据。比Excel更智能。
-
-## 2. Canva — 商品主图设计
-
-Canva提供大量电商模板，支持拖拽式设计，无需PS基础。
-
-## 3. 剪映 — 商品视频制作
-
-免费的视频剪辑工具，支持自动字幕、模板、AI配音。电商短视频必备。
-
-## 4. Google Analytics — 网站流量分析
-
-免费但功能强大的数据分析工具，了解访客从哪里来、看什么内容。
-
-## 5. Google Search Console — SEO监控
-
-免费监控网站在谷歌搜索中的表现，发现优化机会。
-
-## 6. 淘宝天猫商家后台 — 免费经营分析
-
-淘宝提供的免费数据分析工具，包括行业大盘、竞品分析等。
-
-## 7. ChatGPT — 文案撰写
-
-辅助撰写商品描述、标题优化、客户沟通话术。
-
-## 8. Notion — 运营笔记和协作
-
-免费的知识管理和项目协作工具，适合记录运营SOP。
-
-## 9. 飞书妙记 — 会议和培训记录
-
-免费的语音转文字工具，录制培训视频自动生成文字稿。
-
-## 10. GitHub — 代码和内容版本管理
-
-不仅管代码，还可以管内容，配合GitHub Actions实现自动化发布。
-    `,
-  },
+// Image mapping based on article slug
+const articleImages: Record<string, string> = {
+  "free-ai-product-image-tools": "/images/ai-tools.jpg",
+  "chatgpt-taobao-title-prompts": "/images/ai-tools.jpg",
+  "ai-remove-background-comparison": "/images/tool-collage1.jpg",
+  "taobao-seo-guide-2026": "/images/ai-tools.jpg",
+  "ai-product-description-writer": "/images/tool-collage2.jpg",
+  "cross-border-ecommerce-ai-tools": "/images/translation.jpg",
+  "taobao-live-ai-digital-human": "/images/video-editing.jpg",
+  "10-free-ecommerce-tools": "/images/tool-collage1.jpg",
+  "ai-customer-service-automation": "/images/tool-collage2.jpg",
+  "pinduoduo-zero-cost-traffic": "/images/ai-tools.jpg",
+  "ai-ecommerce-data-analysis": "/images/ecommerce-data.jpg",
+  "ecommerce-funnel-optimization": "/images/ecommerce-funnel.jpg",
+  "shopify-free-apps-2026": "/images/shopify-free.jpg",
+  "taobao-keyword-tool-free": "/images/taobao-keyword.jpg",
+  "wechat-xiaohongshu-ecommerce-traffic": "/images/social-media-traffic.jpg",
+  "ai-tools-2026-comparison": "/images/ai-comparison.jpg",
+  "ai-free-video-editing-ecommerce": "/images/video-editing.jpg",
+  "aliexpress-ai-translation-tools": "/images/translation.jpg",
+  "shein-temu-ai-tools": "/images/shein-temu.jpg",
 };
 
-export default async function ArticlePage({ params }: { params: Promise<{ slug: string }> }) {
+const sectionImages: Record<string, string[]> = {
+  "free-ai-product-image-tools": ["/images/ai-tools.jpg", "/images/tool-collage1.jpg"],
+  "chatgpt-taobao-title-prompts": ["/images/tool-collage2.jpg"],
+  "taobao-seo-guide-2026": ["/images/ai-tools.jpg"],
+  "ai-product-description-writer": ["/images/tool-collage1.jpg"],
+  "cross-border-ecommerce-ai-tools": ["/images/translation.jpg", "/images/ai-tools.jpg"],
+  "ai-remove-background-comparison": ["/images/tool-collage2.jpg"],
+  "taobao-live-ai-digital-human": ["/images/video-editing.jpg"],
+  "ali-express-ai-translation-tools": ["/images/translation.jpg", "/images/ai-tools.jpg"],
+  "shein-temu-ai-tools": ["/images/shein-temu.jpg", "/images/ecommerce-data.jpg"],
+};
+
+export default async function ArticlePage({ params }: any) {
   const { slug } = await params;
-  const article = articles[slug];
+  const article = getArticle(slug);
   if (!article) notFound();
 
+  const heroImg = articleImages[slug] || "/images/tool-collage1.jpg";
+  const sections = sectionImages[slug] || [];
+
   return (
-    <article className="max-w-2xl mx-auto">
-      <h1 className="text-2xl font-bold mb-6">{article.title}</h1>
-      <div className="prose prose-gray prose-sm max-w-none leading-relaxed whitespace-pre-line">
-        {article.content}
+    <article className="max-w-3xl mx-auto article-content">
+      <Link href="/tool" className="text-xs text-gray-400 hover:text-gray-600 mb-4 inline-block">← 返回列表</Link>
+      
+      {/* Hero image */}
+      <div className="relative w-full h-64 md:h-80 mb-6 rounded-lg overflow-hidden">
+        <Image src={heroImg} alt={article.title} fill className="object-cover" priority />
+      </div>
+      
+      <h1 className="text-2xl md:text-3xl font-bold mb-2">{article.title}</h1>
+      <p className="text-sm text-gray-500 mb-6">{article.excerpt}</p>
+      
+      <div className="prose prose-gray max-w-none">
+        <ReactMarkdown 
+          remarkPlugins={[remarkGfm]}
+          components={{
+            img({ src, alt }) {
+              return (
+                <span className="block my-4">
+                  <Image 
+                    src={src || ""} 
+                    alt={alt || ""} 
+                    width={800} 
+                    height={400} 
+                    className="rounded-lg object-cover w-full h-auto"
+                  />
+                </span>
+              );
+            },
+            h2({ children }) {
+              return <h2 className="text-xl font-bold mt-8 mb-4 pb-2 border-b border-gray-100">{children}</h2>;
+            },
+            h3({ children }) {
+              return <h3 className="text-lg font-semibold mt-6 mb-3">{children}</h3>;
+            },
+            ul({ children }) {
+              return <ul className="list-disc pl-5 mb-4 space-y-1">{children}</ul>;
+            },
+            ol({ children }) {
+              return <ol className="list-decimal pl-5 mb-4 space-y-1">{children}</ol>;
+            },
+            table({ children }) {
+              return (
+                <div className="overflow-x-auto mb-4">
+                  <table className="min-w-full border-collapse border border-gray-200 text-sm">{children}</table>
+                </div>
+              );
+            },
+            th({ children }) {
+              return <th className="border border-gray-200 bg-gray-50 px-3 py-2 text-left font-semibold">{children}</th>;
+            },
+            td({ children }) {
+              return <td className="border border-gray-200 px-3 py-2">{children}</td>;
+            },
+            blockquote({ children }) {
+              return <blockquote className="border-l-4 border-blue-200 bg-blue-50 px-4 py-3 my-4 italic text-gray-600">{children}</blockquote>;
+            },
+            p({ children }) {
+              return <p className="mb-4 leading-relaxed text-gray-700">{children}</p>;
+            }
+          }}
+        >
+          {article.content}
+        </ReactMarkdown>
+      </div>
+      
+      {/* Bottom CTA */}
+      <div className="mt-10 p-4 bg-gray-50 rounded-lg border border-gray-100 text-center">
+        <p className="text-sm text-gray-500 mb-2">觉得有用？分享给朋友</p>
+        <div className="flex justify-center gap-3 text-xs text-gray-400">
+          <span>AI电商工具站 · 提升效率的好工具</span>
+        </div>
       </div>
     </article>
   );
