@@ -24,7 +24,7 @@ dirs.forEach((lang) => {
   catch (e) { errors.push(`${lang}/index.json parse error`); return; }
   
   const indexSlugs = new Set(
-    (idx.tool || []).concat(idx.wear || []).concat(idx.ops || []).map((a) => a.slug)
+    (idx.tool || []).concat(idx.wear || []).concat(idx.ops || []).concat(idx.mood || []).map((a) => a.slug)
   );
 
   files.forEach((f) => {

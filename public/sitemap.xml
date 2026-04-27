@@ -17,7 +17,75 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://agentclaw.sale/mood</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/tool</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/wear</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/ops</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/mood</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://agentclaw.sale/tool/10-free-ecommerce-tools</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/tool/ai-ab-testing-product-images</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/tool/ai-ad-optimization-guide</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/tool/ai-auto-price-monitoring</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/tool/ai-auto-reply-messages</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/tool/ai-auto-subtitle-translate</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/tool/ai-banner-generator</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/tool/ai-batch-video-ecommerce</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/tool/ai-chatbot-setup-guide</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/tool/ai-competitor-analysis</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/tool/ai-cross-border-product-research</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/tool/ai-customer-service-automation-2026</loc>
     <priority>0.7</priority>
   </url>
   <url>
@@ -33,6 +101,10 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://agentclaw.sale/tool/ai-image-ecommerce-tools</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://agentclaw.sale/tool/ai-product-description-writer</loc>
     <priority>0.7</priority>
   </url>
@@ -41,11 +113,35 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://agentclaw.sale/tool/ai-seo-content-generators</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/tool/ai-seo-tools-comparison-2026</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://agentclaw.sale/tool/ai-tools-2026-comparison</loc>
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://agentclaw.sale/tool/ai-video-generator-review</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/tool/ai-voice-clone-livestream</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/tool/ai-xiaohongshu-copywriting</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://agentclaw.sale/tool/aliexpress-ai-translation-tools</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/tool/chatgpt-cross-border-listing</loc>
     <priority>0.7</priority>
   </url>
   <url>
@@ -93,7 +189,27 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://agentclaw.sale/wear/big-body-suit-guide</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/wear/business-perfume-guide</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/wear/business-travel-pack-suit</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://agentclaw.sale/wear/business-wear-101</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/wear/custom-vs-rtw-suit</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/wear/dating-outfit-guide</loc>
     <priority>0.7</priority>
   </url>
   <url>
@@ -101,7 +217,43 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://agentclaw.sale/wear/interview-suit-guide</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/wear/short-men-suit-tips</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/wear/smart-casual-suit-guide</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://agentclaw.sale/wear/sports-suit-vs-suit</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/wear/sports-vs-business-vs-casual-suit</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/wear/suit-accessories-guide</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/wear/suit-bag-guide</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/wear/suit-belt-guide</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/wear/suit-body-type-guide</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/wear/suit-budget-guide</loc>
     <priority>0.7</priority>
   </url>
   <url>
@@ -141,6 +293,10 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://agentclaw.sale/wear/suit-pocket-guide</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://agentclaw.sale/wear/suit-seasonal-guide</loc>
     <priority>0.7</priority>
   </url>
@@ -157,6 +313,10 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://agentclaw.sale/wear/suit-tailoring-process</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://agentclaw.sale/wear/suit-trends-2026</loc>
     <priority>0.7</priority>
   </url>
@@ -165,11 +325,23 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://agentclaw.sale/wear/tie-knot-guide</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/wear/wedding-suit-guide</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://agentclaw.sale/ops/15-free-tools-solo</loc>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://agentclaw.sale/ops/adsense-first-month</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/ops/ai-assisted-product-prototyping</loc>
     <priority>0.7</priority>
   </url>
   <url>
@@ -185,11 +357,31 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://agentclaw.sale/ops/content-site-1000-month</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/ops/content-site-monetization</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://agentclaw.sale/ops/cps-affiliate-strategy</loc>
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://agentclaw.sale/ops/customer-success-solo</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://agentclaw.sale/ops/data-driven-content</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/ops/email-list-from-zero</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/ops/feishu-bitable-project-management</loc>
     <priority>0.7</priority>
   </url>
   <url>
@@ -201,6 +393,10 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://agentclaw.sale/ops/keyword-research-guide</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://agentclaw.sale/ops/multi-site-one-domain</loc>
     <priority>0.7</priority>
   </url>
@@ -209,7 +405,19 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://agentclaw.sale/ops/niche-selection-guide</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/ops/no-code-automation-workflow</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://agentclaw.sale/ops/one-person-ai-agent</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/ops/project-management-solo</loc>
     <priority>0.7</priority>
   </url>
   <url>
@@ -217,11 +425,39 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://agentclaw.sale/ops/social-media-automation</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/ops/solo-booking-system</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://agentclaw.sale/ops/solo-content-operations</loc>
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://agentclaw.sale/ops/solo-customer-acquisition</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/ops/solo-founder-product-docs</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://agentclaw.sale/ops/solo-income-diversification</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/ops/solo-pricing-strategy</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/ops/solo-tax-guide</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/ops/tech-blog-traffic-start</loc>
     <priority>0.7</priority>
   </url>
   <url>
@@ -235,5 +471,501 @@
   <url>
     <loc>https://agentclaw.sale/ops/zero-cost-roadmap</loc>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/ops/zero-cost-user-research</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/mood/emotion-short-video-basics</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/mood/ai-video-script-tools</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/mood/clipchamp-capcut-emotional-editing</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/mood/ai-voiceover-music-tools</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/mood/viral-duan-emotional-video-case</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/tool</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/wear</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/ops</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/mood</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/tool/10-free-ecommerce-tools</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/tool/ai-ab-testing-product-images</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/tool/ai-ad-optimization-guide</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/tool/ai-auto-price-monitoring</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/tool/ai-auto-reply-messages</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/tool/ai-auto-subtitle-translate</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/tool/ai-banner-generator</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/tool/ai-batch-video-ecommerce</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/tool/ai-chatbot-setup-guide</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/tool/ai-competitor-analysis</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/tool/ai-cross-border-product-research</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/tool/ai-customer-service-automation-2026</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/tool/ai-customer-service-automation</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/tool/ai-ecommerce-data-analysis</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/tool/ai-free-video-editing-ecommerce</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/tool/ai-image-ecommerce-tools</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/tool/ai-product-description-writer</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/tool/ai-remove-background-comparison</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/tool/ai-seo-content-generators</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/tool/ai-seo-tools-comparison-2026</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/tool/ai-tools-2026-comparison</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/tool/ai-video-generator-review</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/tool/ai-voice-clone-livestream</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/tool/ai-xiaohongshu-copywriting</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/tool/aliexpress-ai-translation-tools</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/tool/chatgpt-cross-border-listing</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/tool/chatgpt-taobao-title-prompts</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/tool/cross-border-ecommerce-ai-tools</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/tool/ecommerce-funnel-optimization</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/tool/free-ai-product-image-tools</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/tool/pinduoduo-zero-cost-traffic</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/tool/shein-temu-ai-tools</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/tool/shopify-free-apps-2026</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/tool/taobao-keyword-tool-free</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/tool/taobao-live-ai-digital-human</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/tool/taobao-seo-guide-2026</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/tool/wechat-xiaohongshu-ecommerce-traffic</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/wear/big-body-suit-guide</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/wear/business-perfume-guide</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/wear/business-travel-pack-suit</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/wear/business-wear-101</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/wear/custom-vs-rtw-suit</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/wear/dating-outfit-guide</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/wear/first-suit-guide</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/wear/interview-suit-guide</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/wear/short-men-suit-tips</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/wear/smart-casual-suit-guide</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/wear/sports-suit-vs-suit</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/wear/sports-vs-business-vs-casual-suit</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/wear/suit-accessories-guide</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/wear/suit-bag-guide</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/wear/suit-belt-guide</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/wear/suit-body-type-guide</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/wear/suit-budget-guide</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/wear/suit-care-guide</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/wear/suit-color-guide</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/wear/suit-fabric-guide</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/wear/suit-ironing-guide</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/wear/suit-materials-tech</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/wear/suit-measure-guide</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/wear/suit-mistakes-beginners</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/wear/suit-occasion-guide</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/wear/suit-online-shopping-tips</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/wear/suit-pocket-guide</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/wear/suit-seasonal-guide</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/wear/suit-shoes-guide</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/wear/suit-size-guide</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/wear/suit-styling-rules</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/wear/suit-tailoring-process</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/wear/suit-trends-2026</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/wear/suit-underwear-guide</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/wear/tie-knot-guide</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/wear/wedding-suit-guide</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/ops/15-free-tools-solo</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/ops/adsense-first-month</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/ops/ai-assisted-product-prototyping</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/ops/ai-automation-workflow</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/ops/ai-writing-workflow</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/ops/build-in-public</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/ops/content-site-1000-month</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/ops/content-site-monetization</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/ops/cps-affiliate-strategy</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/ops/customer-success-solo</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/ops/data-driven-content</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/ops/email-list-from-zero</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/ops/feishu-bitable-project-management</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/ops/from-0-to-1000-visitors</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/ops/github-actions-automation</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/ops/keyword-research-guide</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/ops/multi-site-one-domain</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/ops/nextjs-solo-devs-guide</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/ops/niche-selection-guide</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/ops/no-code-automation-workflow</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/ops/one-person-ai-agent</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/ops/project-management-solo</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/ops/seo-guide-solo-company</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/ops/social-media-automation</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/ops/solo-booking-system</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/ops/solo-content-operations</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/ops/solo-customer-acquisition</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/ops/solo-founder-product-docs</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/ops/solo-income-diversification</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/ops/solo-pricing-strategy</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/ops/solo-tax-guide</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/ops/tech-blog-traffic-start</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/ops/vercel-deployment-guide</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/ops/what-is-solo-company</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/ops/zero-cost-roadmap</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/ops/zero-cost-user-research</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/mood/emotion-short-video-basics</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/mood/ai-video-script-tools</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/mood/clipchamp-capcut-emotional-editing</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/mood/ai-voiceover-music-tools</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/mood/viral-duan-emotional-video-case</loc>
+    <priority>0.6</priority>
   </url>
 </urlset>

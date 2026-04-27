@@ -549,5 +549,32 @@
       "title": "一人公司用户调研零成本实操指南：独立开发者必备的6个实战方法",
       "excerpt": "没有预算也能深入了解用户需求——6个零成本调研方法，让独立开发者用最小投入获取最有价值的用户洞察"
     }
+  ],
+  "mood": [
+    {
+      "slug": "emotion-short-video-basics",
+      "title": "情绪短视频入门：为什么有的视频能让你看哭，有的看完就划走？",
+      "excerpt": "揭秘情绪短视频的核心公式——3秒代入感+15秒高潮+5秒余韵，零基础也能做出打动人心的视频"
+    },
+    {
+      "slug": "ai-video-script-tools",
+      "title": "情绪短视频脚本怎么写？ChatGPT/Claude/DeepSeek三款AI工具实测",
+      "excerpt": "用同一段情绪故事脚本，实测ChatGPT、Claude、DeepSeek写情绪短视频脚本的差距，附20个万能Prompt"
+    },
+    {
+      "slug": "clipchamp-capcut-emotional-editing",
+      "title": "剪映VS Clipchamp做情绪短视频深度对比：谁更适合新手？",
+      "excerpt": "从音乐踩点、转场滤镜、文字特效三个维度实测剪映和Clipchamp，告诉你零基础选哪个"
+    },
+    {
+      "slug": "ai-voiceover-music-tools",
+      "title": "情绪短视频的配音和配乐工具推荐：一个BGM就能让视频播放量翻倍",
+      "excerpt": "实测ElevenLabs、剪映配音、Fish Audio、Suno AI音乐生成，影响情绪的声线和BGM怎么选"
+    },
+    {
+      "slug": "viral-duan-emotional-video-case",
+      "title": "爆款情绪短视频案例分析：从文案到配乐到节奏，一条条拆给你看",
+      "excerpt": "拆解10条百万播放的情绪短视频，分析它们的标题、文案结构、BGM选择、剪辑节奏——学会借势"
+    }
   ]
 }

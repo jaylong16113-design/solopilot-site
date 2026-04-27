@@ -6,13 +6,13 @@ import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: {
-    default: "AgentClaw | AI电商工具·穿搭·一人公司",
+    default: "AgentClaw | AI电商工具·穿搭·一人公司·情绪短视频",
     template: "%s | AgentClaw",
   },
-  description: "AI电商工具评测、男装穿搭指南、一人公司自动化运营方案 —— 一个域名的三个内容站",
+  description: "AI电商工具评测、男装穿搭指南、一人公司自动化运营方案、情绪短视频创作教程 —— 一个域名的四个内容站",
   openGraph: {
     title: "AgentClaw — OPS Solo System",
-    description: "AI电商工具 · 男装穿搭指南 · 一人公司自动化运营",
+    description: "AI电商工具 · 男装穿搭指南 · 一人公司自动化运营 · 情绪短视频创作",
     url: "https://agentclaw.sale",
     siteName: "AgentClaw",
     type: "website",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "AgentClaw — OPS Solo System",
-    description: "AI电商工具 · 男装穿搭指南 · 一人公司自动化运营",
+    description: "AI电商工具 · 男装穿搭指南 · 一人公司自动化运营 · 情绪短视频创作",
   },
   robots: {
     index: true,

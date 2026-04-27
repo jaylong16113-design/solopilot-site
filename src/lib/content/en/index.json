@@ -549,5 +549,32 @@
       "title": "Zero-Cost User Research for Solo Companies: 6 Proven Methods for Indie Developers",
       "excerpt": "No budget? No problem. These 6 zero-cost user research methods help indie developers get the most valuable user insights with minimal investment"
     }
+  ],
+  "mood": [
+    {
+      "slug": "emotion-short-video-basics",
+      "title": "Emotional Short Videos 101: Why Some Make You Cry and Others You Scroll Past",
+      "excerpt": "The secret formula behind viral emotional videos — 3 seconds of relatability + 15 seconds of climax + 5 seconds of resonance."
+    },
+    {
+      "slug": "ai-video-script-tools",
+      "title": "How to Write Emotional Short Video Scripts with AI: ChatGPT vs Claude vs DeepSeek — Hands-On Test",
+      "excerpt": "Using the same emotional story prompt, we put ChatGPT, Claude, and DeepSeek head-to-head. Plus 20 ready-to-use prompt templates."
+    },
+    {
+      "slug": "clipchamp-capcut-emotional-editing",
+      "title": "CapCut vs Clipchamp for Emotional Short Videos: Deep Comparison for Beginners",
+      "excerpt": "Tested across music sync, transitions, filters, and text effects — find out which editor is best for zero-experience creators."
+    },
+    {
+      "slug": "ai-voiceover-music-tools",
+      "title": "Best Voiceover and Music Tools for Emotional Short Videos: One BGM Can Double Your Views",
+      "excerpt": "Real-world testing of ElevenLabs, CapCut voiceover, Fish Audio, and Suno AI music generation — how to pick the right voice and music."
+    },
+    {
+      "slug": "viral-duan-emotional-video-case",
+      "title": "Viral Emotional Short Video Case Studies: Dissecting 10 Million-View Videos",
+      "excerpt": "Breaking down 10 viral emotional videos with millions of views — analyzing their hooks, narrative structure, BGM choices, and editing rhythm."
+    }
   ]
 }

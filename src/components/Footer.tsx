@@ -19,6 +19,7 @@ export default function Footer() {
               <li><Link href={p("/tool")} className="hover:text-white transition-colors">{t("nav_tool")}</Link></li>
               <li><Link href={p("/wear")} className="hover:text-white transition-colors">{t("nav_wear")}</Link></li>
               <li><Link href={p("/ops")} className="hover:text-white transition-colors">{t("nav_ops")}</Link></li>
+              <li><Link href={p("/mood")} className="hover:text-white transition-colors">{t("nav_mood")}</Link></li>
             </ul>
           </div>
           <div>
@@ -27,6 +28,7 @@ export default function Footer() {
               <li><Link href={p("/tool/10-free-ecommerce-tools")} className="hover:text-white transition-colors">{t("free_tools")}</Link></li>
               <li><Link href={p("/wear/first-suit-guide")} className="hover:text-white transition-colors">{t("suit_style")}</Link></li>
               <li><Link href={p("/ops/what-is-solo-company")} className="hover:text-white transition-colors">Solo OPS</Link></li>
+              <li><Link href={p("/mood/emotion-short-video-basics")} className="hover:text-white transition-colors">情绪短视频</Link></li>
             </ul>
           </div>
           <div>

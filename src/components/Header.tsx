@@ -25,8 +25,11 @@ export default function Header() {
         <Link href={`${prefix}/ops`} className="nav-link px-3 py-1.5 rounded-md text-gray-500 hover:text-gray-900 transition-colors">
           {t("nav_ops")}
         </Link>
+        <Link href={`${prefix}/mood`} className="nav-link px-3 py-1.5 rounded-md text-gray-500 hover:text-gray-900 transition-colors">
+          {t("nav_mood")}
+        </Link>
         <div className="ml-auto flex items-center gap-2">
-          <span className="text-[10px] text-gray-300 hidden sm:inline">{t("nav_pages_count", { count: 63 })}</span>
+          <span className="text-[10px] text-gray-300 hidden sm:inline">{t("nav_pages_count", { count: 73 })}</span>
           <LangSwitcher />
         </div>
       </nav>
