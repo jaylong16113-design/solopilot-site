@@ -575,6 +575,36 @@
       "slug": "viral-duan-emotional-video-case",
       "title": "Viral Emotional Short Video Case Studies: Dissecting 10 Million-View Videos",
       "excerpt": "Breaking down 10 viral emotional videos with millions of views — analyzing their hooks, narrative structure, BGM choices, and editing rhythm."
+    },
+    {
+      "slug": "silent-diary-intro",
+      "title": "What Is Silent Diary and Why Does Every Video Make You Cry?",
+      "excerpt": "A video with no dialogue and no plot gets millions of views. Here's the emotional formula behind Silent Diary.",
+      "site": "mood"
+    },
+    {
+      "slug": "silent-diary-narrative",
+      "title": "Silent Diary's 3 Classic Narrative Structures",
+      "excerpt": "Every Silent Diary video follows a fixed emotional skeleton. Here are 3 core structures with ready-to-use templates.",
+      "site": "mood"
+    },
+    {
+      "slug": "emotional-prompt-engineering",
+      "title": "Performance-Level Prompt Templates: 12 Emotional Keywords for ChatGPT/Claude",
+      "excerpt": "Why do some AI-written scripts make millions cry while yours falls flat? The difference is in your emotional keywords.",
+      "site": "mood"
+    },
+    {
+      "slug": "mood-camera-language",
+      "title": "Camera Language for Emotional Short Videos",
+      "excerpt": "Why do some shots feel cinematic? 5 camera techniques you can learn today with CapCut presets.",
+      "site": "mood"
+    },
+    {
+      "slug": "ai-digital-human-realistic",
+      "title": "How to Make AI Avatars Look Real: 5 Pro Tips",
+      "excerpt": "I tested HeYGen, D-ID, and Alibaba Digital Human — here are 5 techniques to make AI avatars pass as real.",
+      "site": "mood"
     }
   ]
 }

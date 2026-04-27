@@ -575,6 +575,36 @@
       "slug": "viral-duan-emotional-video-case",
       "title": "爆款情绪短视频案例分析：从文案到配乐到节奏，一条条拆给你看",
       "excerpt": "拆解10条百万播放的情绪短视频，分析它们的标题、文案结构、BGM选择、剪辑节奏——学会借势"
+    },
+    {
+      "slug": "silent-diary-intro",
+      "title": "Silent Diary是什么？为什么每条都能刷哭你",
+      "excerpt": "一条没有台词、没有剧情的视频，凭什么几千万播放？拆解 Silent Diary 的情绪密码。",
+      "site": "mood"
+    },
+    {
+      "slug": "silent-diary-narrative",
+      "title": "拆解 Silent Diary 的3种经典叙事结构",
+      "excerpt": "Silent Diary 每条视频都有固定的叙事骨架。拆解它的3种核心结构，每个附可直接套用的模板。",
+      "site": "mood"
+    },
+    {
+      "slug": "emotional-prompt-engineering",
+      "title": "表演级Prompt模板：给ChatGPT/Claude的12个情绪引导词",
+      "excerpt": "为什么你写的AI脚本没人看，别人写的能刷哭几十万人？差距就在Prompt里的情绪引导词。",
+      "site": "mood"
+    },
+    {
+      "slug": "mood-camera-language",
+      "title": "情绪短视频的镜头语言入门",
+      "excerpt": "为什么有的画面一看就有\"电影感\"？5个零基础能上手的镜头技巧。",
+      "site": "mood"
+    },
+    {
+      "slug": "ai-digital-human-realistic",
+      "title": "AI数字人怎么做才不像机器人？5个一眼真人的技巧",
+      "excerpt": "HeYGen、D-ID、阿里数字人……测试了5个主流平台，总结出让AI数字人逼真的技巧。",
+      "site": "mood"
     }
   ]
 }
