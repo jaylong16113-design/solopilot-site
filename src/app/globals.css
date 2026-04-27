@@ -1,143 +1,256 @@
-.article-content a {
-  color: #e3a75e;
-}
-.article-content a:hover {
-  text-decoration: underline;
+@import "tailwindcss";
+
+/* ============ Design System ============ */
+:root {
+  --color-accent: #2563eb;
+  --color-accent-light: #eff6ff;
+  --color-accent-dark: #1d4ed8;
+  --color-card: #ffffff;
+  --color-bg: #f6f8fc;
+  --color-border: #e5e9f0;
+  --color-text: #0f172a;
+  --color-muted: #64748b;
+  --color-section-alt: #f1f4fa;
+  --color-success: #22c55e;
+  --color-warm: #f59e0b;
 }
 
-/* Breadcrumb dark */
-.breadcrumb-dark a {
-  color: rgba(240,236,255,0.5);
-}
-.breadcrumb-dark a:hover {
-  color: #e3a75e;
-}
-.breadcrumb-dark span {
-  color: rgba(240,236,255,0.5);
-}
-.breadcrumb-dark .current {
-  color: rgba(240,236,255,0.35);
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans SC", sans-serif;
+  background: var(--color-bg);
+  color: var(--color-text);
+  scroll-behavior: smooth;
 }
 
-/* Section page banner */
-.section-banner {
-  background: linear-gradient(180deg, rgba(53,0,152,0.3) 0%, rgba(10,6,56,0) 100%);
-  border-bottom: 1px solid rgba(255,255,255,0.04);
+/* ============ Header ============ */
+.site-header {
+  background: rgba(255,255,255,0.88);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--color-border);
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+.site-header .nav-link {
+  position: relative;
+  color: var(--color-muted);
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.site-header .nav-link:hover {
+  color: var(--color-accent);
 }
 
-/* Article list on dark */
-.article-list-dark .article-card h3 {
-  color: #F0ECFF;
+/* Logo pulse dot */
+.logo-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--color-accent);
+  animation: pulse-dot 2s ease-in-out infinite;
 }
-.article-list-dark .article-card p {
-  color: rgba(240,236,255,0.5);
-}
-
-/* Markdown prose dark */
-.prose-dark h1, .prose-dark h2, .prose-dark h3, .prose-dark h4 {
-  color: #F0ECFF;
-}
-.prose-dark p, .prose-dark li {
-  color: rgba(240,236,255,0.8);
-}
-.prose-dark strong {
-  color: #F0ECFF;
-}
-.prose-dark blockquote {
-  border-left-color: rgba(212,149,47,0.3);
-  background: rgba(255,255,255,0.04);
-  color: rgba(240,236,255,0.65);
-}
-.prose-dark table {
-  border-color: rgba(255,255,255,0.1);
-}
-.prose-dark th, .prose-dark td {
-  border-color: rgba(255,255,255,0.1);
-  color: rgba(240,236,255,0.8);
-}
-.prose-dark th {
-  background: rgba(255,255,255,0.06);
-  color: rgba(240,236,255,0.6);
-}
-.prose-dark hr {
-  border-color: rgba(255,255,255,0.06);
-}
-.prose-dark .tag-blue {
-  background: rgba(212,149,47,0.12);
-  color: #e3a75e;
-}
-.prose-dark .tag-gray {
-  background: rgba(255,255,255,0.06);
-  color: rgba(240,236,255,0.5);
-}
-.prose-dark a {
-  color: #e3a75e;
-}
-.prose-dark pre, .prose-dark code {
-  background: rgba(255,255,255,0.06);
-  color: #F0ECFF;
-}
-.prose-dark ul, .prose-dark ol {
-  color: rgba(240,236,255,0.8);
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; box-shadow: 0 0 0 0 rgba(37,99,235,0.4); }
+  50% { opacity: 0.7; box-shadow: 0 0 0 6px rgba(37,99,235,0); }
 }
 
-
-/* ===== Dark overrides for existing Tailwind classes ===== */
-.text-gray-900, .text-gray-800, .text-gray-700, .text-gray-600 {
-  color: #F0ECFF !important;
+/* ============ Hero ============ */
+.hero-gradient {
+  background: linear-gradient(160deg, #0f172a 0%, #1e293b 50%, #1a2744 100%);
+  color: white;
+  position: relative;
+  overflow: hidden;
 }
-.text-gray-500, .text-gray-400 {
-  color: rgba(240,236,255,0.55) !important;
+.hero-gradient::after {
+  content: "";
+  position: absolute;
+  top: -30%;
+  right: -10%;
+  width: 60%;
+  height: 80%;
+  background: radial-gradient(ellipse, rgba(37,99,235,0.08) 0%, transparent 70%);
+  pointer-events: none;
 }
-.text-blue-600, .text-blue-500 {
-  color: #e3a75e !important;
-}
-.bg-blue-50, .bg-blue-100 {
-  background: rgba(212,149,47,0.12) !important;
-}
-.bg-gray-50, .bg-gray-100 {
-  background: rgba(255,255,255,0.04) !important;
-}
-.border-gray-100, .border-gray-200 {
-  border-color: rgba(255,255,255,0.08) !important;
-}
-.border-blue-200 {
-  border-color: rgba(212,149,47,0.2) !important;
-}
-section:not(.hero-gradient) > .bg-gradient-to-b {
-  background: linear-gradient(180deg, rgba(53,0,152,0.3) 0%, transparent 100%) !important;
-}
-blockquote {
-  border-left-color: rgba(212,149,47,0.3) !important;
-  background: rgba(255,255,255,0.04) !important;
-  color: rgba(240,236,255,0.65) !important;
-}
-table th, table td {
-  border-color: rgba(255,255,255,0.1) !important;
-}
-table th {
-  background: rgba(255,255,255,0.06) !important;
-  color: rgba(240,236,255,0.6) !important;
-}
-table td {
-  color: rgba(240,236,255,0.8) !important;
+.hero-gradient h1 {
+  background: linear-gradient(135deg, #60a5fa, #818cf8, #a78bfa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 800;
 }
 
-/* Headings inside article content */
-.article-content h1,
-.article-content h2,
+/* ============ Glass Section Labels ============ */
+.section-label {
+  display: inline-block;
+  padding: 0.3rem 0.8rem;
+  border-radius: 9999px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  background: var(--color-accent-light);
+  border: 1px solid rgba(37,99,235,0.08);
+}
+
+/* ============ Features Cards ============ */
+.feature-card {
+  background: white;
+  border: 1px solid var(--color-border);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.feature-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 48px -8px rgba(15,23,42,0.1);
+  border-color: var(--color-accent);
+}
+.feature-card .card-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+}
+
+/* ============ Stats Bar ============ */
+.stats-card {
+  background: white;
+  border: 1px solid var(--color-border);
+  border-radius: 1rem;
+  box-shadow: 0 4px 16px rgba(15,23,42,0.04);
+}
+
+/* ============ Article List Cards ============ */
+.article-card {
+  background: white;
+  border: 1px solid var(--color-border);
+  border-radius: 0.75rem;
+  padding: 1.25rem;
+  transition: all 0.2s ease;
+}
+.article-card:hover {
+  border-color: var(--color-accent);
+  box-shadow: 0 6px 24px rgba(37,99,235,0.06);
+}
+
+/* ============ Article Content (Markdown) ============ */
+.article-content {
+  line-height: 1.85;
+}
+.article-content img {
+  border-radius: 0.75rem;
+  margin: 2rem auto;
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+}
+.article-content h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--color-border);
+}
 .article-content h3 {
-  color: #F0ECFF !important;
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-top: 1.75rem;
+  margin-bottom: 0.75rem;
 }
-.article-content p,
-.article-content li {
-  color: rgba(240,236,255,0.8) !important;
+.article-content a {
+  color: var(--color-accent);
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }
-.article-content hr {
-  border-color: rgba(255,255,255,0.06) !important;
+.article-content blockquote {
+  border-left: 3px solid #cbd5e1;
+  padding: 0.5rem 1rem;
+  margin: 1.5rem 0;
+  color: var(--color-muted);
+  background: #f8fafc;
+  border-radius: 0 0.5rem 0.5rem 0;
 }
 .article-content pre,
 .article-content code {
-  background: rgba(255,255,255,0.06) !important;
-  color: #F0ECFF !important;
+  font-size: 0.87rem;
+  background: #f1f5f9;
+  border-radius: 0.25rem;
+  padding: 0.15rem 0.35rem;
+}
+.article-content pre {
+  padding: 1rem;
+  overflow-x: auto;
+}
+
+@media (max-width: 640px) {
+  .article-content table { font-size: 0.75rem; }
+}
+
+/* ============ Tags / Badges ============ */
+.tag {
+  display: inline-block;
+  padding: 0.15rem 0.6rem;
+  border-radius: 9999px;
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+/* ============ Animations ============ */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.animate-fade-in-up {
+  animation: fadeInUp 0.5s ease forwards;
+}
+.animate-fade-in-up:nth-child(2) { animation-delay: 0.1s; }
+.animate-fade-in-up:nth-child(3) { animation-delay: 0.2s; }
+.animate-fade-in-up:nth-child(4) { animation-delay: 0.3s; }
+.animate-fade-in-up:nth-child(5) { animation-delay: 0.4s; }
+
+/* ============ Stat Number ============ */
+.stat-number {
+  font-size: 2.25rem;
+  font-weight: 800;
+  line-height: 1;
+  background: linear-gradient(135deg, #2563eb, #7c3aed);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ============ Footer ============ */
+.site-footer {
+  background: #0f172a;
+  color: #94a3b8;
+  border-top: 1px solid rgba(255,255,255,0.04);
+}
+.site-footer a {
+  transition: color 0.2s;
+}
+.site-footer a:hover {
+  color: #e2e8f0;
+}
+
+/* ============ Section Page Banner (tool/wear/ops/mood list) ============ */
+.section-banner {
+  background: linear-gradient(160deg, #0f172a, #1e293b);
+  color: white;
+}
+
+/* ============ Prose dark sections override ============ */
+.prose-gray h1, .prose-gray h2 {
+  color: var(--color-text);
+}
+.prose-gray p, .prose-gray li {
+  color: #334155;
 }

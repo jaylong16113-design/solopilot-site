@@ -13,11 +13,9 @@ export default function Header() {
   return (
     <header className="site-header">
       <nav className="max-w-5xl mx-auto px-4 h-14 flex items-center gap-1 text-sm">
-        <Link href={prefix || "/"} className="font-bold text-base tracking-tighter mr-4 px-2 py-1 rounded-lg transition-colors flex items-center gap-2">
-          <span className="gold-dot"></span>
-          <span style={{ background: "linear-gradient(135deg, #d4952f, #e3a75e)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", backgroundClip: "text" }}>
-            AgentClaw
-          </span>
+        <Link href={prefix || "/"} className="font-bold text-base tracking-tight mr-4 px-2 py-1 rounded-lg hover:bg-gray-50 transition-colors flex items-center gap-2">
+          <span className="logo-dot"></span>
+          <span className="text-gray-900">AgentClaw</span>
         </Link>
         <Link href={`${prefix}/tool`} className="nav-link px-3 py-1.5 rounded-md transition-colors">
           {t("nav_tool")}
@@ -31,8 +29,8 @@ export default function Header() {
         <Link href={`${prefix}/mood`} className="nav-link px-3 py-1.5 rounded-md transition-colors">
           {t("nav_mood")}
         </Link>
-        <div className="ml-auto flex items-center gap-3">
-          <span className="text-[10px] text-gray-500 hidden sm:inline">{t("nav_pages_count", { count: 73 })}</span>
+        <div className="ml-auto flex items-center gap-2">
+          <span className="text-[10px] text-gray-300 hidden sm:inline">{t("nav_pages_count", { count: 73 })}</span>
           <LangSwitcher />
         </div>
       </nav>
