@@ -30,12 +30,12 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="zh-CN">
+    <html lang="zh-CN" className="bg-background text-foreground">
       <head>
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5426111418472003" crossOrigin="anonymous"></script>
         <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
       </head>
-      <body className="antialiased">
+      <body className="antialiased" style={{background: "hsl(var(--background))", color: "hsl(var(--foreground))"}}>
         <I18nProvider>
           <Header />
           <main>{children}</main>

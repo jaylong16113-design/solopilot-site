@@ -12,25 +12,30 @@ export default function Header() {
 
   return (
     <header className="site-header">
-      <nav className="max-w-5xl mx-auto px-4 h-14 flex items-center gap-1 text-sm">
-        <Link href={prefix || "/"} className="font-bold text-base tracking-tight mr-4 px-2 py-1 rounded-lg hover:bg-gray-50 transition-colors flex items-center gap-2">
-          <span className="logo-dot"></span>
-          <span className="text-gray-900">AgentClaw</span>
+      <nav className="max-w-7xl mx-auto px-5 h-14 flex items-center gap-1 text-sm" style={{border: "none", paddingBottom: 0}}>
+        <Link href={prefix || "/"} className="flex items-center gap-2 font-display font-bold no-underline text-base tracking-tight">
+          <span className="grid size-8 place-items-center rounded-full text-primary-foreground"
+                style={{background: "var(--gradient-claw)"}}>✦</span>
+          <span className="text-foreground">AgentClaw</span>
         </Link>
-        <Link href={`${prefix}/tool`} className="nav-link px-3 py-1.5 rounded-md transition-colors">
+        <Link href={`${prefix}/tool`} className="nav-link ml-4 px-3 py-1.5 rounded-md transition-colors no-underline"
+              style={{color: "hsl(var(--muted-foreground))"}}>
           {t("nav_tool")}
         </Link>
-        <Link href={`${prefix}/wear`} className="nav-link px-3 py-1.5 rounded-md transition-colors">
+        <Link href={`${prefix}/wear`} className="nav-link px-3 py-1.5 rounded-md transition-colors no-underline"
+              style={{color: "hsl(var(--muted-foreground))"}}>
           {t("nav_wear")}
         </Link>
-        <Link href={`${prefix}/ops`} className="nav-link px-3 py-1.5 rounded-md transition-colors">
+        <Link href={`${prefix}/ops`} className="nav-link px-3 py-1.5 rounded-md transition-colors no-underline"
+              style={{color: "hsl(var(--muted-foreground))"}}>
           {t("nav_ops")}
         </Link>
-        <Link href={`${prefix}/mood`} className="nav-link px-3 py-1.5 rounded-md transition-colors">
+        <Link href={`${prefix}/mood`} className="nav-link px-3 py-1.5 rounded-md transition-colors no-underline"
+              style={{color: "hsl(var(--muted-foreground))"}}>
           {t("nav_mood")}
         </Link>
         <div className="ml-auto flex items-center gap-2">
-          <span className="text-[10px] text-gray-300 hidden sm:inline">{t("nav_pages_count", { count: 73 })}</span>
+          <span className="text-[10px]" style={{color: "hsl(var(--muted-foreground)/0.5)"}}>{t("nav_pages_count", { count: 73 })}</span>
           <LangSwitcher />
         </div>
       </nav>
