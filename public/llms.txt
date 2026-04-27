@@ -1,0 +1,22 @@
+# AgentClaw - AI Tools, Style, OPS & Emotional Videos
+> Four independent AI content sites, one domain. From e-commerce tools to outfit styling to solo-ops to emotional short videos.
+
+## Site Map
+- Tool (AI E-commerce Tools): https://agentclaw.sale/tool
+- Wear (Men's Style Guide): https://agentclaw.sale/wear
+- OPS (Solopreneur Operations): https://agentclaw.sale/ops
+- Mood (Emotional Short Videos): https://agentclaw.sale/mood
+
+## Popular Articles
+- [10 Free E-commerce Tools]: https://agentclaw.sale/tool/10-free-ecommerce-tools
+- [AI Ad Optimization Guide]: https://agentclaw.sale/tool/ai-ad-optimization-guide
+- [Free AI Product Image Tools]: https://agentclaw.sale/tool/free-ai-product-image-tools
+- [AI Remove Background Comparison]: https://agentclaw.sale/tool/ai-remove-background-comparison
+- [ChatGPT Taobao Title Prompts]: https://agentclaw.sale/tool/chatgpt-taobao-title-prompts
+- [Business Suit Guide]: https://agentclaw.sale/wear/big-body-suit-guide
+- [15 Free Tools for Solopreneurs]: https://agentclaw.sale/ops/15-free-tools-solo
+- [AdSense First Month]: https://agentclaw.sale/ops/adsense-first-month
+- [Emotional Short Video Basics]: https://agentclaw.sale/mood/emotion-short-video-basics
+- [AI Video Script Tools]: https://agentclaw.sale/mood/ai-video-script-tools
+- [Clipchamp vs CapCut Emotional Editing]: https://agentclaw.sale/mood/clipchamp-capcut-emotional-editing
+- [Voiceover Music Tools]: https://agentclaw.sale/mood/ai-voiceover-music-tools
