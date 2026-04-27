@@ -715,6 +715,36 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://agentclaw.sale/mood/silent-diary-intro</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/mood/silent-diary-narrative</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/mood/emotional-prompt-engineering</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/mood/mood-camera-language</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/mood/ai-digital-human-realistic</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://agentclaw.sale/en</loc>
     <lastmod>2026-04-27</lastmod>
     <changefreq>weekly</changefreq>
@@ -1424,6 +1454,36 @@
   </url>
   <url>
     <loc>https://agentclaw.sale/en/mood/viral-duan-emotional-video-case</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/mood/silent-diary-intro</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/mood/silent-diary-narrative</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/mood/emotional-prompt-engineering</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/mood/mood-camera-language</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://agentclaw.sale/en/mood/ai-digital-human-realistic</loc>
     <lastmod>2026-04-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>

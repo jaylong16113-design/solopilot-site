@@ -1,0 +1,4 @@
+error: pathspec ':(prefix:0)'stashed' did not match any file(s) known to git
+error: pathspec ':(prefix:0)content' did not match any file(s) known to git
+error: pathspec ':(prefix:0)changes'' did not match any file(s) known to git
+Did you forget to 'git add'?
