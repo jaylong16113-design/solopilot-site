@@ -127,10 +127,19 @@ html { scroll-behavior: smooth; }
 /* ============ Article Content (dark) ============ */
 .article-content {
   line-height: 1.85;
-  color: hsl(var(--foreground) / 0.85);
+  color: hsl(var(--foreground));
 }
 .article-content h1, .article-content h2, .article-content h3, .article-content h4 {
   color: hsl(var(--foreground));
+}
+.article-content p {
+  line-height: 1.85;
+  margin-bottom: 1.2em;
+}
+.article-content ul, .article-content ol {
+  margin: 1em 0;
+  padding-left: 1.5em;
+  line-height: 1.85;
 }
 .article-content img {
   border-radius: 0.75rem;
@@ -191,10 +200,14 @@ html { scroll-behavior: smooth; }
   border-radius: 0.75rem;
   padding: 1.25rem;
   transition: all 0.2s ease;
+  color: hsl(var(--foreground));
 }
 .article-card:hover {
   border-color: hsl(var(--ring));
   background: hsl(var(--surface));
+}
+.article-card p {
+  color: hsl(var(--foreground));
 }
 
 /* Override breadcrumb on dark */

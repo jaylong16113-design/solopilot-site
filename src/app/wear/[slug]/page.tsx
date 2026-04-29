@@ -55,22 +55,70 @@ const heroImages: Record<string, string> = {
   "suit-ironing-guide": "/images/suit-care.jpg",
 };
 
+const sectionName = "wear";
+const sectionNames: Record<string, string> = { tool: "AI工具", wear: "穿搭", ops: "运营", mood: "情绪短视频" };
+const sectionAbout: Record<string, string> = { tool: "AI tools", wear: "men fashion", ops: "solo business", mood: "emotional short videos" };
+const sectionArticleSections: Record<string, string> = { tool: "AI工具", wear: "穿搭", ops: "运营", mood: "情绪短视频" };
+const sectionImage: Record<string, string> = { tool: "/images/ai-tools.jpg", wear: "/images/business-suit.jpg", ops: "/images/ops-collage.jpg", mood: "/images/ecommerce-dashboard.jpg" };
+
+function getIndex(): any[] {
+  try {
+    const idxPath = path.join(process.cwd(), "src", "lib", "content", "zh", "index.json");
+    return JSON.parse(fs.readFileSync(idxPath, "utf8"))[sectionName] || [];
+  } catch { return []; }
+}
+
 export default async function ArticlePage({ params }: any) {
   const { slug } = await params;
   const article = getArticle(slug);
   if (!article) notFound();
 
-  const heroImg = heroImages[slug] || "/images/business-suit.jpg";
+  const heroImg = heroImages[slug] || sectionImage[sectionName];
+  const siteName = sectionNames[sectionName];
 
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "Article",
-    headline: article.title,
-    description: article.excerpt,
-    url: `https://agentclaw.sale/wear/${slug}`,
-    author: { "@type": "Organization", name: "AgentClaw" },
-    datePublished: "2026-04-26",
-    publisher: { "@type": "Organization", name: "AgentClaw" },
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": `https://agentclaw.sale/${sectionName}/${slug}`,
+        "url": `https://agentclaw.sale/${sectionName}/${slug}`,
+        "name": article.title,
+        "description": article.excerpt,
+        "inLanguage": "zh-CN",
+        "isPartOf": {
+          "@id": "https://agentclaw.sale/"
+        },
+        "breadcrumb": {
+          "@id": `https://agentclaw.sale/${sectionName}/${slug}#breadcrumb`
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": `https://agentclaw.sale/${sectionName}/${slug}#breadcrumb`,
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "首页", "item": "https://agentclaw.sale/" },
+          { "@type": "ListItem", "position": 2, "name": siteName, "item": `https://agentclaw.sale/${sectionName}` },
+          { "@type": "ListItem", "position": 3, "name": article.title }
+        ]
+      },
+      {
+        "@type": "Article",
+        "headline": article.title,
+        "description": article.excerpt,
+        "url": `https://agentclaw.sale/${sectionName}/${slug}`,
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": `https://agentclaw.sale/${sectionName}/${slug}`
+        },
+        "image": `https://agentclaw.sale${heroImg}`,
+        "datePublished": "2026-04-26",
+        "author": { "@type": "Organization", "name": "AgentClaw" },
+        "publisher": { "@type": "Organization", "name": "AgentClaw" },
+        "about": { "@type": "Thing", "name": sectionAbout[sectionName] },
+        "articleSection": sectionArticleSections[sectionName]
+      }
+    ]
   };
 
   return (

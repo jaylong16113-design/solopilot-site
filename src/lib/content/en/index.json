@@ -552,9 +552,9 @@
   ],
   "mood": [
     {
-      "slug": "emotion-short-video-basics",
-      "title": "Emotional Short Videos 101: Why Some Make You Cry and Others You Scroll Past",
-      "excerpt": "The secret formula behind viral emotional videos — 3 seconds of relatability + 15 seconds of climax + 5 seconds of resonance."
+      "slug": "ai-digital-human-realistic",
+      "title": "How to Make AI Digital Humans Look Real: 5 Techniques That Fool the Eye",
+      "excerpt": "HeyGen / D-ID / Tencent Zhiying / Alibaba Digital Human — tested 5 platforms to find the tricks that make AI avatars genuinely believable"
     },
     {
       "slug": "ai-video-script-tools",
@@ -562,49 +562,149 @@
       "excerpt": "Using the same emotional story prompt, we put ChatGPT, Claude, and DeepSeek head-to-head. Plus 20 ready-to-use prompt templates."
     },
     {
+      "slug": "ai-voiceover-music-tools",
+      "title": "Best Voiceover and Music Tools for Emotional Short Videos: One BGM Can Double Your Views",
+      "excerpt": "Real-world testing of ElevenLabs, CapCut voiceover, Fish Audio, and Suno AI music generation — how to pick the right voice and music for maximum emotional impact."
+    },
+    {
       "slug": "clipchamp-capcut-emotional-editing",
       "title": "CapCut vs Clipchamp for Emotional Short Videos: Deep Comparison for Beginners",
       "excerpt": "Tested across music sync, transitions, filters, and text effects — find out which editor is best for zero-experience creators."
     },
     {
-      "slug": "ai-voiceover-music-tools",
-      "title": "Best Voiceover and Music Tools for Emotional Short Videos: One BGM Can Double Your Views",
-      "excerpt": "Real-world testing of ElevenLabs, CapCut voiceover, Fish Audio, and Suno AI music generation — how to pick the right voice and music."
-    },
-    {
-      "slug": "viral-duan-emotional-video-case",
-      "title": "Viral Emotional Short Video Case Studies: Dissecting 10 Million-View Videos",
-      "excerpt": "Breaking down 10 viral emotional videos with millions of views — analyzing their hooks, narrative structure, BGM choices, and editing rhythm."
-    },
-    {
-      "slug": "silent-diary-intro",
-      "title": "What Is Silent Diary and Why Does Every Video Make You Cry?",
-      "excerpt": "A video with no dialogue and no plot gets millions of views. Here's the emotional formula behind Silent Diary.",
-      "site": "mood"
-    },
-    {
-      "slug": "silent-diary-narrative",
-      "title": "Silent Diary's 3 Classic Narrative Structures",
-      "excerpt": "Every Silent Diary video follows a fixed emotional skeleton. Here are 3 core structures with ready-to-use templates.",
-      "site": "mood"
+      "slug": "emotion-short-video-basics",
+      "title": "Emotional Short Video Basics: Why Some Videos Make You Cry While Others Get Swiped Away",
+      "excerpt": "Unveiling the core formula of emotional short videos — 3 seconds of immersion + 15 seconds of climax + 5 seconds of aftertaste. Make videos that move people, even with zero experience."
     },
     {
       "slug": "emotional-prompt-engineering",
-      "title": "Performance-Level Prompt Templates: 12 Emotional Keywords for ChatGPT/Claude",
-      "excerpt": "Why do some AI-written scripts make millions cry while yours falls flat? The difference is in your emotional keywords.",
-      "site": "mood"
+      "title": "Master-Level Prompt Templates: 12 Emotional Trigger Words for ChatGPT/Claude",
+      "excerpt": "Why do your AI scripts fall flat while others make hundreds of thousands cry? The difference is in the emotional trigger words inside your prompts."
+    },
+    {
+      "slug": "emotional-video-six-emotions",
+      "title": "The 6 Emotions That Make Short-Form Videos Go Viral: A Psychological Breakdown of Hit Content",
+      "excerpt": "Joy, sadness, anger, fear, disgust, surprise — six core emotions in short videos, with real-world applications and case studies for each"
+    },
+    {
+      "slug": "mood-ai-assist-boundary",
+      "title": "Where AI Fails at Emotional Content: Hard Lessons from a Real Creator",
+      "excerpt": "Which parts of the creative process are safe to hand to AI, and which must stay human — with a full tool list and honest workflow"
+    },
+    {
+      "slug": "mood-ai-digital-human-realistic",
+      "title": "How to Make AI Digital Humans Look Real: 5 Techniques That Fool the Eye",
+      "excerpt": "HeyGen / D-ID / Tencent Zhiying / Alibaba Digital Human — tested 5 platforms to find the tricks that make AI avatars genuinely believable"
+    },
+    {
+      "slug": "mood-ai-toolchain-practical",
+      "title": "6 AI Toolchains for Emotional Short Videos: From Script to Final Cut, Tested End-to-End",
+      "excerpt": "ChatGPT for scripts → Midjourney/Kling for visuals → CapCut for editing → ElevenLabs for voiceover — 6 toolchains tested end-to-end with cost breakdown and efficiency comparison"
+    },
+    {
+      "slug": "mood-batch-production-sop",
+      "title": "SOP for One-Person Teams: Producing 5 Mood Videos a Day From Topic Selection to Publishing in Under 2 Hours",
+      "excerpt": "A complete batch production workflow for emotional short videos — from topic selection to script to AI generation to editing to publishing, one person producing 3-5 mood videos daily"
     },
     {
       "slug": "mood-camera-language",
-      "title": "Camera Language for Emotional Short Videos",
-      "excerpt": "Why do some shots feel cinematic? 5 camera techniques you can learn today with CapCut presets.",
-      "site": "mood"
+      "title": "Cinematic Camera Language for Mood Videos: A Beginner's Guide",
+      "excerpt": "Why do some shots just look like film? 5 camera techniques you can learn from scratch, plus CapCut color grading settings that work."
     },
     {
-      "slug": "ai-digital-human-realistic",
-      "title": "How to Make AI Avatars Look Real: 5 Pro Tips",
-      "excerpt": "I tested HeYGen, D-ID, and Alibaba Digital Human — here are 5 techniques to make AI avatars pass as real.",
-      "site": "mood"
+      "slug": "mood-comment-section-operations",
+      "title": "Emotional Video Comment Section Operations: 3 Sentences to Get Users Flooding Your Comments",
+      "excerpt": "Three-layered comment-scripting for emotional videos, 3 pinned-comment strategies, 5 reply techniques — turn every video's comment section into your second content stream"
+    },
+    {
+      "slug": "mood-completion-rate-tips",
+      "title": "10 Editing Tricks to Boost Video Completion Rate — Extracted from Silent Diary's Data",
+      "excerpt": "Based on Silent Diary's 28.5% completion rate breakdown — each trick adds 2-5%"
+    },
+    {
+      "slug": "mood-content-calendar-planning",
+      "title": "Full-Year Emotional Content Calendar: Spring, Summer, Fall, Winter — Just Follow Along",
+      "excerpt": "A 52-week emotional topic planning template that turns holidays, seasons, and social sentiment into your topic pipeline — never wonder what to post tomorrow again"
+    },
+    {
+      "slug": "mood-daily-publishing-strategy",
+      "title": "Daily Publishing Without Burnout: How to Keep Emotional Content Fresh for 90 Days",
+      "excerpt": "Content stocking, batch production, and asset reuse strategies — keep shipping without losing your mind"
+    },
+    {
+      "slug": "mood-mobile-filming-skills",
+      "title": "How to Shoot Cinematic Mood Videos with Just Your Phone — Zero Equipment Required",
+      "excerpt": "A complete hands-on guide to lighting, composition, and camera movement — all with just a smartphone"
+    },
+    {
+      "slug": "mood-music-beat-matching-advanced",
+      "title": "Advanced Beat Matching for Emotional Short Videos: Step-by-Step CapCut Timeline Mastery",
+      "excerpt": "From simple rhythm alignment to emotion-driven audio-visual harmony — 8 hands-on CapCut steps to make your emotional videos feel cinematic"
+    },
+    {
+      "slug": "mood-music-selection-guide",
+      "title": "The Ultimate BGM Guide for Emotional Short Videos: From Classical to Lo-fi, Every Genre Covered",
+      "excerpt": "Music selection criteria and library recommendations for every emotional tone — never pick the wrong track again"
+    },
+    {
+      "slug": "mood-persona-building-guide",
+      "title": "3 Mood Video Personas: Silent Diary / Storyteller / First-Person Monologue — Build Yours",
+      "excerpt": "Silent Diary, Storyteller, and First-Person Monologue — 3 dominant emotional video personas, with full frameworks from positioning to execution"
+    },
+    {
+      "slug": "mood-presentation-vs-tiktok",
+      "title": "Silent Diary vs TikTok Bangers: East vs West in Emotional Short Videos",
+      "excerpt": "A side-by-side comparison of audiences, algorithms, and monetization paths — find the style that fits you best"
+    },
+    {
+      "slug": "mood-short-vs-long-duration",
+      "title": "30 Seconds vs 60 Seconds: How Long Should Your Mood Video Be to Go Viral?",
+      "excerpt": "On Douyin, 30-second videos have the highest completion rates. On WeChat Video, 60-second videos convert best. Breaking down the optimal video length strategy for four major platforms and how to adjust your cuts accordingly."
+    },
+    {
+      "slug": "mood-storyboard-templates-five",
+      "title": "5 Ready-to-Use Storyboard Templates for Emotional Short Videos",
+      "excerpt": "Grief-Healing / Surprise-Gratitude / Longing-Reunion / Monologue-Connection / Contrast-Twist — 5 plug-and-play storyboard templates with full timelines and shot descriptions"
+    },
+    {
+      "slug": "mood-to-personal-ip-monetization",
+      "title": "From Emotional Videos to Real Money: A Complete Roadmap from Content to Personal Brand to Income",
+      "excerpt": "Your mood videos took off — now how do you actually make money? Ad revenue sharing, knowledge products, live selling, brand deals — 4 monetization paths with real execution guides and ROI breakdowns"
+    },
+    {
+      "slug": "mood-to-private-domain-conversion",
+      "title": "From Emotional Content to Private Domain: Monetization on Douyin vs Xiaohongshu",
+      "excerpt": "A head-to-head comparison of follower conversion logic and actual revenue models across two platforms — find the high-value path to monetization"
+    },
+    {
+      "slug": "mood-to-private-domain-traffic",
+      "title": "From Viral Views to Loyal Fans: The Complete Playbook for Moving Emotional Traffic into Your Private Channel",
+      "excerpt": "Your mood video blew up — but did you capture those viewers? A 3-step funnel: comment section hooks → profile optimization → DM scripts. The full conversion pipeline, tested and broken down."
+    },
+    {
+      "slug": "mood-xiaohongshu-comment-strategy",
+      "title": "Xiaohongshu Comment Strategy for Mood Videos: 3 Steps to Get Users Saving Your Posts",
+      "excerpt": "Data-backed comment strategies and engagement scripts that boost save rates by 50%"
+    },
+    {
+      "slug": "silent-diary-cold-start",
+      "title": "Silent Diary Cold Start Playbook: From Zero Followers to Your First Viral Hit",
+      "excerpt": "The complete roadmap for launching a Silent Diary-style channel from scratch, including strategy for the first 10 videos and key metrics"
+    },
+    {
+      "slug": "silent-diary-intro",
+      "title": "What Is Silent Diary? Why Does Every Video Make You Cry?",
+      "excerpt": "A video with no dialogue and no plot, getting tens of millions of views — how? Deconstructing Silent Diary's emotional code."
+    },
+    {
+      "slug": "silent-diary-narrative",
+      "title": "Silent Diary's 3 Classic Narrative Structures, Deconstructed",
+      "excerpt": "Every Silent Diary video follows a fixed narrative skeleton. Here are their 3 core structures with templates you can use today."
+    },
+    {
+      "slug": "viral-duan-emotional-video-case",
+      "title": "Viral Emotional Short Video Case Studies: Dissecting 10 Million-View Videos From Script to Music to Pacing",
+      "excerpt": "Breaking down 10 viral emotional videos with millions of views — analyzing their hooks, narrative structure, BGM choices, and editing rhythm so you can learn from the best."
     }
   ]
 }

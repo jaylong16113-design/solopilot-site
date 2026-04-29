@@ -12,12 +12,16 @@ const BASE = "C:\\Users\\31232\\.openclaw\\workspace\\solopilot-site";
 let errors = [];
 let warnings = [];
 
-// 1. Check all JSON files
+// 1. Check all JSON and MDX files
 const dirs = ["zh", "en"];
 dirs.forEach((lang) => {
   const d = path.join(BASE, "src", "lib", "content", lang);
   if (!fs.existsSync(d)) { errors.push(`${lang} content dir not found`); return; }
-  const files = fs.readdirSync(d).filter((f) => f.endsWith(".json") && f !== "index.json");
+  
+  const allFiles = fs.readdirSync(d).filter((f) => 
+    (f.endsWith(".json") || f.endsWith(".mdx")) && f !== "index.json" && f !== "index.mdx"
+  );
+  
   const index = path.join(d, "index.json");
   let idx;
   try { idx = JSON.parse(fs.readFileSync(index, "utf8")); }
@@ -27,61 +31,76 @@ dirs.forEach((lang) => {
     (idx.tool || []).concat(idx.wear || []).concat(idx.ops || []).concat(idx.mood || []).map((a) => a.slug)
   );
 
-  files.forEach((f) => {
-    const slug = f.replace(".json", "");
+  allFiles.forEach((f) => {
+    const slug = f.replace(/\.(json|mdx)$/, "");
     const p = path.join(d, f);
-    let content;
-    try { content = JSON.parse(fs.readFileSync(p, "utf8")); }
-    catch (e) { errors.push(`JSON broken: ${lang}/${f}`); return; }
-
-    const text = content.content || "";
     
-    // Content length check
-    if (typeof text !== "string" || text.length < 2000) {
-      errors.push(`Short content: ${lang}/${f} (${text.length} chars)`);
-    }
+    if (f.endsWith(".json")) {
+      // Check JSON file
+      let content;
+      try { content = JSON.parse(fs.readFileSync(p, "utf8")); }
+      catch (e) { errors.push(`JSON broken: ${lang}/${f}`); return; }
 
-    // --- PARAGRAPH STRUCTURE CHECKS ---
-
-    // Check 1: Must have at least one ## heading
-    const headings = text.match(/^## /gm);
-    if (!headings || headings.length < 3) {
-      errors.push(`Too few h2 sections: ${lang}/${f} (${headings?.length || 0} h2)`);
-    }
-
-    // Check 2: Must have double-newline paragraph breaks
-    const doubleNewlines = (text.match(/\n\n/g) || []).length;
-    if (doubleNewlines < 5) {
-      errors.push(`Too few paragraph breaks: ${lang}/${f} (${doubleNewlines} double-newlines)`);
-    }
-
-    // Check 3: longest paragraph (block between \n\n) should not exceed 800 chars
-    // (no single massive block of text without breaks)
-    const paragraphs = text.split(/\n\n+/);
-    let maxParaLen = 0;
-    let maxParaIdx = -1;
-    paragraphs.forEach((para, i) => {
-      const clean = para.replace(/^#+ /gm, "").replace(/^!\[.*\]\(.*\)$/gm, "").trim();
-      if (clean.length > maxParaLen) {
-        maxParaLen = clean.length;
-        maxParaIdx = i;
+      const text = content.content || "";
+      
+      // Content length check
+      if (typeof text !== "string" || text.length < 2000) {
+        errors.push(`Short content: ${lang}/${f} (${text.length} chars)`);
       }
-    });
-    if (maxParaLen > 1200) {
-      errors.push(`Giant paragraph (${maxParaLen} chars): ${lang}/${f} — para #${maxParaIdx}`);
-    }
 
-    // Check 4: content should not contain raw HTML tags (should be markdown)
-    if (/<[a-z]+>/i.test(text) && !/```[\s\S]*?```/g.test(text)) {
-      warnings.push(`Contains HTML tags: ${lang}/${f}`);
-    }
+      // Check headings
+      const headings = text.match(/^## /gm);
+      if (!headings || headings.length < 3) {
+        errors.push(`Too few h2 sections: ${lang}/${f} (${headings?.length || 0} h2)`);
+      }
 
-    if (!content.title) warnings.push(`No title: ${lang}/${f}`);
-    if (!content.site) errors.push(`No site field: ${lang}/${f}`);
-    if (!indexSlugs.has(slug)) errors.push(`Not in index: ${lang}/${f}`);
+      // Check paragraph breaks
+      const doubleNewlines = (text.match(/\n\n/g) || []).length;
+      if (doubleNewlines < 5) {
+        errors.push(`Too few paragraph breaks: ${lang}/${f} (${doubleNewlines} double-newlines)`);
+      }
+
+      // Check longest paragraph
+      const paragraphs = text.split(/\n\n+/);
+      let maxParaLen = 0;
+      paragraphs.forEach((para) => {
+        const clean = para.replace(/^#+ /gm, "").replace(/^!\[.*\]\(.*\)$/gm, "").trim();
+        if (clean.length > maxParaLen) maxParaLen = clean.length;
+      });
+      if (maxParaLen > 1200) {
+        errors.push(`Giant paragraph (${maxParaLen} chars): ${lang}/${f}`);
+      }
+
+      // Check HTML tags
+      if (/<[a-z]+>/i.test(text) && !/```[\s\S]*?```/g.test(text)) {
+        warnings.push(`Contains HTML tags: ${lang}/${f}`);
+      }
+
+      if (!content.title) warnings.push(`No title: ${lang}/${f}`);
+      if (!content.site) errors.push(`No site field: ${lang}/${f}`);
+      if (!indexSlugs.has(slug)) errors.push(`Not in index: ${lang}/${f}`);
+    } else {
+      // Check MDX file (basic: check size and frontmatter)
+      const raw = fs.readFileSync(p, "utf8");
+      
+      // Check content length
+      if (raw.length < 200) {
+        errors.push(`Too small: ${lang}/${f} (${raw.length} chars)`);
+      }
+      
+      // Check for title in frontmatter
+      if (!/^title:/m.test(raw)) {
+        warnings.push(`No title in frontmatter: ${lang}/${f}`);
+      }
+      
+      // Check if slug is in index
+      if (!indexSlugs.has(slug)) {
+        errors.push(`Not in index: ${lang}/${f}`);
+      }
+    }
   });
 
-  const onDisk = new Set(files.map((f) => f.replace(".json", "")));
+  const onDisk = new Set(allFiles.map((f) => f.replace(/\.(json|mdx)$/, "")));
   indexSlugs.forEach((s) => { if (!onDisk.has(s)) errors.push(`In index but no file: ${lang}/${s}`); });
 });
 

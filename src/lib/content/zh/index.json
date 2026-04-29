@@ -552,9 +552,10 @@
   ],
   "mood": [
     {
-      "slug": "emotion-short-video-basics",
-      "title": "情绪短视频入门：为什么有的视频能让你看哭，有的看完就划走？",
-      "excerpt": "揭秘情绪短视频的核心公式——3秒代入感+15秒高潮+5秒余韵，零基础也能做出打动人心的视频"
+      "slug": "ai-digital-human-realistic",
+      "title": "AI数字人怎么做才不像机器人？5个一眼真人的技巧",
+      "excerpt": "HeYGen、D-ID、阿里数字人……测试了5个主流平台，总结出让AI数字人逼真的技巧。",
+      "site": "mood"
     },
     {
       "slug": "ai-video-script-tools",
@@ -562,19 +563,131 @@
       "excerpt": "用同一段情绪故事脚本，实测ChatGPT、Claude、DeepSeek写情绪短视频脚本的差距，附20个万能Prompt"
     },
     {
-      "slug": "clipchamp-capcut-emotional-editing",
-      "title": "剪映VS Clipchamp做情绪短视频深度对比：谁更适合新手？",
-      "excerpt": "从音乐踩点、转场滤镜、文字特效三个维度实测剪映和Clipchamp，告诉你零基础选哪个"
-    },
-    {
       "slug": "ai-voiceover-music-tools",
       "title": "情绪短视频的配音和配乐工具推荐：一个BGM就能让视频播放量翻倍",
       "excerpt": "实测ElevenLabs、剪映配音、Fish Audio、Suno AI音乐生成，影响情绪的声线和BGM怎么选"
     },
     {
-      "slug": "viral-duan-emotional-video-case",
-      "title": "爆款情绪短视频案例分析：从文案到配乐到节奏，一条条拆给你看",
-      "excerpt": "拆解10条百万播放的情绪短视频，分析它们的标题、文案结构、BGM选择、剪辑节奏——学会借势"
+      "slug": "clipchamp-capcut-emotional-editing",
+      "title": "剪映VS Clipchamp做情绪短视频深度对比：谁更适合新手？",
+      "excerpt": "从音乐踩点、转场滤镜、文字特效三个维度实测剪映和Clipchamp，告诉你零基础选哪个"
+    },
+    {
+      "slug": "emotion-short-video-basics",
+      "title": "情绪短视频入门：为什么有的视频能让你看哭，有的看完就划走？",
+      "excerpt": "揭秘情绪短视频的核心公式——3秒代入感+15秒高潮+5秒余韵，零基础也能做出打动人心的视频"
+    },
+    {
+      "slug": "emotional-prompt-engineering",
+      "title": "表演级Prompt模板：给ChatGPT/Claude的12个情绪引导词",
+      "excerpt": "为什么你写的AI脚本没人看，别人写的能刷哭几十万人？差距就在Prompt里的情绪引导词。",
+      "site": "mood"
+    },
+    {
+      "slug": "emotional-video-six-emotions",
+      "title": "情绪短视频的6种底层情绪：从心理学拆解爆款密码",
+      "excerpt": "喜悦、悲伤、愤怒、恐惧、厌恶、惊讶——六种底层情绪在短视频中的应用场景与操作公式，每种附真实案例"
+    },
+    {
+      "slug": "mood-ai-assist-boundary",
+      "title": "AI辅助创作的边界：我自己用AI工具做情绪短视频的真实经验",
+      "excerpt": "哪些环节适合用AI、哪些必须人工，附工具清单和使用心得"
+    },
+    {
+      "slug": "mood-ai-toolchain-practical",
+      "title": "AI生成情绪短视频6个实战工具链：从脚本到成片全链路实测",
+      "excerpt": "ChatGPT写脚本→Midjourney/可灵出素材→剪映/CapCut剪辑→ElevenLabs配音，6个工具链全链路实测，附成本计算和效率对比"
+    },
+    {
+      "slug": "mood-batch-production-sop",
+      "title": "一人公司日更5条情绪视频的SOP：从选题到发布2小时搞定",
+      "excerpt": "一套完整的情绪短视频批量生产流程，从选题→脚本→AI生成→剪辑→发布，一人公司每天产出3-5条情绪视频"
+    },
+    {
+      "slug": "mood-camera-language",
+      "title": "情绪短视频的镜头语言入门",
+      "excerpt": "为什么有的画面一看就有\"电影感\"？5个零基础能上手的镜头技巧。",
+      "site": "mood"
+    },
+    {
+      "slug": "mood-comment-section-operations",
+      "title": "情绪短视频评论区运营：3句话让用户追着留言",
+      "excerpt": "情绪视频的三段式评论引导话术设计法、置顶评论的3种策略、回复评论的5个技巧——把每条视频的评论区变成你的第二道内容"
+    },
+    {
+      "slug": "mood-completion-rate-tips",
+      "title": "看完率提升的10个剪辑技巧：从Silent Diary数据提炼",
+      "excerpt": "基于Silent Diary 28.5%完播率的数据分解，每招都能提升2-5%"
+    },
+    {
+      "slug": "mood-content-calendar-planning",
+      "title": "全年情绪短视频选题日历：春夏秋冬照着发",
+      "excerpt": "一年52周的情绪话题规划模板，把节日、季节变化和社会情绪变成你的选题源，再也不用愁明天发什么"
+    },
+    {
+      "slug": "mood-daily-publishing-strategy",
+      "title": "情绪短视频的日更策略：如何保持高质量不下滑",
+      "excerpt": "内容储备、批量生产、复用素材的具体方法，持续输出不内耗"
+    },
+    {
+      "slug": "mood-mobile-filming-skills",
+      "title": "如何用手机拍出高级感情绪短片？零设备投入方案",
+      "excerpt": "从灯光、构图到运镜的完整实操指南，一部手机也能拍出专业感"
+    },
+    {
+      "slug": "mood-music-beat-matching-advanced",
+      "title": "情绪短视频音乐卡点高级技巧：剪映时间线操作每一步",
+      "excerpt": "从简单的节奏对齐到情绪起伏的音画配合，8个剪映/CapCut实操步骤让你做出有电影感的情绪视频"
+    },
+    {
+      "slug": "mood-music-selection-guide",
+      "title": "情绪短视频的BGM选曲指南：从古典到Lo-fi的全品类拆解",
+      "excerpt": "不同情绪类型的配乐选择标准和曲库推荐，让你的视频配乐不翻车"
+    },
+    {
+      "slug": "mood-persona-building-guide",
+      "title": "情绪短视频3种人设搭建指南：Silent Diary风/故事讲述者/第一人称独白",
+      "excerpt": "Silent Diary风、故事讲述者、第一人称独白——3种主流情绪视频人设的搭建方法，每种风格从定位到执行的完整框架"
+    },
+    {
+      "slug": "mood-presentation-vs-tiktok",
+      "title": "Silent Diary风格 vs TikTok爆款：情绪短视频的中西差异",
+      "excerpt": "对比分析两种风格的受众、算法和变现路径，找到最适合你的方向"
+    },
+    {
+      "slug": "mood-short-vs-long-duration",
+      "title": "30秒vs60秒：情绪视频到底拍多长才爆",
+      "excerpt": "抖音30秒完播率最高，视频号60秒转化最好。拆解四大平台的最佳时长策略，告诉你怎么根据平台调时长"
+    },
+    {
+      "slug": "mood-storyboard-templates-five",
+      "title": "情绪短视频5套分镜头脚本模板：直接套用出片",
+      "excerpt": "失落-治愈/惊喜-感动/思念-重逢/独白-共鸣/反差-转折，5套可直接套用的分镜脚本模板，每套附完整时间线和画面描述"
+    },
+    {
+      "slug": "mood-to-personal-ip-monetization",
+      "title": "情绪短视频如何变现：从内容到IP到收入的完整路线图",
+      "excerpt": "情绪视频做起来了，怎么靠它赚钱？广告分成、知识付费、直播带货、品牌合作——4条变现路径的实操方法和投入产出比"
+    },
+    {
+      "slug": "mood-to-private-domain-conversion",
+      "title": "从情绪内容到私域转化：抖音和小红书的变现路径对比",
+      "excerpt": "对比两个平台的粉丝转化逻辑和实际收益模型，找到高价值的变现路径"
+    },
+    {
+      "slug": "mood-to-private-domain-traffic",
+      "title": "情绪流量怎么导入私域？从评论区到微信的完整操作流程",
+      "excerpt": "情绪视频火了人没火？3步把情绪流量变成私域粉丝：评论区引导→主页设置→私信话术，完整转化流程拆解"
+    },
+    {
+      "slug": "mood-xiaohongshu-comment-strategy",
+      "title": "小红书情绪视频的评论区运营：3步让用户主动收藏",
+      "excerpt": "基于实际数据的评论区引导话术和互动策略，提升收藏率50%"
+    },
+    {
+      "slug": "silent-diary-cold-start",
+      "title": "Silent Diary冷启动全攻略：从0粉丝到第一条爆款",
+      "excerpt": "Silent Diary类视频从零启号的完整路线图，包括前10条视频的策略分布和关键数据指标"
     },
     {
       "slug": "silent-diary-intro",
@@ -589,22 +702,24 @@
       "site": "mood"
     },
     {
-      "slug": "emotional-prompt-engineering",
-      "title": "表演级Prompt模板：给ChatGPT/Claude的12个情绪引导词",
-      "excerpt": "为什么你写的AI脚本没人看，别人写的能刷哭几十万人？差距就在Prompt里的情绪引导词。",
-      "site": "mood"
+      "slug": "viral-duan-emotional-video-case",
+      "title": "爆款情绪短视频案例分析：从文案到配乐到节奏，一条条拆给你看",
+      "excerpt": "拆解10条百万播放的情绪短视频，分析它们的标题、文案结构、BGM选择、剪辑节奏——学会借势"
     },
     {
-      "slug": "mood-camera-language",
-      "title": "情绪短视频的镜头语言入门",
-      "excerpt": "为什么有的画面一看就有\"电影感\"？5个零基础能上手的镜头技巧。",
-      "site": "mood"
+      "slug": "mood-bgm-selection-guide",
+      "title": "情绪短视频的BGM怎么选：从Spotify到无版权音乐库的全攻略",
+      "excerpt": "BGM决定了一条情绪视频的生死——同一个画面换一首BGM，完播率可能差3倍。实测5个音乐来源渠道和12首曲子的数据对比"
     },
     {
-      "slug": "ai-digital-human-realistic",
-      "title": "AI数字人怎么做才不像机器人？5个一眼真人的技巧",
-      "excerpt": "HeYGen、D-ID、阿里数字人……测试了5个主流平台，总结出让AI数字人逼真的技巧。",
-      "site": "mood"
+      "slug": "mood-phone-cinematic",
+      "title": "零设备投入：如何用手机拍出高级感情绪短片",
+      "excerpt": "不用相机、不用灯光、不用稳定器——只靠一部手机就能拍出电影级情绪短片的完整技巧拆解，附数据对比和实操参数"
+    },
+    {
+      "slug": "mood-xiaohongshu-comment-ops",
+      "title": "小红书情绪视频的评论区运营：如何让用户主动收藏",
+      "excerpt": "一条情绪视频在小红书上的数据，80%由评论区决定。拆解3种置顶评论策略、5个回复技巧和1个让收藏率翻倍的方法"
     }
   ]
 }
