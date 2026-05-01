@@ -204,3 +204,29 @@ zh1 chars: 3295 en1 chars: 6557
 ✓ solo-booking-system [en] (7014B, content: 6557 chars)
 [2026-05-02 00:00:06] 生成了 20 篇
 [2026-05-02 00:00:09] 完成
+[2026-05-02 06:01:00] 生成 20 篇...
+zh2 chars: 2619 en2 chars: 6958
+✓ solo-content-operations [zh] (2910B, content: 2619 chars)
+✓ solo-content-operations [en] (7379B, content: 6958 chars)
+Zh done. Length: 3452
+Zh done. Length: 2857
+Zh done. Length: 2857
+Zh done. Length: 3295
+Zh done. Length: 3341
+Zh done. Length: 3452
+Zh done. Length: 2994
+Zh done. Length: 2857
+En done. Length: 7650
+En done. Length: 8317
+En done. Length: 7650
+Zh done. Length: 3295
+En done. Length: 8994
+En done. Length: 8317
+Zh done. Length: 3452
+Zh done. Length: 3295
+En done. Length: 10008
+Zh done. Length: 3341
+Zh done. Length: 3452
+[2026-05-02 06:01:00] 生成了 20 篇
+[2026-05-02 06:01:00] 无新内容
+[2026-05-02 06:03:17] 完成

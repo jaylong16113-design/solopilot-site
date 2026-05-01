@@ -209,6 +209,31 @@
       "slug": "ai-fraud-detection-cross-border",
       "title": "AI Fraud Detection & Chargeback Prevention for Cross-Border E-Commerce",
       "excerpt": "Anomaly detection, device fingerprinting, and behavioral analysis block fraud for cross-border e-commerce. Tailored for high-risk regions."
+    },
+    {
+      "slug": "ai-logistics-orchestrator",
+      "title": "AI-Powered Cross-Border Logistics Orchestrator: Real-Time Tariffs, Routes & Customs Automation",
+      "excerpt": "Discover how AI logistics orchestrators automate cross-border shipping with real-time tariffs, dynamic routing, and customs clearance for e-commerce sellers."
+    },
+    {
+      "slug": "ai-multilingual-listing-optimizer",
+      "title": "Hyper-Localized Multilingual Listings: How AI Adapts Product Pages for Global Markets",
+      "excerpt": "Learn how AI-powered multilingual listing optimizers adapt product pages for global markets with cultural nuance, local SEO, and conversion-optimized copy."
+    },
+    {
+      "slug": "ai-dynamic-pricing-engine",
+      "title": "Dynamic Global Pricing Engine: AI-Driven Real-Time Price Optimization for Cross-Border Sellers",
+      "excerpt": "Master AI-driven dynamic pricing for cross-border e-commerce with real-time competitor monitoring, currency adjustments, and market-specific strategies."
+    },
+    {
+      "slug": "ai-cross-border-fraud-compliance",
+      "title": "Cross-Border Fraud & Compliance Shield: AI Tools to Protect Your International E-Commerce Business",
+      "excerpt": "Protect your international e-commerce business with AI-powered fraud detection, AML compliance, and regulatory monitoring across 180+ countries."
+    },
+    {
+      "slug": "ai-visual-localization-ecommerce",
+      "title": "Visual AI for International E-Commerce: Culturally Adapted Product Images That Convert Worldwide",
+      "excerpt": "Learn how AI visual localization adapts product images for global markets — culturally relevant backgrounds, models, colors, and text that boost conversion."
     }
   ],
   "wear": [
@@ -401,6 +426,16 @@
       "slug": "mix-match-suiting-guide",
       "title": "Mix-and-Match Suiting 2026: The Complete Guide to Pattern Breaking and Intentional Mismatching",
       "excerpt": "Move beyond matched sets. Combine patterns, textures, and colors using color theory and pattern scaling for business and formal settings."
+    },
+    {
+      "slug": "summer-suit-fabrics-guide",
+      "title": "Summer Suit Fabrics Guide: Stay Cool in Linen, Seersucker, and Lightweight Wool",
+      "excerpt": "The complete guide to summer suit fabrics — linen, seersucker, lightweight wool, and cotton — with tips on breathability, wrinkle resistance, and styling."
+    },
+    {
+      "slug": "suit-lapel-styles-guide",
+      "title": "Suit Lapel Styles Explained: Notch, Peak, Shawl — How to Choose the Right One",
+      "excerpt": "Everything you need to know about suit lapel styles — notch, peak, and shawl — and how to choose the right one for your face shape, occasion, and style."
     }
   ],
   "ops": [
@@ -593,6 +628,16 @@
       "slug": "ai-content-personalization-solopreneur",
       "title": "AI-Driven Content Personalization for Solopreneurs: One-to-One Marketing Without a Team",
       "excerpt": "Lightweight AI engines and RAG tools personalize content for different audience segments. Set up a pipeline using LLM APIs as a solo operator."
+    },
+    {
+      "slug": "solo-landing-page-conversion",
+      "title": "Landing Page Conversion Playbook for Solo Founders: Write Copy That Sells Without a Sales Team",
+      "excerpt": "A proven playbook for solo founders to build high-converting landing pages that sell your product without a dedicated sales team or expensive copywriters."
+    },
+    {
+      "slug": "solo-founder-productivity-system",
+      "title": "The Solo Founder's Productivity System: How to Get 8 Hours of Work Done in 4",
+      "excerpt": "A proven productivity system for solo founders that doubles output without burning out using time blocking, deep work, and automation strategies."
     }
   ],
   "mood": [
@@ -755,6 +800,11 @@
       "slug": "mood-loopable-micro-story",
       "title": "The Loopable Micro-Story: Designing Emotional Videos That Beg to Be Watched Again",
       "excerpt": "Structural psychology of short videos that seamlessly loop. Craft emotional narratives that reward repeat viewing with storyboard patterns."
+    },
+    {
+      "slug": "youtube-shorts-vs-tiktok-vs-reels-emotional",
+      "title": "YouTube Shorts vs TikTok vs Instagram Reels for Emotional Content: Where Your Mood Videos Will Thrive in 2026",
+      "excerpt": "Compare YouTube Shorts, TikTok, and Instagram Reels for emotional and mood-based content in 2026 — discover where your videos will resonate most and grow fastest."
     }
   ]
 }
