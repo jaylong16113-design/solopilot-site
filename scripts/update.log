@@ -1,0 +1,171 @@
+[2026-05-01 20:46:57] 补量: 82297批
+[2026-05-01 20:46:57] 生成 100 篇...
+zh4 chars: 3253 en4 chars: 7843
+✓ solo-founder-product-docs [zh] (3579B, content: 3253 chars)
+✓ solo-founder-product-docs [en] (8316B, content: 7843 chars)
+node:fs:2426
+    return binding.writeFileUtf8(
+                   ^
+
+Error: ENOENT: no such file or directory, open 'C:/Users/31232/.openclaw/workspace/solopilot-site/src/lib/content/zh/adsense-first-month.json'
+    at Object.writeFileSync (node:fs:2426:20)
+    at Object.<anonymous> (/home/ric_16113/solopilot-site/src/lib/content/gen_article2_zh.js:11:4)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49 {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:/Users/31232/.openclaw/workspace/solopilot-site/src/lib/content/zh/adsense-first-month.json'
+}
+
+Node.js v22.14.0
+[2026-05-01 20:47:00] 补量: 82297批
+[2026-05-01 20:47:00] 生成 100 篇...
+zh4 chars: 3253 en4 chars: 7843
+✓ solo-founder-product-docs [zh] (3579B, content: 3253 chars)
+✓ solo-founder-product-docs [en] (8316B, content: 7843 chars)
+node:fs:2426
+    return binding.writeFileUtf8(
+                   ^
+
+Error: ENOENT: no such file or directory, open 'C:/Users/31232/.openclaw/workspace/solopilot-site/src/lib/content/en/ai-assisted-product-prototyping.json'
+    at Object.writeFileSync (node:fs:2426:20)
+    at Object.<anonymous> (/home/ric_16113/solopilot-site/src/lib/content/gen_article3_en.js:11:4)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49 {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:/Users/31232/.openclaw/workspace/solopilot-site/src/lib/content/en/ai-assisted-product-prototyping.json'
+}
+
+Node.js v22.14.0
+[2026-05-01 20:47:18] 生成 20 篇...
+node:fs:2426
+    return binding.writeFileUtf8(
+                   ^
+
+Error: ENOENT: no such file or directory, open 'C:/Users/31232/.openclaw/workspace/solopilot-site/src/lib/content/en/build-in-public.json'
+    at Object.writeFileSync (node:fs:2426:20)
+    at Object.<anonymous> (/home/ric_16113/solopilot-site/src/lib/content/gen_article6_en.js:11:4)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49 {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:/Users/31232/.openclaw/workspace/solopilot-site/src/lib/content/en/build-in-public.json'
+}
+
+Node.js v22.14.0
+[2026-05-01 20:57:00] 生成 20 篇...
+node:fs:2426
+    return binding.writeFileUtf8(
+                   ^
+
+Error: ENOENT: no such file or directory, open 'C:/Users/31232/.openclaw/workspace/solopilot-site/src/lib/content/en/ai-writing-workflow.json'
+    at Object.writeFileSync (node:fs:2426:20)
+    at Object.<anonymous> (/home/ric_16113/solopilot-site/src/lib/content/gen_article5_en.js:11:4)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49 {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:/Users/31232/.openclaw/workspace/solopilot-site/src/lib/content/en/ai-writing-workflow.json'
+}
+
+Node.js v22.14.0
+[2026-05-01 20:57:35] 生成 20 篇...
+node:fs:2426
+    return binding.writeFileUtf8(
+                   ^
+
+Error: ENOENT: no such file or directory, open 'C:/Users/31232/.openclaw/workspace/solopilot-site/src/lib/content/en/ai-automation-workflow.json'
+    at Object.writeFileSync (node:fs:2426:20)
+    at Object.<anonymous> (/home/ric_16113/solopilot-site/src/lib/content/gen_article4_en.js:11:4)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49 {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:/Users/31232/.openclaw/workspace/solopilot-site/src/lib/content/en/ai-automation-workflow.json'
+}
+
+Node.js v22.14.0
+[2026-05-01 20:57:44] 生成 20 篇...
+zh1 chars: 3295 en1 chars: 6557
+node:fs:2426
+    return binding.writeFileUtf8(
+                   ^
+
+Error: ENOENT: no such file or directory, open '/home/ric_16113/solopilot-site/src/lib/zh/solo-booking-system.json'
+    at Object.writeFileSync (node:fs:2426:20)
+    at writeArticle (file:///home/ric_16113/solopilot-site/src/lib/content/write_helper.mjs:14:6)
+    at file:///home/ric_16113/solopilot-site/src/lib/content/gen_article1.mjs:10:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:578:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ric_16113/solopilot-site/src/lib/zh/solo-booking-system.json'
+}
+
+Node.js v22.14.0
+[2026-05-01 20:58:07] 生成 20 篇...
+En done. Length: 8701
+En done. Length: 8994
+zh3 chars: 3631 en3 chars: 8797
+✓ solo-customer-acquisition [zh] (3923B, content: 3631 chars)
+✓ solo-customer-acquisition [en] (9217B, content: 8797 chars)
+En done. Length: 7650
+Zh done. Length: 2857
+Zh done. Length: 2857
+En done. Length: 10008
+Zh done. Length: 3295
+Zh done. Length: 3341
+Zh done. Length: 3295
+Zh done. Length: 2994
+Zh done. Length: 3295
+Zh done. Length: 3295
+Zh done. Length: 2857
+Zh done. Length: 3341
+Zh done. Length: 3341
+Zh done. Length: 3341
+En done. Length: 7650
+En done. Length: 8994
+zh2 chars: 2619 en2 chars: 6958
+✓ solo-content-operations [zh] (2910B, content: 2619 chars)
+✓ solo-content-operations [en] (7379B, content: 6958 chars)
+[2026-05-01 20:58:07] 生成了 20 篇
+[2026-05-01 20:58:07] 无新内容
+[2026-05-01 20:58:11] 完成

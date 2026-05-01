@@ -1,9 +1,14 @@
 import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const CONTENT_BASE = __dirname;
 
 export function writeArticle(lang, slug, title, excerpt, content) {
   const obj = { slug, title, excerpt, content, site: 'tool' };
   const json = JSON.stringify(obj, null, 2);
-  const outPath = `C:\\Users\\31232\\.openclaw\\workspace\\solopilot-site\\src\\lib\\content\\${lang}\\${slug}.json`;
+  const outPath = path.join(CONTENT_BASE, lang, `${slug}.json`);
   const parsed = JSON.parse(json);
   if (parsed.slug !== slug) throw new Error(`Validation failed for ${slug}`);
   fs.writeFileSync(outPath, json, 'utf8');

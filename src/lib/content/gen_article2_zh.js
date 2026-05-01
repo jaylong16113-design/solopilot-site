@@ -7,6 +7,6 @@ const data = {
   site: 'ops',
   content
 };
-const base = 'C:/Users/31232/.openclaw/workspace/solopilot-site/src/lib/content';
+const base = process.cwd().includes('solopilot-site') ? process.cwd() + '/src/lib/content' : __dirname + '/..';
 fs.writeFileSync(base + '/zh/adsense-first-month.json', JSON.stringify(data, null, 2));
 console.log('Zh done. Length:', content.length);
