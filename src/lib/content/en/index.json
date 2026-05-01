@@ -184,6 +184,31 @@
       "slug": "wechat-xiaohongshu-ecommerce-traffic",
       "title": "How to Drive Traffic from WeChat and Xiaohongshu to Taobao – Complete Tutorial",
       "excerpt": "Turning social traffic into low-cost conversions"
+    },
+    {
+      "slug": "ai-predictive-inventory-management",
+      "title": "AI Predictive Inventory Management for Dropshippers: Never Run Out of Stock Again",
+      "excerpt": "ML models forecast demand spikes and automate reorder timing for dropshippers. Covers API-first tools integrating with AliExpress and 1688 suppliers."
+    },
+    {
+      "slug": "ai-cross-border-customs-automation",
+      "title": "AI Cross-Border Customs Automation: HS Code Classification & Duty Calculation for 2026",
+      "excerpt": "LLMs plus image recognition auto-classify HS codes and calculate duties in real time. Generate compliant invoices for cross-border sellers in 2026."
+    },
+    {
+      "slug": "ai-virtual-try-on-fashion",
+      "title": "AI Virtual Try-On & Size Recommendation: How Fashion E-Commerce Cut Returns by 40%",
+      "excerpt": "Generative AI virtual try-on lets customers test clothes via upload or live camera. How leading fashion brands dramatically cut return rates."
+    },
+    {
+      "slug": "ai-dynamic-bundling-upsell",
+      "title": "AI Dynamic Product Bundling & Upsell Engines: Boost AOV by 30% Automatically",
+      "excerpt": "Real-time AI bundles based on customer behavior and cart contents. Use reinforcement learning to boost average order value by 15-30%."
+    },
+    {
+      "slug": "ai-fraud-detection-cross-border",
+      "title": "AI Fraud Detection & Chargeback Prevention for Cross-Border E-Commerce",
+      "excerpt": "Anomaly detection, device fingerprinting, and behavioral analysis block fraud for cross-border e-commerce. Tailored for high-risk regions."
     }
   ],
   "wear": [
@@ -366,6 +391,16 @@
       "slug": "wedding-suit-guide",
       "title": "What to Wear to a Wedding — The Complete Guide for Grooms and Guests",
       "excerpt": "7 steps to nail your wedding outfit, whether you're the groom or a guest"
+    },
+    {
+      "slug": "tech-casual-suit-guide",
+      "title": "The Rise of the Tech-Casual Suit: Blending Performance Fabrics with Tailored Style",
+      "excerpt": "Performance fabric suits with moisture-wicking, stretch, and wrinkle resistance. Brands leading the trend and how to style them for hybrid work."
+    },
+    {
+      "slug": "mix-match-suiting-guide",
+      "title": "Mix-and-Match Suiting 2026: The Complete Guide to Pattern Breaking and Intentional Mismatching",
+      "excerpt": "Move beyond matched sets. Combine patterns, textures, and colors using color theory and pattern scaling for business and formal settings."
     }
   ],
   "ops": [
@@ -548,6 +583,16 @@
       "slug": "zero-cost-user-research",
       "title": "Zero-Cost User Research for Solo Companies: 6 Proven Methods for Indie Developers",
       "excerpt": "No budget? No problem. These 6 zero-cost user research methods help indie developers get the most valuable user insights with minimal investment"
+    },
+    {
+      "slug": "ai-agentic-affiliate-seo",
+      "title": "Agentic Affiliate Sites: How AI Agents Automate SEO, Content & Link Building for Solopreneurs",
+      "excerpt": "Autonomous AI agents automate competitor analysis, keyword discovery, content creation, and link building. Frameworks for solopreneur affiliate sites."
+    },
+    {
+      "slug": "ai-content-personalization-solopreneur",
+      "title": "AI-Driven Content Personalization for Solopreneurs: One-to-One Marketing Without a Team",
+      "excerpt": "Lightweight AI engines and RAG tools personalize content for different audience segments. Set up a pipeline using LLM APIs as a solo operator."
     }
   ],
   "mood": [
@@ -705,6 +750,11 @@
       "slug": "viral-duan-emotional-video-case",
       "title": "Viral Emotional Short Video Case Studies: Dissecting 10 Million-View Videos From Script to Music to Pacing",
       "excerpt": "Breaking down 10 viral emotional videos with millions of views — analyzing their hooks, narrative structure, BGM choices, and editing rhythm so you can learn from the best."
+    },
+    {
+      "slug": "mood-loopable-micro-story",
+      "title": "The Loopable Micro-Story: Designing Emotional Videos That Beg to Be Watched Again",
+      "excerpt": "Structural psychology of short videos that seamlessly loop. Craft emotional narratives that reward repeat viewing with storyboard patterns."
     }
   ]
 }
