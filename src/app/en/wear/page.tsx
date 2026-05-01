@@ -39,16 +39,16 @@ export default function EnWearPage() {
 
   return (
     <div>
-      <section className="bg-gradient-to-b from-violet-50 to-white px-4 py-12 md:py-16 -mx-4">
+      <section className="bg-gradient-to-b from-violet-900/30 to-background px-4 py-12 md:py-16 -mx-4">
         <div className="max-w-3xl mx-auto text-center">
           <div className="text-4xl mb-3">👔</div>
-          <h1 className="text-2xl md:text-4xl font-extrabold tracking-tight mb-3">Men's Style Guide</h1>
-          <p className="text-sm text-gray-500 max-w-lg mx-auto leading-relaxed">
+          <h1 className="text-2xl md:text-4xl font-extrabold tracking-tight mb-3 text-white">Men's Style Guide</h1>
+          <p className="text-sm text-gray-400 max-w-lg mx-auto leading-relaxed">
             Suit buying tips, fabric care, color matching &mdash; everything you need<br/>
             From first suit to style pro, one article at a time
           </p>
-          <div className="flex justify-center gap-2 mt-4 text-xs text-gray-400">
-            <span className="tag bg-violet-100 text-violet-600">{articles.length} articles</span>
+          <div className="flex justify-center gap-2 mt-4 text-xs text-gray-500">
+            <span className="tag bg-violet-900/40 text-violet-300">{articles.length} articles</span>
           </div>
         </div>
       </section>
@@ -60,7 +60,7 @@ export default function EnWearPage() {
               <div className="flex items-start gap-3">
                 <span className="text-xl mt-0.5 flex-shrink-0">{sectionIcons[a.slug] || "📄"}</span>
                 <div className="min-w-0">
-                  <h3 className="font-semibold text-sm text-gray-900">{a.title}</h3>
+                  <h3 className="font-semibold text-sm text-gray-100">{a.title}</h3>
                   <p className="text-xs text-gray-400 mt-1 line-clamp-1">{a.excerpt}</p>
                 </div>
               </div>

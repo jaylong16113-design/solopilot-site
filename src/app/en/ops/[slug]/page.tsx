@@ -124,19 +124,19 @@ function getIndex(): any[] {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <article className="max-w-3xl mx-auto article-content">
         <div className="flex items-center gap-2 text-xs text-gray-400 mb-4 px-4 pt-6">
-          <Link href="/en" className="hover:text-gray-600">Home</Link>
+          <Link href="/en" className="hover:text-gray-200">Home</Link>
           <span>/</span>
-          <Link href="/en/ops" className="hover:text-gray-600">Solo OPS</Link>
+          <Link href="/en/ops" className="hover:text-gray-200">Solo OPS</Link>
           <span>/</span>
-          <span className="text-gray-600 truncate max-w-[120px]">{article.title}</span>
+          <span className="text-gray-400 truncate max-w-[120px]">{article.title}</span>
         </div>
         <div className="relative w-full h-56 md:h-72 mb-6 rounded-xl overflow-hidden mx-4" style={{width: "calc(100% - 2rem)"}}>
           <Image src={heroImg} alt={article.title} fill className="object-cover" priority />
         </div>
         <div className="px-4">
           <h1 className="text-xl md:text-3xl font-extrabold mb-2 leading-tight">{article.title}</h1>
-          <p className="text-sm text-gray-400 mb-6 border-l-2 border-orange-200 pl-3 italic">{article.excerpt}</p>
-          <div className="prose prose-gray max-w-none">
+          <p className="text-sm text-gray-400 mb-6 border-l-2 border-amber-500/50 pl-3 italic">{article.excerpt}</p>
+          <div className="prose-invert max-w-none">
             <ReactMarkdown remarkPlugins={[remarkGfm]}
               components={{
                 img({ src, alt }) {
@@ -147,30 +147,30 @@ function getIndex(): any[] {
                     </span>
                   );
                 },
-                h2({ children }) { return <h2 className="text-lg md:text-xl font-bold mt-10 mb-4 pb-2 border-b border-gray-100">{children}</h2>; },
+                h2({ children }) { return <h2 className="text-lg md:text-xl font-bold mt-10 mb-4 pb-2 border-b border-gray-700">{children}</h2>; },
                 h3({ children }) { return <h3 className="text-base md:text-lg font-semibold mt-6 mb-3">{children}</h3>; },
                 ul({ children }) { return <ul className="list-disc pl-5 mb-4 space-y-1.5">{children}</ul>; },
                 ol({ children }) { return <ol className="list-decimal pl-5 mb-4 space-y-1.5">{children}</ol>; },
                 table({ children }) {
-                  return (<div className="overflow-x-auto mb-6"><table className="min-w-full border-collapse border border-gray-200 text-sm rounded-lg overflow-hidden">{children}</table></div>);
+                  return (<div className="overflow-x-auto mb-6"><table className="min-w-full border-collapse border border-gray-700 text-sm rounded-lg overflow-hidden">{children}</table></div>);
                 },
-                th({ children }) { return <th className="border border-gray-200 bg-gray-50 px-3 py-2 text-left text-xs font-semibold text-gray-600">{children}</th>; },
-                td({ children }) { return <td className="border border-gray-200 px-3 py-2 text-sm">{children}</td>; },
-                blockquote({ children }) { return <blockquote className="border-l-4 border-orange-200 bg-orange-50/50 px-4 py-3 my-6 italic text-gray-500 text-sm rounded-r-lg">{children}</blockquote>; },
-                p({ children }) { return <p className="mb-4 leading-relaxed text-gray-700 text-sm md:text-base">{children}</p>; }
+                th({ children }) { return <th className="border border-gray-700 bg-gray-800 px-3 py-2 text-left text-xs font-semibold text-gray-200">{children}</th>; },
+                td({ children }) { return <td className="border border-gray-700 px-3 py-2 text-sm text-gray-200">{children}</td>; },
+                blockquote({ children }) { return <blockquote className="border-l-4 border-amber-500/50 bg-white/5 px-4 py-3 my-6 italic text-gray-300 text-sm rounded-r-lg">{children}</blockquote>; },
+                p({ children }) { return <p className="mb-4 leading-relaxed text-gray-200 text-sm md:text-base">{children}</p>; }
               }}
             >
               {article.content}
             </ReactMarkdown>
           </div>
-          <div className="flex flex-wrap gap-2 mt-8 pt-6 border-t border-gray-100">
-            <span className="tag bg-orange-100 text-orange-600">Solo</span>
-            <span className="tag bg-gray-100 text-gray-500">Ops</span>
-            <span className="tag bg-gray-100 text-gray-500">Automation</span>
+          <div className="flex flex-wrap gap-2 mt-8 pt-6 border-t border-gray-700">
+            <span className="tag bg-amber-900/40 text-amber-300">Solo</span>
+            <span className="tag bg-gray-700 text-gray-300">Ops</span>
+            <span className="tag bg-gray-700 text-gray-300">Automation</span>
           </div>
-          <div className="flex justify-between mt-8 pt-4 border-t border-gray-100 text-sm">
-            <Link href="/en/ops" className="text-orange-600 hover:underline">← Back to Solo OPS</Link>
-            <Link href="/en" className="text-gray-400 hover:text-gray-600">Home →</Link>
+          <div className="flex justify-between mt-8 pt-4 border-t border-gray-700 text-sm">
+            <Link href="/en/ops" className="text-amber-400 hover:text-amber-300">← Back to Solo OPS</Link>
+            <Link href="/en" className="text-gray-400 hover:text-gray-300">Home →</Link>
           </div>
         </div>
       </article>

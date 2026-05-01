@@ -135,6 +135,7 @@ html { scroll-behavior: smooth; }
 .article-content p {
   line-height: 1.85;
   margin-bottom: 1.2em;
+  color: hsl(var(--foreground));
 }
 .article-content ul, .article-content ol {
   margin: 1em 0;
@@ -172,6 +173,24 @@ html { scroll-behavior: smooth; }
 }
 .article-content pre { padding: 1rem; overflow-x: auto; }
 .article-content hr { border-color: hsl(var(--border) / 0.4); }
+
+/* Enhanced dark mode prose overrides */
+.prose-invert {
+  color: hsl(var(--foreground));
+}
+.prose-invert p {
+  color: hsl(185, 30%, 90%);
+  line-height: 1.85;
+}
+.prose-invert strong {
+  color: hsl(var(--foreground));
+}
+.prose-invert a {
+  color: hsl(var(--primary));
+}
+.prose-invert h1, .prose-invert h2, .prose-invert h3, .prose-invert h4 {
+  color: hsl(var(--foreground));
+}
 
 @media (max-width: 640px) {
   .article-content table { font-size: 0.75rem; }
