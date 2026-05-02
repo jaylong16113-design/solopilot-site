@@ -2,6 +2,7 @@
 set -e
 
 cd /home/ric_16113/solopilot-site
+export PATH="/tmp/node-v22.14.0-linux-x64/bin:$PATH"
 export https_proxy="socks5://172.20.144.1:10808"
 export http_proxy="socks5://172.20.144.1:10808"
 
