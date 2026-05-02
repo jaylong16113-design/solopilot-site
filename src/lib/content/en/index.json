@@ -259,6 +259,31 @@
       "slug": "ai-analytics-dashboard-ecommerce",
       "title": "AI Analytics Dashboards for E-commerce: Track KPIs That Actually Drive Growth",
       "excerpt": "Go beyond basic Google Analytics. Learn how AI-powered e-commerce dashboards surface actionable insights, predict trends, and tell you exactly what to optimize next."
+    },
+    {
+      "slug": "ai-product-video-generator-tools",
+      "title": "AI Product Video Generator Tools: Turn Product Photos Into Sales Videos in Minutes",
+      "excerpt": "Turn static product photos into high-converting sales videos with AI-powered video generators. Compare the best tools for e-commerce sellers in 2026."
+    },
+    {
+      "slug": "ai-social-media-scheduler-ecommerce",
+      "title": "Best AI Social Media Schedulers for E-Commerce: Automate Your Content Calendar in 2026",
+      "excerpt": "Stop posting manually. Compare the top AI social media schedulers for e-commerce brands and learn how to automate your entire content calendar across platforms."
+    },
+    {
+      "slug": "ai-market-research-tools-cross-border",
+      "title": "AI Market Research Tools for Cross-Border Sellers: Spot Trends Before They Go Mainstream",
+      "excerpt": "Discover the best AI market research tools that help cross-border sellers identify trending products before the competition catches on."
+    },
+    {
+      "slug": "ai-email-marketing-automation-ecommerce",
+      "title": "AI Email Marketing Automation for E-Commerce: Recover Abandoned Carts and Boost LTV",
+      "excerpt": "Turn one-time buyers into repeat customers with AI email automation. Compare Klaviyo, Omnisend, Mailchimp, and ActiveCampaign for e-commerce."
+    },
+    {
+      "slug": "ai-listing-optimizer-amazon-shopify",
+      "title": "AI Listing Optimization Tools: Amazon vs Shopify — Which Platform Has Better AI Tools?",
+      "excerpt": "Compare the best AI listing optimization tools for Amazon and Shopify sellers, from keyword research to image optimization to conversion rate analysis."
     }
   ],
   "wear": [
@@ -471,6 +496,16 @@
       "slug": "double-breasted-suit-guide",
       "title": "The Double-Breasted Suit Revival: How to Wear It, Style It, and Master It in 2026",
       "excerpt": "Once considered a relic of 1980s power dressing, the double-breasted suit is back. Learn how to choose, fit, and style a DB suit for modern proportions — from lapels to button stance."
+    },
+    {
+      "slug": "suit-dry-cleaning-vs-home-care",
+      "title": "Suit Dry Cleaning vs Home Care: The Truth About Fabric Longevity and Cost",
+      "excerpt": "Is dry cleaning always better for your suits? We break down the cost, fabric impact, and best practices for both professional cleaning and at-home care."
+    },
+    {
+      "slug": "formal-attire-dress-codes-explained",
+      "title": "Formal Attire Dress Codes Explained: From White Tie to Business Casual",
+      "excerpt": "A complete guide to men's formal dress codes — white tie, black tie, business formal, smart casual, and everything in between."
     }
   ],
   "ops": [
@@ -683,6 +718,16 @@
       "slug": "second-brain-solo-entrepreneur",
       "title": "Building a Second Brain for Solo Entrepreneurs: The Ultimate Knowledge Management System for Indie Hackers",
       "excerpt": "A practical guide for solopreneurs to build a knowledge management system (Second Brain) that captures insights, connects ideas, and accelerates decision-making without the overhead of enterprise tools."
+    },
+    {
+      "slug": "solopreneur-cold-email-outreach-playbook",
+      "title": "The Solopreneur's Cold Email Outreach Playbook: Templates and Sequences That Convert",
+      "excerpt": "Master cold email outreach as a solopreneur. Templates, follow-up sequences, tools, and metrics that turn cold inboxes into warm conversations."
+    },
+    {
+      "slug": "indie-hacker-product-hunt-launch",
+      "title": "The Indie Hacker's Product Hunt Launch Guide: How to Get Your First 1,000 Users",
+      "excerpt": "A complete Product Hunt launch playbook for indie hackers. Pre-launch strategy, launch day execution, post-launch conversion — everything you need."
     }
   ],
   "mood": [
@@ -855,6 +900,11 @@
       "slug": "ai-generated-emotional-short-films",
       "title": "AI-Generated Emotional Short Films: Using Text-to-Video (Sora, Kling, Runway) for Mood Content",
       "excerpt": "Text-to-video AI has crossed the uncanny valley. Learn how creators are using Sora, Kling, and Runway Gen-3 to produce emotionally resonant short films — no cameras, no actors, no crew required."
+    },
+    {
+      "slug": "mood-video-hook-techniques",
+      "title": "7-Second Hook Techniques for Mood Videos: Why Your First Frame Decides Everything",
+      "excerpt": "Master the art of the 7-second hook for emotional short videos. Attention residue, emotional anchoring, and 7 proven hook types backed by viewer psychology."
     }
   ]
 }

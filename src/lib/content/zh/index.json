@@ -259,6 +259,31 @@
       "slug": "ai-analytics-dashboard-ecommerce",
       "title": "AI电商数据分析仪表盘搭建实操：从零搭建一个能自动告诉你「该补什么货」的驾驶舱",
       "excerpt": "别再手动拉数据做报表了。本文手把手教你用AI工具搭建一个实时数据仪表盘，自动监控销售趋势、库存预警、广告ROI和竞品动态。"
+    },
+    {
+      "slug": "ai-product-video-generator-tools",
+      "title": "AI商品视频生成工具推荐：把产品图片变成带货短视频",
+      "excerpt": "跨境电商卖家如何用AI工具把静态产品图一键转化为高质量带货视频？本文深度评测剪映、可灵、Pika等工具，分享从选品到出海的完整视频制作流程。"
+    },
+    {
+      "slug": "ai-social-media-scheduler-ecommerce",
+      "title": "2026年跨境电商必备的AI社媒排期工具：自动管理你的内容日历",
+      "excerpt": "从Buffer到Later再到国内的花卷和千瓜，AI社媒排期工具如何帮跨境卖家自动管理多平台内容日历？本文横向对比主流工具，分享独家运营策略。"
+    },
+    {
+      "slug": "ai-market-research-tools-cross-border",
+      "title": "AI市场调研工具助力跨境电商选品：在爆款爆发前发现机会",
+      "excerpt": "Jungle Scout、Helium 10、卖家精灵……AI市场调研工具如何帮跨境卖家预测趋势、发现蓝海品类？本文深度解析选品工具的AI功能与实战方法。"
+    },
+    {
+      "slug": "ai-email-marketing-automation-ecommerce",
+      "title": "AI邮件营销自动化：独立站卖家如何用邮件挽回弃单和提升复购",
+      "excerpt": "Klaviyo、Mailchimp、SendGrid等邮件营销工具如何用AI帮独立站卖家自动挽回弃单、细分客户群并提升复购率？本文详解中国卖家的邮件营销实战策略。"
+    },
+    {
+      "slug": "ai-listing-optimizer-amazon-shopify",
+      "title": "AI Listing优化工具对比：亚马逊与Shopify平台哪个AI工具更好用？",
+      "excerpt": "从Jungle Scout的Listing Builder到Shopify的AI描述生成器，不同平台的Listing优化工具有哪些差异？本文横向对比亚马逊和Shopify的AI工具，帮你找到最佳组合。"
     }
   ],
   "wear": [
@@ -471,6 +496,16 @@
       "slug": "double-breasted-suit-guide",
       "title": "双排扣西装复兴指南——如何驾驭这件回归的经典",
       "excerpt": "从选款到穿搭到场合，一文讲透双排扣西装的所有门道，让你穿出气场而不是穿成老派"
+    },
+    {
+      "slug": "suit-dry-cleaning-vs-home-care",
+      "title": "西服干洗还是自己打理？真相：面料寿命和成本全面对比",
+      "excerpt": "西服到底该不该干洗？频繁干洗真的会缩短面料寿命吗？本文从面料学、成本核算和日常打理三个维度，帮你做出最正确的西服护理决策。"
+    },
+    {
+      "slug": "formal-attire-dress-codes-explained",
+      "title": "正装着装规则全解读：从白领结到商务休闲，一篇搞懂",
+      "excerpt": "白领结、黑领结、商务正装、商务休闲……各种着装规则到底怎么穿才对？本文用一张图讲清全球通用的正装等级体系，附送男士衣橱必备清单。"
     }
   ],
   "ops": [
@@ -693,6 +728,16 @@
       "slug": "second-brain-solo-entrepreneur",
       "title": "一人公司第二大脑：个人知识管理体系（PKM）搭建指南",
       "excerpt": "独立开发者最宝贵的资产不是代码，是经验。本文手把手教你搭建一套专为一人公司设计的第二大脑体系——从信息捕获到知识输出，让你的认知复利不再流失。"
+    },
+    {
+      "slug": "solopreneur-cold-email-outreach-playbook",
+      "title": "一人公司冷邮件开发客户指南：让潜在客户主动回复的模板和策略",
+      "excerpt": "系统化的冷邮件获客全流程：从收件人筛选、标题写作、正文模板到跟进序列，用低成本撬动高价值B2B客户"
+    },
+    {
+      "slug": "indie-hacker-product-hunt-launch",
+      "title": "独立开发者Product Hunt发布指南：如何获取第一批1000个用户",
+      "excerpt": "从产品准备、预告策略、发布当天执行到后续转化，全流程拆解Product Hunt发布的每一个关键节点"
     }
   ],
   "mood": [
@@ -880,6 +925,11 @@
       "slug": "ai-generated-emotional-short-films",
       "title": "AI生成情绪短片：用Sora/可灵/Runway做情绪短视频的完整教程",
       "excerpt": "文生视频AI已经跨越了恐怖谷。本文手把手教你用Sora、可灵和Runway Gen-3制作高质量情绪短片——不需要摄像机、演员和剧组，一个人就能完成从创意到发布的全流程。"
+    },
+    {
+      "slug": "mood-video-hook-techniques",
+      "title": "情绪短视频7秒钩子技巧：前3帧决定视频生死的心理学",
+      "excerpt": "从心理学底层拆解情绪短视频的开场钩子设计：前7秒如何抓住注意力、前3帧如何制造悬念、不同类型情绪的钩子模板"
     }
   ]
 }
