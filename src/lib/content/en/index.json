@@ -234,6 +234,31 @@
       "slug": "ai-visual-localization-ecommerce",
       "title": "Visual AI for International E-Commerce: Culturally Adapted Product Images That Convert Worldwide",
       "excerpt": "Learn how AI visual localization adapts product images for global markets — culturally relevant backgrounds, models, colors, and text that boost conversion."
+    },
+    {
+      "slug": "ai-workflow-orchestrators-ecommerce",
+      "title": "AI Workflow Orchestrators for E-commerce: Automate Your Entire Business with n8n, Make, and Zapier",
+      "excerpt": "Learn how AI-powered workflow orchestrators like n8n, Make, and Zapier can automate your e-commerce operations end-to-end, from inventory syncing to customer follow-ups."
+    },
+    {
+      "slug": "ai-review-management-reputation",
+      "title": "AI Review Management & Reputation Automation: Turn Customer Feedback Into Sales",
+      "excerpt": "Master AI-driven review management for e-commerce — automate responses, analyze sentiment, detect fake reviews, and boost your rating with smart reputation tools."
+    },
+    {
+      "slug": "ai-voice-agents-ecommerce",
+      "title": "AI Voice Agents for E-commerce: Automate Customer Phone Support with Conversational AI",
+      "excerpt": "Discover how AI voice agents are transforming e-commerce phone support — from answering order status questions to handling returns, all with natural-sounding conversations."
+    },
+    {
+      "slug": "ai-product-video-script-tools",
+      "title": "AI Product Video Script Tools: Generate Compelling Sales Scripts in Minutes",
+      "excerpt": "Stop staring at a blank page. Discover the best AI tools for writing product video scripts that convert — from short-form TikTok hooks to in-depth demo narrations."
+    },
+    {
+      "slug": "ai-analytics-dashboard-ecommerce",
+      "title": "AI Analytics Dashboards for E-commerce: Track KPIs That Actually Drive Growth",
+      "excerpt": "Go beyond basic Google Analytics. Learn how AI-powered e-commerce dashboards surface actionable insights, predict trends, and tell you exactly what to optimize next."
     }
   ],
   "wear": [
@@ -436,6 +461,16 @@
       "slug": "suit-lapel-styles-guide",
       "title": "Suit Lapel Styles Explained: Notch, Peak, Shawl — How to Choose the Right One",
       "excerpt": "Everything you need to know about suit lapel styles — notch, peak, and shawl — and how to choose the right one for your face shape, occasion, and style."
+    },
+    {
+      "slug": "sustainable-eco-friendly-suits",
+      "title": "Sustainable & Eco-Friendly Suiting Materials: The Complete Guide to Green Tailoring",
+      "excerpt": "From organic wool and Tencel to recycled synthetics and Piñatex, discover the sustainable suiting materials reshaping men's fashion — and how to build an eco-conscious wardrobe without compromising on style."
+    },
+    {
+      "slug": "double-breasted-suit-guide",
+      "title": "The Double-Breasted Suit Revival: How to Wear It, Style It, and Master It in 2026",
+      "excerpt": "Once considered a relic of 1980s power dressing, the double-breasted suit is back. Learn how to choose, fit, and style a DB suit for modern proportions — from lapels to button stance."
     }
   ],
   "ops": [
@@ -638,6 +673,16 @@
       "slug": "solo-founder-productivity-system",
       "title": "The Solo Founder's Productivity System: How to Get 8 Hours of Work Done in 4",
       "excerpt": "A proven productivity system for solo founders that doubles output without burning out using time blocking, deep work, and automation strategies."
+    },
+    {
+      "slug": "ai-content-ab-testing-seo",
+      "title": "AI-Powered Content A/B Testing for SEO: The Solopreneur's Guide to Data-Driven Organic Growth",
+      "excerpt": "Learn how to use AI tools to run systematic content A/B tests that boost SEO performance, improve click-through rates, and drive organic traffic without a marketing team."
+    },
+    {
+      "slug": "second-brain-solo-entrepreneur",
+      "title": "Building a Second Brain for Solo Entrepreneurs: The Ultimate Knowledge Management System for Indie Hackers",
+      "excerpt": "A practical guide for solopreneurs to build a knowledge management system (Second Brain) that captures insights, connects ideas, and accelerates decision-making without the overhead of enterprise tools."
     }
   ],
   "mood": [
@@ -805,6 +850,11 @@
       "slug": "youtube-shorts-vs-tiktok-vs-reels-emotional",
       "title": "YouTube Shorts vs TikTok vs Instagram Reels for Emotional Content: Where Your Mood Videos Will Thrive in 2026",
       "excerpt": "Compare YouTube Shorts, TikTok, and Instagram Reels for emotional and mood-based content in 2026 — discover where your videos will resonate most and grow fastest."
+    },
+    {
+      "slug": "ai-generated-emotional-short-films",
+      "title": "AI-Generated Emotional Short Films: Using Text-to-Video (Sora, Kling, Runway) for Mood Content",
+      "excerpt": "Text-to-video AI has crossed the uncanny valley. Learn how creators are using Sora, Kling, and Runway Gen-3 to produce emotionally resonant short films — no cameras, no actors, no crew required."
     }
   ]
 }
