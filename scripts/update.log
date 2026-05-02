@@ -291,3 +291,79 @@ En done. Length: 8701
 [2026-05-02 18:00:27] 生成了 20 篇
 [2026-05-02 18:00:27] 无新内容
 [2026-05-02 18:02:42] 完成
+[2026-05-03 00:00:50] 生成 20 篇...
+En done. Length: 10008
+zh1 chars: 3295 en1 chars: 6557
+✓ solo-booking-system [zh] (3589B, content: 3295 chars)
+✓ solo-booking-system [en] (7014B, content: 6557 chars)
+zh4 chars: 3253 en4 chars: 7843
+✓ solo-founder-product-docs [zh] (3579B, content: 3253 chars)
+✓ solo-founder-product-docs [en] (8316B, content: 7843 chars)
+Zh done. Length: 3452
+En done. Length: 8317
+Zh done. Length: 3452
+zh1 chars: 3295 en1 chars: 6557
+✓ solo-booking-system [zh] (3589B, content: 3295 chars)
+✓ solo-booking-system [en] (7014B, content: 6557 chars)
+En done. Length: 8701
+zh2 chars: 2619 en2 chars: 6958
+✓ solo-content-operations [zh] (2910B, content: 2619 chars)
+✓ solo-content-operations [en] (7379B, content: 6958 chars)
+Zh done. Length: 3341
+zh4 chars: 3253 en4 chars: 7843
+✓ solo-founder-product-docs [zh] (3579B, content: 3253 chars)
+✓ solo-founder-product-docs [en] (8316B, content: 7843 chars)
+Zh done. Length: 2857
+zh1 chars: 3295 en1 chars: 6557
+✓ solo-booking-system [zh] (3589B, content: 3295 chars)
+✓ solo-booking-system [en] (7014B, content: 6557 chars)
+zh2 chars: 2619 en2 chars: 6958
+✓ solo-content-operations [zh] (2910B, content: 2619 chars)
+✓ solo-content-operations [en] (7379B, content: 6958 chars)
+En done. Length: 8994
+En done. Length: 7650
+Zh done. Length: 2857
+En done. Length: 8994
+En done. Length: 8994
+Zh done. Length: 3295
+[2026-05-03 00:00:51] 生成了 20 篇
+[2026-05-03 00:00:51] 无新内容
+[2026-05-03 00:00:52] 完成
+[2026-05-03 06:00:59] 生成 20 篇...
+/home/ric_16113/solopilot-site/scripts/update-content.sh: line 37: node: command not found
+[2026-05-03 06:02:04] 生成 20 篇...
+zh4 chars: 3253 en4 chars: 7843
+✓ solo-founder-product-docs [zh] (3579B, content: 3253 chars)
+✓ solo-founder-product-docs [en] (8316B, content: 7843 chars)
+En done. Length: 8317
+En done. Length: 7650
+zh2 chars: 2619 en2 chars: 6958
+✓ solo-content-operations [zh] (2910B, content: 2619 chars)
+✓ solo-content-operations [en] (7379B, content: 6958 chars)
+Zh done. Length: 2994
+Zh done. Length: 3295
+Zh done. Length: 3452
+En done. Length: 10008
+Zh done. Length: 3341
+zh1 chars: 3295 en1 chars: 6557
+✓ solo-booking-system [zh] (3589B, content: 3295 chars)
+✓ solo-booking-system [en] (7014B, content: 6557 chars)
+zh2 chars: 2619 en2 chars: 6958
+✓ solo-content-operations [zh] (2910B, content: 2619 chars)
+✓ solo-content-operations [en] (7379B, content: 6958 chars)
+Zh done. Length: 3341
+En done. Length: 8317
+Zh done. Length: 2994
+zh4 chars: 3253 en4 chars: 7843
+✓ solo-founder-product-docs [zh] (3579B, content: 3253 chars)
+✓ solo-founder-product-docs [en] (8316B, content: 7843 chars)
+Zh done. Length: 2857
+En done. Length: 10008
+zh4 chars: 3253 en4 chars: 7843
+✓ solo-founder-product-docs [zh] (3579B, content: 3253 chars)
+✓ solo-founder-product-docs [en] (8316B, content: 7843 chars)
+Zh done. Length: 3452
+En done. Length: 8994
+[2026-05-03 06:02:04] 生成了 20 篇
+[2026-05-03 06:02:05] 无新内容
+[2026-05-03 06:02:06] 完成

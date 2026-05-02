@@ -284,6 +284,31 @@
       "slug": "ai-listing-optimizer-amazon-shopify",
       "title": "AI Listing Optimization Tools: Amazon vs Shopify — Which Platform Has Better AI Tools?",
       "excerpt": "Compare the best AI listing optimization tools for Amazon and Shopify sellers, from keyword research to image optimization to conversion rate analysis."
+    },
+    {
+      "slug": "ai-chatgpt-customer-persona-builder",
+      "title": "How to Build E-Commerce Customer Personas with ChatGPT: From Demographics to Psychographics",
+      "excerpt": "Learn how to use ChatGPT to create detailed e-commerce customer personas that go beyond demographics into psychographics, buying triggers, and pain points — making your marketing 10x more effective."
+    },
+    {
+      "slug": "ai-landing-page-builders-ecommerce",
+      "title": "Best AI Landing Page Builders for E-Commerce: Convert More Visitors in 2026",
+      "excerpt": "Compare the top AI-powered landing page builders for e-commerce stores. From Unbounce to Instapage to Carrd, discover which tool converts best for product launches, sales funnels, and seasonal campaigns."
+    },
+    {
+      "slug": "ai-amazon-competitor-price-monitoring",
+      "title": "AI-Powered Amazon Competitor Price Monitoring: Tools, Strategies, and Automation",
+      "excerpt": "Dominate the Buy Box with AI-driven competitor price monitoring. Compare the best tools — Keepa, Jungle Scout, Helium 10, Sellery, and Prisync — and learn how to automate repricing without racing to the bottom."
+    },
+    {
+      "slug": "ai-writing-assistants-listing-optimization-2026",
+      "title": "Best AI Writing Assistants for Product Listing Optimization: 2026 Deep Dive",
+      "excerpt": "We tested ChatGPT, Claude, Jasper, Writesonic, and Copy.ai on real product listings. See which AI writing assistant produces the highest-converting Amazon, Shopify, and Etsy product descriptions in 2026."
+    },
+    {
+      "slug": "ai-influencer-marketing-ecommerce",
+      "title": "AI Tools for Influencer Marketing in E-Commerce: Find, Vet, and Track ROI",
+      "excerpt": "Discover how AI is revolutionizing influencer marketing for e-commerce brands. Compare tools like Upfluence, Grin, Modash, and HypeAuditor — and learn how to find the right influencers, detect fake followers, and measure real ROI."
     }
   ],
   "wear": [
@@ -506,6 +531,16 @@
       "slug": "formal-attire-dress-codes-explained",
       "title": "Formal Attire Dress Codes Explained: From White Tie to Business Casual",
       "excerpt": "A complete guide to men's formal dress codes — white tie, black tie, business formal, smart casual, and everything in between."
+    },
+    {
+      "slug": "navy-blazer-styling-guide",
+      "title": "The Navy Blazer: How to Style One Jacket for 10 Different Occasions",
+      "excerpt": "Master the art of styling a navy blazer for everything from job interviews to weekend brunches. The ultimate guide to the most versatile piece in menswear."
+    },
+    {
+      "slug": "suit-fabrics-humid-climate",
+      "title": "Best Suit Fabrics for Hot and Humid Climates: Stay Cool Without Sacrificing Style",
+      "excerpt": "Discover the best suit fabrics for tropical and humid weather — from high-twist wool to fresco to linen blends — and stay sharp even when the temperature soars."
     }
   ],
   "ops": [
@@ -728,6 +763,16 @@
       "slug": "indie-hacker-product-hunt-launch",
       "title": "The Indie Hacker's Product Hunt Launch Guide: How to Get Your First 1,000 Users",
       "excerpt": "A complete Product Hunt launch playbook for indie hackers. Pre-launch strategy, launch day execution, post-launch conversion — everything you need."
+    },
+    {
+      "slug": "one-person-media-company-ai",
+      "title": "How to Build a One-Person Media Company with AI Tools in 2026",
+      "excerpt": "Learn how solopreneurs are using AI writing, video generation, and automation tools to build profitable one-person media companies that rival traditional publishers."
+    },
+    {
+      "slug": "solopreneur-digital-product-creation",
+      "title": "The Solopreneur's Guide to Creating and Selling Digital Products: From Idea to Passive Income",
+      "excerpt": "A complete framework for creating, marketing, and selling digital products as a solopreneur. Covering templates, courses, SaaS micro-tools, and more."
     }
   ],
   "mood": [
@@ -905,6 +950,11 @@
       "slug": "mood-video-hook-techniques",
       "title": "7-Second Hook Techniques for Mood Videos: Why Your First Frame Decides Everything",
       "excerpt": "Master the art of the 7-second hook for emotional short videos. Attention residue, emotional anchoring, and 7 proven hook types backed by viewer psychology."
+    },
+    {
+      "slug": "color-psychology-emotional-video",
+      "title": "The Psychology of Color in Emotional Short Videos: How to Use Color Grading to Trigger Specific Feelings",
+      "excerpt": "Master color grading for emotional short videos. Learn which color palettes trigger nostalgia, excitement, sadness, or calm — and how to apply them for maximum emotional impact."
     }
   ]
 }
