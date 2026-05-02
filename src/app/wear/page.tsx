@@ -39,16 +39,17 @@ export default function WearPage() {
 
   return (
     <div>
-      <section className="bg-background border-b border-border/50 px-4 py-12 md:py-16 -mx-4">
-        <div className="max-w-3xl mx-auto text-center">
-          <div className="text-4xl mb-3">👔</div>
-          <h1 className="font-display text-2xl md:text-4xl font-bold tracking-tight mb-3 text-foreground">男装穿搭指南</h1>
-          <p className="text-sm text-muted-foreground max-w-lg mx-auto leading-relaxed">
+      <section className="relative -mx-4 overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-b from-background/70 via-background/40 to-background z-10" />
+        <img src="https://images.unsplash.com/photo-1507679799987-c6ebd63a4447?w=1200&q=80" alt="穿搭站" className="absolute inset-0 w-full h-full object-cover" />
+        <div className="relative z-20 px-4 py-20 md:py-28 text-center">
+          <h1 className="font-display text-3xl md:text-5xl font-bold tracking-tight mb-4 text-white drop-shadow-lg">男装穿搭指南</h1>
+          <p className="text-base md:text-lg text-white/80 max-w-lg mx-auto leading-relaxed drop-shadow">
             西服选购、面料知识、搭配法则、保养技巧<br/>
             从入门到精通的完整路线图
           </p>
           <div className="flex justify-center gap-2 mt-4 text-xs">
-            <span className="tag bg-accent/10 text-accent-foreground">{articles.length} 篇文章</span>
+            <span className="tag bg-accent/10 text-accent">{articles.length} 篇文章</span>
           </div>
         </div>
       </section>

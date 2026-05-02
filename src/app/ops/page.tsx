@@ -36,11 +36,12 @@ export default function OpsPage() {
 
   return (
     <div>
-      <section className="bg-background border-b border-border/50 px-4 py-12 md:py-16 -mx-4">
-        <div className="max-w-3xl mx-auto text-center">
-          <div className="text-4xl mb-3">🚀</div>
-          <h1 className="font-display text-2xl md:text-4xl font-bold tracking-tight mb-3 text-foreground">一人公司运营</h1>
-          <p className="text-sm text-muted-foreground max-w-lg mx-auto leading-relaxed">
+      <section className="relative -mx-4 overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-b from-background/70 via-background/40 to-background z-10" />
+        <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1200&q=80" alt="运营站" className="absolute inset-0 w-full h-full object-cover" />
+        <div className="relative z-20 px-4 py-20 md:py-28 text-center">
+          <h1 className="font-display text-3xl md:text-5xl font-bold tracking-tight mb-4 text-white drop-shadow-lg">一人公司运营</h1>
+          <p className="text-base md:text-lg text-white/80 max-w-lg mx-auto leading-relaxed drop-shadow">
             AI自动化工作流、SEO策略、CPS联盟变现、零成本创业<br/>
             一个人也能运作的完整商业系统
           </p>

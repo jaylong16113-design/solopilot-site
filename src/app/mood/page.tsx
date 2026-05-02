@@ -26,11 +26,12 @@ export default function MoodPage() {
 
   return (
     <div>
-      <section className="bg-background border-b border-border/50 px-4 py-12 md:py-16 -mx-4">
-        <div className="max-w-3xl mx-auto text-center">
-          <div className="text-4xl mb-3">🎬</div>
-          <h1 className="font-display text-2xl md:text-4xl font-bold tracking-tight mb-3 text-foreground">情绪短视频</h1>
-          <p className="text-sm text-muted-foreground max-w-lg mx-auto leading-relaxed">
+      <section className="relative -mx-4 overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-b from-background/70 via-background/40 to-background z-10" />
+        <img src="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?w=1200&q=80" alt="情绪短视频" className="absolute inset-0 w-full h-full object-cover" />
+        <div className="relative z-20 px-4 py-20 md:py-28 text-center">
+          <h1 className="font-display text-3xl md:text-5xl font-bold tracking-tight mb-4 text-white drop-shadow-lg">情绪短视频</h1>
+          <p className="text-base md:text-lg text-white/80 max-w-lg mx-auto leading-relaxed drop-shadow">
             用AI工具做高赞情绪短视频、从脚本到成片全流程拆解<br/>
             每一篇都是实操经验，不是理论搬运
           </p>
