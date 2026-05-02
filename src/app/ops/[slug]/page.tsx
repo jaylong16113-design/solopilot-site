@@ -125,8 +125,8 @@ export default async function ArticlePage({ params }: any) {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <article className="max-w-3xl mx-auto article-content">
-        <div className="flex items-center gap-2 text-xs text-gray-400 mb-4 px-4 pt-6">
-          <Link href="/" className="hover:text-gray-600">首页</Link>
+        <div className="flex items-center gap-2 text-xs text-muted-foreground mb-4 px-4 pt-6">
+          <Link href="/" className="hover:text-foreground transition-colors">首页</Link>
           <span>/</span>
           <Link href="/ops" className="hover:text-gray-600">一人公司</Link>
           <span>/</span>
@@ -139,9 +139,9 @@ export default async function ArticlePage({ params }: any) {
 
         <div className="px-4">
           <h1 className="text-xl md:text-3xl font-extrabold mb-2 leading-tight">{article.title}</h1>
-          <p className="text-sm text-gray-400 mb-6 border-l-2 border-amber-200 pl-3 italic">{article.excerpt}</p>
+          <p className="text-sm text-muted-foreground mb-6 border-l-2 border-primary/30 pl-3 italic">{article.excerpt}</p>
 
-          <div className="prose prose-gray max-w-none">
+          <div className="prose prose-invert max-w-none">
             <ReactMarkdown remarkPlugins={[remarkGfm]}
               components={{
                 img({ src, alt }) {
@@ -153,10 +153,10 @@ export default async function ArticlePage({ params }: any) {
                 ul({ children }) { return <ul className="list-disc pl-5 mb-4 space-y-1.5">{children}</ul>; },
                 ol({ children }) { return <ol className="list-decimal pl-5 mb-4 space-y-1.5">{children}</ol>; },
                 table({ children }) { return <div className="overflow-x-auto mb-6"><table className="min-w-full border-collapse border border-gray-200 text-sm rounded-lg overflow-hidden">{children}</table></div>; },
-                th({ children }) { return <th className="border border-gray-200 bg-gray-50 px-3 py-2 text-left text-xs font-semibold text-gray-600">{children}</th>; },
+                th({ children }) { return <th className="border border-gray-200 bg-surface px-3 py-2 text-left text-xs font-semibold text-gray-600">{children}</th>; },
                 td({ children }) { return <td className="border border-gray-200 px-3 py-2 text-sm">{children}</td>; },
                 blockquote({ children }) { return <blockquote className="border-l-4 border-amber-200 bg-amber-50/50 px-4 py-3 my-6 italic text-gray-500 text-sm rounded-r-lg">{children}</blockquote>; },
-                p({ children }) { return <p className="mb-4 leading-relaxed text-gray-700 text-sm md:text-base">{children}</p>; }
+                p({ children }) { return <p className="mb-4 leading-relaxed text-foreground text-sm md:text-base">{children}</p>; }
               }}
             >
               {article.content}

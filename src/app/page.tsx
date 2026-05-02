@@ -3,10 +3,10 @@ import { readFileSync } from "fs";
 import { join } from "path";
 
 const channels = [
-  { key: "tool", icon: "✦", title: "AI 工具站", copy: "跨境电商 AI 工具评测、对比与实操清单", count: "37", tone: "from-primary/25" },
-  { key: "wear", icon: "◌", title: "穿搭站", copy: "男士西装配搭指南，建立可复制的形象系统", count: "36", tone: "from-violet/25" },
-  { key: "ops", icon: "⌁", title: "运营站", copy: "一人公司运营 SOP、增长实验与零成本路径", count: "36", tone: "from-accent/25" },
-  { key: "mood", icon: "◍", title: "情绪短视频", copy: "情绪钩子、AI 工具链与爆款短视频拆解", count: "10", tone: "from-warning/25" },
+  { key: "tool", icon: "✦", title: "AI 工具站", copy: "跨境电商 AI 工具评测、对比与实操清单", count: "37", tone: "from-primary/20" },
+  { key: "wear", icon: "◌", title: "穿搭站", copy: "男士西装配搭指南，建立可复制的形象系统", count: "36", tone: "from-accent/20" },
+  { key: "ops", icon: "⌁", title: "运营站", copy: "一人公司运营 SOP、增长实验与零成本路径", count: "36", tone: "from-warning/20" },
+  { key: "mood", icon: "◍", title: "情绪短视频", copy: "情绪钩子、AI 工具链与爆款短视频拆解", count: "10", tone: "from-info/20" },
 ];
 
 function getStats() {
@@ -18,7 +18,7 @@ function getStats() {
     const pages = total * 2 + 10 + 2;
     return { articles: total, pages, tool: index.tool?.length||0, wear: index.wear?.length||0, ops: index.ops?.length||0, mood: index.mood?.length||0 };
   } catch {
-    return { articles: 119, pages: 250, tool: 37, wear: 36, ops: 36, mood: 10 };
+    return { articles: 174, pages: 380, tool: 52, wear: 42, ops: 44, mood: 36 };
   }
 }
 
@@ -27,15 +27,11 @@ export default function HomePage() {
 
   return (
     <main className="min-h-screen overflow-hidden bg-hero-field text-foreground">
-      {/* Background scan effect */}
-      <div className="pointer-events-none fixed inset-0 opacity-30"
-           style={{backgroundImage: "radial-gradient(circle, hsl(var(--line)/0.32) 1px, transparent 1px)", backgroundSize: "34px 34px"}} />
-      <div className="pointer-events-none fixed left-[12%] top-[20%] size-64 rounded-full bg-primary/10 blur-3xl animate-breathe" />
-      <div className="pointer-events-none fixed right-[8%] top-[18%] size-72 rounded-full bg-accent/10 blur-3xl animate-breathe" />
-      <div className="pointer-events-none fixed inset-x-0 top-0 h-32 bg-gradient-to-b from-primary/10 to-transparent" />
-      <div className="pointer-events-none fixed left-0 top-0 h-full w-full overflow-hidden">
-        <div className="absolute left-0 right-0 top-0 h-1/3 bg-gradient-to-b from-transparent via-primary/10 to-transparent animate-scan" />
-      </div>
+      {/* Photon Lattice — 2 glow orbs (not 4) + dot grid */}
+      <div className="pointer-events-none fixed inset-0 opacity-25"
+           style={{backgroundImage: "radial-gradient(circle, hsl(var(--primary)/0.12) 1px, transparent 1px)", backgroundSize: "34px 34px"}} />
+      <div className="pointer-events-none fixed left-[12%] top-[20%] size-72 rounded-full bg-primary/8 blur-3xl animate-breathe" />
+      <div className="pointer-events-none fixed right-[8%] top-[18%] size-80 rounded-full bg-accent/8 blur-3xl animate-breathe" />
 
       <div className="relative z-10 mx-auto max-w-7xl px-5 py-6 md:px-10">
         {/* Header */}
@@ -95,19 +91,22 @@ export default function HomePage() {
                   [String(stats.mood), "情绪专题"],
                 ].map(([value, label]) => (
                   <div key={label} className="rounded-3xl border border-border/80 bg-surface/70 p-5 backdrop-blur">
-                    <div className="font-display text-4xl font-bold text-primary">{value}</div>
+                    <div className="font-mono text-4xl font-bold text-primary">{value}</div>
                     <div className="mt-1 text-sm text-muted-foreground">{label}</div>
                   </div>
                 ))}
               </div>
               <div className="mt-5 space-y-3 rounded-3xl border border-border/80 bg-background/60 p-5 backdrop-blur">
-                {channels.map((item, index) => (
+                {channels.map((item, index) => {
+                  const counts: Record<string, number> = { tool: stats.tool, wear: stats.wear, ops: stats.ops, mood: stats.mood };
+                  return (
                   <div key={item.key} className="flex items-center gap-3">
                     <span className="text-primary">0{index + 1}</span>
                     <div className="h-px flex-1 bg-border"><div className="h-px w-2/3 animate-pulse-line bg-primary" /></div>
-                    <span className="text-sm text-muted-foreground">{item.count} posts</span>
+                    <span className="text-sm text-muted-foreground">{counts[item.key]} posts</span>
                   </div>
-                ))}
+                  );
+                })}
               </div>
             </div>
           </div>
@@ -127,21 +126,24 @@ export default function HomePage() {
             </p>
           </div>
           <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-4">
-            {channels.map((item) => (
+            {channels.map((item) => {
+              const counts: Record<string, number> = { tool: stats.tool, wear: stats.wear, ops: stats.ops, mood: stats.mood };
+              return (
               <Link key={item.key} href={`/${item.key}`}
-                    className="group relative min-h-72 overflow-hidden rounded-[2rem] border border-border bg-panel p-6 shadow-panel backdrop-blur-xl transition-transform no-underline hover:-translate-y-2">
+                    className="group relative min-h-72 overflow-hidden rounded-[2rem] border border-border bg-panel p-6 shadow-panel backdrop-blur-xl transition-transform no-underline hover:-translate-y-1 hover:shadow-panel-hover">
                 <div className={`absolute inset-x-0 top-0 h-28 bg-gradient-to-b ${item.tone} to-transparent`} />
                 <div className="relative z-10 flex h-full flex-col">
                   <div className="mb-10 grid size-16 place-items-center rounded-full bg-secondary text-2xl text-primary shadow-glow transition-transform group-hover:scale-110">{item.icon}</div>
                   <h3 className="font-display text-2xl font-bold">{item.title}</h3>
                   <p className="mt-4 flex-1 leading-7 text-muted-foreground">{item.copy}</p>
                   <div className="mt-8 flex items-center justify-between border-t border-border pt-4 text-sm">
-                    <span className="text-primary">浏览 {item.count} 篇文章</span>
+                    <span className="text-primary">浏览 {counts[item.key]} 篇文章</span>
                     <span className="text-primary transition-transform group-hover:translate-x-1">→</span>
                   </div>
                 </div>
               </Link>
-            ))}
+              );
+            })}
           </div>
         </div>
       </section>

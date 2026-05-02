@@ -141,8 +141,8 @@ export default async function ArticlePage({ params }: any) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <article className="max-w-3xl mx-auto article-content">
         {/* Breadcrumb */}
-        <div className="flex items-center gap-2 text-xs text-gray-400 mb-4 px-4 pt-6">
-          <Link href="/" className="hover:text-gray-600">首页</Link>
+        <div className="flex items-center gap-2 text-xs text-muted-foreground mb-4 px-4 pt-6">
+          <Link href="/" className="hover:text-foreground transition-colors">首页</Link>
           <span>/</span>
           <Link href="/tool" className="hover:text-gray-600">AI工具</Link>
           <span>/</span>
@@ -157,10 +157,10 @@ export default async function ArticlePage({ params }: any) {
         <div className="px-4">
           {/* Title */}
           <h1 className="text-xl md:text-3xl font-extrabold mb-2 leading-tight">{article.title}</h1>
-          <p className="text-sm text-gray-400 mb-6 border-l-2 border-blue-200 pl-3 italic">{article.excerpt}</p>
+          <p className="text-sm text-muted-foreground mb-6 border-l-2 border-primary/30 pl-3 italic">{article.excerpt}</p>
 
           {/* Content */}
-          <div className="prose prose-gray max-w-none">
+          <div className="prose prose-invert max-w-none">
             <ReactMarkdown 
               remarkPlugins={[remarkGfm]}
               components={{
@@ -183,10 +183,10 @@ export default async function ArticlePage({ params }: any) {
                     </div>
                   );
                 },
-                th({ children }) { return <th className="border border-gray-200 bg-gray-50 px-3 py-2 text-left text-xs font-semibold text-gray-600">{children}</th>; },
+                th({ children }) { return <th className="border border-gray-200 bg-surface px-3 py-2 text-left text-xs font-semibold text-gray-600">{children}</th>; },
                 td({ children }) { return <td className="border border-gray-200 px-3 py-2 text-sm">{children}</td>; },
-                blockquote({ children }) { return <blockquote className="border-l-4 border-blue-200 bg-blue-50/50 px-4 py-3 my-6 italic text-gray-500 text-sm rounded-r-lg">{children}</blockquote>; },
-                p({ children }) { return <p className="mb-4 leading-relaxed text-gray-700 text-sm md:text-base">{children}</p>; }
+                blockquote({ children }) { return <blockquote className="border-l-4 border-primary/30 bg-primary/5 px-4 py-3 my-6 italic text-gray-500 text-sm rounded-r-lg">{children}</blockquote>; },
+                p({ children }) { return <p className="mb-4 leading-relaxed text-foreground text-sm md:text-base">{children}</p>; }
               }}
             >
               {article.content}
@@ -195,15 +195,15 @@ export default async function ArticlePage({ params }: any) {
 
           {/* Tags */}
           <div className="flex flex-wrap gap-2 mt-8 pt-6 border-t border-gray-100">
-            <span className="tag bg-blue-100 text-blue-600">AI工具</span>
+            <span className="tag bg-primary/10 text-primary">AI工具</span>
             <span className="tag bg-gray-100 text-gray-500">电商</span>
             <span className="tag bg-gray-100 text-gray-500">免费工具</span>
           </div>
 
           {/* Navigation */}
           <div className="flex justify-between mt-8 pt-4 border-t border-gray-100 text-sm">
-            <Link href="/tool" className="text-blue-600 hover:underline">← 返回AI工具列表</Link>
-            <Link href="/" className="text-gray-400 hover:text-gray-600">首页 →</Link>
+            <Link href="/tool" className="text-primary hover:underline">← 返回AI工具列表</Link>
+            <Link href="/" className="text-muted-foreground hover:text-gray-600">首页 →</Link>
           </div>
         </div>
       </article>

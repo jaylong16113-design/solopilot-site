@@ -26,16 +26,16 @@ export default function MoodPage() {
 
   return (
     <div>
-      <section className="bg-gradient-to-b from-pink-50 to-white px-4 py-12 md:py-16 -mx-4">
+      <section className="bg-background border-b border-border/50 px-4 py-12 md:py-16 -mx-4">
         <div className="max-w-3xl mx-auto text-center">
           <div className="text-4xl mb-3">🎬</div>
-          <h1 className="text-2xl md:text-4xl font-extrabold tracking-tight mb-3">情绪短视频</h1>
-          <p className="text-sm text-gray-500 max-w-lg mx-auto leading-relaxed">
+          <h1 className="font-display text-2xl md:text-4xl font-bold tracking-tight mb-3 text-foreground">情绪短视频</h1>
+          <p className="text-sm text-muted-foreground max-w-lg mx-auto leading-relaxed">
             用AI工具做高赞情绪短视频、从脚本到成片全流程拆解<br/>
             每一篇都是实操经验，不是理论搬运
           </p>
-          <div className="flex justify-center gap-2 mt-4 text-xs text-gray-400">
-            <span className="tag bg-pink-100 text-pink-600">{articles.length} 篇文章</span>
+          <div className="flex justify-center gap-2 mt-4 text-xs">
+            <span className="tag bg-info/10 text-info">{articles.length} 篇文章</span>
           </div>
         </div>
       </section>
@@ -47,8 +47,8 @@ export default function MoodPage() {
               <div className="flex items-start gap-3">
                 <span className="text-xl mt-0.5 flex-shrink-0">{sectionIcons[a.slug] || "🎬"}</span>
                 <div className="min-w-0">
-                  <h3 className="font-semibold text-sm text-gray-900">{a.title}</h3>
-                  <p className="text-xs text-gray-400 mt-1 line-clamp-1">{a.excerpt}</p>
+                  <h3 className="font-semibold text-sm text-foreground">{a.title}</h3>
+                  <p className="text-xs text-muted-foreground mt-1 line-clamp-1">{a.excerpt}</p>
                 </div>
               </div>
             </Link>

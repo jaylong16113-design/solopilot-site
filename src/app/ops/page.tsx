@@ -36,16 +36,16 @@ export default function OpsPage() {
 
   return (
     <div>
-      <section className="bg-gradient-to-b from-amber-50 to-white px-4 py-12 md:py-16 -mx-4">
+      <section className="bg-background border-b border-border/50 px-4 py-12 md:py-16 -mx-4">
         <div className="max-w-3xl mx-auto text-center">
           <div className="text-4xl mb-3">🚀</div>
-          <h1 className="text-2xl md:text-4xl font-extrabold tracking-tight mb-3">一人公司运营</h1>
-          <p className="text-sm text-gray-500 max-w-lg mx-auto leading-relaxed">
+          <h1 className="font-display text-2xl md:text-4xl font-bold tracking-tight mb-3 text-foreground">一人公司运营</h1>
+          <p className="text-sm text-muted-foreground max-w-lg mx-auto leading-relaxed">
             AI自动化工作流、SEO策略、CPS联盟变现、零成本创业<br/>
             一个人也能运作的完整商业系统
           </p>
-          <div className="flex justify-center gap-2 mt-4 text-xs text-gray-400">
-            <span className="tag bg-amber-100 text-amber-600">{articles.length} 篇文章</span>
+          <div className="flex justify-center gap-2 mt-4 text-xs">
+            <span className="tag bg-warning/10 text-warning">{articles.length} 篇文章</span>
           </div>
         </div>
       </section>
@@ -57,8 +57,8 @@ export default function OpsPage() {
               <div className="flex items-start gap-3">
                 <span className="text-xl mt-0.5 flex-shrink-0">{icons[a.slug] || "📄"}</span>
                 <div className="min-w-0">
-                  <h3 className="font-semibold text-sm text-gray-900">{a.title}</h3>
-                  <p className="text-xs text-gray-400 mt-1 line-clamp-1">{a.excerpt}</p>
+                  <h3 className="font-semibold text-sm text-foreground">{a.title}</h3>
+                  <p className="text-xs text-muted-foreground mt-1 line-clamp-1">{a.excerpt}</p>
                 </div>
               </div>
             </Link>

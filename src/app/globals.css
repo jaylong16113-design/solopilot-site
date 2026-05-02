@@ -1,10 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
 @import "tailwindcss";
 
-/* ============ Design tokens (Tailwind v4 @theme) ============ */
+/* ============ PHOTON LATTICE Design System ============ */
+/* Based on Refero Styles: Linear + Raycast + Stripe + Superhuman */
+/* Full spec: ~/.hermes/skills/creative/agentclaw-photon-lattice/SKILL.md */
 @theme {
   --font-display: 'Space Grotesk', 'IBM Plex Sans', system-ui, sans-serif;
   --font-body: 'IBM Plex Sans', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
 
   --color-border: hsl(var(--border));
   --color-input: hsl(var(--input));
@@ -28,10 +31,9 @@
 
   --color-terminal: hsl(var(--terminal));
   --color-warning: hsl(var(--warning));
-  --color-violet: hsl(var(--violet));
+  --color-info: hsl(var(--info));
   --color-surface: hsl(var(--surface));
   --color-surface-strong: hsl(var(--surface-strong));
-  --color-line: hsl(var(--line));
 
   --bg-hero-field: var(--gradient-hero);
   --bg-panel: var(--gradient-panel);
@@ -39,55 +41,53 @@
 
   --shadow-glow: var(--shadow-glow);
   --shadow-panel: var(--shadow-panel);
+  --shadow-panel-hover: 0 0 0 1px hsl(220 24% 22%), 0 8px 40px hsl(210 38% 3% / 0.5);
 
-  --animate-scan: scan 5.5s linear infinite;
   --animate-float: float 7s ease-in-out infinite;
-  --animate-breathe: breathe 6s ease-in-out infinite;
+  --animate-breathe: breathe 8s ease-in-out infinite;
   --animate-pulse-line: pulseLine 2.4s ease-in-out infinite;
 }
 
-/* Custom keyframes */
-@keyframes scan { 0% { transform: translateY(-110%) } 100% { transform: translateY(110%) } }
-@keyframes float { 0%, 100% { transform: translate3d(0,0,0) } 50% { transform: translate3d(0,-12px,0) } }
-@keyframes breathe { 0%, 100% { transform: scale(1); opacity: 0.55 } 50% { transform: scale(1.08); opacity: 0.95 } }
-@keyframes pulseLine { 0%, 100% { opacity: 0.28 } 50% { opacity: 0.85 } }
+/* Custom keyframes (scan removed — Photon Lattice uses depth layers instead) */
+@keyframes float { 0%, 100% { transform: translate3d(0,0,0) } 50% { transform: translate3d(0,-8px,0) } }
+@keyframes breathe { 0%, 100% { transform: scale(1); opacity: 0.40 } 50% { transform: scale(1.06); opacity: 0.65 } }
+@keyframes pulseLine { 0%, 100% { opacity: 0.20 } 50% { opacity: 0.70 } }
 
-/* ============ CSS Variables ============ */
+/* ============ Photon Lattice Color Palette ============ */
+/* void→abyss→deep-slate→panel→surface→elevated 6-layer depth system */
 :root {
-  --background: 225 38% 8%;
-  --foreground: 185 48% 96%;
-  --card: 224 34% 13%;
-  --card-foreground: 180 36% 96%;
-  --popover: 218 31% 12%;
-  --popover-foreground: 180 36% 96%;
-  --primary: 178 96% 58%;
-  --primary-foreground: 224 48% 8%;
-  --secondary: 222 23% 17%;
-  --secondary-foreground: 180 36% 96%;
-  --muted: 219 21% 18%;
-  --muted-foreground: 188 14% 68%;
-  --accent: 286 92% 70%;
-  --accent-foreground: 224 48% 8%;
-  --destructive: 0 84.2% 60.2%;
-  --destructive-foreground: 210 40% 98%;
-  --border: 190 22% 26%;
-  --input: 190 22% 26%;
-  --ring: 168 92% 48%;
-  --terminal: 178 96% 68%;
-  --warning: 44 96% 62%;
-  --violet: 254 96% 74%;
-  --surface: 225 33% 11%;
-  --surface-strong: 224 36% 17%;
-  --line: 184 72% 58%;
-  --glow-primary: 178 96% 58%;
-  --gradient-hero: radial-gradient(ellipse at 20% 12%, hsl(var(--primary) / 0.24), transparent 34%),
-                   radial-gradient(ellipse at 82% 18%, hsl(var(--accent) / 0.23), transparent 36%),
-                   radial-gradient(ellipse at 50% 92%, hsl(var(--violet) / 0.18), transparent 38%),
-                   linear-gradient(135deg, hsl(225 38% 8%), hsl(226 42% 12%) 48%, hsl(220 44% 9%));
+  --background: 208 25% 3%;       /* #06080a void — deepest canvas */
+  --foreground: 0 0% 100%;        /* #ffffff signal — primary text */
+  --card: 215 29% 9%;             /* #11161d panel — card surface */
+  --card-foreground: 0 0% 100%;
+  --popover: 218 29% 11%;         /* #161b24 surface — elevated panels */
+  --popover-foreground: 0 0% 100%;
+  --primary: 160 84% 67%;         /* #6ee7b7 electric green — primary CTA */
+  --primary-foreground: 208 25% 3%;
+  --secondary: 218 25% 13%;       /* #161b24 surface */
+  --secondary-foreground: 0 0% 100%;
+  --muted: 216 19% 15%;           /* #1c2330 elevated */
+  --muted-foreground: 213 12% 55%; /* #8b949e frost — secondary text */
+  --accent: 263 84% 79%;          /* #a78bfa electric violet */
+  --accent-foreground: 208 25% 3%;
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 0% 98%;
+  --border: 218 22% 18%;          /* #242c38 border */
+  --input: 218 22% 18%;
+  --ring: 160 84% 55%;            /* primary-glow */
+  --terminal: 160 84% 67%;
+  --warning: 44 96% 62%;          /* #fbbf24 electric amber */
+  --info: 187 92% 69%;            /* #67e8f9 electric cyan */
+  --surface: 218 25% 13%;
+  --surface-strong: 220 24% 17%;
+  --glow-primary: 160 84% 67%;
+  --gradient-hero: radial-gradient(ellipse at 20% 12%, hsl(160 84% 67% / 0.10), transparent 34%),
+                   radial-gradient(ellipse at 82% 18%, hsl(263 84% 79% / 0.10), transparent 36%),
+                   linear-gradient(135deg, hsl(208 25% 3%), hsl(215 22% 6%) 48%, hsl(210 25% 4%));
   --gradient-panel: linear-gradient(145deg, hsl(var(--card) / 0.78), hsl(var(--surface-strong) / 0.58));
-  --gradient-claw: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--accent)) 58%, hsl(var(--violet)));
-  --shadow-glow: 0 0 60px hsl(var(--glow-primary) / 0.28);
-  --shadow-panel: 0 30px 90px hsl(225 54% 4% / 0.58);
+  --gradient-claw: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--accent)));
+  --shadow-glow: 0 0 60px hsl(160 84% 67% / 0.12);
+  --shadow-panel: 0 0 0 1px hsl(218 22% 18%), 0 4px 24px hsl(210 38% 3% / 0.4);
   --radius: 1.75rem;
 }
 
