@@ -157,6 +157,8 @@ export default function HomePage() {
               {channels.map(item => (
                 <Link key={item.key} href={`/${item.key}`} className="transition-colors no-underline hover:text-primary">{item.title}</Link>
               ))}
+              <a href="/compass" className="transition-colors no-underline hover:text-primary">COMPASS</a>
+              <a href="/lens" className="transition-colors no-underline hover:text-primary">LENS</a>
               <a href="/axiom" className="transition-colors no-underline hover:text-primary">AXIOM</a>
               <a href="/forge" className="transition-colors no-underline hover:text-primary">FORGE</a>
               <a href="/blaze" className="transition-colors no-underline hover:text-primary">BLAZE</a>
