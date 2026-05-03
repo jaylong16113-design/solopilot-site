@@ -37,6 +37,8 @@ export default function Footer() {
               <li><span className="cursor-default">{t("footer_about")}</span></li>
               <li><span className="cursor-default">{t("footer_desc")}</span></li>
               <li><span className="cursor-default">Ricky</span></li>
+              <li><Link href="/privacy" className="transition-colors no-underline" style={{color: "inherit"}}>隐私政策</Link></li>
+              <li><Link href="/terms" className="transition-colors no-underline" style={{color: "inherit"}}>服务条款</Link></li>
             </ul>
           </div>
           <div>
