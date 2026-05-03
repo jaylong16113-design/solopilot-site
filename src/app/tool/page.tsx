@@ -1,7 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import fs from "fs";
-import path from "path";
+import indexData from "@/lib/content/zh/index.json"
 
 export const metadata: Metadata = { 
   title: "AI电商工具 — 免费AI工具评测与电商运营教程", 
@@ -31,12 +30,7 @@ const sectionIcons: Record<string, string> = {
 };
 
 export default function ToolPage() {
-  const idxPath = path.join(process.cwd(), "src", "lib", "content", "zh", "index.json");
-  const articles: { slug: string; title: string; excerpt: string }[] = [];
-  if (fs.existsSync(idxPath)) {
-    const idx = JSON.parse(fs.readFileSync(idxPath, "utf8"));
-    articles.push(...(idx.tool || []));
-  }
+  const articles: { slug: string; title: string; excerpt: string }[] = indexData.tool || []
 
   return (
     <div>

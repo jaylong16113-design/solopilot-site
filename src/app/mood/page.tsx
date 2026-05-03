@@ -1,7 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import fs from "fs";
-import path from "path";
+import indexData from "@/lib/content/zh/index.json"
 
 export const metadata: Metadata = { 
   title: "情绪短视频 — AI工具推荐与创作教程", 
@@ -17,12 +16,7 @@ const sectionIcons: Record<string, string> = {
 };
 
 export default function MoodPage() {
-  const idxPath = path.join(process.cwd(), "src", "lib", "content", "zh", "index.json");
-  const articles: { slug: string; title: string; excerpt: string }[] = [];
-  if (fs.existsSync(idxPath)) {
-    const idx = JSON.parse(fs.readFileSync(idxPath, "utf8"));
-    articles.push(...(idx.mood || []));
-  }
+  const articles: { slug: string; title: string; excerpt: string }[] = indexData.mood || []
 
   return (
     <div>

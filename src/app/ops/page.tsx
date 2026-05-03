@@ -1,7 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import fs from "fs";
-import path from "path";
+import indexData from "@/lib/content/zh/index.json"
 
 export const metadata: Metadata = { 
   title: "一人公司运营指南 — 自动化·SEO·零成本创业", 
@@ -27,12 +26,7 @@ const icons: Record<string, string> = {
 };
 
 export default function OpsPage() {
-  const idxPath = path.join(process.cwd(), "src", "lib", "content", "zh", "index.json");
-  const articles: { slug: string; title: string; excerpt: string }[] = [];
-  if (fs.existsSync(idxPath)) {
-    const idx = JSON.parse(fs.readFileSync(idxPath, "utf8"));
-    articles.push(...(idx.ops || []));
-  }
+  const articles: { slug: string; title: string; excerpt: string }[] = indexData.ops || []
 
   return (
     <div>

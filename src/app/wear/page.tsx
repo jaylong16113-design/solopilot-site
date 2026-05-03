@@ -1,7 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import fs from "fs";
-import path from "path";
+import indexData from "@/lib/content/zh/index.json"
 
 export const metadata: Metadata = { 
   title: "男装穿搭指南 — 西服选购·面料·搭配", 
@@ -30,12 +29,7 @@ const icons: Record<string, string> = {
 };
 
 export default function WearPage() {
-  const idxPath = path.join(process.cwd(), "src", "lib", "content", "zh", "index.json");
-  const articles: { slug: string; title: string; excerpt: string }[] = [];
-  if (fs.existsSync(idxPath)) {
-    const idx = JSON.parse(fs.readFileSync(idxPath, "utf8"));
-    articles.push(...(idx.wear || []));
-  }
+  const articles: { slug: string; title: string; excerpt: string }[] = indexData.wear || []
 
   return (
     <div>
