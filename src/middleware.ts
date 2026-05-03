@@ -13,7 +13,7 @@ export function middleware(request: NextRequest) {
   if (!isToolPage) return NextResponse.next()
   
   const token = request.cookies.get('tools_token')?.value
-  const password = process.env.TOOLS_PASSWORD || 'agentclaw2026'
+  const password = process.env.TOOLS_PASSWORD || 'Sally'
   
   if (token !== password) {
     const loginUrl = new URL('/login', request.url)
