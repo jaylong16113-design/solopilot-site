@@ -1,6 +1,5 @@
 'use client'
 
-import { useState } from 'react'
 import { useI18n } from '@/lib/i18n/i18n'
 
 // ── Data ──
@@ -145,16 +144,16 @@ const scriptSteps = [
 ]
 
 const galleryImages = [
-  { src: '/burberry/images/ChatGPT Image 2026年4月29日 19_27_58.png', label: 'Brand Concept', sublabel: '品牌概念' },
-  { src: '/burberry/images/ChatGPT Image 2026年4月29日 20_47_07.png', label: 'Visual Identity', sublabel: '视觉识别' },
-  { src: '/burberry/images/ChatGPT Image 2026年4月29日 20_12_58.png', label: 'AI Portrait', sublabel: 'AI人像' },
-  { src: '/burberry/images/ChatGPT Image 2026年4月30日 17_41_11.png', label: 'Scene Design', sublabel: '场景设计' },
-  { src: '/burberry/images/人物特写/ChatGPT Image 2026年4月30日 19_11_15.png', label: 'Character Close-up', sublabel: '人物特写' },
-  { src: '/burberry/images/人物特写/ChatGPT Image 2026年4月30日 19_05_17.png', label: 'Portrait Study', sublabel: '肖像研究' },
-  { src: '/burberry/images/人物表情/ChatGPT Image 2026年4月30日 20_31_50.png', label: 'Expression Study', sublabel: '表情研究' },
-  { src: '/burberry/images/人物表情/ChatGPT Image 2026年4月30日 20_25_45 (3).png', label: 'Micro-expression', sublabel: '微表情' },
-  { src: '/burberry/images/大女主IP/ChatGPT Image 2026年5月3日 02_47_00.png', label: 'Female Lead IP', sublabel: '大女主IP' },
-  { src: '/burberry/images/大女主IP/ChatGPT Image 2026年5月3日 02_04_28.png', label: 'Heroine Design', sublabel: '女主设计' },
+  { label: 'Brand Concept', sublabel: '品牌概念', gradient: 'linear-gradient(135deg, #c4a962, #8b7536)' },
+  { label: 'Visual Identity', sublabel: '视觉识别', gradient: 'linear-gradient(135deg, #1a1a2e, #16213e)' },
+  { label: 'AI Portrait', sublabel: 'AI人像', gradient: 'linear-gradient(135deg, #2d1b69, #11998e)' },
+  { label: 'Scene Design', sublabel: '场景设计', gradient: 'linear-gradient(135deg, #0f0c29, #302b63)' },
+  { label: 'Character Close-up', sublabel: '人物特写', gradient: 'linear-gradient(135deg, #1a1a2e, #a78bfa)' },
+  { label: 'Portrait Study', sublabel: '肖像研究', gradient: 'linear-gradient(135deg, #c4a962, #1a1a2e)' },
+  { label: 'Expression Study', sublabel: '表情研究', gradient: 'linear-gradient(135deg, #667eea, #764ba2)' },
+  { label: 'Micro-expression', sublabel: '微表情', gradient: 'linear-gradient(135deg, #f093fb, #f5576c)' },
+  { label: 'Female Lead IP', sublabel: '大女主IP', gradient: 'linear-gradient(135deg, #4facfe, #00f2fe)' },
+  { label: 'Heroine Design', sublabel: '女主设计', gradient: 'linear-gradient(135deg, #a18cd1, #fbc2eb)' },
 ]
 
 // ── Page ──
@@ -403,24 +402,6 @@ export default function BurberryPage() {
         }
         .br-gallery-label span { display:block; font-size:10px; color:var(--br-t4); margin-top:1px; }
 
-        /* ── Lightbox ── */
-        .br-lightbox {
-          position:fixed; inset:0; z-index:999;
-          background:rgba(0,0,0,0.85); display:flex; align-items:center; justify-content:center;
-          padding:24px; cursor:pointer; backdrop-filter:blur(8px);
-        }
-        .br-lightbox img {
-          max-width:90vw; max-height:85vh; object-fit:contain;
-          border-radius:var(--br-rad-lg);
-        }
-        .br-lightbox-close {
-          position:absolute; top:16px; right:20px;
-          font-size:28px; color:var(--br-t2); cursor:pointer;
-          background:none; border:none; font-family:var(--br-font);
-          opacity:0.7; transition:opacity .15s;
-        }
-        .br-lightbox-close:hover { opacity:1; }
-
         /* ── Footer ── */
         .br-footer {
           padding:32px 0; border-top:1px solid var(--br-border);
@@ -635,33 +616,24 @@ export default function BurberryPage() {
 // ── Gallery with Lightbox ──
 
 function GalleryGrid({ images, isZh }: { images: typeof galleryImages; isZh: boolean }) {
-  const [lightbox, setLightbox] = useState<string | null>(null)
-
   return (
-    <>
-      <div className="br-gallery-grid">
-        {images.map((img, i) => (
-          <div key={i} className="br-gallery-item" onClick={() => setLightbox(img.src)}>
-            <img
-              src={img.src}
-              alt={img.label}
-              className="br-gallery-img"
-              loading="lazy"
-            />
-            <div className="br-gallery-label">
-              {isZh ? img.sublabel : img.label}
-              <span>{isZh ? img.label : img.sublabel}</span>
-            </div>
+    <div className="br-gallery-grid">
+      {images.map((img, i) => (
+        <div key={i} className="br-gallery-item" style={{ cursor: 'default' }}>
+          <div className="br-gallery-img" style={{
+            background: img.gradient,
+            display: 'flex', alignItems: 'center', justifyContent: 'center',
+            fontSize: '28px', fontWeight: 700, color: 'rgba(255,255,255,0.3)',
+            letterSpacing: '-0.03em',
+          }}>
+            {img.label.charAt(0)}
           </div>
-        ))}
-      </div>
-
-      {lightbox && (
-        <div className="br-lightbox" onClick={() => setLightbox(null)}>
-          <button className="br-lightbox-close" onClick={() => setLightbox(null)}>✕</button>
-          <img src={lightbox} alt="" onClick={(e) => e.stopPropagation()} />
+          <div className="br-gallery-label">
+            {isZh ? img.sublabel : img.label}
+            <span>{isZh ? img.label : img.sublabel}</span>
+          </div>
         </div>
-      )}
-    </>
+      ))}
+    </div>
   )
 }
