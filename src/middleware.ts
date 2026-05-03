@@ -21,7 +21,16 @@ export function middleware(request: NextRequest) {
     return NextResponse.redirect(loginUrl)
   }
   
-  return NextResponse.next()
+  // Cookie renewal: extend lifetime on every valid tool page visit
+  const response = NextResponse.next()
+  response.cookies.set('tools_token', password, {
+    httpOnly: true,
+    secure: process.env.NODE_ENV === 'production',
+    sameSite: 'lax',
+    maxAge: 60 * 60 * 24 * 7, // 7 days, rolling renewal
+    path: '/',
+  })
+  return response
 }
 
 export const config = {

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { headers } from "next/headers";
 import "./globals.css";
 import { I18nProvider } from "@/lib/i18n/i18n";
 import Header from "@/components/Header";
@@ -29,8 +30,13 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
+  // 动态检测语言路由，修正英文站 lang="zh-CN" 的问题
+  const headersList = headers();
+  const pathname = headersList.get("x-pathname") || headersList.get("next-url") || "";
+  const isEn = pathname?.startsWith("/en");
+
   return (
-    <html lang="zh-CN" className="bg-background text-foreground">
+    <html lang={isEn ? "en" : "zh-CN"} className="bg-background text-foreground">
       <head>
         <meta name="baidu-site-verification" content="REPLACE_WITH_YOUR_BAIDU_CODE" />
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5426111418472003" crossOrigin="anonymous"></script>

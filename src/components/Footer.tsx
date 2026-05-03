@@ -37,13 +37,17 @@ export default function Footer() {
               <li><span className="cursor-default">{t("footer_about")}</span></li>
               <li><span className="cursor-default">{t("footer_desc")}</span></li>
               <li><span className="cursor-default">Ricky</span></li>
-              <li><a href="/axiom" className="transition-colors no-underline" style={{color: "inherit"}}>AXIOM →</a></li>
             </ul>
           </div>
           <div>
-            <h4 className="font-display text-sm font-semibold mb-3" style={{color: "hsl(var(--foreground))"}}>{t("contact")}</h4>
+            <h4 className="font-display text-sm font-semibold mb-3" style={{color: "hsl(var(--foreground))"}}>🔒 内部工具</h4>
             <ul className="space-y-1.5 text-xs" style={{color: "hsl(var(--muted-foreground))"}}>
-              <li><a href="mailto:jaylong16113@gmail.com" className="transition-colors">jaylong16113@gmail.com</a></li>
+              <li><a href="/axiom" className="transition-colors no-underline" style={{color: "hsl(var(--accent))"}}>AXIOM 社会推演</a></li>
+              <li><a href="/forge" className="transition-colors no-underline" style={{color: "hsl(var(--accent))"}}>FORGE 内容中台</a></li>
+              <li><a href="/blaze" className="transition-colors no-underline" style={{color: "hsl(var(--accent))"}}>BLAZE 爆款复刻</a></li>
+              <li><a href="/hunter" className="transition-colors no-underline" style={{color: "hsl(var(--accent))"}}>HUNTER 工具箱</a></li>
+              <li><a href="/mist" className="transition-colors no-underline" style={{color: "hsl(var(--accent))"}}>Mist 情绪短视频</a></li>
+              <li style={{fontSize: "9px", marginTop: "4px", color: "hsl(var(--muted-foreground)/0.6)"}}>需密码 · 仅供演示</li>
             </ul>
           </div>
         </div>
