@@ -399,6 +399,31 @@
       "slug": "ai-dianshang-crm-hengping",
       "title": "2026年AI电商CRM工具横评：自动客户分层与留存营销的完整指南",
       "excerpt": "深度对比Klaviyo、Omnisend、ActiveCampaign、Drip和Brevo五大AI CRM工具，从客户分层、智能发送、流失预测到LTV优化，帮你找到最适合的电商客户留存方案。"
+    },
+    {
+      "slug": "ai-shangpin-baojiazhuang-shengcheng",
+      "title": "AI商品报价单自动生成：从Excel到PDF的全自动流程",
+      "excerpt": "告别手动制作报价单。用AI工具从商品数据自动生成多语言、多币种的PDF报价单，支持定制模板和批量导出，每月节省10+小时。"
+    },
+    {
+      "slug": "ai-duopingtai-shangpin-tongbu",
+      "title": "AI多平台商品同步管理：告别逐个平台手动上架",
+      "excerpt": "在Shopify、淘宝、拼多多、TikTok Shop等多个平台管理商品清单是跨境卖家的噩梦。本文介绍AI同步工具如何自动完成商品信息更新、库存同步和订单管理。"
+    },
+    {
+      "slug": "ai-shangpin-pingfen-fenxi",
+      "title": "AI商品评价分析工具：从海量评论中找出产品改进方向",
+      "excerpt": "每天成百上千条商品评论，人工阅读根本来不及。AI评价分析工具自动提取高频关键词、情感倾向、用户痛点和竞品对比，帮你精准定位产品迭代方向。"
+    },
+    {
+      "slug": "ai-zhineng-tuiguang-youxiao",
+      "title": "AI智能推广工具评测：谁能让你的每一分广告费都花得值得？",
+      "excerpt": "全面评测2026年主流AI智能推广工具，从直通车优化到全自动投放策略，帮你找到最适合自己业务规模和预算的解决方案。"
+    },
+    {
+      "slug": "ai-kuaishou-shipin-shengcheng",
+      "title": "AI快手短视频批量生成：一个人如何日产50条带货视频",
+      "excerpt": "手工制作一条带货视频需要30分钟？用AI工具链可以将时间压缩到5分钟。本文详解从脚本生成、AI数字人口播到自动混剪的完整流程。"
     }
   ],
   "wear": [
@@ -671,6 +696,16 @@
       "slug": "majia-beixin-dapei-2026",
       "title": "马甲背心搭配指南：2026年男士正装的点睛之笔（不像银行家的穿法）",
       "excerpt": "马甲背心在2026年强势回归——但不是你爷爷那种穿法。学会用现代马甲搭配西装、牛仔、针织衫甚至T恤，打造有当代棱角的层次造型。"
+    },
+    {
+      "slug": "baojian-xifu-tuijian",
+      "title": "保剑西装推荐：如何在预算内买到最高性价比的商务西装",
+      "excerpt": "预算1000元还是10000元？不同价位段的西装到底差在哪里？从面料、工艺到版型，全方位的西装选购指南帮你找到最适合自己的选择。"
+    },
+    {
+      "slug": "xifu-dapei-zhuangbei",
+      "title": "西装搭配必用配具：领带、口袋巾、袖扣的核心选购指南",
+      "excerpt": "一套好的西装需要好的配饰来完善。从领带到口袋巾到袖扣，本文详细解析每个配饰的选购要点、搭配原则和场合选择。"
     }
   ],
   "ops": [
@@ -958,6 +993,16 @@
       "slug": "yiren-ai-shipin-chuangzuo",
       "title": "一人公司AI视频创作指南：用AI工具一个人做出专业级视频内容",
       "excerpt": "个人创始人如何用AI工具在YouTube和抖音上生产专业视频内容。从脚本创作到剪辑到发布，搭建一整套不需要团队的AI视频生产线。"
+    },
+    {
+      "slug": "yiren-gongsi-xinxi-tixi",
+      "title": "一人公司信息体系搭建：用Notion/飞书打造你的第二大脑",
+      "excerpt": "一个人运营一家公司，最大的挑战不是做事，而是记住所有事。从任务管理到知识库到客户关系，用一套完整的信息系统管理一切。"
+    },
+    {
+      "slug": "yiren-gongsi-neirong-yunying",
+      "title": "一人公司内容运营系统：从选题到发布的完整SOP",
+      "excerpt": "一个人运营内容网站或社交媒体，如何保持持续稳定的输出？从选题策划、内容生产到发布推广，一套完整的SOP帮你建立可持续的内容引擎。"
     }
   ],
   "mood": [
@@ -1180,6 +1225,11 @@
       "slug": "ai-pangbai-qingxu-shipin-2026",
       "title": "AI旁白配音在情绪短视频中的应用：2026年最新工具与技巧",
       "excerpt": "AI配音技术如何改变情绪短视频创作。深度对比ElevenLabs、魔音工坊、Fish Audio等工具，分享让AI旁白听起来有真情实感的导演级技巧。"
+    },
+    {
+      "slug": "qingxu-duan-shipin-yunying",
+      "title": "情绪短视频号运营入门：从账号定位到第一条爆款的全流程",
+      "excerpt": "想做情绪短视频但不知从何入手？本文覆盖从账号定位、内容规划、拍摄技巧到发布策略的全流程，帮你从零开始运营一个情绪短视频账号。"
     }
   ]
 }
