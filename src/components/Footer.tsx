@@ -44,6 +44,8 @@ export default function Footer() {
           <div>
             <h4 className="font-display text-sm font-semibold mb-3" style={{color: "hsl(var(--foreground))"}}>🔒 内部工具</h4>
             <ul className="space-y-1.5 text-xs" style={{color: "hsl(var(--muted-foreground))"}}>
+              <li><a href="/compass" className="transition-colors no-underline" style={{color: "hsl(var(--accent))"}}>🧭 COMPASS 导航</a></li>
+              <li><a href="/lens" className="transition-colors no-underline" style={{color: "hsl(var(--accent))"}}>🔍 LENS 情报</a></li>
               <li><a href="/axiom" className="transition-colors no-underline" style={{color: "hsl(var(--accent))"}}>AXIOM 社会推演</a></li>
               <li><a href="/forge" className="transition-colors no-underline" style={{color: "hsl(var(--accent))"}}>FORGE 内容中台</a></li>
               <li><a href="/blaze" className="transition-colors no-underline" style={{color: "hsl(var(--accent))"}}>BLAZE 爆款复刻</a></li>

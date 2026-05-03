@@ -1,13 +1,13 @@
 import { NextResponse } from 'next/server'
 import type { NextRequest } from 'next/server'
 
-const TOOL_PATHS = ['/axiom', '/forge', '/blaze', '/hunter', '/mist', '/login']
+const TOOL_PATHS = ['/axiom', '/forge', '/blaze', '/hunter', '/mist', '/lens', '/pulse', '/growth', '/cascade', '/compass', '/login']
 
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl
   
   // Skip auth for login page itself, api endpoints, homepage, content pages
-  const isToolPage = ['/axiom', '/forge', '/blaze', '/hunter', '/mist'].some(p => 
+  const isToolPage = ['/axiom', '/forge', '/blaze', '/hunter', '/mist', '/lens', '/pulse', '/growth', '/cascade', '/compass'].some(p => 
     pathname === p || pathname.startsWith(p + '/')
   )
   if (!isToolPage) return NextResponse.next()
@@ -34,5 +34,5 @@ export function middleware(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ['/axiom/:path*', '/forge/:path*', '/blaze/:path*', '/hunter/:path*', '/mist/:path*']
+  matcher: ['/axiom/:path*', '/forge/:path*', '/blaze/:path*', '/hunter/:path*', '/mist/:path*', '/lens/:path*', '/pulse/:path*', '/growth/:path*', '/cascade/:path*', '/compass/:path*']
 }
