@@ -42,9 +42,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5426111418472003" crossOrigin="anonymous"></script>
         <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
         <link rel="canonical" href={`https://agentclaw.sale${pathname}`} />
-        <link rel="alternate" hreflang="zh" href={`https://agentclaw.sale${isEn ? pathname.replace(/^\/en/, '') : pathname}`} />
-        <link rel="alternate" hreflang="en" href={`https://agentclaw.sale${isEn ? pathname : '/en' + pathname}`} />
-        <link rel="alternate" hreflang="x-default" href="https://agentclaw.sale/" />
+        <link rel="alternate" hrefLang="zh" href={`https://agentclaw.sale${isEn ? pathname.replace(/^\/en/, '') : pathname}`} />
+        <link rel="alternate" hrefLang="en" href={`https://agentclaw.sale${isEn ? pathname : '/en' + pathname}`} />
+        <link rel="alternate" hrefLang="x-default" href="https://agentclaw.sale/" />
       </head>
       <body className="antialiased" style={{background: "hsl(var(--background))", color: "hsl(var(--foreground))"}}>
         <I18nProvider>

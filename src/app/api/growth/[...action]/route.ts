@@ -1,21 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
-
-function seededRandom(seed: number) {
-  let s = seed % 2147483647
-  if (s <= 0) s += 2147483646
-  return function () {
-    s = (s * 16807) % 2147483647
-    return (s - 1) / 2147483646
-  }
-}
-
-function randint(rng: () => number, min: number, max: number) {
-  return Math.floor(rng() * (max - min + 1)) + min
-}
-
-function uniform(rng: () => number, min: number, max: number) {
-  return rng() * (max - min) + min
-}
+import { deepseekJSON } from '@/lib/api-clients'
 
 export async function POST(request: NextRequest, { params }: { params: { action?: string[] } }) {
   const action = params.action || []
@@ -26,48 +10,76 @@ export async function POST(request: NextRequest, { params }: { params: { action?
       const body = await request.json()
       const product: string = body.product || '通勤双肩包'
       const platforms: string[] = body.platforms || ['天猫', '京东', '拼多多', '抖音']
-      const rng = seededRandom(Math.floor(Date.now() / 3600000))
 
-      const results = platforms.map((p) => ({
-        platform: p,
-        price: randint(rng, 199, 3999),
-        our_price: randint(rng, 199, 3999),
-        competitor_lowest: randint(rng, 150, 3500),
-        position: pick(rng, ['领先', '持平', '落后']),
-      }))
+      const result = await deepseekJSON<{
+        product: string
+        scan_time: string
+        results: { platform: string; price: number; our_price: number; competitor_lowest: number; position: string }[]
+        recommendation: string
+      }>(
+        '你是电商价格策略分析师。请返回纯JSON。',
+        `对产品 "${product}" 在各平台进行竞品价格对比。
+平台: ${platforms.join(', ')}
+每个平台需要: 平台名、竞品价格(price)、我方价格(our_price)、竞品最低价(competitor_lowest)、价格定位(position: "领先"/"持平"/"落后")
+给出一个总体recommendation建议。
 
-      return NextResponse.json({
-        product,
-        scan_time: new Date().toISOString(),
-        results,
-        recommendation: '建议关注拼多多价位下探趋势，适当调整分销价格管控',
-      })
+返回JSON结构必须严格如下:
+{
+  "product": "string",
+  "scan_time": "ISO时间戳",
+  "results": [{ "platform": "string", "price": 数字, "our_price": 数字, "competitor_lowest": 数字, "position": "string" }],
+  "recommendation": "string"
+}`
+      )
+
+      result.scan_time = new Date().toISOString()
+      return NextResponse.json(result)
     }
 
     // ── seo — SEO audit ──
     if (action.length === 1 && action[0] === 'seo') {
       const body = await request.json()
       const url: string = body.url || 'agentclaw.sale'
-      const rng = seededRandom(Math.floor(Date.now() / 86400000))
 
-      return NextResponse.json({
-        url,
-        score: randint(rng, 50, 85),
+      const result = await deepseekJSON<{
+        url: string
+        score: number
         checks: {
-          meta_tags: { status: 'good', detail: '标题+描述完整' },
-          headings: { status: randint(rng, 0, 1) ? 'good' : 'warn', detail: 'H1-H3层级完整' },
-          images_alt: { status: randint(rng, 0, 1) ? 'good' : 'warn', detail: `缺失${randint(rng, 3, 12)}个alt` },
-          load_speed: { status: randint(rng, 0, 1) ? 'good' : 'warn', detail: `${uniform(rng, 1, 4).toFixed(1)}s` },
-          mobile: { status: 'good', detail: '响应式适配' },
-          schema: { status: randint(rng, 0, 1) ? 'good' : 'warn', detail: '缺少Article Schema' },
-          links: { status: 'good', detail: `${randint(rng, 5, 30)}内链` },
-        },
-        recommendations: [
-          '添加Article JSON-LD结构化数据',
-          '优化文章图片alt标签',
-          '增加内链交叉引用',
-        ],
-      })
+          meta_tags: { status: string; detail: string }
+          headings: { status: string; detail: string }
+          images_alt: { status: string; detail: string }
+          load_speed: { status: string; detail: string }
+          mobile: { status: string; detail: string }
+          schema: { status: string; detail: string }
+          links: { status: string; detail: string }
+        }
+        recommendations: string[]
+      }>(
+        '你是SEO技术审计专家。请返回纯JSON。',
+        `对网站 ${url} 进行SEO审计评分。
+评估维度: meta_tags(标题+描述)、headings(H1-H3层级)、images_alt(图片alt标签)、load_speed(加载速度)、mobile(移动端适配)、schema(结构化数据)、links(内链)
+每个维度状态: "good"(通过)或"warn"(需优化)，并附detail说明
+给出3条优化建议recommendations
+score为整体评分(0-100)
+
+返回JSON结构必须严格如下:
+{
+  "url": "string",
+  "score": 数字,
+  "checks": {
+    "meta_tags": { "status": "string", "detail": "string" },
+    "headings": { "status": "string", "detail": "string" },
+    "images_alt": { "status": "string", "detail": "string" },
+    "load_speed": { "status": "string", "detail": "string" },
+    "mobile": { "status": "string", "detail": "string" },
+    "schema": { "status": "string", "detail": "string" },
+    "links": { "status": "string", "detail": "string" }
+  },
+  "recommendations": ["string"]
+}`
+      )
+
+      return NextResponse.json(result)
     }
 
     // ── strategy — pricing strategy recommendation ──
@@ -75,32 +87,39 @@ export async function POST(request: NextRequest, { params }: { params: { action?
       const body = await request.json()
       const brand: string = body.brand || 'SAINT ANGELO'
       const category: string = body.category || '轻奢女包'
-      const rng = seededRandom(Math.floor(Date.now() / 86400000))
 
-      return NextResponse.json({
-        brand,
-        category,
-        current_price_range: `¥${randint(rng, 199, 999)} - ¥${randint(rng, 1000, 4999)}`,
-        recommended_price: `¥${randint(rng, 299, 3999)}`,
-        competitor_benchmark: [
-          { brand: 'Coach', avg_price: randint(rng, 1500, 4000), position: '高端' },
-          { brand: 'Michael Kors', avg_price: randint(rng, 800, 3000), position: '中高端' },
-          { brand: 'Furla', avg_price: randint(rng, 1000, 3500), position: '中端' },
-        ],
-        suggestions: [
-          '建议主推价格带¥599-1299，避开Coach直竞争区',
-          '推出入门款引流（¥299-399），吸引价格敏感用户',
-          '高端款做品牌调性（¥1999+），限量发售拉升品牌价值',
-        ],
-      })
+      const result = await deepseekJSON<{
+        brand: string
+        category: string
+        current_price_range: string
+        recommended_price: string
+        competitor_benchmark: { brand: string; avg_price: number; position: string }[]
+        suggestions: string[]
+      }>(
+        '你是品牌定价策略专家。请返回纯JSON。',
+        `为品牌 "${brand}"（品类: ${category}）制定定价策略。
+要求:
+1. 当前价格区间 current_price_range (如"¥299 - ¥1299")
+2. 推荐定价 recommended_price (如"¥699")
+3. 竞品对标 competitor_benchmark (3个竞品, each with brand, avg_price, position)
+4. 3条策略建议 suggestions
+
+返回JSON结构必须严格如下:
+{
+  "brand": "string",
+  "category": "string",
+  "current_price_range": "string",
+  "recommended_price": "string",
+  "competitor_benchmark": [{ "brand": "string", "avg_price": 数字, "position": "string" }],
+  "suggestions": ["string"]
+}`
+      )
+
+      return NextResponse.json(result)
     }
 
     return NextResponse.json({ error: 'Unknown action' }, { status: 404 })
   } catch (e: any) {
     return NextResponse.json({ detail: e.message }, { status: 500 })
   }
-}
-
-function pick<T>(rng: () => number, arr: T[]): T {
-  return arr[Math.floor(rng() * arr.length)]
 }

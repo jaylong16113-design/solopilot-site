@@ -1,39 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
-
-function seededRandom(seed: number) {
-  let s = seed % 2147483647
-  if (s <= 0) s += 2147483646
-  return function () {
-    s = (s * 16807) % 2147483647
-    return (s - 1) / 2147483646
-  }
-}
-
-function randint(rng: () => number, min: number, max: number) {
-  return Math.floor(rng() * (max - min + 1)) + min
-}
-
-function uniform(rng: () => number, min: number, max: number) {
-  return rng() * (max - min) + min
-}
-
-function pick<T>(rng: () => number, arr: T[]): T {
-  return arr[Math.floor(rng() * arr.length)]
-}
-
-const BRANDS = ['Coach', 'Michael Kors', 'Furla', 'Tory Burch', 'Longchamp', 'Pinko', 'APC', 'Polene']
-
-const PLATFORMS = ['抖音', '小红书', '微博', 'B站']
-
-const PERSONAS = ['白领通勤', '时尚博主', '学生党', '职场精英', '精致妈妈', '潮流青年']
-
-const TRENDS = [
-  { topic: '通勤大包回归', growth: '+43%', platform: '小红书' },
-  { topic: '轻奢平替', growth: '+38%', platform: '抖音' },
-  { topic: '皮质手工包', growth: '+52%', platform: '小红书' },
-  { topic: 'Mini包叠背', growth: '+27%', platform: 'B站' },
-  { topic: '老花复兴', growth: '+35%', platform: '微博' },
-]
+import { deepseekJSON } from '@/lib/api-clients'
 
 export async function POST(request: NextRequest, { params }: { params: { action?: string[] } }) {
   const action = params.action || []
@@ -48,40 +14,38 @@ export async function POST(request: NextRequest, { params }: { params: { action?
       const body = await request.json()
       const competitors: string[] = body.competitors || ['Coach', 'Michael Kors']
       const days: number = body.days || 7
-      const seedStr = JSON.stringify(competitors) + days
-      let hash = 0
-      for (let i = 0; i < seedStr.length; i++) {
-        hash = ((hash << 5) - hash + seedStr.charCodeAt(i)) | 0
-      }
-      const rng = seededRandom(Math.abs(hash))
 
-      const mentions = competitors.map((brand) => ({
-        brand,
-        mentions: randint(rng, 50, 500),
-        sentiment: Math.round(uniform(rng, 3.0, 5.0) * 10) / 10,
-        top_platform: pick(rng, PLATFORMS),
-        growth: `${randint(rng, -5, 30) > 0 ? '+' : ''}${randint(rng, -15, 40)}%`,
-        top_posts: Array.from({ length: 3 }, (_, i) => ({
-          title: `${brand}${pick(rng, ['新款测评', '穿搭合集', '性价比分析', '种草日记', '开箱视频'])}`,
-          platform: pick(rng, PLATFORMS),
-          engagement: `${uniform(rng, 2, 15).toFixed(1)}%`,
-          url: '#',
-        })),
-      }))
+      const result = await deepseekJSON<{
+        scan_time: string
+        competitors: string[]
+        days: number
+        total_mentions: number
+        mentions: { brand: string; mentions: number; sentiment: number; top_platform: string; growth: string; top_posts: { title: string; platform: string; engagement: string; url: string }[] }[]
+        trends: { topic: string; growth: string; platform: string }[]
+        alerts: string[]
+      }>(
+        '你是品牌监测分析专家，擅长社交媒体声量分析。请返回纯JSON。',
+        `对以下竞品品牌进行社交媒体声量扫描，监测天数: ${days}天。
+竞品: ${competitors.join(', ')}
+要求:
+1. 为每个品牌生成声量数据（mentions、sentiment评分1-5、top_platform、growth百分比）
+2. 每个品牌给出3条热门帖子（title、platform、engagement率、url用#占位）
+3. 整体行业趋势（3-5条，含topic、growth、platform）
+4. 3-5条洞察警报
+返回JSON结构必须严格如下:
+{
+  "scan_time": "ISO时间戳",
+  "competitors": ["品牌列表"],
+  "days": 7,
+  "total_mentions": 数字,
+  "mentions": [{ "brand": "string", "mentions": 数字, "sentiment": 数字, "top_platform": "string", "growth": "string", "top_posts": [{ "title": "string", "platform": "string", "engagement": "string", "url": "#" }] }],
+  "trends": [{ "topic": "string", "growth": "string", "platform": "string" }],
+  "alerts": ["string"]
+}`
+      )
 
-      return NextResponse.json({
-        scan_time: new Date().toISOString(),
-        competitors,
-        days,
-        total_mentions: mentions.reduce((a, b) => a + b.mentions, 0),
-        mentions,
-        trends: TRENDS,
-        alerts: [
-          'Coach 小红书声量上升28%，主要依靠通勤包测评内容',
-          'Michael Kors 抖音投放减少，需关注是否策略调整',
-          `话题「轻奢平替」增长38%，建议跟进内容策略`,
-        ],
-      })
+      result.scan_time = new Date().toISOString()
+      return NextResponse.json(result)
     }
 
     // ── kols — discover KOLs for brand ──
@@ -89,57 +53,63 @@ export async function POST(request: NextRequest, { params }: { params: { action?
       const body = await request.json()
       const brand: string = body.brand || 'Coach'
       const category: string = body.category || '轻奢女包'
-      const seedStr = brand + category
-      let hash = 0
-      for (let i = 0; i < seedStr.length; i++) {
-        hash = ((hash << 5) - hash + seedStr.charCodeAt(i)) | 0
-      }
-      const rng = seededRandom(Math.abs(hash))
 
-      const kols = Array.from({ length: 10 }, (_, i) => ({
-        name: `${['时尚', '穿搭', '品质', '精致', '都市'][randint(rng, 0, 4)]}${['小A', '的日常', '日记', '范', '说', '控', '指南', '笔记', '分享', '推荐'][randint(rng, 0, 9)]}`,
-        platform: pick(rng, PLATFORMS),
-        followers: `${randint(rng, 1, 50)}万`,
-        engagement: `${uniform(rng, 3, 18).toFixed(1)}%`,
-        match_score: randint(rng, 60, 98),
-        reason: pick(rng, ['内容高度垂直', '互动率高', '粉丝画像匹配', '近期增长快', '品牌合作经验丰富']),
-      })).sort((a, b) => b.match_score - a.match_score)
+      const result = await deepseekJSON<{
+        brand: string
+        category: string
+        total: number
+        avg_match: number
+        kols: { name: string; platform: string; followers: string; engagement: string; match_score: number; reason: string }[]
+      }>(
+        '你是KOL/KOC营销分析专家。请返回纯JSON。',
+        `为品牌 "${brand}"（品类: ${category}）推荐10位合适的KOL/KOC。
+要求:
+1. 提供KOL昵称、平台（抖音/小红书/微博/B站）、粉丝数（如"12.3万"）、互动率（如"5.2%"）、匹配度评分（60-98）、推荐理由
+2. 按匹配度从高到低排序
+3. 返回avg_match为所有KOL match_score的平均值
 
-      return NextResponse.json({
-        brand,
-        category,
-        total: kols.length,
-        avg_match: Math.round(kols.reduce((a, b) => a + b.match_score, 0) / kols.length),
-        kols,
-      })
+返回JSON结构必须严格如下:
+{
+  "brand": "string",
+  "category": "string",
+  "total": 数字,
+  "avg_match": 数字,
+  "kols": [{ "name": "string", "platform": "string", "followers": "string", "engagement": "string", "match_score": 数字, "reason": "string" }]
+}`
+      )
+
+      return NextResponse.json(result)
     }
 
     // ── report — generate daily intelligence report ──
     if (action.length === 1 && action[0] === 'report') {
       const body = await request.json()
       const brands: string[] = body.brands || ['Coach', 'Michael Kors', 'Furla']
-      const rng = seededRandom(Math.floor(Date.now() / 3600000))
 
-      return NextResponse.json({
-        date: new Date().toISOString().split('T')[0],
-        summary: {
-          total_mentions: randint(rng, 300, 2000),
-          avg_sentiment: `${uniform(rng, 3.5, 4.5).toFixed(1)}/5`,
-          hot_topic: pick(rng, TRENDS).topic,
-          alert_count: randint(rng, 1, 4),
-        },
-        brand_comparison: brands.map((b) => ({
-          brand: b,
-          share_of_voice: `${uniform(rng, 10, 40).toFixed(0)}%`,
-          sentiment: `${uniform(rng, 3.0, 5.0).toFixed(1)}`,
-          trend: pick(rng, ['上升', '平稳', '下降']),
-        })),
-        recommendations: [
-          '建议增加小红书「通勤穿搭」类内容投放',
-          '竞品Coach在抖音的KOL合作频繁，可考虑定向挖角',
-          '「皮质手工包」话题增长52%，建议抢占内容先机',
-        ],
-      })
+      const result = await deepseekJSON<{
+        date: string
+        summary: { total_mentions: number; avg_sentiment: string; hot_topic: string; alert_count: number }
+        brand_comparison: { brand: string; share_of_voice: string; sentiment: string; trend: string }[]
+        recommendations: string[]
+      }>(
+        '你是品牌竞品情报分析师。请返回纯JSON。',
+        `生成一份每日品牌情报报告，分析以下品牌: ${brands.join(', ')}
+要求:
+1. summary: 总声量、平均情感评分(如"4.2/5")、热门话题、警报数
+2. brand_comparison: 每个品牌的声量占比(如"25%")、情感评分、趋势(上升/平稳/下降)
+3. recommendations: 3条具体建议
+
+返回JSON结构必须严格如下:
+{
+  "date": "YYYY-MM-DD",
+  "summary": { "total_mentions": 数字, "avg_sentiment": "string", "hot_topic": "string", "alert_count": 数字 },
+  "brand_comparison": [{ "brand": "string", "share_of_voice": "string", "sentiment": "string", "trend": "string" }],
+  "recommendations": ["string"]
+}`
+      )
+
+      result.date = new Date().toISOString().split('T')[0]
+      return NextResponse.json(result)
     }
 
     return NextResponse.json({ error: `Unknown action: /${action.join('/')}` }, { status: 404 })

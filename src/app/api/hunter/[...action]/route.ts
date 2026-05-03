@@ -1,51 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
-
-// ── Seeded random (consistent with blaze pattern) ──
-
-function seededRandom(seed: number) {
-  let s = seed % 2147483647
-  if (s <= 0) s += 2147483646
-  return function () {
-    s = (s * 16807) % 2147483647
-    return (s - 1) / 2147483646
-  }
-}
-
-function randint(rng: () => number, min: number, max: number) {
-  return Math.floor(rng() * (max - min + 1)) + min
-}
-
-function uniform(rng: () => number, min: number, max: number) {
-  return rng() * (max - min) + min
-}
-
-// ── Sample data (ported from Python backend) ──
-
-const SAMPLE_EMAILS: Record<string, { email: string; score: number; type: string; source?: string }[]> = {
-  '字节跳动': [
-    { email: 'hr@bytedance.com', score: 95, type: 'generic', source: '官网' },
-    { email: 'marketing@bytedance.com', score: 88, type: 'generic', source: '领英' },
-    { email: 'zhaopin@bytedance.com', score: 82, type: 'generic', source: '招聘页' },
-  ],
-  '阿里巴巴': [
-    { email: 'hr@alibaba-inc.com', score: 92, type: 'generic', source: '官网' },
-    { email: 'recruit@alibaba.com', score: 85, type: 'generic', source: '领英' },
-  ],
-  '腾讯': [
-    { email: 'hr@tencent.com', score: 90, type: 'generic', source: '官网' },
-    { email: 'campus@tencent.com', score: 78, type: 'generic', source: '招聘页' },
-  ],
-}
-
-// ── String hash ported from Python ──
-
-function hashStr(s: string): number {
-  let hash = 0
-  for (let i = 0; i < s.length; i++) {
-    hash = ((hash << 5) - hash + s.charCodeAt(i)) | 0
-  }
-  return Math.abs(hash % 2147483647)
-}
+import { deepseekJSON, apimartImageGeneration } from '@/lib/api-clients'
 
 // ── Route handler: GET ──
 
@@ -75,30 +29,27 @@ export async function POST(request: NextRequest, { params }: { params: { action?
       const domain: string = body.domain || ''
       const companyName = company || (domain ? domain.split('.')[0] : '')
 
-      const results = SAMPLE_EMAILS[companyName]
-      if (results) {
-        return NextResponse.json({
-          company: companyName,
-          total: results.length,
-          emails: results,
-        })
-      }
+      const result = await deepseekJSON<{
+        company: string
+        total: number
+        emails: { email: string; score: number; type: string; source?: string }[]
+      }>(
+        '你是企业邮箱挖掘专家。请返回纯JSON。',
+        `为公司 "${companyName}" 寻找联系邮箱。
+要求:
+1. 返回3-5个与该公司相关的邮箱
+2. 每个邮箱包含: email地址、可信度评分score(0-100)、type类型(如generic/personal/support)、source来源(如官网/领英/招聘页)
+3. 按score从高到低排序
 
-      // Generate sample results for unknown company
-      const seed = hashStr(companyName || 'default')
-      const rng = seededRandom(seed)
-      const score1 = randint(rng, 60, 85)
-      const score2 = randint(rng, 55, 75)
-      const generatedResults = [
-        { email: `contact@${companyName.toLowerCase()}.com`, score: score1, type: 'generic' },
-        { email: `hr@${companyName.toLowerCase()}.com`, score: score2, type: 'generic' },
-      ]
+返回JSON结构严格如下:
+{
+  "company": "string",
+  "total": 数字,
+  "emails": [{ "email": "string", "score": 数字, "type": "string", "source": "string" }]
+}`
+      )
 
-      return NextResponse.json({
-        company: companyName,
-        total: generatedResults.length,
-        emails: generatedResults,
-      })
+      return NextResponse.json(result)
     }
 
     // ─── price/search ───
@@ -107,32 +58,26 @@ export async function POST(request: NextRequest, { params }: { params: { action?
       const product: string = body.product || ''
       const platforms: string[] = body.platforms || ['天猫', '京东', '拼多多']
 
-      const seed = hashStr(product || 'default-product')
-      const rng = seededRandom(seed)
+      const result = await deepseekJSON<{
+        product: string
+        results: { platform: string; price: number; store: string; rating: number; sales: number }[]
+        summary: { max_price: number; min_price: number; avg_price: number; best_platform: string }
+      }>(
+        '你是电商价格数据分析专家。请返回纯JSON。',
+        `对产品 "${product}" 在各电商平台进行价格搜索对比。
+平台: ${platforms.join(', ')}
+每个平台返回一条结果: platform平台名、price价格、store店铺名、rating评分(4.0-5.0)、sales销量
+summary: max_price最高价、min_price最低价、avg_price均价、best_platform最优平台(价格最低的平台)
 
-      const results = platforms.map((plat: string) => {
-        const basePrice = randint(rng, 100, 50000)
-        const storeName = rng() > 0.3 ? `${product.slice(0, 4)}官方旗舰店` : `${plat}优选店`
-        return {
-          platform: plat,
-          price: basePrice + randint(rng, -5000, 5000),
-          store: storeName,
-          rating: Math.round(uniform(rng, 4.0, 5.0) * 10) / 10,
-          sales: randint(rng, 100, 50000),
-        }
-      })
+返回JSON结构严格如下:
+{
+  "product": "string",
+  "results": [{ "platform": "string", "price": 数字, "store": "string", "rating": 数字, "sales": 数字 }],
+  "summary": { "max_price": 数字, "min_price": 数字, "avg_price": 数字, "best_platform": "string" }
+}`
+      )
 
-      const prices = results.map((r) => r.price)
-      return NextResponse.json({
-        product,
-        results,
-        summary: {
-          max_price: Math.max(...prices),
-          min_price: Math.min(...prices),
-          avg_price: Math.round(prices.reduce((a, b) => a + b, 0) / prices.length),
-          best_platform: results.reduce((best, curr) => (curr.price < best.price ? curr : best)).platform,
-        },
-      })
+      return NextResponse.json(result)
     }
 
     // ─── sa-image/generate ───
@@ -148,15 +93,29 @@ export async function POST(request: NextRequest, { params }: { params: { action?
         social_media: '小红书风格生活方式图，暖色调，产品融入日常场景，ins风滤镜',
       }
 
-      const prompt = styles[imageType] || styles['product_display']
+      const prompt = `${styles[imageType] || styles['product_display']}。产品: ${skuName}。卖点: ${sellingPoints.join('; ')}`
+
+      let imageUrl = ''
+      try {
+        const imageResult = await apimartImageGeneration({
+          model: 'stable-diffusion-xl',
+          prompt,
+          size: '1024x1024',
+          n: 1,
+        })
+        imageUrl = imageResult.data?.[0]?.url || ''
+      } catch {
+        // If image generation fails, still return the prompt info
+      }
 
       return NextResponse.json({
         sku_name: skuName,
         image_type: imageType,
-        prompt: `${prompt}。产品: ${skuName}。卖点: ${sellingPoints.join('; ')}`,
-        engine_recommendation: '即梦(Jimeng)/ComfyUI(SDXL)/Midjourney v6',
+        prompt,
+        engine_recommendation: 'stable-diffusion-xl (via APIMART)',
+        image_url: imageUrl || null,
         face_consistency_required: false,
-        note: 'AI生图请自行调用对应API。如需人物面部一致性，参考即梦解决方案飞书文档。',
+        note: imageUrl ? '图片已通过APIMART API生成。如需人物面部一致性，请提供参考图。' : 'AI生图请自行调用对应API。如需人物面部一致性，参考即梦解决方案飞书文档。',
       })
     }
 

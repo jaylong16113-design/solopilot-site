@@ -1,43 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
-
-// ── Sample data (ported from Python backend) ──
-
-const SAMPLE_VIDEOS = [
-  { id: 'DY001', title: '穿西装也能做深蹲？这件可运动西服太绝了', author: '报喜鸟官方', platform: 'douyin', views: 3850000, likes: 428000, comments: 32100, shares: 18500, engagement_rate: 0.124, posted_at: '2026-04-28', tags: ['可运动西服', '报喜鸟', '穿搭'], duration_sec: 58, viral_score: 92.5 },
-  { id: 'DY002', title: '老板出差必备！会呼吸的西装套装', author: '时尚先生Mr_刘', platform: 'douyin', views: 2100000, likes: 195000, comments: 15400, shares: 8200, engagement_rate: 0.104, posted_at: '2026-04-27', tags: ['西装', '商务', '出差'], duration_sec: 45, viral_score: 86.3 },
-  { id: 'DY003', title: '面试穿这套，HR直接给offer', author: '职场穿搭日记', platform: 'douyin', views: 5800000, likes: 612000, comments: 48500, shares: 32000, engagement_rate: 0.118, posted_at: '2026-04-26', tags: ['面试', '穿搭', '职场', '西装'], duration_sec: 52, viral_score: 95.1 },
-  { id: 'DY004', title: '男生改造计划：从土到帅只差一件西装', author: '阿强变型记', platform: 'douyin', views: 8200000, likes: 890000, comments: 72500, shares: 56000, engagement_rate: 0.124, posted_at: '2026-04-25', tags: ['男生改造', '穿搭', '西装'], duration_sec: 120, viral_score: 97.8 },
-  { id: 'DY005', title: '3分钟教你把西装穿出松弛感', author: '穿搭教父', platform: 'douyin', views: 1250000, likes: 98000, comments: 8900, shares: 4500, engagement_rate: 0.088, posted_at: '2026-04-24', tags: ['西装穿搭', '松弛感', '商务'], duration_sec: 180, viral_score: 79.2 },
-]
-
-const SAMPLE_KOC = [
-  { username: '职场穿搭小能手', platform: 'douyin', followers: 125000, engagement_rate: 0.092, koc_score: 88, content_style: '西装/职场', reason: '竞品评论区高频出现，互动质量高' },
-  { username: '时尚搬运工阿杰', platform: 'douyin', followers: 85000, engagement_rate: 0.105, koc_score: 85, content_style: '男装测评', reason: '多次在竞品爆款下发表高质评论' },
-  { username: '刘先生的衣帽间', platform: 'douyin', followers: 210000, engagement_rate: 0.078, koc_score: 82, content_style: '商务穿搭', reason: '已有一定粉丝基础，穿搭内容垂直' },
-  { username: '职场新人穿搭记', platform: 'xiaohongshu', followers: 45000, engagement_rate: 0.156, koc_score: 91, content_style: '职场/日常', reason: '互动率极高，粉丝粘性强' },
-  { username: '西装控老张', platform: 'douyin', followers: 68000, engagement_rate: 0.113, koc_score: 80, content_style: '西装评测', reason: '专业度高的垂直账号' },
-  { username: '周一穿什么', platform: 'douyin', followers: 35000, engagement_rate: 0.145, koc_score: 78, content_style: '穿搭推荐', reason: '小而美的垂直内容' },
-  { username: '职场精英穿搭秘籍', platform: 'xiaohongshu', followers: 128000, engagement_rate: 0.089, koc_score: 76, content_style: '职场穿搭', reason: '内容质量高，适合品牌合作' },
-]
-
-// ── Seeded random (consistent with forge pattern) ──
-
-function seededRandom(seed: number) {
-  let s = seed % 2147483647
-  if (s <= 0) s += 2147483646
-  return function () {
-    s = (s * 16807) % 2147483647
-    return (s - 1) / 2147483646
-  }
-}
-
-function uniform(rng: () => number, min: number, max: number) {
-  return rng() * (max - min) + min
-}
-
-function randint(rng: () => number, min: number, max: number) {
-  return Math.floor(rng() * (max - min + 1)) + min
-}
+import { deepseekJSON, justoneAPI } from '@/lib/api-clients'
 
 // ── Route handler: GET ──
 
@@ -68,37 +30,34 @@ export async function POST(request: NextRequest, { params }: { params: { action?
       const limit: number = body.limit || 20
       const days: number = body.days || 7
 
-      // Seeded hash to match Python's hash(keyword or category) % 2**31
-      const seedStr = keyword || category
-      let hash = 0
-      for (let i = 0; i < seedStr.length; i++) {
-        hash = ((hash << 5) - hash + seedStr.charCodeAt(i)) | 0
-      }
-      const seed = Math.abs(hash % 2147483647)
-      const rng = seededRandom(seed)
+      let videos: any[] = []
 
-      let results = [...SAMPLE_VIDEOS]
-      if (keyword) {
-        const kw = keyword.toLowerCase()
-        results = results.filter(
-          (v) => v.title.toLowerCase().includes(kw) || v.tags.some((t) => t.includes(kw))
+      try {
+        // Try justoneAPI for douyin video search
+        const searchParams: Record<string, string> = { keyword, limit: String(limit) }
+        const data = await justoneAPI('/v1/douyin/search', searchParams)
+        videos = (data.videos || data.data || []).slice(0, limit)
+      } catch {
+        // Fallback: use deepseekJSON to generate video data
+        const result = await deepseekJSON<{ videos: any[] }>(
+          '你是抖音短视频数据分析师。请返回纯JSON。',
+          `搜索关键词 "${keyword}"（品类: ${category}）的抖音热门视频，返回最多${limit}条。
+每条视频包含: id(title缩写+数字)、title、author、platform固定为"douyin"、views、likes、comments、shares、engagement_rate(小数)、posted_at(YYYY-MM-DD日期)、tags(2-3个标签)、duration_sec(秒数)、viral_score(0-100)
+按viral_score从高到低排序
+
+返回JSON结构:
+{
+  "videos": [{ "id": "string", "title": "string", "author": "string", "platform": "douyin", "views": 数字, "likes": 数字, "comments": 数字, "shares": 数字, "engagement_rate": 数字, "posted_at": "string", "tags": ["string"], "duration_sec": 数字, "viral_score": 数字 }]
+}`
         )
+        videos = (result.videos || []).slice(0, limit)
       }
-      if (results.length === 0) {
-        results = SAMPLE_VIDEOS.slice(0, limit)
-      }
-
-      // Apply random view multiplier like Python
-      results = results.map((v) => ({
-        ...v,
-        views: Math.round(v.views * uniform(rng, 0.85, 1.15)),
-      }))
 
       return NextResponse.json({
         keyword,
         category,
-        total: results.length,
-        videos: results.slice(0, limit),
+        total: videos.length,
+        videos,
       })
     }
 
@@ -108,28 +67,24 @@ export async function POST(request: NextRequest, { params }: { params: { action?
       const videoId: string = body.video_id || ''
       const brand: string = body.brand || '报喜鸟'
 
-      const video = SAMPLE_VIDEOS.find((v) => v.id === videoId) || SAMPLE_VIDEOS[0]
+      const result = await deepseekJSON<{
+        video: { id: string; title: string; author: string; platform: string; views: number; likes: number; comments: number; shares: number; engagement_rate: number; posted_at: string; tags: string[]; duration_sec: number; viral_score: number }
+        script_structure: { hook: string; pain_point: string; solution: string; social_proof: string; cta: string }
+        brand_mapping: { original: string; mapped: string }[]
+        reusable_template: { format: string; optimal_duration: string; top_tags: string[] }
+      }>(
+        '你是短视频内容策略分析师。请返回纯JSON。',
+        `分析视频ID "${videoId}" 的内容结构，并为品牌 "${brand}" 提供内容迁移建议。
+要求:
+1. video: 视频基本信息（id、title、author、platform、views、likes、comments、shares、engagement_rate小数、posted_at、tags、duration_sec、viral_score）
+2. script_structure: 脚本结构分析（hook钩子、pain_point痛点、solution解决方案、social_proof社会证明、cta行动号召）
+3. brand_mapping: 3条内容迁移映射（original原始内容、mapped品牌适配内容）
+4. reusable_template: 可复用模板（format格式模板、optimal_duration最佳时长、top_tags推荐标签）
 
-      return NextResponse.json({
-        video,
-        script_structure: {
-          hook: `${video.title.slice(0, 20)}... 这种钩子形式在男装类爆款中极为常见`,
-          pain_point: '传统西装束缚感强，不适合日常多场景切换',
-          solution: `${video.title} — 直接解决痛点`,
-          social_proof: `${video.views.toLocaleString()}次播放 + ${video.likes.toLocaleString()}点赞，已验证的内容模式`,
-          cta: '点击购物车/关注账号',
-        },
-        brand_mapping: [
-          { original: '深蹲测试西装弹性', mapped: `${brand}可运动西服场景展示` },
-          { original: '出差场景痛点', mapped: `${brand}商务出差穿搭方案` },
-          { original: '面试穿搭指南', mapped: `${brand}职场第一印象穿搭` },
-        ],
-        reusable_template: {
-          format: 'hook(反常识)+展示(场景化)+social proof(数据)+CTA',
-          optimal_duration: '45-60秒',
-          top_tags: video.tags,
-        },
-      })
+返回JSON结构必须严格包含以上字段。`
+      )
+
+      return NextResponse.json(result)
     }
 
     // ─── koc/extract ───
@@ -139,36 +94,29 @@ export async function POST(request: NextRequest, { params }: { params: { action?
       const days: number = body.days || 30
       const minScore: number = body.min_score || 75
 
-      // Seeded hash matching Python's hash(str(competitors)) % 2**31
-      const seedStr = JSON.stringify(competitors)
-      let hash = 0
-      for (let i = 0; i < seedStr.length; i++) {
-        hash = ((hash << 5) - hash + seedStr.charCodeAt(i)) | 0
-      }
-      const seed = Math.abs(hash % 2147483647)
-      const rng = seededRandom(seed)
+      const result = await deepseekJSON<{
+        competitors: string[]
+        total: number
+        high_priority: number
+        koc_list: { username: string; platform: string; followers: number; engagement_rate: number; koc_score: number; content_style: string; reason: string; recommended_action: string; contact_priority: string }[]
+      }>(
+        '你是KOC营销策略专家。请返回纯JSON。',
+        `为竞品 ${competitors.join(', ')} 提取优质的KOC/KOL线索（监测周期${days}天，最低评分${minScore}）。
+要求:
+1. 返回7-10个KOC，每个包含: username、platform(douyin/xiaohongshu)、followers、engagement_rate(小数)、koc_score(50-100)、content_style、reason(推荐理由)、recommended_action(直接私信合作/关注并评论互动/先观察数据趋势)、contact_priority(高/中/低)
+2. 按koc_score从高到低排序
+3. high_priority为contact_priority="高"的数量
 
-      const scored = SAMPLE_KOC.map((koc) => {
-        const score = Math.min(100, Math.max(50, koc.koc_score + randint(rng, -5, 5)))
-        return {
-          ...koc,
-          koc_score: score,
-          recommended_action:
-            score >= 85
-              ? '直接私信合作'
-              : score >= 75
-                ? '关注并评论互动'
-                : '先观察数据趋势',
-          contact_priority: score >= 85 ? '高' : score >= 75 ? '中' : '低',
-        }
-      })
+返回JSON结构必须严格如下:
+{
+  "competitors": ["string"],
+  "total": 数字,
+  "high_priority": 数字,
+  "koc_list": [{ "username": "string", "platform": "string", "followers": 数字, "engagement_rate": 数字, "koc_score": 数字, "content_style": "string", "reason": "string", "recommended_action": "string", "contact_priority": "string" }]
+}`
+      )
 
-      return NextResponse.json({
-        competitors,
-        total: scored.length,
-        high_priority: scored.filter((k) => k.contact_priority === '高').length,
-        koc_list: scored.sort((a, b) => b.koc_score - a.koc_score),
-      })
+      return NextResponse.json(result)
     }
 
     // ─── Fallback ───
