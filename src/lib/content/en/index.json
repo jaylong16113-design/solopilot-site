@@ -349,6 +349,31 @@
       "slug": "ai-customer-lifetime-value-prediction",
       "title": "AI Customer Lifetime Value Prediction: Tools That Tell You Who to Keep and Who to Let Go",
       "excerpt": "AI-powered CLV prediction tools analyze purchase patterns and engagement signals to calculate exactly how much each customer is worth."
+    },
+    {
+      "slug": "ai-email-sequence-builder-solopreneur",
+      "title": "AI Email Sequence Builder: The Solopreneur's Guide to Automated Outreach That Converts",
+      "excerpt": "Build personalized, multi-touch email sequences with AI — from lead magnets to re-engagement campaigns. No marketing team required."
+    },
+    {
+      "slug": "nocode-landing-page-optimization-tools",
+      "title": "No-Code Landing Page Optimization Tools: Convert More Visitors Without a Developer",
+      "excerpt": "The best no-code tools for landing page A/B testing, heatmaps, and conversion rate optimization. Ship high-converting pages in hours, not weeks."
+    },
+    {
+      "slug": "social-media-auto-scheduling-indie-founders",
+      "title": "Automated Social Media Scheduling for Indie Founders: Build-in-Public Without the Burnout",
+      "excerpt": "Batch-create a week of social content in 2 hours using AI tools and scheduling platforms. Stay visible without letting social media consume your building time."
+    },
+    {
+      "slug": "ai-product-description-copywriting-tools",
+      "title": "AI Product Description Copywriting Tools: Write Descriptions That Sell in Minutes",
+      "excerpt": "Transform dry feature lists into compelling product stories with AI copywriting tools. Compare Jasper, Copy.ai, Claude, and ChatGPT for e-commerce descriptions."
+    },
+    {
+      "slug": "free-analytics-dashboard-indie-products",
+      "title": "Free Analytics Dashboard Setup for Indie Products: Track Everything Without Paying a Cent",
+      "excerpt": "Build a complete analytics stack for $0 using GA4, Microsoft Clarity, Plausible CE, and Metabase. Monitor traffic, user behavior, and business metrics — all free."
     }
   ],
   "wear": [
@@ -601,6 +626,16 @@
       "slug": "business-casual-shoe-encyclopedia",
       "title": "The Business Casual Shoe Encyclopedia: Oxfords, Derbies, Loafers, and When to Wear Each",
       "excerpt": "From Oxford vs Derby identification to loafer etiquette to the definitive color-matching rules, this is your complete guide to business casual footwear."
+    },
+    {
+      "slug": "remote-founder-summer-capsule-wardrobe",
+      "title": "The Remote Founder's Summer Capsule Wardrobe: 12 Pieces, 30 Outfits",
+      "excerpt": "Build a minimalist summer wardrobe that works for coffee shop coding sessions, client video calls, and evening networking — using just 12 versatile pieces."
+    },
+    {
+      "slug": "video-call-outfits-client-meetings-guide",
+      "title": "Video Call Outfits for Client Meetings: What Works on Camera and What Doesn't",
+      "excerpt": "The complete guide to looking professional on Zoom and Google Meet. Colors, patterns, lighting, and the surprising items that make or break your on-camera presence."
     }
   ],
   "ops": [
@@ -858,6 +893,16 @@
       "slug": "solo-founder-waitlist-launch-strategy",
       "title": "The Solo Founder's Waitlist Launch Strategy: Build Hype Before You Build Product",
       "excerpt": "A waitlist-driven launch validates demand, builds an audience, and funds development — all before you write a single line of code."
+    },
+    {
+      "slug": "solo-founder-time-blocking-system",
+      "title": "The Solo Founder Time Blocking System: Get More Done in 6 Hours Than Most Do in 12",
+      "excerpt": "A time blocking framework designed specifically for solo founders. Structure your day around energy levels, not clock hours, and ship more with less burnout."
+    },
+    {
+      "slug": "automate-customer-onboarding-emails-solo",
+      "title": "Automating Customer Onboarding Emails: A Solo Founder's Playbook for Zero-Touch Activation",
+      "excerpt": "Set up automated onboarding email sequences that activate users without manual intervention. Tools, templates, and timing strategies for solo SaaS founders."
     }
   ],
   "mood": [
@@ -1055,6 +1100,11 @@
       "slug": "emotional-video-sound-design",
       "title": "The Complete Guide to Sound Design for Emotional Short Videos: Foley, Ambience, and Silence",
       "excerpt": "Sound is 50% of emotional impact. Master foley, ambient soundscapes, strategic silence, and audio pacing to make your mood videos resonate on a visceral level."
+    },
+    {
+      "slug": "desk-setup-ergonomics-long-coding-sessions",
+      "title": "Desk Setup Ergonomics for Long Coding Sessions: Prevent Pain, Ship More Code",
+      "excerpt": "The ergonomic desk setup guide for developers who code 8+ hours a day. Chair, monitor, keyboard, and lighting — small tweaks that prevent RSI and back pain."
     }
   ]
 }

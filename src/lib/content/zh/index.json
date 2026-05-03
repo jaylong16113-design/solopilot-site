@@ -349,6 +349,31 @@
       "slug": "ai-duopingtai-kucun-tongbu",
       "title": "AI多平台库存同步工具：Shopify淘宝1688一站式管理指南",
       "excerpt": "AI多平台库存同步工具用实时同步+智能预测帮你彻底解决超卖问题，从Shopify到1688全覆盖。"
+    },
+    {
+      "slug": "ai-email-sequence-builder-solopreneur",
+      "title": "AI邮件序列生成器：独立开发者自动化营销获客完全指南",
+      "excerpt": "用AI构建个性化多触点邮件序列——从引流磁铁到再激活营销，无需营销团队也能实现自动化转化。"
+    },
+    {
+      "slug": "nocode-landing-page-optimization-tools",
+      "title": "零代码落地页优化工具：无需开发者也能大幅提升转化率",
+      "excerpt": "最好的零代码A/B测试、热力图和转化率优化工具合集。几小时内就能上线高转化页面，不再等开发排期。"
+    },
+    {
+      "slug": "social-media-auto-scheduling-indie-founders",
+      "title": "独立开发者社交媒体自动排期指南：公开构建不内耗",
+      "excerpt": "用AI工具和排期平台，2小时内批量制作一周的社媒内容。保持曝光度的同时，不让你把开发时间全部耗在社交媒体上。"
+    },
+    {
+      "slug": "ai-product-description-copywriting-tools",
+      "title": "AI产品文案撰写工具：几分钟写出高转化产品描述",
+      "excerpt": "用AI文案工具把枯燥的功能列表变成引人入胜的产品故事。对比Jasper、Copy.ai、Claude和ChatGPT在电商产品描述中的实际表现。"
+    },
+    {
+      "slug": "free-analytics-dashboard-indie-products",
+      "title": "独立产品免费数据分析面板搭建：零成本追踪一切关键指标",
+      "excerpt": "用GA4、Microsoft Clarity、Plausible CE和Metabase搭建零成本完整分析栈。监控流量、用户行为和业务指标——全部免费。"
     }
   ],
   "wear": [
@@ -601,6 +626,16 @@
       "slug": "shangwu-xiuxian-nanxie-xuangou",
       "title": "商务休闲男鞋选购全攻略：牛津德比乐福怎么选",
       "excerpt": "从鞋型识别到颜色搭配到品牌推荐，一份让女生都夸你鞋品好的商务休闲男鞋选购指南。"
+    },
+    {
+      "slug": "remote-founder-summer-capsule-wardrobe",
+      "title": "远程创业者的夏季胶囊衣橱：12件单品搭出30套穿搭",
+      "excerpt": "用12件百搭单品构建极简夏季衣橱，覆盖咖啡厅办公、客户视频会议和晚间社交全场景。告别穿搭决策疲劳。"
+    },
+    {
+      "slug": "video-call-outfits-client-meetings-guide",
+      "title": "客户会议视频通话穿搭指南：什么在镜头前好看，什么翻车",
+      "excerpt": "在Zoom和腾讯会议上显得专业的完整指南。颜色、图案、灯光，以及那些出人意料地决定你镜头形象的关键单品。"
     }
   ],
   "ops": [
@@ -868,6 +903,16 @@
       "slug": "duli-kaifazhe-dengjiliebiao-zhinan",
       "title": "独立开发者的等待列表营销指南：产品未出先收钱",
       "excerpt": "等待列表驱动的发布策略让你在产品没写一行代码前就已验证需求、积累用户、甚至收到第一笔钱。"
+    },
+    {
+      "slug": "solo-founder-time-blocking-system",
+      "title": "独立开发者时间块管理法：6小时比大多数人12小时产出更多",
+      "excerpt": "专为独立创始人设计的时间块框架。按精力水平而非时钟小时安排一天，更高产出，更少倦怠。"
+    },
+    {
+      "slug": "automate-customer-onboarding-emails-solo",
+      "title": "自动化客户引导邮件：独立开发者零人工激活用户完全手册",
+      "excerpt": "搭建无需人工干预的自动引导邮件序列，让用户自助激活。工具、模板和时间策略——专为独立SaaS创始人设计。"
     }
   ],
   "mood": [
@@ -1080,6 +1125,11 @@
       "slug": "qingxu-shipin-shengyin-sheji",
       "title": "情绪短视频声音设计全攻略：用音效操控观众情绪的科学",
       "excerpt": "观众的情绪体验50%25来自听觉。从环境音采集到拟音设计到沉默运用，让普通视频变成电影感的声音设计手册。"
+    },
+    {
+      "slug": "desk-setup-ergonomics-long-coding-sessions",
+      "title": "长时间编程的人体工学桌面布置指南：远离疼痛，写出更多代码",
+      "excerpt": "面向每天编程8小时以上开发者的人体工学桌面布置指南。椅子、显示器、键盘、灯光——预防RSI和背痛的小调整大改变。"
     }
   ]
 }
