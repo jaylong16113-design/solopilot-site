@@ -374,6 +374,31 @@
       "slug": "free-analytics-dashboard-indie-products",
       "title": "Free Analytics Dashboard Setup for Indie Products: Track Everything Without Paying a Cent",
       "excerpt": "Build a complete analytics stack for $0 using GA4, Microsoft Clarity, Plausible CE, and Metabase. Monitor traffic, user behavior, and business metrics — all free."
+    },
+    {
+      "slug": "ai-product-photography-virtual-studio",
+      "title": "AI Product Photography in 2026: Build a Complete Virtual Studio for Your E-Commerce Store",
+      "excerpt": "From Flair.ai to Pebblely to Midjourney — learn how to build a complete AI virtual photography studio that produces studio-quality product images at 1/20th the cost of traditional shoots."
+    },
+    {
+      "slug": "ai-multilingual-customer-support",
+      "title": "AI Multilingual Customer Support Bots: Real-Time Translation for Cross-Border E-Commerce in 2026",
+      "excerpt": "How AI-powered multilingual support bots with real-time translation are eliminating language barriers for cross-border sellers. Covers Intercom, Zendesk AI, and DIY solutions with DeepL + ChatGPT."
+    },
+    {
+      "slug": "ai-tiktok-shop-optimization-2026",
+      "title": "AI TikTok Shop Optimization 2026: Automated Video Creation, Trend Analysis, and Sales Growth",
+      "excerpt": "Master TikTok Shop with AI tools for automated short video creation, trend detection, hashtag optimization, and affiliate management. The complete guide for sellers entering TikTok's $20B+ marketplace."
+    },
+    {
+      "slug": "ai-returns-prediction-ecommerce",
+      "title": "AI Returns Prediction for E-Commerce: Cut Return Rates by 30% with Machine Learning",
+      "excerpt": "How AI predicts which orders are likely to be returned before they even ship. Machine learning models analyze product, customer, and behavior data to reduce e-commerce returns by up to 30%."
+    },
+    {
+      "slug": "ai-crm-ecommerce-retention",
+      "title": "AI CRM Tools for E-Commerce 2026: Automating Customer Segmentation and Retention",
+      "excerpt": "Compare the best AI-powered CRM tools for e-commerce retention. From Klaviyo to Omnisend to ActiveCampaign — find out which AI CRM delivers the highest customer lifetime value for your store."
     }
   ],
   "wear": [
@@ -636,6 +661,16 @@
       "slug": "video-call-outfits-client-meetings-guide",
       "title": "Video Call Outfits for Client Meetings: What Works on Camera and What Doesn't",
       "excerpt": "The complete guide to looking professional on Zoom and Google Meet. Colors, patterns, lighting, and the surprising items that make or break your on-camera presence."
+    },
+    {
+      "slug": "mens-linen-suit-guide-2026",
+      "title": "The Complete Men's Linen Suit Guide 2026: How to Wear It, Style It, and Keep It Crisp",
+      "excerpt": "Master the art of wearing linen suits in 2026. From fabric weights and color choices to wrinkle management and occasion styling — everything you need to look effortlessly elegant all summer."
+    },
+    {
+      "slug": "modern-waistcoat-styling-2026",
+      "title": "The Modern Waistcoat Revival: How to Style a Vest Without Looking Like a 1920s Banker",
+      "excerpt": "Waistcoats are back in 2026 — but not the way your grandfather wore them. Learn how to style a modern vest with suits, denim, knitwear, and even t-shirts for a contemporary edge."
     }
   ],
   "ops": [
@@ -903,6 +938,16 @@
       "slug": "automate-customer-onboarding-emails-solo",
       "title": "Automating Customer Onboarding Emails: A Solo Founder's Playbook for Zero-Touch Activation",
       "excerpt": "Set up automated onboarding email sequences that activate users without manual intervention. Tools, templates, and timing strategies for solo SaaS founders."
+    },
+    {
+      "slug": "ai-newsletter-growth-solo-founder",
+      "title": "AI-Powered Newsletter Growth: How Solo Founders Build 10K+ Subscriber Lists in 2026",
+      "excerpt": "The complete playbook for building a profitable newsletter as a solo founder. AI tools for content creation, growth hacking, and monetization — from zero to 10,000 subscribers."
+    },
+    {
+      "slug": "solo-founder-ai-video-content",
+      "title": "The Solo Founder's Guide to AI Video Content: YouTube and TikTok Without a Production Team",
+      "excerpt": "How solo founders can produce professional video content using AI tools. From scriptwriting to editing to publishing — build a complete AI video pipeline that runs without a team."
     }
   ],
   "mood": [
@@ -1105,6 +1150,11 @@
       "slug": "desk-setup-ergonomics-long-coding-sessions",
       "title": "Desk Setup Ergonomics for Long Coding Sessions: Prevent Pain, Ship More Code",
       "excerpt": "The ergonomic desk setup guide for developers who code 8+ hours a day. Chair, monitor, keyboard, and lighting — small tweaks that prevent RSI and back pain."
+    },
+    {
+      "slug": "ai-voiceover-emotional-shorts-2026",
+      "title": "AI Voiceover for Emotional Short Videos 2026: Tools, Techniques, and the Art of Making AI Sound Human",
+      "excerpt": "How AI voiceover technology is transforming emotional short-form content. Compare ElevenLabs, Murf, and WellSaid for mood videos — plus techniques for making AI narration evoke real emotion."
     }
   ]
 }

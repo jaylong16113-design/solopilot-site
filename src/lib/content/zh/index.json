@@ -374,6 +374,31 @@
       "slug": "free-analytics-dashboard-indie-products",
       "title": "独立产品免费数据分析面板搭建：零成本追踪一切关键指标",
       "excerpt": "用GA4、Microsoft Clarity、Plausible CE和Metabase搭建零成本完整分析栈。监控流量、用户行为和业务指标——全部免费。"
+    },
+    {
+      "slug": "ai-shangpin-sheying-xuni-yingpeng",
+      "title": "AI商品摄影完全指南：2026年零成本搭建虚拟影棚的完整方案",
+      "excerpt": "从Flair.ai到Pebblely到Midjourney，手把手教你搭建一套完整的AI虚拟摄影工作室，用传统拍摄1/20的成本产出专业级商品图。"
+    },
+    {
+      "slug": "ai-duoyuyan-kefu-kuajing-2026",
+      "title": "AI多语言客服系统搭建：跨境卖家实时翻译机器人配置教程（2026版）",
+      "excerpt": "如何用AI搭建7x24小时多语言客服系统，覆盖45+语种，自动翻译、文化适配、智能升级。Intercom、Zendesk AI和DeepL+ChatGPT DIY方案详细对比。"
+    },
+    {
+      "slug": "ai-tiktok-shop-youhua-2026",
+      "title": "AI TikTok Shop运营优化指南：用AI自动化短视频创作和趋势分析（2026版）",
+      "excerpt": "深度解析如何用AI工具运营TikTok Shop，从AI短视频批量创作、实时趋势监测、标签优化到联盟达人管理，完整的一人公司TikTok Shop运营方案。"
+    },
+    {
+      "slug": "ai-tuihuo-yuce-dianshang",
+      "title": "AI退货预测系统：机器学习帮你减少电商退货率的实战方案",
+      "excerpt": "如何用AI在发货前预测哪些订单会被退货。机器学习模型分析产品、客户和行为数据，帮电商卖家降低退货率25-35%的完整实操指南。"
+    },
+    {
+      "slug": "ai-dianshang-crm-hengping",
+      "title": "2026年AI电商CRM工具横评：自动客户分层与留存营销的完整指南",
+      "excerpt": "深度对比Klaviyo、Omnisend、ActiveCampaign、Drip和Brevo五大AI CRM工具，从客户分层、智能发送、流失预测到LTV优化，帮你找到最适合的电商客户留存方案。"
     }
   ],
   "wear": [
@@ -636,6 +661,16 @@
       "slug": "video-call-outfits-client-meetings-guide",
       "title": "客户会议视频通话穿搭指南：什么在镜头前好看，什么翻车",
       "excerpt": "在Zoom和腾讯会议上显得专业的完整指南。颜色、图案、灯光，以及那些出人意料地决定你镜头形象的关键单品。"
+    },
+    {
+      "slug": "nanshi-yama-xizhuang-2026",
+      "title": "2026男士亚麻西装穿搭指南：夏季绅士的清凉穿搭方案",
+      "excerpt": "掌握亚麻西装的穿搭艺术。从面料克重、颜色选择到抗皱技巧和场合穿搭——让你在整个夏天保持优雅从容的一切知识。"
+    },
+    {
+      "slug": "majia-beixin-dapei-2026",
+      "title": "马甲背心搭配指南：2026年男士正装的点睛之笔（不像银行家的穿法）",
+      "excerpt": "马甲背心在2026年强势回归——但不是你爷爷那种穿法。学会用现代马甲搭配西装、牛仔、针织衫甚至T恤，打造有当代棱角的层次造型。"
     }
   ],
   "ops": [
@@ -913,6 +948,16 @@
       "slug": "automate-customer-onboarding-emails-solo",
       "title": "自动化客户引导邮件：独立开发者零人工激活用户完全手册",
       "excerpt": "搭建无需人工干预的自动引导邮件序列，让用户自助激活。工具、模板和时间策略——专为独立SaaS创始人设计。"
+    },
+    {
+      "slug": "ai-newsletter-zengzhang-yiren",
+      "title": "AI驱动Newsletter增长：一人公司从零做到万粉订阅的完整实操指南",
+      "excerpt": "手把手教你用AI工具搭建一个能赚钱的Newsletter。从内容创作、增长黑客到变现的完整路径——零基础也能从0做到10000订阅。"
+    },
+    {
+      "slug": "yiren-ai-shipin-chuangzuo",
+      "title": "一人公司AI视频创作指南：用AI工具一个人做出专业级视频内容",
+      "excerpt": "个人创始人如何用AI工具在YouTube和抖音上生产专业视频内容。从脚本创作到剪辑到发布，搭建一整套不需要团队的AI视频生产线。"
     }
   ],
   "mood": [
@@ -1130,6 +1175,11 @@
       "slug": "desk-setup-ergonomics-long-coding-sessions",
       "title": "长时间编程的人体工学桌面布置指南：远离疼痛，写出更多代码",
       "excerpt": "面向每天编程8小时以上开发者的人体工学桌面布置指南。椅子、显示器、键盘、灯光——预防RSI和背痛的小调整大改变。"
+    },
+    {
+      "slug": "ai-pangbai-qingxu-shipin-2026",
+      "title": "AI旁白配音在情绪短视频中的应用：2026年最新工具与技巧",
+      "excerpt": "AI配音技术如何改变情绪短视频创作。深度对比ElevenLabs、魔音工坊、Fish Audio等工具，分享让AI旁白听起来有真情实感的导演级技巧。"
     }
   ]
 }
