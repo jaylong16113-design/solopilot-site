@@ -161,6 +161,7 @@ export default function HomePage() {
               <a href="/forge" className="transition-colors no-underline hover:text-primary">FORGE</a>
               <a href="/blaze" className="transition-colors no-underline hover:text-primary">BLAZE</a>
               <a href="/hunter" className="transition-colors no-underline hover:text-primary">HUNTER</a>
+              <a href="/burberry" className="transition-colors no-underline hover:text-primary">BURBERRY</a>
             </div>
           </div>
         </div>
