@@ -175,7 +175,8 @@ class SimpleRNG {
 function generatePerson(personId: number, rng: SimpleRNG): Person {
   const city = rng.choices(CITIES)
   
-  const ageGroup = rng.choices(AGE_GROUPS)
+  const ageGroupIdx = rng.choices(AGE_GROUPS.map(([label,, min, max]) => [label, 0] as [string, number]))
+  const ageGroup = AGE_GROUPS.find(([l]) => l === ageGroupIdx) || AGE_GROUPS[0]
   const age = rng.randint(ageGroup[2], ageGroup[3])
   
   const incomeBand = rng.choices(INCOME_BANDS)
@@ -277,7 +278,7 @@ function calcProductFit(person: Person, product: Product): number {
 
 // ═══ 第4层: 影响力传播 ═══
 
-function runSimulation(
+function _runSimulation(
   people: Person[],
   product: Product,
   nInitial: number = 50,
@@ -464,7 +465,7 @@ export function runSimulation(params: SimParams): SimResult {
 
   // 运行模拟
   const nInitial = Math.max(5, Math.floor(popSize / 200))
-  const result = runSimulation(people, product, nInitial, params.max_rounds || 10, rng)
+  const result = _runSimulation(people, product, nInitial, params.max_rounds || 10, rng)
 
   return result
 }

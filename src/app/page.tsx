@@ -158,9 +158,9 @@ export default function HomePage() {
                 <Link key={item.key} href={`/${item.key}`} className="transition-colors no-underline hover:text-primary">{item.title}</Link>
               ))}
               <a href="/axiom" className="transition-colors no-underline hover:text-primary">AXIOM</a>
-              <a href="http://172.20.154.252:8001" target="_blank" rel="noopener noreferrer" className="transition-colors no-underline hover:text-primary">FORGE</a>
-              <a href="http://172.20.154.252:8002" target="_blank" rel="noopener noreferrer" className="transition-colors no-underline hover:text-primary">BLAZE</a>
-              <a href="http://172.20.154.252:8003" target="_blank" rel="noopener noreferrer" className="transition-colors no-underline hover:text-primary">HUNTER</a>
+              <a href="/forge" className="transition-colors no-underline hover:text-primary">FORGE</a>
+              <a href="/blaze" className="transition-colors no-underline hover:text-primary">BLAZE</a>
+              <a href="/hunter" className="transition-colors no-underline hover:text-primary">HUNTER</a>
             </div>
           </div>
         </div>
