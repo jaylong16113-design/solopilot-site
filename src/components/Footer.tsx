@@ -37,6 +37,7 @@ export default function Footer() {
               <li><span className="cursor-default">{t("footer_about")}</span></li>
               <li><span className="cursor-default">{t("footer_desc")}</span></li>
               <li><span className="cursor-default">Ricky</span></li>
+              <li><a href="https://github.com/jaylong16113-design/axiom-sim300w" target="_blank" rel="noopener noreferrer" className="transition-colors no-underline" style={{color: "inherit"}}>AXIOM →</a></li>
             </ul>
           </div>
           <div>
