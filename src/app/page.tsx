@@ -157,7 +157,7 @@ export default function HomePage() {
               {channels.map(item => (
                 <Link key={item.key} href={`/${item.key}`} className="transition-colors no-underline hover:text-primary">{item.title}</Link>
               ))}
-              <a href="https://github.com/jaylong16113-design/axiom-sim300w" target="_blank" rel="noopener noreferrer" className="transition-colors no-underline hover:text-primary">AXIOM</a>
+              <a href="/axiom" className="transition-colors no-underline hover:text-primary">AXIOM</a>
               <a href="http://172.20.154.252:8001" target="_blank" rel="noopener noreferrer" className="transition-colors no-underline hover:text-primary">FORGE</a>
               <a href="http://172.20.154.252:8002" target="_blank" rel="noopener noreferrer" className="transition-colors no-underline hover:text-primary">BLAZE</a>
               <a href="http://172.20.154.252:8003" target="_blank" rel="noopener noreferrer" className="transition-colors no-underline hover:text-primary">HUNTER</a>
