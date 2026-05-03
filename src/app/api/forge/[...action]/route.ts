@@ -23,33 +23,172 @@ export async function POST(request: NextRequest, { params }: { params: { action?
     // ─── factory/generate ───
     if (action.length === 2 && action[0] === 'factory' && action[1] === 'generate') {
       const body = await request.json()
-      const skuName = body.sku_name || 'Unnamed SKU'
-      const sellingPoints: string[] = body.selling_points || []
-      const targetPlatform = body.target_platform || 'douyin'
-      const contentFormat = body.content_format || 'short_video'
 
-      const formatNames: Record<string, string> = {
-        short_video: '抖音短视频脚本 (35-40s)',
-        live_script: '直播话术脚本',
-       种草_post: '小红书种草文案',
+      // ── Parse input parameters ──
+      const skuFeatures: {
+        product_name?: string
+        material?: string
+        craft?: string
+        dimensions?: string
+        weight?: string
+        colors?: string
+        price?: string
+        usp?: string
+        target_audience?: string
+      } = body.sku_features || {}
+
+      const targetPlatform: string = body.target_platform || 'douyin'
+      const contentFormat: string = body.content_format || 'short_video'
+
+      // ── Validation: product_name is required ──
+      if (!skuFeatures.product_name) {
+        return NextResponse.json(
+          { error: '缺少必填参数: sku_features.product_name' },
+          { status: 400 }
+        )
       }
-      const formatLabel = formatNames[contentFormat] || '内容脚本'
+
+      // ── Validation: supported platforms ──
+      const supportedPlatforms = ['douyin', 'xiaohongshu', 'live_stream']
+      if (!supportedPlatforms.includes(targetPlatform)) {
+        return NextResponse.json(
+          {
+            error: `不支持的平台: "${targetPlatform}"`,
+            supported_platforms: supportedPlatforms,
+          },
+          { status: 400 }
+        )
+      }
+
+      // ── Build SKU profile line ──
+      const skuProfile = [
+        skuFeatures.product_name && `产品名称: ${skuFeatures.product_name}`,
+        skuFeatures.material && `材质: ${skuFeatures.material}`,
+        skuFeatures.craft && `工艺: ${skuFeatures.craft}`,
+        skuFeatures.dimensions && `尺寸: ${skuFeatures.dimensions}`,
+        skuFeatures.weight && `重量: ${skuFeatures.weight}`,
+        skuFeatures.colors && `颜色: ${skuFeatures.colors}`,
+        skuFeatures.price && `价格: ${skuFeatures.price}`,
+        skuFeatures.usp && `独特卖点: ${skuFeatures.usp}`,
+        skuFeatures.target_audience && `目标人群: ${skuFeatures.target_audience}`,
+      ]
+        .filter(Boolean)
+        .join('\n')
+
+      // ── Build system prompt ──
+      const platformLabels: Record<string, string> = {
+        douyin: '抖音',
+        xiaohongshu: '小红书',
+        live_stream: '直播带货',
+      }
+      const platformLabel = platformLabels[targetPlatform] || targetPlatform
+
+      const systemPrompt = `你是一位专业的电商内容创作专家，精通${platformLabel}平台的内容策略与爆款逻辑。
+你擅长为品牌生成高转化、强种草力的营销内容。
+
+## 你的创作原则
+1. 内容必须符合${platformLabel}平台的调性和用户偏好
+2. Hook（钩子）必须在前3秒抓住注意力
+3. 内容结构遵循「痛点→方案→信任→行动」的转化漏斗
+4. 语言风格口语化、接地气，避免生硬的广告腔
+5. 用具体场景和细节替代空洞的描述
+6. 使用Markdown格式排版，清晰可读
+
+## 输入信息
+以下为产品的完整SKU特征信息，请基于这些信息创作：`
+
+      // ── Build format-specific user prompt ──
+      let formatInstructions = ''
+
+      if (contentFormat === 'short_video') {
+        formatInstructions = `## 输出格式要求：抖音短视频脚本（35-40秒）
+
+请严格按照以下时间线结构输出，每个时间段包含：**时间** | **画面描述** | **文案/台词** | **音效/字幕提示**
+
+| 时间段 | 模块 | 说明 |
+|--------|------|------|
+| 0-3s | Hook（钩子） | 用反差/痛点/好奇/数字抓住注意力 |
+| 3-10s | 问题引入 | 放大用户痛点或场景需求 |
+| 10-25s | 产品方案 | 展示产品如何解决上述问题，突出核心卖点 |
+| 25-35s | 社交证明 | 销量数据/达人推荐/用户好评/权威背书 |
+| 35-40s | CTA转化 | 限时优惠/下单引导/关注引导 |
+
+请用Markdown表格呈现，每行格式：
+| 时间 | 画面描述 | 文案/台词 | 音效/字幕提示 |`
+      } else if (contentFormat === '种草_post') {
+        formatInstructions = `## 输出格式要求：小红书种草文案
+
+### 1. 标题（20字以内）
+- 必须包含emoji + Hook + 关键词
+- 示例：✨打工人通勤包天花板！轻奢质感不到500
+
+### 2. 正文（个人体验风格，3-5点）
+- 第一人称视角，像朋友推荐一样自然
+- 每点用emoji开头，包含具体场景和感受
+- 突出痛点解决和用户体验
+
+### 3. 标签（10-15个）
+- 包含品类标签、场景标签、品牌标签、人群标签
+- 格式：#标签名
+
+### 4. 图片建议（4-6张）
+每张图片包含：拍摄内容、拍摄角度、风格建议`
+      } else if (contentFormat === 'live_script') {
+        formatInstructions = `## 输出格式要求：直播话术脚本（6分钟完整版）
+
+请严格按照以下时间轴和模块结构输出：
+
+### 第一阶段：开场（0-30s）
+- 欢迎话术、自我介绍、今日福利预告
+- 制造期待感和紧迫感
+
+### 第二阶段：痛点引入（30-90s）
+- 场景化描述用户痛点
+- 引发共鸣和互动（提问、投票）
+
+### 第三阶段：产品展示（90-240s）
+- 产品核心卖点逐一亮相
+- 材质/工艺/设计细节展示
+- 现场演示/对比测试
+- 使用场景和多搭配推荐
+
+### 第四阶段：价格锚定（240-300s）
+- 价格悬念铺垫
+- 对比市场同价位产品
+- 公布价格，强调性价比
+- 限时/限量优惠信息
+
+### 第五阶段：逼单促单（300-360s）
+- 库存紧张话术
+- 赠品/加赠福利
+- 倒计时促单
+- 客服引导下单
+
+每个阶段用Markdown标题分段，内容包含：话术台词、动作提示、道具准备、互动引导`
+      }
+
+      const userPrompt = `${formatInstructions}
+
+## 产品SKU信息
+${skuProfile || '（未提供详细SKU特征）'}
+
+## 平台
+${platformLabel}（${targetPlatform}）
+
+## 创作要求
+1. 内容必须基于以上SKU信息进行创作，不要编造产品没有的特征
+2. 语言风格必须符合${platformLabel}平台特色
+3. 结构完整、细节丰富、可直接用于拍摄/发布
+4. 用中文输出，Markdown排版
+5. 控制在合理篇幅内，突出重点`
 
       const output = await deepseekChat([
-        { role: 'system', content: '你是一位专业的电商内容创作专家，擅长为品牌生成高质量营销内容脚本。请直接输出完整的脚本内容，使用Markdown格式排版。' },
-        { role: 'user', content: `请为SKU "${skuName}" 生成一份${formatLabel}。
-目标平台: ${targetPlatform}
-核心卖点: ${sellingPoints.join('; ')}
-
-要求:
-1. 内容格式完整、可直接使用
-2. 包含Hook开头、痛点引入、产品展示、价格锚定、CTA引导
-3. 风格符合${targetPlatform}平台调性
-4. 用中文输出，Markdown排版` }
+        { role: 'system', content: systemPrompt },
+        { role: 'user', content: userPrompt },
       ])
 
       return NextResponse.json({
-        sku_name: skuName,
+        sku_features: skuFeatures,
         target_platform: targetPlatform,
         content_format: contentFormat,
         output,
