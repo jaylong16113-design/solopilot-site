@@ -1,1035 +1,1085 @@
 {
-    "tool": [
-        {
-            "slug": "10-free-ecommerce-tools",
-            "title": "2026年电商小白必看：10款零成本工具把店铺做到月入3万",
-            "excerpt": "飞书、Canva、剪映、ChatGPT……10款免费电商工具组合使用攻略，从选品到出单全流程实操，一人公司运营也能轻松上手"
-        },
-        {
-            "slug": "ai-ab-testing-product-images",
-            "title": "AI商品主图A/B测试完全实操指南：从AI批量出图到数据决策的闭环流程",
-            "excerpt": "用AI批量生成几十套主图版本、搭建免费测试Campaign、用GA4分析转化数据找出最佳方案——完整闭环流程，单次测试成本不到200元"
-        },
-        {
-            "slug": "ai-ad-optimization-guide",
-            "title": "AI广告投放优化实操指南：用自动化算法把ROI翻三倍的真实方法",
-            "excerpt": "从Facebook到Google到TikTok，AI广告工具全平台横向对比。Madgicx、Optmyzr、Pacvue实操测评，手把手搭建跨平台AI广告自动化体系"
-        },
-        {
-            "slug": "ai-auto-price-monitoring",
-            "title": "AI自动价格监控与智能调价完全指南：从规则引擎到动态定价的实战方案",
-            "excerpt": "淘宝、拼多多、1688三平台自动跟价攻略。从官方工具到Python自建系统到Coze/AI工作流，三种方案覆盖不同技术背景的卖家需求"
-        },
-        {
-            "slug": "ai-auto-reply-messages",
-            "title": "AI自动回复买家消息最佳方案：飞书+DeepSeek+淘宝千牛全链路自动化",
-            "excerpt": "从零搭建一套完全免费的AI自动回复系统，7x24小时处理买家咨询，转人工率降低60%"
-        },
-        {
-            "slug": "ai-auto-subtitle-translate",
-            "title": "AI视频自动加字幕和翻译：出海电商卖家的高效工具全攻略",
-            "excerpt": "从语音识别、字幕生成到多语言翻译的一条龙AI工作流，实测Whisper/剪映/CapCut/HeyGen等工具在跨境电商视频制作场景下的真实效果"
-        },
-        {
-            "slug": "ai-banner-generator",
-            "title": "AI批量生成电商Banner广告图：Canva/稿定/阿里妈妈智能设计全攻略",
-            "excerpt": "实测Canva Magic Design、稿定AI、阿里妈妈创意中心三大工具，教会你批量生成千万级电商广告素材"
-        },
-        {
-            "slug": "ai-batch-video-ecommerce",
-            "title": "AI批量生成商品视频实操教程：让产品动起来，转化率翻倍",
-            "excerpt": "从剪辑新手到批量输出商品展示视频，全套AI视频工具工作流拆解"
-        },
-        {
-            "slug": "ai-chatbot-setup-guide",
-            "title": "AI客服机器人接入全流程：从注册到上线的完整实操指南",
-            "excerpt": "从零开始搭建AI客服机器人，覆盖技术选型、知识库搭建、对话训练、多渠道接入到上线监控的全流程"
-        },
-        {
-            "slug": "ai-competitor-analysis",
-            "title": "AI分析竞品店铺数据工具实战指南：从选品到定价全流程自动化",
-            "excerpt": "用鸥鹭+DataHawk+AI大模型组合实操，深度拆解竞品策略，把对手的每个数据变成自己的决策依据"
-        },
-        {
-            "slug": "ai-cross-border-product-research",
-            "title": "AI跨境电商选品工具深度对比：谁才是真正的爆款挖掘机？",
-            "excerpt": "用AI选品从海量数据中找到下一个爆款，拒绝拍脑袋决策"
-        },
-        {
-            "slug": "ai-customer-service-automation-2026",
-            "title": "AI客服自动化工具多平台对比：从Shopify到亚马逊全面提升响应效率",
-            "excerpt": "Tidio、Gorgias、Zendesk和ChatGPT客服方案，谁是电商客服之王"
-        },
-        {
-            "slug": "ai-customer-service-automation",
-            "title": "AI客服自动化完全指南：用ChatGPT+飞书搭建7×24小时智能回复系统",
-            "excerpt": "覆盖80%常见问题，转人工率控制在20%以内，月成本不到人工的十分之一"
-        },
-        {
-            "slug": "ai-ecommerce-data-analysis",
-            "title": "用AI分析生意参谋数据：从导出到执行优化的完整实操流程",
-            "excerpt": "每天看一眼数据就关了？用这个方法，AI自动诊断问题并给出可执行的优化方案"
-        },
-        {
-            "slug": "ai-free-video-editing-ecommerce",
-            "title": "用免费AI工具批量做电商短视频：从脚本到剪辑再到配音的完整流程",
-            "excerpt": "2026年淘宝短视频权重提升到30%以上，零基础也能一天产出10-15条成品视频"
-        },
-        {
-            "slug": "ai-image-ecommerce-tools",
-            "title": "AI作图工具电商场景横向评测：ZMO.ai、Canva、Midjourney谁最能帮卖家省钱卖货？",
-            "excerpt": "覆盖去背景、场景图、模特图、批量处理全场景，附新手卖家AI作图起步路线图"
-        },
-        {
-            "slug": "ai-product-description-writer",
-            "title": "AI商品描述生成器深度评测：7款工具让转化率翻倍的真实数据",
-            "excerpt": "哪款AI写商品描述最靠谱？实测7款工具，从转化率、SEO友好度、批量效率给你真实答案"
-        },
-        {
-            "slug": "ai-remove-background-comparison",
-            "title": "AI去背景工具深度对比：5款免费工具实测，哪款去得最快最干净",
-            "excerpt": "衣物、毛绒、透明材质五类商品全面测试，佐糖、Remove.bg、Adobe Express谁最好用"
-        },
-        {
-            "slug": "ai-seo-content-generators",
-            "title": "AI SEO内容生成器横评：Jasper、Writesonic、Anyword、Berry四款实测对比",
-            "excerpt": "用同一组关键词实测四款主流AI写作工具，从内容质量、SEO优化、成本和批量效率四个维度告诉你哪款最适合你的内容站"
-        },
-        {
-            "slug": "ai-seo-tools-comparison-2026",
-            "title": "AI SEO工具对比2026实测：从关键词研究到内容排名的全链路自动化",
-            "excerpt": "Ahrefs、Semrush、Surfer SEO、Frase、ContentShake五款AI SEO工具深度横向评测，帮你找到最适合自己业务的那一款"
-        },
-        {
-            "slug": "ai-tools-2026-comparison",
-            "title": "2026年AI电商工具大盘点",
-            "excerpt": "图片文案视频客服全覆盖"
-        },
-        {
-            "slug": "ai-video-generator-review",
-            "title": "AI视频生成工具实测对比：Runway/Pika/可灵/Kling谁最适合电商",
-            "excerpt": "用同一段商品素材实测四大主流AI视频工具，从画质、可控性、成本三个维度打分"
-        },
-        {
-            "slug": "ai-voice-clone-livestream",
-            "title": "AI声音克隆工具做直播带货完整教程：ElevenLabs到Fish Audio实战",
-            "excerpt": "用AI克隆主播声音实现7x24小时无人直播，实测4款声音克隆工具在抖音淘宝直播场景的真实效果"
-        },
-        {
-            "slug": "ai-xiaohongshu-copywriting",
-            "title": "AI写种草笔记/小红书文案：Prompt模板加实战案例",
-            "excerpt": "12个经过验证的Prompt模板覆盖美妆、美食、家居、数码、穿搭五大品类，从笔记结构到爆款公式再到数据复盘"
-        },
-        {
-            "slug": "aliexpress-ai-translation-tools",
-            "title": "速卖通AI翻译工具推荐",
-            "excerpt": "覆盖英西法等主要市场，小语种利润更高"
-        },
-        {
-            "slug": "chatgpt-cross-border-listing",
-            "title": "ChatGPT做跨境电商Listing优化：15个实战Prompt模板实测对比",
-            "excerpt": "从标题到五行卖点到A+页面，实测ChatGPT、Claude、Gemini三款AI工具做亚马逊Listing的实际效果"
-        },
-        {
-            "slug": "chatgpt-taobao-title-prompts",
-            "title": "ChatGPT写淘宝标题的Prompt模板：关键词挖掘到标题写作",
-            "excerpt": "从关键词挖掘到标题写作再到A/B测试，AI辅助提升搜索流量60%"
-        },
-        {
-            "slug": "cross-border-ecommerce-ai-tools",
-            "title": "跨境电商AI工具推荐：选品、Listing、图片、广告、客服全覆盖",
-            "excerpt": "覆盖选品、Listing、图片、广告、客服五大核心环节的AI工具清单"
-        },
-        {
-            "slug": "ecommerce-funnel-optimization",
-            "title": "电商转化漏斗优化指南",
-            "excerpt": "拆解各环节提高ROI"
-        },
-        {
-            "slug": "free-ai-product-image-tools",
-            "title": "免费AI商品图生成工具推荐及使用教程",
-            "excerpt": "5款免费AI商品图工具对比评测"
-        },
-        {
-            "slug": "pinduoduo-zero-cost-traffic",
-            "title": "拼多多零成本获取自然流量5技巧",
-            "excerpt": "不花推广费获搜索流量"
-        },
-        {
-            "slug": "shein-temu-ai-tools",
-            "title": "SHEIN和TEMU卖家AI选品工具",
-            "excerpt": "分析热销品类找到高潜力"
-        },
-        {
-            "slug": "shopify-free-apps-2026",
-            "title": "Shopify独立站15个免费必备Apps",
-            "excerpt": "不花一分钱搞定运营"
-        },
-        {
-            "slug": "taobao-keyword-tool-free",
-            "title": "淘宝关键词挖掘3个免费工具",
-            "excerpt": "零成本找到蓝海词"
-        },
-        {
-            "slug": "taobao-live-ai-digital-human",
-            "title": "AI数字人直播带货完整入门教程",
-            "excerpt": "从工具到搭建一文搞定"
-        },
-        {
-            "slug": "taobao-seo-guide-2026",
-            "title": "淘宝SEO完整指南2026最新版",
-            "excerpt": "搜索算法三大变化15个优化维度"
-        },
-        {
-            "slug": "wechat-xiaohongshu-ecommerce-traffic",
-            "title": "微信小红书引流到淘宝教程",
-            "excerpt": "社交流量低成本变现"
-        },
-        {
-            "slug": "ai-predictive-inventory-management",
-            "title": "AI预测库存管理：跨境卖家如何用机器学习告别缺货烦恼",
-            "excerpt": "缺货损失多少利润？断货一次流失30%客户。本文教你用机器学习预测需求高峰、自动管理补货周期，集成AliExpress/1688供应商数据，个人卖家也能上手的实操方案。"
-        },
-        {
-            "slug": "ai-cross-border-customs-automation",
-            "title": "AI跨境报关自动化：HS编码分类与关税计算完整指南",
-            "excerpt": "HS编码分错一次，轻则退运重报，重则罚款扣货。2026年关税规则再调整，AI用LLM+图像识别自动分类商品、实时计算进口关税和增值税、生成合规商业发票，跨境卖家必备工具。"
-        },
-        {
-            "slug": "ai-virtual-try-on-fashion",
-            "title": "AI虚拟试衣与尺码推荐：服装电商退货率降低40%的秘诀",
-            "excerpt": "服装电商退货率高达30%-40%，其中尺码不合是头号原因。AI虚拟试衣用生成式技术让顾客上传照片或打开摄像头就能试穿，尺码推荐模型精准匹配版型数据，退货率直降40%。"
-        },
-        {
-            "slug": "ai-dynamic-bundling-upsell",
-            "title": "AI动态捆绑销售与智能推荐：自动提升客单价30%的实战方案",
-            "excerpt": "客单价是电商利润的核心杠杆。AI动态捆绑用强化学习实时分析用户行为和购物车内容，自动生成个性化捆绑包和智能推荐方案。Shopify和自建站都有完整实操指南，助你客单价提升30%以上。"
-        },
-        {
-            "slug": "ai-fraud-detection-cross-border",
-            "title": "AI跨境支付风控与欺诈检测：保护你的跨境电商交易安全",
-            "excerpt": "跨境卖家每年因欺诈订单损失3%-5%的收入。AI风控用异常检测、设备指纹和用户行为分析实时识别欺诈交易，阻止恶意订单。高风险区域和一件代发模式的专属防护方案详解。"
-        },
-        {
-            "slug": "ai-logistics-orchestrator",
-            "title": "AI跨境物流智能调度：实时关税计算与多承运商路由自动化",
-            "excerpt": "跨境电商卖家如何用AI实现物流智能调度？本文详细解析AI物流编排器的工作原理，涵盖实时关税计算、多承运商路由优化、HS编码自动归类等核心功能，并推荐Parcel Perform、Zonos、Shippo等实用工具，帮你将跨境物流成本降低15%-30%。"
-        },
-        {
-            "slug": "ai-multilingual-listing-optimizer",
-            "title": "AI多语言Listing优化：让商品页面自动适配全球市场",
-            "excerpt": "跨境电商全球化的最大门槛不是物流，而是语言。本文深入解析AI多语言Listing优化技术，包括语境化翻译、关键词本地化、文化适配改写三大核心能力，并实测DeepL、Claude、Jungle Scout等工具的效果对比，教你用AI将商品页面对全球转化率提升60%以上。"
-        },
-        {
-            "slug": "ai-dynamic-pricing-engine",
-            "title": "AI动态全球定价引擎：跨境电商实时价格优化实战",
-            "excerpt": "全球市场瞬息万变，手动调价早已跟不上节奏。本文深度解析AI动态定价引擎的核心算法、竞争监控策略与实战部署方案，涵盖弹性定价模型、汇率波动自适应、竞品实时追踪等核心功能。推荐使用Prisync、Price2Spy、Omnia等工具，帮你实现利润率提升8%-15%。"
-        },
-        {
-            "slug": "ai-cross-border-fraud-compliance",
-            "title": "AI跨境风控合规指南：保护你的国际贸易生意",
-            "excerpt": "跨境电商蓬勃发展，但欺诈和合规风险也在同步升级。从虚假订单、信用卡盗刷到出口管制违规，每个环节都可能导致数万美元的损失。本文全面解析AI风控合规体系，覆盖交易反欺诈、KYC身份验证、出口管制筛查、税务合规四大领域，并推荐Sift、Forter、ComplyAdvantage等工具。"
-        },
-        {
-            "slug": "ai-visual-localization-ecommerce",
-            "title": "AI视觉本地化：让商品图自动适配不同文化市场的审美",
-            "excerpt": "你的商品图在中东市场或许太过暴露，在日本市场又显得不够精致。AI视觉本地化技术可以自动识别图片中的文化敏感元素，调整模特肤色、场景风格、色彩基调甚至背景元素，让同一款产品的图片适配20+个不同文化市场。本文深度解析AI视觉本地化工具、策略与实战案例。"
-        },
-        {
-            "slug": "ai-workflow-orchestrators-ecommerce",
-            "title": "AI工作流编排工具电商实战：n8n/Make/Zapier选型与自动化配置指南",
-            "excerpt": "跨境电商卖家如何用n8n、Make和Zapier搭建自动化工作流？本文从真实场景出发，对比三大工具的优劣势，并给出可复用的自动化模板。"
-        },
-        {
-            "slug": "ai-review-management-reputation",
-            "title": "AI评价管理与声誉自动化：跨境电商如何用工具45天从差评扎堆到五星店铺",
-            "excerpt": "差评是跨境电商卖家的噩梦。本文分享一套AI驱动的评价管理SOP，覆盖评价自动邀请、差评预警、智能回复、竞品评价分析，帮你系统化提升店铺评分。"
-        },
-        {
-            "slug": "ai-voice-agents-ecommerce",
-            "title": "AI语音客服在电商售后中的应用：从呼叫中心降本到7x24小时多语种应答",
-            "excerpt": "跨境电商的时差和多语种痛点，AI语音客服能否解决？本文深入评测Vapi、Retell AI、Bland AI等工具，给出真实部署方案和成本对比。"
-        },
-        {
-            "slug": "ai-product-video-script-tools",
-            "title": "AI商品视频脚本生成工具横评：10个工具实测，哪个最适合跨境卖家？",
-            "excerpt": "商品视频是跨境电商转化率最高的内容形式，但写脚本太费时间。本文实测对比10款AI视频脚本工具，从适用场景、输出质量和成本三方面给出推荐。"
-        },
-        {
-            "slug": "ai-analytics-dashboard-ecommerce",
-            "title": "AI电商数据分析仪表盘搭建实操：从零搭建一个能自动告诉你「该补什么货」的驾驶舱",
-            "excerpt": "别再手动拉数据做报表了。本文手把手教你用AI工具搭建一个实时数据仪表盘，自动监控销售趋势、库存预警、广告ROI和竞品动态。"
-        },
-        {
-            "slug": "ai-product-video-generator-tools",
-            "title": "AI商品视频生成工具推荐：把产品图片变成带货短视频",
-            "excerpt": "跨境电商卖家如何用AI工具把静态产品图一键转化为高质量带货视频？本文深度评测剪映、可灵、Pika等工具，分享从选品到出海的完整视频制作流程。"
-        },
-        {
-            "slug": "ai-social-media-scheduler-ecommerce",
-            "title": "2026年跨境电商必备的AI社媒排期工具：自动管理你的内容日历",
-            "excerpt": "从Buffer到Later再到国内的花卷和千瓜，AI社媒排期工具如何帮跨境卖家自动管理多平台内容日历？本文横向对比主流工具，分享独家运营策略。"
-        },
-        {
-            "slug": "ai-market-research-tools-cross-border",
-            "title": "AI市场调研工具助力跨境电商选品：在爆款爆发前发现机会",
-            "excerpt": "Jungle Scout、Helium 10、卖家精灵……AI市场调研工具如何帮跨境卖家预测趋势、发现蓝海品类？本文深度解析选品工具的AI功能与实战方法。"
-        },
-        {
-            "slug": "ai-email-marketing-automation-ecommerce",
-            "title": "AI邮件营销自动化：独立站卖家如何用邮件挽回弃单和提升复购",
-            "excerpt": "Klaviyo、Mailchimp、SendGrid等邮件营销工具如何用AI帮独立站卖家自动挽回弃单、细分客户群并提升复购率？本文详解中国卖家的邮件营销实战策略。"
-        },
-        {
-            "slug": "ai-listing-optimizer-amazon-shopify",
-            "title": "AI Listing优化工具对比：亚马逊与Shopify平台哪个AI工具更好用？",
-            "excerpt": "从Jungle Scout的Listing Builder到Shopify的AI描述生成器，不同平台的Listing优化工具有哪些差异？本文横向对比亚马逊和Shopify的AI工具，帮你找到最佳组合。"
-        },
-        {
-            "slug": "chatgpt-kehu-huaxiang-gongju",
-            "title": "ChatGPT做客户画像实操指南：跨境卖家如何用AI实现精准营销",
-            "excerpt": "跨境卖家还在凭直觉选品做投放？本文教你用ChatGPT从人口统计深入到心理画像，构建真实可用的客户画像，让营销精准度提升10倍。"
-        },
-        {
-            "slug": "ai-dianpu-luodiye-shengcheng",
-            "title": "AI电商落地页生成工具横评：2026年独立站转化率翻倍利器",
-            "excerpt": "实测Unbounce、Jasper、Carrd、GetResponse等7款AI落地页工具。跨境独立站卖家必看——哪个工具能让你的产品落地页转化率从2%提升到8%？"
-        },
-        {
-            "slug": "ai-amazon-jingpin-jiage-jiankong",
-            "title": "AI亚马逊竞品价格监控完全指南：自动跟价与利润保护实战",
-            "excerpt": "详解Keepa、Jungle Scout、Helium 10、Sellery、Prisync五款工具，搭建一套既保住购物车又保住利润的智能调价系统。"
-        },
-        {
-            "slug": "ai-listing-xiezuo-zhushou-2026",
-            "title": "2026年AI Listing写作助手深度评测：跨境卖家必备的5款工具",
-            "excerpt": "实测ChatGPT、Claude、Jasper、Copy.ai、Writesonic五款AI写作工具，看谁写出的亚马逊Listing转化率最高，谁是跨境卖家的性价比之王。"
-        },
-        {
-            "slug": "ai-hongren-yingxiao-gongju",
-            "title": "AI网红营销工具指南：跨境电商如何用AI找到最合适的KOL并追踪ROI",
-            "excerpt": "详解Upfluence、Grin、Modash、HypeAuditor、Saral五款AI工具，用数据找对KOL、识别假粉、量化ROI，把网红营销从玄学变成科学。"
-        },
-        {
-            "slug": "ai-content-repurposing-tools",
-            "title": "AI内容复用工具完全指南：一条视频变30条内容的全自动工作流",
-            "excerpt": "从TikTok短视频到博客长文、邮件通讯、社媒帖子——用AI工具实现一条内容的跨平台裂变，让每份创作发挥30倍价值。"
-        },
-        {
-            "slug": "ai-inventory-forecasting-tools",
-            "title": "AI库存预测工具实战指南：从Excel到机器学习，杜绝断货和滞销",
-            "excerpt": "跨境电商一人公司如何用AI做库存预测——对比Inventory Planner、Prediko、Cogsy等工具，搭建从数据采集到自动补货的完整系统。"
-        },
-        {
-            "slug": "cross-border-payment-automation",
-            "title": "跨境支付自动化完全指南：Stripe/Wise/Payoneer全链路收款与自动对账",
-            "excerpt": "一人公司跨境收款的完整方案——从多币种收款、自动提现到财务对账自动化，覆盖Stripe、Wise、Payoneer和飞书多维表格。"
-        }
-    ],
-    "wear": [
-        {
-            "slug": "big-body-suit-guide",
-            "title": "胖体型西装选购指南——遮肉显瘦的版型面料全攻略",
-            "excerpt": "通过正确的版型选择和面料搭配，让西装成为你最好的修饰"
-        },
-        {
-            "slug": "business-perfume-guide",
-            "title": "商务香水怎么选——从季节到场合的男士用香全攻略",
-            "excerpt": "春夏秋冬的季节搭配，会议晚宴的场合策略，一篇帮你选对职场香水"
-        },
-        {
-            "slug": "business-travel-pack-suit",
-            "title": "商务出差西服打包指南——不皱打包法+3天出差方案",
-            "excerpt": "5步打包法让西服到酒店就笔挺，3天行程一套西服搞定"
-        },
-        {
-            "slug": "business-wear-101",
-            "title": "商务穿搭入门指南——从职场新人到得体绅士",
-            "excerpt": "从第一套西装配齐到穿出质感的完整路线图"
-        },
-        {
-            "slug": "custom-vs-rtw-suit",
-            "title": "定制西服 vs 成衣怎么选——什么时候该定制、什么时候买成衣",
-            "excerpt": "从价格、工艺、场景三个维度深度对比，帮你做最聪明的选择"
-        },
-        {
-            "slug": "dating-outfit-guide",
-            "title": "男生约会穿搭指南——从咖啡到晚餐到正式晚宴的完整搭配方案",
-            "excerpt": "覆盖3种约会场景的完整穿搭方案，帮你用衣着传达尊重与品味"
-        },
-        {
-            "slug": "first-suit-guide",
-            "title": "第一次买西服最全指南——从版型面料到试穿搭配一步到位",
-            "excerpt": "从量体到选款到试穿的全程避坑指南，新手看完就能自己去买"
-        },
-        {
-            "slug": "interview-suit-guide",
-            "title": "面试穿搭全攻略——不同行业怎么穿西服才能加分",
-            "excerpt": "金融、互联网、销售、国企四大行业的面试穿搭方案，一个行业一套打法"
-        },
-        {
-            "slug": "short-men-suit-tips",
-            "title": "矮个子男士西装选购穿搭全攻略——170cm以下也能穿出气场两米八",
-            "excerpt": "身高不够搭配来凑，从版型、颜色到细节全面优化身材比例，矮个子男生也能把西装穿出顶级质感"
-        },
-        {
-            "slug": "smart-casual-suit-guide",
-            "title": "休闲西装搭配全指南——从办公室到周末约会，一件搞定所有场合",
-            "excerpt": "掌握Smart Casual风格的核心法则，用休闲西装轻松切换工作、约会、出行等多个场景"
-        },
-        {
-            "slug": "sports-suit-vs-suit",
-            "title": "运动西服vs传统西装——面料、版型、场景全对比，一篇看懂怎么选",
-            "excerpt": "你适合穿运动西服还是传统西装？从穿着体验到场景定位全面解析两种西装的本质区别"
-        },
-        {
-            "slug": "sports-vs-business-vs-casual-suit",
-            "title": "运动西装、商务西装、休闲西装到底有什么区别——三篇看懂怎么选怎么穿",
-            "excerpt": "三种西装看起来差不多，但从版型面料到搭配逻辑完全不同。一篇彻底搞懂它们的区别和各自的正确打开方式"
-        },
-        {
-            "slug": "suit-accessories-guide",
-            "title": "西装配饰搭配指南——口袋巾、胸针、袖扣让穿搭更出彩",
-            "excerpt": "从口袋巾折法到袖扣搭配规则，掌握西装配饰让穿搭提升一个档次"
-        },
-        {
-            "slug": "suit-bag-guide",
-            "title": "男士包袋搭配——公文包、托特包、双肩包怎么配西服",
-            "excerpt": "不同风格西服配什么包，从职场精英到商务出差的完整包袋方案"
-        },
-        {
-            "slug": "suit-belt-guide",
-            "title": "男士皮带怎么配西服——颜色、宽度、材质搭配全规则",
-            "excerpt": "一条皮带的颜色宽度材质决定了穿搭的精致度还是廉价感"
-        },
-        {
-            "slug": "suit-body-type-guide",
-            "title": "不同体型男生怎么选西服——偏瘦/偏胖/矮个子/高个子完全指南",
-            "excerpt": "4大体型选西服核心技巧，从版型到面料到细节全解析"
-        },
-        {
-            "slug": "suit-budget-guide",
-            "title": "1000/3000/5000元档西服选购——每个价位最值得买的品牌和款式",
-            "excerpt": "3个预算区间全解析，从面料到版型到品牌，买对不买贵"
-        },
-        {
-            "slug": "suit-care-guide",
-            "title": "西服保养指南——一件穿3年，不变形不起球",
-            "excerpt": "从日常穿着到收纳清洗熨烫，全套保养方法一次讲清"
-        },
-        {
-            "slug": "suit-color-guide",
-            "title": "西服颜色怎么选——从黑灰蓝到大地色，不同场合全攻略",
-            "excerpt": "不同场合穿什么颜色，入门先从深蓝开始"
-        },
-        {
-            "slug": "suit-fabric-guide",
-            "title": "西服面料知识大全——看懂面料标签，选对西服",
-            "excerpt": "从纯羊毛到混纺到化纤到亚麻，看完你就知道什么面料适合你"
-        },
-        {
-            "slug": "suit-ironing-guide",
-            "title": "西服熨烫终极指南：在家也能烫出笔挺效果",
-            "excerpt": "蒸汽挂烫与平烫定型全攻略，告别褶皱烦恼"
-        },
-        {
-            "slug": "suit-materials-tech",
-            "title": "运动西服面料科技全解析：聚酯、氨纶、涂层一次讲透",
-            "excerpt": "从纤维成分到功能性工艺，看懂面料不再被坑"
-        },
-        {
-            "slug": "suit-measure-guide",
-            "title": "西服自测量体教程：在家量出专业裁缝级尺寸",
-            "excerpt": "七步量体法+尺码对照表，网购西服不再踩坑"
-        },
-        {
-            "slug": "suit-mistakes-beginners",
-            "title": "新手穿西服十大常见错误：附避坑指南",
-            "excerpt": "袖长扣子领带袜子全踩点，看完马上进阶"
-        },
-        {
-            "slug": "suit-occasion-guide",
-            "title": "不同场合西服穿搭完整指南——面试、会议、婚礼、日常、晚宴全覆盖",
-            "excerpt": "从面试到婚礼到晚宴，各场合的西装穿搭逻辑与细节全拆解"
-        },
-        {
-            "slug": "suit-online-shopping-tips",
-            "title": "网购西服避坑指南——五个必看要点加三个高阶技巧",
-            "excerpt": "从尺码到面料到退换政策，网购西服前必须确认的五件事"
-        },
-        {
-            "slug": "suit-pocket-guide",
-            "title": "西服口袋完全指南——从口袋方巾折法到实用物品收纳",
-            "excerpt": "口袋方巾7种经典折法，西服和西裤口袋的正确使用方式，别再让口袋鼓成面包"
-        },
-        {
-            "slug": "suit-seasonal-guide",
-            "title": "春夏秋冬分别穿什么西服——四季穿搭与面料选择完整指南",
-            "excerpt": "从亚麻到羊毛从浅色到深色，一份搞定全年的西服季节穿搭方案"
-        },
-        {
-            "slug": "suit-shoes-guide",
-            "title": "西服配什么鞋？从牛津到乐福，一篇讲透皮鞋搭配全攻略",
-            "excerpt": "三种鞋型四大颜色法则，照着买永远不会错"
-        },
-        {
-            "slug": "suit-size-guide",
-            "title": "西服尺码对照完全指南——网购不再买错",
-            "excerpt": "从身高体重到胸围肩宽，不同品牌尺码体系全破解"
-        },
-        {
-            "slug": "suit-styling-rules",
-            "title": "西服搭配五大黄金法则——90%的场合都不会出错",
-            "excerpt": "三色原则、领口一厘米、扣子规矩……记住这五条就够了"
-        },
-        {
-            "slug": "suit-tailoring-process",
-            "title": "西装定制全流程拆解——从量体到取衣，每一步都讲清楚",
-            "excerpt": "第一次定制西装不慌不忙，量体选料试穿取衣全流程指南"
-        },
-        {
-            "slug": "suit-trends-2026",
-            "title": "2026年男装西服流行趋势——今年穿什么才不落伍",
-            "excerpt": "从版型到颜色到搭配方式，5大趋势帮你把下一件西服买对"
-        },
-        {
-            "slug": "suit-underwear-guide",
-            "title": "穿西服时内衣怎么选——从打底衫到袜子的完整指南",
-            "excerpt": "6步搞定全套西服内搭，告别衬衫露边、打底探头、袜子太短的尴尬"
-        },
-        {
-            "slug": "tie-knot-guide",
-            "title": "男士领带打法大全——从新手到高手，8种系法一次学会",
-            "excerpt": "痛点引入：明明领带不差，就是打不好？8种打法从易到难，附场景推荐和常见错误排查"
-        },
-        {
-            "slug": "wedding-suit-guide",
-            "title": "婚礼穿什么——新郎选礼服与宾客搭配的完整攻略",
-            "excerpt": "7步搞定婚礼穿搭，新郎和宾客都能找到自己的答案"
-        },
-        {
-            "slug": "tech-casual-suit-guide",
-            "title": "科技休闲西装穿搭指南：2026年职场男性的新选择",
-            "excerpt": "混合办公时代，传统西装太正式，休闲装又不够专业。科技休闲西装用功能性面料——吸湿排汗、四向弹力、抗皱免烫——完美平衡了舒适与体面的穿搭需求。品牌推荐与穿搭公式全解析。"
-        },
-        {
-            "slug": "mix-match-suiting-guide",
-            "title": "混搭西装指南：打破成套穿着的时尚法则，穿出个性与品位",
-            "excerpt": "成套西装是安全牌，但不是唯一的选择。混搭西装——不同图案、材质、颜色的上衣和裤子有意识组合——正在成为品位与个性的标志。色彩理论、图案比例、质料混搭，让你的衣柜活起来。"
-        },
-        {
-            "slug": "summer-suit-fabrics-guide",
-            "title": "夏季西服面料选择指南：亚麻、泡泡纱、轻薄羊毛让你清凉一夏",
-            "excerpt": "夏天穿西服就一定要汗流浃背吗？当然不是。选择正确的面料，你照样可以在35°C的高温中保持绅士风度和清爽体感。本文深入解析亚麻、泡泡纱、轻薄羊毛、混纺棉麻等夏季西服面料的特性、优缺点和挑选技巧，并推荐适合夏季穿着的成衣品牌和定制方案。"
-        },
-        {
-            "slug": "suit-lapel-styles-guide",
-            "title": "西服领型完全指南：平驳领、戗驳领、青果领怎么选",
-            "excerpt": "领型是西服的「语言」——它在无声地告诉别人你是来面试的、来开会的还是来参加婚礼的。本文从平驳领、戗驳领、青果领三大主流领型入手，详细解析每种领型的历史渊源、适用场景、体型搭配技巧，以及如何根据脸型、身材和场合做出最佳选择。附赠领针、领花搭配等进阶技巧。"
-        },
-        {
-            "slug": "sustainable-eco-friendly-suits",
-            "title": "可持续西装面料趋势指南——环保不意味着牺牲质感",
-            "excerpt": "从再生羊毛到天丝到菠萝纤维，带你认识正在改变男装行业的可持续面料，选对环保西装也能穿出高级感"
-        },
-        {
-            "slug": "double-breasted-suit-guide",
-            "title": "双排扣西装复兴指南——如何驾驭这件回归的经典",
-            "excerpt": "从选款到穿搭到场合，一文讲透双排扣西装的所有门道，让你穿出气场而不是穿成老派"
-        },
-        {
-            "slug": "suit-dry-cleaning-vs-home-care",
-            "title": "西服干洗还是自己打理？真相：面料寿命和成本全面对比",
-            "excerpt": "西服到底该不该干洗？频繁干洗真的会缩短面料寿命吗？本文从面料学、成本核算和日常打理三个维度，帮你做出最正确的西服护理决策。"
-        },
-        {
-            "slug": "formal-attire-dress-codes-explained",
-            "title": "正装着装规则全解读：从白领结到商务休闲，一篇搞懂",
-            "excerpt": "白领结、黑领结、商务正装、商务休闲……各种着装规则到底怎么穿才对？本文用一张图讲清全球通用的正装等级体系，附送男士衣橱必备清单。"
-        },
-        {
-            "slug": "haijunlan-blazer-dapei",
-            "title": "海军蓝Blazer万能搭配指南：一件外套穿出10种风格",
-            "excerpt": "从面试到约会，从办公室到周末Brunch——海军蓝Blazer是男装中最百搭的单品。本文教你用一件外套打通10个场景。"
-        },
-        {
-            "slug": "chaoshi-qihou-ximian-liao",
-            "title": "湿热气候西装面料全攻略：夏天也能清爽有型的秘密",
-            "excerpt": "高捻羊毛、Fresco、泡泡纱、亚麻混纺……湿热天气也能穿出体面与舒适的西装面料深度解析。"
-        },
-        {
-            "slug": "modern-business-casual-guide",
-            "title": "现代商务休闲装完全指南：从硅谷到陆家嘴的穿衣密码",
-            "excerpt": "商务休闲到底怎么穿？不同行业、不同城市有着完全不同的密码。解析科技公司、金融、咨询、创意行业的着装潜规则。"
-        },
-        {
-            "slug": "suit-alteration-cost-guide",
-            "title": "西装改衣完全指南：哪些值得改、改哪里、花多少钱",
-            "excerpt": "一件不合身的西装穿出去不如不穿。详解西装修改的15个关键部位、各项成本、以及如何判断一件西装值不值得改。"
-        }
-    ],
-    "ops": [
-        {
-            "slug": "15-free-tools-solo",
-            "title": "一人公司必用15个免费工具——从建站到运营的全链路解决方案",
-            "excerpt": "覆盖建站、设计、内容、数据分析、自动化、运营六个环节的免费工具组合，一人公司低成本起步的完整工具箱"
-        },
-        {
-            "slug": "adsense-first-month",
-            "title": "Google AdSense第一月真实收入——新站收益预期与六步提升策略",
-            "excerpt": "新站第一个月AdSense到底能赚多少？真实收入预期、收入公式拆解、六大实操步骤，帮你从零开始搭建可持续的AdSense收入体系"
-        },
-        {
-            "slug": "ai-assisted-product-prototyping",
-            "title": "AI辅助产品原型设计——零基础独立开发者快速验证产品想法的完整指南",
-            "excerpt": "不用招设计师、不用花钱开发，一人公司如何用AI工具从草图到可交互原型，快速验证你的产品想法"
-        },
-        {
-            "slug": "ai-automation-workflow",
-            "title": "AI自动化工作流搭建教程——从零到一，一人公司如何用AI把一周工作量压缩到一天",
-            "excerpt": "从流程梳理到自动化部署，八步搭建AI自动化工作流，把每周40小时的重复工作压缩到10小时以内"
-        },
-        {
-            "slug": "ai-writing-workflow",
-            "title": "用AI批量写文章全流程自动化——从关键词到上线的完整教程",
-            "excerpt": "从关键词研究到配图生成到自动部署，完整拆解AI批量写作流程的六个环节，效率提升10倍的具体方法"
-        },
-        {
-            "slug": "build-in-public",
-            "title": "Build in Public——一人公司落地的最快方式：AgentClaw 4小时上线全记录",
-            "excerpt": "从买域名到55篇文章上线，4小时完成传统模式需要16000元和两周的工作量。Build in Public的核心理念和实操方法"
-        },
-        {
-            "slug": "content-site-1000-month",
-            "title": "内容站从0到月入1000美元——真实拆解与里程碑",
-            "excerpt": "一个真实内容站在12个月内从零开始做到月收入1000美元的完整过程，包括每个月的关键动作和核心数据"
-        },
-        {
-            "slug": "content-site-monetization",
-            "title": "内容站盈利模式深度对比",
-            "excerpt": "AdSense/CPS/卖产品/卖服务四种模式详细对比，找到最适合你的变现路径"
-        },
-        {
-            "slug": "cps-affiliate-strategy",
-            "title": "一人公司CPS联盟变现策略",
-            "excerpt": "淘宝京东联盟带货"
-        },
-        {
-            "slug": "customer-success-solo",
-            "title": "一人公司如何做客户成功——独立开发者维系用户的高效策略",
-            "excerpt": "客户成功不是大公司的专利。一人公司用系统化的方法做好客户成功，能大幅降低流失率、提升用户复购和口碑传播。"
-        },
-        {
-            "slug": "data-driven-content",
-            "title": "用1992条数据驱动内容策略",
-            "excerpt": "数据驱动精准内容"
-        },
-        {
-            "slug": "email-list-from-zero",
-            "title": "从0到1搭建邮件列表——独立开发者获取1000个真实订阅者的实战策略",
-            "excerpt": "邮件列表是独立开发者最被低估的资产。本文分享不花钱获取1000个订阅者的具体方法、内容策略和增长飞轮。"
-        },
-        {
-            "slug": "feishu-bitable-project-management",
-            "title": "一人公司必备：用飞书多维表格管理创业项目的完整教程",
-            "excerpt": "不花一分钱，用飞书多维表格建立你的创业项目管理体系——从任务跟踪到数据分析，一个人管好所有事情。"
-        },
-        {
-            "slug": "from-0-to-1000-visitors",
-            "title": "内容站从0到日UV1000实操路线",
-            "excerpt": "三个月增长路线图——不需要花钱做推广，只需要正确的SEO策略和持续输出。"
-        },
-        {
-            "slug": "github-actions-automation",
-            "title": "GitHub Actions网站自动更新——从push到上线只需30秒",
-            "excerpt": "全自动部署方案：写完文章git push，剩下的全部自动化。"
-        },
-        {
-            "slug": "keyword-research-guide",
-            "title": "内容站SEO关键词研究指南——工具、方法与实战案例分析",
-            "excerpt": "从零开始做关键词研究，用免费和付费工具找到高转化、低竞争的关键词。"
-        },
-        {
-            "slug": "multi-site-one-domain",
-            "title": "一个域名开三个内容站——Next.js子路径架构实战",
-            "excerpt": "一个域名、一个GitHub仓库、一个Vercel项目，运维三个内容站，域名费省三分之二。"
-        },
-        {
-            "slug": "nextjs-solo-devs-guide",
-            "title": "独立开发者技术选型：为什么Next.js是内容站的最佳选择",
-            "excerpt": "对比WordPress、Hugo、Astro、Next.js四套方案，用数据告诉你为什么Next.js + Vercel是一人公司的最优解。"
-        },
-        {
-            "slug": "niche-selection-guide",
-            "title": "一人公司利基市场选择完整指南：从零找到属于你的蓝海赛道",
-            "excerpt": "通过兴趣、技能、市场需求三轴定位法，系统化找到最适合一人公司的利基市场，附真实案例和避坑指南"
-        },
-        {
-            "slug": "no-code-automation-workflow",
-            "title": "无代码自动化工作流搭建指南：一人公司每周省出20小时的实战方法",
-            "excerpt": "用Make和Zapier从零搭建自动化工作流，10个真实案例覆盖客户服务、内容发布、财务管理和竞品监控等核心场景"
-        },
-        {
-            "slug": "one-person-ai-agent",
-            "title": "一人公司AI Agent团队搭建指南：四个AI成员让你的运营效率提升10倍",
-            "excerpt": "一个人加四个AI Agent等于一个完整运营团队。从内容创作、数据分析到客服和运营监控，手把手搭建你的AI虚拟团队"
-        },
-        {
-            "slug": "project-management-solo",
-            "title": "一人公司项目管理完全指南：用飞书多维表格从零搭建运营系统",
-            "excerpt": "从任务跟踪到内容日历到数据复盘，用飞书多维表格搭建完整的一人公司项目管理体系，每天只需10分钟管理所有事项"
-        },
-        {
-            "slug": "seo-guide-solo-company",
-            "title": "一人公司SEO实战指南：不花钱也能获取精准流量的完整策略",
-            "excerpt": "零广告预算的内容站SEO策略，从关键词研究到内容优化到外链建设，覆盖一人公司获取自然搜索流量的全部关键环节"
-        },
-        {
-            "slug": "social-media-automation",
-            "title": "社交媒体自动化发布工作流：一人公司如何用工具管好所有平台的社媒运营",
-            "excerpt": "用Buffer、Make、飞书等工具搭建全自动化社媒发布系统，覆盖Twitter、知乎、微信公众号等多平台，每天只需15分钟管理"
-        },
-        {
-            "slug": "solo-booking-system",
-            "title": "使用Calendly/飞书日历做预约系统——一人公司的客户预约自动化完整指南",
-            "excerpt": "从零搭建自动化的客户预约系统，支持不同服务类型、自动提醒和自动跟进"
-        },
-        {
-            "slug": "solo-content-operations",
-            "title": "一人管理255篇文章内容体系——用飞书多维表格搭建内容运营系统",
-            "excerpt": "飞书多维表格支撑255篇文章的持续生产和维护，涵盖生命周期管理、关键词关联和排名追踪"
-        },
-        {
-            "slug": "solo-customer-acquisition",
-            "title": "一人公司如何做客户获取——免费获客渠道与实战方法",
-            "excerpt": "不花一分钱广告费，从0开始获取第一批客户的7个渠道和完整实操流程"
-        },
-        {
-            "slug": "solo-founder-product-docs",
-            "title": "独立开发者如何写好产品文档——一人公司SaaS产品文档编写实操指南",
-            "excerpt": "产品文档不是大公司的专利。独立开发者写一份好的产品文档，能大幅降低客服压力、提升转化率、建立用户信任"
-        },
-        {
-            "slug": "solo-income-diversification",
-            "title": "一人公司多元化收入模型",
-            "excerpt": "AdSense CPS SaaS多线"
-        },
-        {
-            "slug": "solo-pricing-strategy",
-            "title": "一人公司如何定价——SaaS/内容/咨询不同商业模式的定价策略",
-            "excerpt": "覆盖3种主流一人公司模式的定价方法、心理学和实战模板"
-        },
-        {
-            "slug": "solo-tax-guide",
-            "title": "一人公司税务与注册实操指南：从零搞定营业执照和报税",
-            "excerpt": "个体工商户注册、开票、报税全流程，一人公司创始人必看的税务实操手册"
-        },
-        {
-            "slug": "tech-blog-traffic-start",
-            "title": "技术博客从0获取流量：选题、SEO、分发的完整实操流程",
-            "excerpt": "一个人运营技术博客的完整方法论，从选话题到写文章再到从搜索引擎拿流量的每一步"
-        },
-        {
-            "slug": "vercel-deployment-guide",
-            "title": "Vercel免费部署完整教程：从GitHub到域名绑定的每一步",
-            "excerpt": "不用服务器、不花钱、不用运维——Vercel免费部署网站的全流程实操指南"
-        },
-        {
-            "slug": "what-is-solo-company",
-            "title": "一人公司是什么？这是独立开发者在AI时代最好的创业方式",
-            "excerpt": "一人公司的完整定义、适合做什么、怎么起步——读完你就能判断这条路是否适合你"
-        },
-        {
-            "slug": "zero-cost-roadmap",
-            "title": "零成本一人公司路线图：从0到1如何不花一分钱启动",
-            "excerpt": "分享一个不花钱启动一人公司的完整路径，从方向选择到建站到内容生产再到流量获取"
-        },
-        {
-            "slug": "zero-cost-user-research",
-            "title": "一人公司用户调研零成本实操指南：独立开发者必备的6个实战方法",
-            "excerpt": "没有预算也能深入了解用户需求——6个零成本调研方法，让独立开发者用最小投入获取最有价值的用户洞察"
-        },
-        {
-            "slug": "ai-agentic-affiliate-seo",
-            "title": "AI代理驱动的联盟营销站：用自动化Agent做SEO、内容与链接建设",
-            "excerpt": "AI Agent正在改变联盟营销站的玩法——不仅写文章，还能自动做竞品分析、关键词挖掘、内链优化和外链外联。本文详解LangChain Agent框架和自定义Python脚本，帮你搭建全自动化联盟营销体系，并分析其中的风险与机遇。"
-        },
-        {
-            "slug": "ai-content-personalization-solopreneur",
-            "title": "AI内容个性化推荐：一人公司如何实现精准营销而不烧钱",
-            "excerpt": "大厂的个性化推荐靠千万级预算和用户数据池。一人公司用轻量级AI引擎——自定义GPT封装+RAG工具+LLM API——也能实现精准内容个性化。本文教你搭建个性化Pipeline，根据用户行为动态调整标题、CTA和推荐内容，提升转化率而不烧钱。"
-        },
-        {
-            "slug": "solo-landing-page-conversion",
-            "title": "一人公司落地页转化秘籍：没有销售团队也能写出高转化文案",
-            "excerpt": "作为一人公司创始人，你没有销售团队帮你打电话、发邮件、跟进客户。你的落地页就是你的王牌销售员——它必须24小时不间断工作，自动完成从获客到转化的完整闭环。本文分享经过实战验证的落地页转化框架，从用户心理把握、文案公式到A/B测试策略，帮你用4周时间将转化率翻倍。"
-        },
-        {
-            "slug": "solo-founder-productivity-system",
-            "title": "一人公司创始人的效率系统：如何用4小时完成8小时的工作",
-            "excerpt": "一人公司创始人最稀缺的资源不是钱，是时间和注意力。本文分享一套经过实战验证的个人效率系统，涵盖深度工作模块化、AI自动化替代、注意力能量管理三大核心策略，配合14个即用型工作流模板和8款效率工具推荐，帮你每天只工作4小时但产出不减反增。"
-        },
-        {
-            "slug": "ai-content-ab-testing-seo",
-            "title": "内容站AI驱动的A/B测试：用数据优化每篇文章提升排名",
-            "excerpt": "独立开发者如何用AI对内容做系统化A/B测试？本文从标题优化、内容结构、CTA测试到排名追踪，完整拆解一人公司可执行的AI内容实验体系，帮你用数据驱动每篇文章的SEO增长。"
-        },
-        {
-            "slug": "second-brain-solo-entrepreneur",
-            "title": "一人公司第二大脑：个人知识管理体系（PKM）搭建指南",
-            "excerpt": "独立开发者最宝贵的资产不是代码，是经验。本文手把手教你搭建一套专为一人公司设计的第二大脑体系——从信息捕获到知识输出，让你的认知复利不再流失。"
-        },
-        {
-            "slug": "ai-content-ab-testing-seo",
-            "title": "内容站AI驱动的A/B测试：用数据优化每篇文章提升排名",
-            "excerpt": "独立开发者如何用AI对内容做系统化A/B测试？本文从标题优化、内容结构、CTA测试到排名追踪，完整拆解一人公司可执行的AI内容实验体系，帮你用数据驱动每篇文章的SEO增长。"
-        },
-        {
-            "slug": "second-brain-solo-entrepreneur",
-            "title": "一人公司第二大脑：个人知识管理体系（PKM）搭建指南",
-            "excerpt": "独立开发者最宝贵的资产不是代码，是经验。本文手把手教你搭建一套专为一人公司设计的第二大脑体系——从信息捕获到知识输出，让你的认知复利不再流失。"
-        },
-        {
-            "slug": "solopreneur-cold-email-outreach-playbook",
-            "title": "一人公司冷邮件开发客户指南：让潜在客户主动回复的模板和策略",
-            "excerpt": "系统化的冷邮件获客全流程：从收件人筛选、标题写作、正文模板到跟进序列，用低成本撬动高价值B2B客户"
-        },
-        {
-            "slug": "indie-hacker-product-hunt-launch",
-            "title": "独立开发者Product Hunt发布指南：如何获取第一批1000个用户",
-            "excerpt": "从产品准备、预告策略、发布当天执行到后续转化，全流程拆解Product Hunt发布的每一个关键节点"
-        },
-        {
-            "slug": "yiren-meiti-gongsi-ai",
-            "title": "一人媒体公司实操指南：2026年用AI工具打造你的内容商业帝国",
-            "excerpt": "一个人如何用AI写作、视频生成和自动化工具搭建年入百万的内容商业？本文拆解一人媒体公司的完整商业模型与实操路径。"
-        },
-        {
-            "slug": "shuzi-chanpin-chuangye",
-            "title": "一人公司数字产品创业全攻略：从创意到被动收入的完整路径",
-            "excerpt": "模板、课程、SaaS小工具、数字资源……一人公司如何从零开始打造数字产品并实现被动收入？完整框架与实操指南。"
-        },
-        {
-            "slug": "solopreneur-burnout-prevention",
-            "title": "一人公司防倦怠指南：从识别信号到建立可持续工作系统",
-            "excerpt": "一人公司最大的风险不是市场竞争，是创始人倦怠。识别burnout的7个早期信号，建立预防性工作系统和自我修复机制。"
-        },
-        {
-            "slug": "micro-saas-validation-solo",
-            "title": "一人公司Micro SaaS验证指南：用200美元和2周时间验证一个产品想法",
-            "excerpt": "不写一行代码，用200美元预算和2周时间完成一个SaaS产品创意的市场验证。从问题访谈、着陆页测试到付费意愿验证的完整流程。"
-        },
-        {
-            "slug": "solo-founder-decision-fatigue",
-            "title": "一人公司决策疲劳破解：用系统代替意志力做决策",
-            "excerpt": "一人公司创始人每天要做上百个决策。决策疲劳是导致糟糕决策和倦怠的核心原因。用决策框架、自动化规则和优先级系统来解放你的大脑。"
-        }
-    ],
-    "mood": [
-        {
-            "slug": "ai-digital-human-realistic",
-            "title": "AI数字人怎么做才不像机器人？5个一眼真人的技巧",
-            "excerpt": "HeYGen、D-ID、阿里数字人……测试了5个主流平台，总结出让AI数字人逼真的技巧。",
-            "site": "mood"
-        },
-        {
-            "slug": "ai-video-script-tools",
-            "title": "情绪短视频脚本怎么写？ChatGPT/Claude/DeepSeek三款AI工具实测",
-            "excerpt": "用同一段情绪故事脚本，实测ChatGPT、Claude、DeepSeek写情绪短视频脚本的差距，附20个万能Prompt"
-        },
-        {
-            "slug": "ai-voiceover-music-tools",
-            "title": "情绪短视频的配音和配乐工具推荐：一个BGM就能让视频播放量翻倍",
-            "excerpt": "实测ElevenLabs、剪映配音、Fish Audio、Suno AI音乐生成，影响情绪的声线和BGM怎么选"
-        },
-        {
-            "slug": "clipchamp-capcut-emotional-editing",
-            "title": "剪映VS Clipchamp做情绪短视频深度对比：谁更适合新手？",
-            "excerpt": "从音乐踩点、转场滤镜、文字特效三个维度实测剪映和Clipchamp，告诉你零基础选哪个"
-        },
-        {
-            "slug": "emotion-short-video-basics",
-            "title": "情绪短视频入门：为什么有的视频能让你看哭，有的看完就划走？",
-            "excerpt": "揭秘情绪短视频的核心公式——3秒代入感+15秒高潮+5秒余韵，零基础也能做出打动人心的视频"
-        },
-        {
-            "slug": "emotional-prompt-engineering",
-            "title": "表演级Prompt模板：给ChatGPT/Claude的12个情绪引导词",
-            "excerpt": "为什么你写的AI脚本没人看，别人写的能刷哭几十万人？差距就在Prompt里的情绪引导词。",
-            "site": "mood"
-        },
-        {
-            "slug": "emotional-video-six-emotions",
-            "title": "情绪短视频的6种底层情绪：从心理学拆解爆款密码",
-            "excerpt": "喜悦、悲伤、愤怒、恐惧、厌恶、惊讶——六种底层情绪在短视频中的应用场景与操作公式，每种附真实案例"
-        },
-        {
-            "slug": "mood-ai-assist-boundary",
-            "title": "AI辅助创作的边界：我自己用AI工具做情绪短视频的真实经验",
-            "excerpt": "哪些环节适合用AI、哪些必须人工，附工具清单和使用心得"
-        },
-        {
-            "slug": "mood-ai-toolchain-practical",
-            "title": "AI生成情绪短视频6个实战工具链：从脚本到成片全链路实测",
-            "excerpt": "ChatGPT写脚本→Midjourney/可灵出素材→剪映/CapCut剪辑→ElevenLabs配音，6个工具链全链路实测，附成本计算和效率对比"
-        },
-        {
-            "slug": "mood-batch-production-sop",
-            "title": "一人公司日更5条情绪视频的SOP：从选题到发布2小时搞定",
-            "excerpt": "一套完整的情绪短视频批量生产流程，从选题→脚本→AI生成→剪辑→发布，一人公司每天产出3-5条情绪视频"
-        },
-        {
-            "slug": "mood-camera-language",
-            "title": "情绪短视频的镜头语言入门",
-            "excerpt": "为什么有的画面一看就有\"电影感\"？5个零基础能上手的镜头技巧。",
-            "site": "mood"
-        },
-        {
-            "slug": "mood-comment-section-operations",
-            "title": "情绪短视频评论区运营：3句话让用户追着留言",
-            "excerpt": "情绪视频的三段式评论引导话术设计法、置顶评论的3种策略、回复评论的5个技巧——把每条视频的评论区变成你的第二道内容"
-        },
-        {
-            "slug": "mood-completion-rate-tips",
-            "title": "看完率提升的10个剪辑技巧：从Silent Diary数据提炼",
-            "excerpt": "基于Silent Diary 28.5%完播率的数据分解，每招都能提升2-5%"
-        },
-        {
-            "slug": "mood-content-calendar-planning",
-            "title": "全年情绪短视频选题日历：春夏秋冬照着发",
-            "excerpt": "一年52周的情绪话题规划模板，把节日、季节变化和社会情绪变成你的选题源，再也不用愁明天发什么"
-        },
-        {
-            "slug": "mood-daily-publishing-strategy",
-            "title": "情绪短视频的日更策略：如何保持高质量不下滑",
-            "excerpt": "内容储备、批量生产、复用素材的具体方法，持续输出不内耗"
-        },
-        {
-            "slug": "mood-mobile-filming-skills",
-            "title": "如何用手机拍出高级感情绪短片？零设备投入方案",
-            "excerpt": "从灯光、构图到运镜的完整实操指南，一部手机也能拍出专业感"
-        },
-        {
-            "slug": "mood-music-beat-matching-advanced",
-            "title": "情绪短视频音乐卡点高级技巧：剪映时间线操作每一步",
-            "excerpt": "从简单的节奏对齐到情绪起伏的音画配合，8个剪映/CapCut实操步骤让你做出有电影感的情绪视频"
-        },
-        {
-            "slug": "mood-music-selection-guide",
-            "title": "情绪短视频的BGM选曲指南：从古典到Lo-fi的全品类拆解",
-            "excerpt": "不同情绪类型的配乐选择标准和曲库推荐，让你的视频配乐不翻车"
-        },
-        {
-            "slug": "mood-persona-building-guide",
-            "title": "情绪短视频3种人设搭建指南：Silent Diary风/故事讲述者/第一人称独白",
-            "excerpt": "Silent Diary风、故事讲述者、第一人称独白——3种主流情绪视频人设的搭建方法，每种风格从定位到执行的完整框架"
-        },
-        {
-            "slug": "mood-presentation-vs-tiktok",
-            "title": "Silent Diary风格 vs TikTok爆款：情绪短视频的中西差异",
-            "excerpt": "对比分析两种风格的受众、算法和变现路径，找到最适合你的方向"
-        },
-        {
-            "slug": "mood-short-vs-long-duration",
-            "title": "30秒vs60秒：情绪视频到底拍多长才爆",
-            "excerpt": "抖音30秒完播率最高，视频号60秒转化最好。拆解四大平台的最佳时长策略，告诉你怎么根据平台调时长"
-        },
-        {
-            "slug": "mood-storyboard-templates-five",
-            "title": "情绪短视频5套分镜头脚本模板：直接套用出片",
-            "excerpt": "失落-治愈/惊喜-感动/思念-重逢/独白-共鸣/反差-转折，5套可直接套用的分镜脚本模板，每套附完整时间线和画面描述"
-        },
-        {
-            "slug": "mood-to-personal-ip-monetization",
-            "title": "情绪短视频如何变现：从内容到IP到收入的完整路线图",
-            "excerpt": "情绪视频做起来了，怎么靠它赚钱？广告分成、知识付费、直播带货、品牌合作——4条变现路径的实操方法和投入产出比"
-        },
-        {
-            "slug": "mood-to-private-domain-conversion",
-            "title": "从情绪内容到私域转化：抖音和小红书的变现路径对比",
-            "excerpt": "对比两个平台的粉丝转化逻辑和实际收益模型，找到高价值的变现路径"
-        },
-        {
-            "slug": "mood-to-private-domain-traffic",
-            "title": "情绪流量怎么导入私域？从评论区到微信的完整操作流程",
-            "excerpt": "情绪视频火了人没火？3步把情绪流量变成私域粉丝：评论区引导→主页设置→私信话术，完整转化流程拆解"
-        },
-        {
-            "slug": "mood-xiaohongshu-comment-strategy",
-            "title": "小红书情绪视频的评论区运营：3步让用户主动收藏",
-            "excerpt": "基于实际数据的评论区引导话术和互动策略，提升收藏率50%"
-        },
-        {
-            "slug": "silent-diary-cold-start",
-            "title": "Silent Diary冷启动全攻略：从0粉丝到第一条爆款",
-            "excerpt": "Silent Diary类视频从零启号的完整路线图，包括前10条视频的策略分布和关键数据指标"
-        },
-        {
-            "slug": "silent-diary-intro",
-            "title": "Silent Diary是什么？为什么每条都能刷哭你",
-            "excerpt": "一条没有台词、没有剧情的视频，凭什么几千万播放？拆解 Silent Diary 的情绪密码。",
-            "site": "mood"
-        },
-        {
-            "slug": "silent-diary-narrative",
-            "title": "拆解 Silent Diary 的3种经典叙事结构",
-            "excerpt": "Silent Diary 每条视频都有固定的叙事骨架。拆解它的3种核心结构，每个附可直接套用的模板。",
-            "site": "mood"
-        },
-        {
-            "slug": "viral-duan-emotional-video-case",
-            "title": "爆款情绪短视频案例分析：从文案到配乐到节奏，一条条拆给你看",
-            "excerpt": "拆解10条百万播放的情绪短视频，分析它们的标题、文案结构、BGM选择、剪辑节奏——学会借势"
-        },
-        {
-            "slug": "mood-bgm-selection-guide",
-            "title": "情绪短视频的BGM怎么选：从Spotify到无版权音乐库的全攻略",
-            "excerpt": "BGM决定了一条情绪视频的生死——同一个画面换一首BGM，完播率可能差3倍。实测5个音乐来源渠道和12首曲子的数据对比"
-        },
-        {
-            "slug": "mood-phone-cinematic",
-            "title": "零设备投入：如何用手机拍出高级感情绪短片",
-            "excerpt": "不用相机、不用灯光、不用稳定器——只靠一部手机就能拍出电影级情绪短片的完整技巧拆解，附数据对比和实操参数"
-        },
-        {
-            "slug": "mood-xiaohongshu-comment-ops",
-            "title": "小红书情绪视频的评论区运营：如何让用户主动收藏",
-            "excerpt": "一条情绪视频在小红书上的数据，80%由评论区决定。拆解3种置顶评论策略、5个回复技巧和1个让收藏率翻倍的方法"
-        },
-        {
-            "slug": "mood-loopable-micro-story",
-            "title": "循环微故事设计：让情绪短视频被反复观看的心理学密码",
-            "excerpt": "为什么有些短视频你忍不住看了两遍三遍甚至十遍？秘密在于循环结构的心理学设计。本文深入拆解无缝衔接的叙事技巧、情绪悬念重置模式和分镜模式，教你设计出让人主动重播的情绪微故事，大幅提升停留时间和重播率。"
-        },
-        {
-            "slug": "youtube-shorts-vs-tiktok-vs-reels-emotional",
-            "title": "YouTube Shorts vs TikTok vs 小红书：2026年情绪短视频该主攻哪个平台",
-            "excerpt": "情绪短视频创作者在2026年面临着一个关键选择：YouTube Shorts的搜索红利、TikTok的算法推流、小红书的种草社区生态，三个平台各有千秋但资源有限。本文从流量分配机制、用户画像、变现路径、内容适配度四个维度深度对比分析三大平台，帮你找到最适合你内容类型的主阵地。"
-        },
-        {
-            "slug": "ai-generated-emotional-short-films",
-            "title": "AI生成情绪短片：用Sora/可灵/Runway做情绪短视频的完整教程",
-            "excerpt": "文生视频AI已经跨越了恐怖谷。本文手把手教你用Sora、可灵和Runway Gen-3制作高质量情绪短片——不需要摄像机、演员和剧组，一个人就能完成从创意到发布的全流程。"
-        },
-        {
-            "slug": "mood-video-hook-techniques",
-            "title": "情绪短视频7秒钩子技巧：前3帧决定视频生死的心理学",
-            "excerpt": "从心理学底层拆解情绪短视频的开场钩子设计：前7秒如何抓住注意力、前3帧如何制造悬念、不同类型情绪的钩子模板"
-        },
-        {
-            "slug": "secai-xinlixue-qingxu-shipin",
-            "title": "色彩心理学在情绪短视频中的实战应用：用颜色操控观众情绪的完整指南",
-            "excerpt": "六种情绪对应的专业调色配方——怀旧暖黄、忧郁冷蓝、浪漫暖粉、戏剧高反差、治愈柔绿、希望金光——手把手教你用调色放大情感冲击力。"
-        },
-        {
-            "slug": "iphone-street-photography-tips",
-            "title": "iPhone街头摄影完全指南：用手机拍出电影感的10个技巧",
-            "excerpt": "不需要专业相机，你的iPhone就是最好的街头摄影工具。从构图、光影到后期调色，教你用手机拍出令人惊艳的街头影像。"
-        },
-        {
-            "slug": "mood-board-creation-tools",
-            "title": "情绪板创作完全指南：最好的数字情绪板工具和工作流",
-            "excerpt": "情绪板是创意工作的起点。从Pinterest、Milanote到PureRef，对比最好的数字情绪板工具和高效创建方法，搭建你的视觉灵感系统。"
-        }
-    ]
+  "tool": [
+    {
+      "slug": "10-free-ecommerce-tools",
+      "title": "2026年电商小白必看：10款零成本工具把店铺做到月入3万",
+      "excerpt": "飞书、Canva、剪映、ChatGPT……10款免费电商工具组合使用攻略，从选品到出单全流程实操，一人公司运营也能轻松上手"
+    },
+    {
+      "slug": "ai-ab-testing-product-images",
+      "title": "AI商品主图A/B测试完全实操指南：从AI批量出图到数据决策的闭环流程",
+      "excerpt": "用AI批量生成几十套主图版本、搭建免费测试Campaign、用GA4分析转化数据找出最佳方案——完整闭环流程，单次测试成本不到200元"
+    },
+    {
+      "slug": "ai-ad-optimization-guide",
+      "title": "AI广告投放优化实操指南：用自动化算法把ROI翻三倍的真实方法",
+      "excerpt": "从Facebook到Google到TikTok，AI广告工具全平台横向对比。Madgicx、Optmyzr、Pacvue实操测评，手把手搭建跨平台AI广告自动化体系"
+    },
+    {
+      "slug": "ai-auto-price-monitoring",
+      "title": "AI自动价格监控与智能调价完全指南：从规则引擎到动态定价的实战方案",
+      "excerpt": "淘宝、拼多多、1688三平台自动跟价攻略。从官方工具到Python自建系统到Coze/AI工作流，三种方案覆盖不同技术背景的卖家需求"
+    },
+    {
+      "slug": "ai-auto-reply-messages",
+      "title": "AI自动回复买家消息最佳方案：飞书+DeepSeek+淘宝千牛全链路自动化",
+      "excerpt": "从零搭建一套完全免费的AI自动回复系统，7x24小时处理买家咨询，转人工率降低60%"
+    },
+    {
+      "slug": "ai-auto-subtitle-translate",
+      "title": "AI视频自动加字幕和翻译：出海电商卖家的高效工具全攻略",
+      "excerpt": "从语音识别、字幕生成到多语言翻译的一条龙AI工作流，实测Whisper/剪映/CapCut/HeyGen等工具在跨境电商视频制作场景下的真实效果"
+    },
+    {
+      "slug": "ai-banner-generator",
+      "title": "AI批量生成电商Banner广告图：Canva/稿定/阿里妈妈智能设计全攻略",
+      "excerpt": "实测Canva Magic Design、稿定AI、阿里妈妈创意中心三大工具，教会你批量生成千万级电商广告素材"
+    },
+    {
+      "slug": "ai-batch-video-ecommerce",
+      "title": "AI批量生成商品视频实操教程：让产品动起来，转化率翻倍",
+      "excerpt": "从剪辑新手到批量输出商品展示视频，全套AI视频工具工作流拆解"
+    },
+    {
+      "slug": "ai-chatbot-setup-guide",
+      "title": "AI客服机器人接入全流程：从注册到上线的完整实操指南",
+      "excerpt": "从零开始搭建AI客服机器人，覆盖技术选型、知识库搭建、对话训练、多渠道接入到上线监控的全流程"
+    },
+    {
+      "slug": "ai-competitor-analysis",
+      "title": "AI分析竞品店铺数据工具实战指南：从选品到定价全流程自动化",
+      "excerpt": "用鸥鹭+DataHawk+AI大模型组合实操，深度拆解竞品策略，把对手的每个数据变成自己的决策依据"
+    },
+    {
+      "slug": "ai-cross-border-product-research",
+      "title": "AI跨境电商选品工具深度对比：谁才是真正的爆款挖掘机？",
+      "excerpt": "用AI选品从海量数据中找到下一个爆款，拒绝拍脑袋决策"
+    },
+    {
+      "slug": "ai-customer-service-automation-2026",
+      "title": "AI客服自动化工具多平台对比：从Shopify到亚马逊全面提升响应效率",
+      "excerpt": "Tidio、Gorgias、Zendesk和ChatGPT客服方案，谁是电商客服之王"
+    },
+    {
+      "slug": "ai-customer-service-automation",
+      "title": "AI客服自动化完全指南：用ChatGPT+飞书搭建7×24小时智能回复系统",
+      "excerpt": "覆盖80%常见问题，转人工率控制在20%以内，月成本不到人工的十分之一"
+    },
+    {
+      "slug": "ai-ecommerce-data-analysis",
+      "title": "用AI分析生意参谋数据：从导出到执行优化的完整实操流程",
+      "excerpt": "每天看一眼数据就关了？用这个方法，AI自动诊断问题并给出可执行的优化方案"
+    },
+    {
+      "slug": "ai-free-video-editing-ecommerce",
+      "title": "用免费AI工具批量做电商短视频：从脚本到剪辑再到配音的完整流程",
+      "excerpt": "2026年淘宝短视频权重提升到30%以上，零基础也能一天产出10-15条成品视频"
+    },
+    {
+      "slug": "ai-image-ecommerce-tools",
+      "title": "AI作图工具电商场景横向评测：ZMO.ai、Canva、Midjourney谁最能帮卖家省钱卖货？",
+      "excerpt": "覆盖去背景、场景图、模特图、批量处理全场景，附新手卖家AI作图起步路线图"
+    },
+    {
+      "slug": "ai-product-description-writer",
+      "title": "AI商品描述生成器深度评测：7款工具让转化率翻倍的真实数据",
+      "excerpt": "哪款AI写商品描述最靠谱？实测7款工具，从转化率、SEO友好度、批量效率给你真实答案"
+    },
+    {
+      "slug": "ai-remove-background-comparison",
+      "title": "AI去背景工具深度对比：5款免费工具实测，哪款去得最快最干净",
+      "excerpt": "衣物、毛绒、透明材质五类商品全面测试，佐糖、Remove.bg、Adobe Express谁最好用"
+    },
+    {
+      "slug": "ai-seo-content-generators",
+      "title": "AI SEO内容生成器横评：Jasper、Writesonic、Anyword、Berry四款实测对比",
+      "excerpt": "用同一组关键词实测四款主流AI写作工具，从内容质量、SEO优化、成本和批量效率四个维度告诉你哪款最适合你的内容站"
+    },
+    {
+      "slug": "ai-seo-tools-comparison-2026",
+      "title": "AI SEO工具对比2026实测：从关键词研究到内容排名的全链路自动化",
+      "excerpt": "Ahrefs、Semrush、Surfer SEO、Frase、ContentShake五款AI SEO工具深度横向评测，帮你找到最适合自己业务的那一款"
+    },
+    {
+      "slug": "ai-tools-2026-comparison",
+      "title": "2026年AI电商工具大盘点",
+      "excerpt": "图片文案视频客服全覆盖"
+    },
+    {
+      "slug": "ai-video-generator-review",
+      "title": "AI视频生成工具实测对比：Runway/Pika/可灵/Kling谁最适合电商",
+      "excerpt": "用同一段商品素材实测四大主流AI视频工具，从画质、可控性、成本三个维度打分"
+    },
+    {
+      "slug": "ai-voice-clone-livestream",
+      "title": "AI声音克隆工具做直播带货完整教程：ElevenLabs到Fish Audio实战",
+      "excerpt": "用AI克隆主播声音实现7x24小时无人直播，实测4款声音克隆工具在抖音淘宝直播场景的真实效果"
+    },
+    {
+      "slug": "ai-xiaohongshu-copywriting",
+      "title": "AI写种草笔记/小红书文案：Prompt模板加实战案例",
+      "excerpt": "12个经过验证的Prompt模板覆盖美妆、美食、家居、数码、穿搭五大品类，从笔记结构到爆款公式再到数据复盘"
+    },
+    {
+      "slug": "aliexpress-ai-translation-tools",
+      "title": "速卖通AI翻译工具推荐",
+      "excerpt": "覆盖英西法等主要市场，小语种利润更高"
+    },
+    {
+      "slug": "chatgpt-cross-border-listing",
+      "title": "ChatGPT做跨境电商Listing优化：15个实战Prompt模板实测对比",
+      "excerpt": "从标题到五行卖点到A+页面，实测ChatGPT、Claude、Gemini三款AI工具做亚马逊Listing的实际效果"
+    },
+    {
+      "slug": "chatgpt-taobao-title-prompts",
+      "title": "ChatGPT写淘宝标题的Prompt模板：关键词挖掘到标题写作",
+      "excerpt": "从关键词挖掘到标题写作再到A/B测试，AI辅助提升搜索流量60%"
+    },
+    {
+      "slug": "cross-border-ecommerce-ai-tools",
+      "title": "跨境电商AI工具推荐：选品、Listing、图片、广告、客服全覆盖",
+      "excerpt": "覆盖选品、Listing、图片、广告、客服五大核心环节的AI工具清单"
+    },
+    {
+      "slug": "ecommerce-funnel-optimization",
+      "title": "电商转化漏斗优化指南",
+      "excerpt": "拆解各环节提高ROI"
+    },
+    {
+      "slug": "free-ai-product-image-tools",
+      "title": "免费AI商品图生成工具推荐及使用教程",
+      "excerpt": "5款免费AI商品图工具对比评测"
+    },
+    {
+      "slug": "pinduoduo-zero-cost-traffic",
+      "title": "拼多多零成本获取自然流量5技巧",
+      "excerpt": "不花推广费获搜索流量"
+    },
+    {
+      "slug": "shein-temu-ai-tools",
+      "title": "SHEIN和TEMU卖家AI选品工具",
+      "excerpt": "分析热销品类找到高潜力"
+    },
+    {
+      "slug": "shopify-free-apps-2026",
+      "title": "Shopify独立站15个免费必备Apps",
+      "excerpt": "不花一分钱搞定运营"
+    },
+    {
+      "slug": "taobao-keyword-tool-free",
+      "title": "淘宝关键词挖掘3个免费工具",
+      "excerpt": "零成本找到蓝海词"
+    },
+    {
+      "slug": "taobao-live-ai-digital-human",
+      "title": "AI数字人直播带货完整入门教程",
+      "excerpt": "从工具到搭建一文搞定"
+    },
+    {
+      "slug": "taobao-seo-guide-2026",
+      "title": "淘宝SEO完整指南2026最新版",
+      "excerpt": "搜索算法三大变化15个优化维度"
+    },
+    {
+      "slug": "wechat-xiaohongshu-ecommerce-traffic",
+      "title": "微信小红书引流到淘宝教程",
+      "excerpt": "社交流量低成本变现"
+    },
+    {
+      "slug": "ai-predictive-inventory-management",
+      "title": "AI预测库存管理：跨境卖家如何用机器学习告别缺货烦恼",
+      "excerpt": "缺货损失多少利润？断货一次流失30%客户。本文教你用机器学习预测需求高峰、自动管理补货周期，集成AliExpress/1688供应商数据，个人卖家也能上手的实操方案。"
+    },
+    {
+      "slug": "ai-cross-border-customs-automation",
+      "title": "AI跨境报关自动化：HS编码分类与关税计算完整指南",
+      "excerpt": "HS编码分错一次，轻则退运重报，重则罚款扣货。2026年关税规则再调整，AI用LLM+图像识别自动分类商品、实时计算进口关税和增值税、生成合规商业发票，跨境卖家必备工具。"
+    },
+    {
+      "slug": "ai-virtual-try-on-fashion",
+      "title": "AI虚拟试衣与尺码推荐：服装电商退货率降低40%的秘诀",
+      "excerpt": "服装电商退货率高达30%-40%，其中尺码不合是头号原因。AI虚拟试衣用生成式技术让顾客上传照片或打开摄像头就能试穿，尺码推荐模型精准匹配版型数据，退货率直降40%。"
+    },
+    {
+      "slug": "ai-dynamic-bundling-upsell",
+      "title": "AI动态捆绑销售与智能推荐：自动提升客单价30%的实战方案",
+      "excerpt": "客单价是电商利润的核心杠杆。AI动态捆绑用强化学习实时分析用户行为和购物车内容，自动生成个性化捆绑包和智能推荐方案。Shopify和自建站都有完整实操指南，助你客单价提升30%以上。"
+    },
+    {
+      "slug": "ai-fraud-detection-cross-border",
+      "title": "AI跨境支付风控与欺诈检测：保护你的跨境电商交易安全",
+      "excerpt": "跨境卖家每年因欺诈订单损失3%-5%的收入。AI风控用异常检测、设备指纹和用户行为分析实时识别欺诈交易，阻止恶意订单。高风险区域和一件代发模式的专属防护方案详解。"
+    },
+    {
+      "slug": "ai-logistics-orchestrator",
+      "title": "AI跨境物流智能调度：实时关税计算与多承运商路由自动化",
+      "excerpt": "跨境电商卖家如何用AI实现物流智能调度？本文详细解析AI物流编排器的工作原理，涵盖实时关税计算、多承运商路由优化、HS编码自动归类等核心功能，并推荐Parcel Perform、Zonos、Shippo等实用工具，帮你将跨境物流成本降低15%-30%。"
+    },
+    {
+      "slug": "ai-multilingual-listing-optimizer",
+      "title": "AI多语言Listing优化：让商品页面自动适配全球市场",
+      "excerpt": "跨境电商全球化的最大门槛不是物流，而是语言。本文深入解析AI多语言Listing优化技术，包括语境化翻译、关键词本地化、文化适配改写三大核心能力，并实测DeepL、Claude、Jungle Scout等工具的效果对比，教你用AI将商品页面对全球转化率提升60%以上。"
+    },
+    {
+      "slug": "ai-dynamic-pricing-engine",
+      "title": "AI动态全球定价引擎：跨境电商实时价格优化实战",
+      "excerpt": "全球市场瞬息万变，手动调价早已跟不上节奏。本文深度解析AI动态定价引擎的核心算法、竞争监控策略与实战部署方案，涵盖弹性定价模型、汇率波动自适应、竞品实时追踪等核心功能。推荐使用Prisync、Price2Spy、Omnia等工具，帮你实现利润率提升8%-15%。"
+    },
+    {
+      "slug": "ai-cross-border-fraud-compliance",
+      "title": "AI跨境风控合规指南：保护你的国际贸易生意",
+      "excerpt": "跨境电商蓬勃发展，但欺诈和合规风险也在同步升级。从虚假订单、信用卡盗刷到出口管制违规，每个环节都可能导致数万美元的损失。本文全面解析AI风控合规体系，覆盖交易反欺诈、KYC身份验证、出口管制筛查、税务合规四大领域，并推荐Sift、Forter、ComplyAdvantage等工具。"
+    },
+    {
+      "slug": "ai-visual-localization-ecommerce",
+      "title": "AI视觉本地化：让商品图自动适配不同文化市场的审美",
+      "excerpt": "你的商品图在中东市场或许太过暴露，在日本市场又显得不够精致。AI视觉本地化技术可以自动识别图片中的文化敏感元素，调整模特肤色、场景风格、色彩基调甚至背景元素，让同一款产品的图片适配20+个不同文化市场。本文深度解析AI视觉本地化工具、策略与实战案例。"
+    },
+    {
+      "slug": "ai-workflow-orchestrators-ecommerce",
+      "title": "AI工作流编排工具电商实战：n8n/Make/Zapier选型与自动化配置指南",
+      "excerpt": "跨境电商卖家如何用n8n、Make和Zapier搭建自动化工作流？本文从真实场景出发，对比三大工具的优劣势，并给出可复用的自动化模板。"
+    },
+    {
+      "slug": "ai-review-management-reputation",
+      "title": "AI评价管理与声誉自动化：跨境电商如何用工具45天从差评扎堆到五星店铺",
+      "excerpt": "差评是跨境电商卖家的噩梦。本文分享一套AI驱动的评价管理SOP，覆盖评价自动邀请、差评预警、智能回复、竞品评价分析，帮你系统化提升店铺评分。"
+    },
+    {
+      "slug": "ai-voice-agents-ecommerce",
+      "title": "AI语音客服在电商售后中的应用：从呼叫中心降本到7x24小时多语种应答",
+      "excerpt": "跨境电商的时差和多语种痛点，AI语音客服能否解决？本文深入评测Vapi、Retell AI、Bland AI等工具，给出真实部署方案和成本对比。"
+    },
+    {
+      "slug": "ai-product-video-script-tools",
+      "title": "AI商品视频脚本生成工具横评：10个工具实测，哪个最适合跨境卖家？",
+      "excerpt": "商品视频是跨境电商转化率最高的内容形式，但写脚本太费时间。本文实测对比10款AI视频脚本工具，从适用场景、输出质量和成本三方面给出推荐。"
+    },
+    {
+      "slug": "ai-analytics-dashboard-ecommerce",
+      "title": "AI电商数据分析仪表盘搭建实操：从零搭建一个能自动告诉你「该补什么货」的驾驶舱",
+      "excerpt": "别再手动拉数据做报表了。本文手把手教你用AI工具搭建一个实时数据仪表盘，自动监控销售趋势、库存预警、广告ROI和竞品动态。"
+    },
+    {
+      "slug": "ai-product-video-generator-tools",
+      "title": "AI商品视频生成工具推荐：把产品图片变成带货短视频",
+      "excerpt": "跨境电商卖家如何用AI工具把静态产品图一键转化为高质量带货视频？本文深度评测剪映、可灵、Pika等工具，分享从选品到出海的完整视频制作流程。"
+    },
+    {
+      "slug": "ai-social-media-scheduler-ecommerce",
+      "title": "2026年跨境电商必备的AI社媒排期工具：自动管理你的内容日历",
+      "excerpt": "从Buffer到Later再到国内的花卷和千瓜，AI社媒排期工具如何帮跨境卖家自动管理多平台内容日历？本文横向对比主流工具，分享独家运营策略。"
+    },
+    {
+      "slug": "ai-market-research-tools-cross-border",
+      "title": "AI市场调研工具助力跨境电商选品：在爆款爆发前发现机会",
+      "excerpt": "Jungle Scout、Helium 10、卖家精灵……AI市场调研工具如何帮跨境卖家预测趋势、发现蓝海品类？本文深度解析选品工具的AI功能与实战方法。"
+    },
+    {
+      "slug": "ai-email-marketing-automation-ecommerce",
+      "title": "AI邮件营销自动化：独立站卖家如何用邮件挽回弃单和提升复购",
+      "excerpt": "Klaviyo、Mailchimp、SendGrid等邮件营销工具如何用AI帮独立站卖家自动挽回弃单、细分客户群并提升复购率？本文详解中国卖家的邮件营销实战策略。"
+    },
+    {
+      "slug": "ai-listing-optimizer-amazon-shopify",
+      "title": "AI Listing优化工具对比：亚马逊与Shopify平台哪个AI工具更好用？",
+      "excerpt": "从Jungle Scout的Listing Builder到Shopify的AI描述生成器，不同平台的Listing优化工具有哪些差异？本文横向对比亚马逊和Shopify的AI工具，帮你找到最佳组合。"
+    },
+    {
+      "slug": "chatgpt-kehu-huaxiang-gongju",
+      "title": "ChatGPT做客户画像实操指南：跨境卖家如何用AI实现精准营销",
+      "excerpt": "跨境卖家还在凭直觉选品做投放？本文教你用ChatGPT从人口统计深入到心理画像，构建真实可用的客户画像，让营销精准度提升10倍。"
+    },
+    {
+      "slug": "ai-dianpu-luodiye-shengcheng",
+      "title": "AI电商落地页生成工具横评：2026年独立站转化率翻倍利器",
+      "excerpt": "实测Unbounce、Jasper、Carrd、GetResponse等7款AI落地页工具。跨境独立站卖家必看——哪个工具能让你的产品落地页转化率从2%提升到8%？"
+    },
+    {
+      "slug": "ai-amazon-jingpin-jiage-jiankong",
+      "title": "AI亚马逊竞品价格监控完全指南：自动跟价与利润保护实战",
+      "excerpt": "详解Keepa、Jungle Scout、Helium 10、Sellery、Prisync五款工具，搭建一套既保住购物车又保住利润的智能调价系统。"
+    },
+    {
+      "slug": "ai-listing-xiezuo-zhushou-2026",
+      "title": "2026年AI Listing写作助手深度评测：跨境卖家必备的5款工具",
+      "excerpt": "实测ChatGPT、Claude、Jasper、Copy.ai、Writesonic五款AI写作工具，看谁写出的亚马逊Listing转化率最高，谁是跨境卖家的性价比之王。"
+    },
+    {
+      "slug": "ai-hongren-yingxiao-gongju",
+      "title": "AI网红营销工具指南：跨境电商如何用AI找到最合适的KOL并追踪ROI",
+      "excerpt": "详解Upfluence、Grin、Modash、HypeAuditor、Saral五款AI工具，用数据找对KOL、识别假粉、量化ROI，把网红营销从玄学变成科学。"
+    },
+    {
+      "slug": "ai-content-repurposing-tools",
+      "title": "AI内容复用工具完全指南：一条视频变30条内容的全自动工作流",
+      "excerpt": "从TikTok短视频到博客长文、邮件通讯、社媒帖子——用AI工具实现一条内容的跨平台裂变，让每份创作发挥30倍价值。"
+    },
+    {
+      "slug": "ai-inventory-forecasting-tools",
+      "title": "AI库存预测工具实战指南：从Excel到机器学习，杜绝断货和滞销",
+      "excerpt": "跨境电商一人公司如何用AI做库存预测——对比Inventory Planner、Prediko、Cogsy等工具，搭建从数据采集到自动补货的完整系统。"
+    },
+    {
+      "slug": "cross-border-payment-automation",
+      "title": "跨境支付自动化完全指南：Stripe/Wise/Payoneer全链路收款与自动对账",
+      "excerpt": "一人公司跨境收款的完整方案——从多币种收款、自动提现到财务对账自动化，覆盖Stripe、Wise、Payoneer和飞书多维表格。"
+    },
+    {
+      "slug": "ai-zhibo-hudong-zhushou",
+      "title": "AI直播互动助手：2026年带货直播间必备的AI实时工具横评",
+      "excerpt": "实测5款主流AI直播互动工具，从自动弹幕回复到智能逼单话术，教你用AI把直播间转化率提升50%25。"
+    },
+    {
+      "slug": "ai-shangpintu-changjing-shengcheng",
+      "title": "AI商品图场景化生成：不用模特不用影棚的高转化主图方案",
+      "excerpt": "2026年AI商品图生成工具能用1/20的成本产出媲美实拍的主图。实测对比6款工具全流程拆解。"
+    },
+    {
+      "slug": "ai-kuajing-shuikuan-jisuan",
+      "title": "AI跨境税款自动计算：关税增值税一键搞定的2026工具指南",
+      "excerpt": "2026年AI关税计算工具已能实时查询180+国家最新税率，自动生成合规发票。实测5款工具帮你把税务风险降到零。"
+    },
+    {
+      "slug": "ai-yonghu-pinglun-fenxi-gongju",
+      "title": "AI用户评论分析工具：从差评中挖掘爆款优化方向的完整指南",
+      "excerpt": "AI评论分析工具能在5分钟内处理1000+条中英文评论，自动提取用户不满核心原因和竞品对比分析。"
+    },
+    {
+      "slug": "ai-duopingtai-kucun-tongbu",
+      "title": "AI多平台库存同步工具：Shopify淘宝1688一站式管理指南",
+      "excerpt": "AI多平台库存同步工具用实时同步+智能预测帮你彻底解决超卖问题，从Shopify到1688全覆盖。"
+    }
+  ],
+  "wear": [
+    {
+      "slug": "big-body-suit-guide",
+      "title": "胖体型西装选购指南——遮肉显瘦的版型面料全攻略",
+      "excerpt": "通过正确的版型选择和面料搭配，让西装成为你最好的修饰"
+    },
+    {
+      "slug": "business-perfume-guide",
+      "title": "商务香水怎么选——从季节到场合的男士用香全攻略",
+      "excerpt": "春夏秋冬的季节搭配，会议晚宴的场合策略，一篇帮你选对职场香水"
+    },
+    {
+      "slug": "business-travel-pack-suit",
+      "title": "商务出差西服打包指南——不皱打包法+3天出差方案",
+      "excerpt": "5步打包法让西服到酒店就笔挺，3天行程一套西服搞定"
+    },
+    {
+      "slug": "business-wear-101",
+      "title": "商务穿搭入门指南——从职场新人到得体绅士",
+      "excerpt": "从第一套西装配齐到穿出质感的完整路线图"
+    },
+    {
+      "slug": "custom-vs-rtw-suit",
+      "title": "定制西服 vs 成衣怎么选——什么时候该定制、什么时候买成衣",
+      "excerpt": "从价格、工艺、场景三个维度深度对比，帮你做最聪明的选择"
+    },
+    {
+      "slug": "dating-outfit-guide",
+      "title": "男生约会穿搭指南——从咖啡到晚餐到正式晚宴的完整搭配方案",
+      "excerpt": "覆盖3种约会场景的完整穿搭方案，帮你用衣着传达尊重与品味"
+    },
+    {
+      "slug": "first-suit-guide",
+      "title": "第一次买西服最全指南——从版型面料到试穿搭配一步到位",
+      "excerpt": "从量体到选款到试穿的全程避坑指南，新手看完就能自己去买"
+    },
+    {
+      "slug": "interview-suit-guide",
+      "title": "面试穿搭全攻略——不同行业怎么穿西服才能加分",
+      "excerpt": "金融、互联网、销售、国企四大行业的面试穿搭方案，一个行业一套打法"
+    },
+    {
+      "slug": "short-men-suit-tips",
+      "title": "矮个子男士西装选购穿搭全攻略——170cm以下也能穿出气场两米八",
+      "excerpt": "身高不够搭配来凑，从版型、颜色到细节全面优化身材比例，矮个子男生也能把西装穿出顶级质感"
+    },
+    {
+      "slug": "smart-casual-suit-guide",
+      "title": "休闲西装搭配全指南——从办公室到周末约会，一件搞定所有场合",
+      "excerpt": "掌握Smart Casual风格的核心法则，用休闲西装轻松切换工作、约会、出行等多个场景"
+    },
+    {
+      "slug": "sports-suit-vs-suit",
+      "title": "运动西服vs传统西装——面料、版型、场景全对比，一篇看懂怎么选",
+      "excerpt": "你适合穿运动西服还是传统西装？从穿着体验到场景定位全面解析两种西装的本质区别"
+    },
+    {
+      "slug": "sports-vs-business-vs-casual-suit",
+      "title": "运动西装、商务西装、休闲西装到底有什么区别——三篇看懂怎么选怎么穿",
+      "excerpt": "三种西装看起来差不多，但从版型面料到搭配逻辑完全不同。一篇彻底搞懂它们的区别和各自的正确打开方式"
+    },
+    {
+      "slug": "suit-accessories-guide",
+      "title": "西装配饰搭配指南——口袋巾、胸针、袖扣让穿搭更出彩",
+      "excerpt": "从口袋巾折法到袖扣搭配规则，掌握西装配饰让穿搭提升一个档次"
+    },
+    {
+      "slug": "suit-bag-guide",
+      "title": "男士包袋搭配——公文包、托特包、双肩包怎么配西服",
+      "excerpt": "不同风格西服配什么包，从职场精英到商务出差的完整包袋方案"
+    },
+    {
+      "slug": "suit-belt-guide",
+      "title": "男士皮带怎么配西服——颜色、宽度、材质搭配全规则",
+      "excerpt": "一条皮带的颜色宽度材质决定了穿搭的精致度还是廉价感"
+    },
+    {
+      "slug": "suit-body-type-guide",
+      "title": "不同体型男生怎么选西服——偏瘦/偏胖/矮个子/高个子完全指南",
+      "excerpt": "4大体型选西服核心技巧，从版型到面料到细节全解析"
+    },
+    {
+      "slug": "suit-budget-guide",
+      "title": "1000/3000/5000元档西服选购——每个价位最值得买的品牌和款式",
+      "excerpt": "3个预算区间全解析，从面料到版型到品牌，买对不买贵"
+    },
+    {
+      "slug": "suit-care-guide",
+      "title": "西服保养指南——一件穿3年，不变形不起球",
+      "excerpt": "从日常穿着到收纳清洗熨烫，全套保养方法一次讲清"
+    },
+    {
+      "slug": "suit-color-guide",
+      "title": "西服颜色怎么选——从黑灰蓝到大地色，不同场合全攻略",
+      "excerpt": "不同场合穿什么颜色，入门先从深蓝开始"
+    },
+    {
+      "slug": "suit-fabric-guide",
+      "title": "西服面料知识大全——看懂面料标签，选对西服",
+      "excerpt": "从纯羊毛到混纺到化纤到亚麻，看完你就知道什么面料适合你"
+    },
+    {
+      "slug": "suit-ironing-guide",
+      "title": "西服熨烫终极指南：在家也能烫出笔挺效果",
+      "excerpt": "蒸汽挂烫与平烫定型全攻略，告别褶皱烦恼"
+    },
+    {
+      "slug": "suit-materials-tech",
+      "title": "运动西服面料科技全解析：聚酯、氨纶、涂层一次讲透",
+      "excerpt": "从纤维成分到功能性工艺，看懂面料不再被坑"
+    },
+    {
+      "slug": "suit-measure-guide",
+      "title": "西服自测量体教程：在家量出专业裁缝级尺寸",
+      "excerpt": "七步量体法+尺码对照表，网购西服不再踩坑"
+    },
+    {
+      "slug": "suit-mistakes-beginners",
+      "title": "新手穿西服十大常见错误：附避坑指南",
+      "excerpt": "袖长扣子领带袜子全踩点，看完马上进阶"
+    },
+    {
+      "slug": "suit-occasion-guide",
+      "title": "不同场合西服穿搭完整指南——面试、会议、婚礼、日常、晚宴全覆盖",
+      "excerpt": "从面试到婚礼到晚宴，各场合的西装穿搭逻辑与细节全拆解"
+    },
+    {
+      "slug": "suit-online-shopping-tips",
+      "title": "网购西服避坑指南——五个必看要点加三个高阶技巧",
+      "excerpt": "从尺码到面料到退换政策，网购西服前必须确认的五件事"
+    },
+    {
+      "slug": "suit-pocket-guide",
+      "title": "西服口袋完全指南——从口袋方巾折法到实用物品收纳",
+      "excerpt": "口袋方巾7种经典折法，西服和西裤口袋的正确使用方式，别再让口袋鼓成面包"
+    },
+    {
+      "slug": "suit-seasonal-guide",
+      "title": "春夏秋冬分别穿什么西服——四季穿搭与面料选择完整指南",
+      "excerpt": "从亚麻到羊毛从浅色到深色，一份搞定全年的西服季节穿搭方案"
+    },
+    {
+      "slug": "suit-shoes-guide",
+      "title": "西服配什么鞋？从牛津到乐福，一篇讲透皮鞋搭配全攻略",
+      "excerpt": "三种鞋型四大颜色法则，照着买永远不会错"
+    },
+    {
+      "slug": "suit-size-guide",
+      "title": "西服尺码对照完全指南——网购不再买错",
+      "excerpt": "从身高体重到胸围肩宽，不同品牌尺码体系全破解"
+    },
+    {
+      "slug": "suit-styling-rules",
+      "title": "西服搭配五大黄金法则——90%的场合都不会出错",
+      "excerpt": "三色原则、领口一厘米、扣子规矩……记住这五条就够了"
+    },
+    {
+      "slug": "suit-tailoring-process",
+      "title": "西装定制全流程拆解——从量体到取衣，每一步都讲清楚",
+      "excerpt": "第一次定制西装不慌不忙，量体选料试穿取衣全流程指南"
+    },
+    {
+      "slug": "suit-trends-2026",
+      "title": "2026年男装西服流行趋势——今年穿什么才不落伍",
+      "excerpt": "从版型到颜色到搭配方式，5大趋势帮你把下一件西服买对"
+    },
+    {
+      "slug": "suit-underwear-guide",
+      "title": "穿西服时内衣怎么选——从打底衫到袜子的完整指南",
+      "excerpt": "6步搞定全套西服内搭，告别衬衫露边、打底探头、袜子太短的尴尬"
+    },
+    {
+      "slug": "tie-knot-guide",
+      "title": "男士领带打法大全——从新手到高手，8种系法一次学会",
+      "excerpt": "痛点引入：明明领带不差，就是打不好？8种打法从易到难，附场景推荐和常见错误排查"
+    },
+    {
+      "slug": "wedding-suit-guide",
+      "title": "婚礼穿什么——新郎选礼服与宾客搭配的完整攻略",
+      "excerpt": "7步搞定婚礼穿搭，新郎和宾客都能找到自己的答案"
+    },
+    {
+      "slug": "tech-casual-suit-guide",
+      "title": "科技休闲西装穿搭指南：2026年职场男性的新选择",
+      "excerpt": "混合办公时代，传统西装太正式，休闲装又不够专业。科技休闲西装用功能性面料——吸湿排汗、四向弹力、抗皱免烫——完美平衡了舒适与体面的穿搭需求。品牌推荐与穿搭公式全解析。"
+    },
+    {
+      "slug": "mix-match-suiting-guide",
+      "title": "混搭西装指南：打破成套穿着的时尚法则，穿出个性与品位",
+      "excerpt": "成套西装是安全牌，但不是唯一的选择。混搭西装——不同图案、材质、颜色的上衣和裤子有意识组合——正在成为品位与个性的标志。色彩理论、图案比例、质料混搭，让你的衣柜活起来。"
+    },
+    {
+      "slug": "summer-suit-fabrics-guide",
+      "title": "夏季西服面料选择指南：亚麻、泡泡纱、轻薄羊毛让你清凉一夏",
+      "excerpt": "夏天穿西服就一定要汗流浃背吗？当然不是。选择正确的面料，你照样可以在35°C的高温中保持绅士风度和清爽体感。本文深入解析亚麻、泡泡纱、轻薄羊毛、混纺棉麻等夏季西服面料的特性、优缺点和挑选技巧，并推荐适合夏季穿着的成衣品牌和定制方案。"
+    },
+    {
+      "slug": "suit-lapel-styles-guide",
+      "title": "西服领型完全指南：平驳领、戗驳领、青果领怎么选",
+      "excerpt": "领型是西服的「语言」——它在无声地告诉别人你是来面试的、来开会的还是来参加婚礼的。本文从平驳领、戗驳领、青果领三大主流领型入手，详细解析每种领型的历史渊源、适用场景、体型搭配技巧，以及如何根据脸型、身材和场合做出最佳选择。附赠领针、领花搭配等进阶技巧。"
+    },
+    {
+      "slug": "sustainable-eco-friendly-suits",
+      "title": "可持续西装面料趋势指南——环保不意味着牺牲质感",
+      "excerpt": "从再生羊毛到天丝到菠萝纤维，带你认识正在改变男装行业的可持续面料，选对环保西装也能穿出高级感"
+    },
+    {
+      "slug": "double-breasted-suit-guide",
+      "title": "双排扣西装复兴指南——如何驾驭这件回归的经典",
+      "excerpt": "从选款到穿搭到场合，一文讲透双排扣西装的所有门道，让你穿出气场而不是穿成老派"
+    },
+    {
+      "slug": "suit-dry-cleaning-vs-home-care",
+      "title": "西服干洗还是自己打理？真相：面料寿命和成本全面对比",
+      "excerpt": "西服到底该不该干洗？频繁干洗真的会缩短面料寿命吗？本文从面料学、成本核算和日常打理三个维度，帮你做出最正确的西服护理决策。"
+    },
+    {
+      "slug": "formal-attire-dress-codes-explained",
+      "title": "正装着装规则全解读：从白领结到商务休闲，一篇搞懂",
+      "excerpt": "白领结、黑领结、商务正装、商务休闲……各种着装规则到底怎么穿才对？本文用一张图讲清全球通用的正装等级体系，附送男士衣橱必备清单。"
+    },
+    {
+      "slug": "haijunlan-blazer-dapei",
+      "title": "海军蓝Blazer万能搭配指南：一件外套穿出10种风格",
+      "excerpt": "从面试到约会，从办公室到周末Brunch——海军蓝Blazer是男装中最百搭的单品。本文教你用一件外套打通10个场景。"
+    },
+    {
+      "slug": "chaoshi-qihou-ximian-liao",
+      "title": "湿热气候西装面料全攻略：夏天也能清爽有型的秘密",
+      "excerpt": "高捻羊毛、Fresco、泡泡纱、亚麻混纺……湿热天气也能穿出体面与舒适的西装面料深度解析。"
+    },
+    {
+      "slug": "modern-business-casual-guide",
+      "title": "现代商务休闲装完全指南：从硅谷到陆家嘴的穿衣密码",
+      "excerpt": "商务休闲到底怎么穿？不同行业、不同城市有着完全不同的密码。解析科技公司、金融、咨询、创意行业的着装潜规则。"
+    },
+    {
+      "slug": "suit-alteration-cost-guide",
+      "title": "西装改衣完全指南：哪些值得改、改哪里、花多少钱",
+      "excerpt": "一件不合身的西装穿出去不如不穿。详解西装修改的15个关键部位、各项成本、以及如何判断一件西装值不值得改。"
+    },
+    {
+      "slug": "chunji-xifu-dapei-zhinan",
+      "title": "春季西装穿搭指南：从通勤到约会的一周搭配方案",
+      "excerpt": "从面料选择到颜色搭配到层次叠穿，一份覆盖通勤、约会、周末的全场景春季西装穿搭攻略。"
+    },
+    {
+      "slug": "shangwu-xiuxian-nanxie-xuangou",
+      "title": "商务休闲男鞋选购全攻略：牛津德比乐福怎么选",
+      "excerpt": "从鞋型识别到颜色搭配到品牌推荐，一份让女生都夸你鞋品好的商务休闲男鞋选购指南。"
+    }
+  ],
+  "ops": [
+    {
+      "slug": "15-free-tools-solo",
+      "title": "一人公司必用15个免费工具——从建站到运营的全链路解决方案",
+      "excerpt": "覆盖建站、设计、内容、数据分析、自动化、运营六个环节的免费工具组合，一人公司低成本起步的完整工具箱"
+    },
+    {
+      "slug": "adsense-first-month",
+      "title": "Google AdSense第一月真实收入——新站收益预期与六步提升策略",
+      "excerpt": "新站第一个月AdSense到底能赚多少？真实收入预期、收入公式拆解、六大实操步骤，帮你从零开始搭建可持续的AdSense收入体系"
+    },
+    {
+      "slug": "ai-assisted-product-prototyping",
+      "title": "AI辅助产品原型设计——零基础独立开发者快速验证产品想法的完整指南",
+      "excerpt": "不用招设计师、不用花钱开发，一人公司如何用AI工具从草图到可交互原型，快速验证你的产品想法"
+    },
+    {
+      "slug": "ai-automation-workflow",
+      "title": "AI自动化工作流搭建教程——从零到一，一人公司如何用AI把一周工作量压缩到一天",
+      "excerpt": "从流程梳理到自动化部署，八步搭建AI自动化工作流，把每周40小时的重复工作压缩到10小时以内"
+    },
+    {
+      "slug": "ai-writing-workflow",
+      "title": "用AI批量写文章全流程自动化——从关键词到上线的完整教程",
+      "excerpt": "从关键词研究到配图生成到自动部署，完整拆解AI批量写作流程的六个环节，效率提升10倍的具体方法"
+    },
+    {
+      "slug": "build-in-public",
+      "title": "Build in Public——一人公司落地的最快方式：AgentClaw 4小时上线全记录",
+      "excerpt": "从买域名到55篇文章上线，4小时完成传统模式需要16000元和两周的工作量。Build in Public的核心理念和实操方法"
+    },
+    {
+      "slug": "content-site-1000-month",
+      "title": "内容站从0到月入1000美元——真实拆解与里程碑",
+      "excerpt": "一个真实内容站在12个月内从零开始做到月收入1000美元的完整过程，包括每个月的关键动作和核心数据"
+    },
+    {
+      "slug": "content-site-monetization",
+      "title": "内容站盈利模式深度对比",
+      "excerpt": "AdSense/CPS/卖产品/卖服务四种模式详细对比，找到最适合你的变现路径"
+    },
+    {
+      "slug": "cps-affiliate-strategy",
+      "title": "一人公司CPS联盟变现策略",
+      "excerpt": "淘宝京东联盟带货"
+    },
+    {
+      "slug": "customer-success-solo",
+      "title": "一人公司如何做客户成功——独立开发者维系用户的高效策略",
+      "excerpt": "客户成功不是大公司的专利。一人公司用系统化的方法做好客户成功，能大幅降低流失率、提升用户复购和口碑传播。"
+    },
+    {
+      "slug": "data-driven-content",
+      "title": "用1992条数据驱动内容策略",
+      "excerpt": "数据驱动精准内容"
+    },
+    {
+      "slug": "email-list-from-zero",
+      "title": "从0到1搭建邮件列表——独立开发者获取1000个真实订阅者的实战策略",
+      "excerpt": "邮件列表是独立开发者最被低估的资产。本文分享不花钱获取1000个订阅者的具体方法、内容策略和增长飞轮。"
+    },
+    {
+      "slug": "feishu-bitable-project-management",
+      "title": "一人公司必备：用飞书多维表格管理创业项目的完整教程",
+      "excerpt": "不花一分钱，用飞书多维表格建立你的创业项目管理体系——从任务跟踪到数据分析，一个人管好所有事情。"
+    },
+    {
+      "slug": "from-0-to-1000-visitors",
+      "title": "内容站从0到日UV1000实操路线",
+      "excerpt": "三个月增长路线图——不需要花钱做推广，只需要正确的SEO策略和持续输出。"
+    },
+    {
+      "slug": "github-actions-automation",
+      "title": "GitHub Actions网站自动更新——从push到上线只需30秒",
+      "excerpt": "全自动部署方案：写完文章git push，剩下的全部自动化。"
+    },
+    {
+      "slug": "keyword-research-guide",
+      "title": "内容站SEO关键词研究指南——工具、方法与实战案例分析",
+      "excerpt": "从零开始做关键词研究，用免费和付费工具找到高转化、低竞争的关键词。"
+    },
+    {
+      "slug": "multi-site-one-domain",
+      "title": "一个域名开三个内容站——Next.js子路径架构实战",
+      "excerpt": "一个域名、一个GitHub仓库、一个Vercel项目，运维三个内容站，域名费省三分之二。"
+    },
+    {
+      "slug": "nextjs-solo-devs-guide",
+      "title": "独立开发者技术选型：为什么Next.js是内容站的最佳选择",
+      "excerpt": "对比WordPress、Hugo、Astro、Next.js四套方案，用数据告诉你为什么Next.js + Vercel是一人公司的最优解。"
+    },
+    {
+      "slug": "niche-selection-guide",
+      "title": "一人公司利基市场选择完整指南：从零找到属于你的蓝海赛道",
+      "excerpt": "通过兴趣、技能、市场需求三轴定位法，系统化找到最适合一人公司的利基市场，附真实案例和避坑指南"
+    },
+    {
+      "slug": "no-code-automation-workflow",
+      "title": "无代码自动化工作流搭建指南：一人公司每周省出20小时的实战方法",
+      "excerpt": "用Make和Zapier从零搭建自动化工作流，10个真实案例覆盖客户服务、内容发布、财务管理和竞品监控等核心场景"
+    },
+    {
+      "slug": "one-person-ai-agent",
+      "title": "一人公司AI Agent团队搭建指南：四个AI成员让你的运营效率提升10倍",
+      "excerpt": "一个人加四个AI Agent等于一个完整运营团队。从内容创作、数据分析到客服和运营监控，手把手搭建你的AI虚拟团队"
+    },
+    {
+      "slug": "project-management-solo",
+      "title": "一人公司项目管理完全指南：用飞书多维表格从零搭建运营系统",
+      "excerpt": "从任务跟踪到内容日历到数据复盘，用飞书多维表格搭建完整的一人公司项目管理体系，每天只需10分钟管理所有事项"
+    },
+    {
+      "slug": "seo-guide-solo-company",
+      "title": "一人公司SEO实战指南：不花钱也能获取精准流量的完整策略",
+      "excerpt": "零广告预算的内容站SEO策略，从关键词研究到内容优化到外链建设，覆盖一人公司获取自然搜索流量的全部关键环节"
+    },
+    {
+      "slug": "social-media-automation",
+      "title": "社交媒体自动化发布工作流：一人公司如何用工具管好所有平台的社媒运营",
+      "excerpt": "用Buffer、Make、飞书等工具搭建全自动化社媒发布系统，覆盖Twitter、知乎、微信公众号等多平台，每天只需15分钟管理"
+    },
+    {
+      "slug": "solo-booking-system",
+      "title": "使用Calendly/飞书日历做预约系统——一人公司的客户预约自动化完整指南",
+      "excerpt": "从零搭建自动化的客户预约系统，支持不同服务类型、自动提醒和自动跟进"
+    },
+    {
+      "slug": "solo-content-operations",
+      "title": "一人管理255篇文章内容体系——用飞书多维表格搭建内容运营系统",
+      "excerpt": "飞书多维表格支撑255篇文章的持续生产和维护，涵盖生命周期管理、关键词关联和排名追踪"
+    },
+    {
+      "slug": "solo-customer-acquisition",
+      "title": "一人公司如何做客户获取——免费获客渠道与实战方法",
+      "excerpt": "不花一分钱广告费，从0开始获取第一批客户的7个渠道和完整实操流程"
+    },
+    {
+      "slug": "solo-founder-product-docs",
+      "title": "独立开发者如何写好产品文档——一人公司SaaS产品文档编写实操指南",
+      "excerpt": "产品文档不是大公司的专利。独立开发者写一份好的产品文档，能大幅降低客服压力、提升转化率、建立用户信任"
+    },
+    {
+      "slug": "solo-income-diversification",
+      "title": "一人公司多元化收入模型",
+      "excerpt": "AdSense CPS SaaS多线"
+    },
+    {
+      "slug": "solo-pricing-strategy",
+      "title": "一人公司如何定价——SaaS/内容/咨询不同商业模式的定价策略",
+      "excerpt": "覆盖3种主流一人公司模式的定价方法、心理学和实战模板"
+    },
+    {
+      "slug": "solo-tax-guide",
+      "title": "一人公司税务与注册实操指南：从零搞定营业执照和报税",
+      "excerpt": "个体工商户注册、开票、报税全流程，一人公司创始人必看的税务实操手册"
+    },
+    {
+      "slug": "tech-blog-traffic-start",
+      "title": "技术博客从0获取流量：选题、SEO、分发的完整实操流程",
+      "excerpt": "一个人运营技术博客的完整方法论，从选话题到写文章再到从搜索引擎拿流量的每一步"
+    },
+    {
+      "slug": "vercel-deployment-guide",
+      "title": "Vercel免费部署完整教程：从GitHub到域名绑定的每一步",
+      "excerpt": "不用服务器、不花钱、不用运维——Vercel免费部署网站的全流程实操指南"
+    },
+    {
+      "slug": "what-is-solo-company",
+      "title": "一人公司是什么？这是独立开发者在AI时代最好的创业方式",
+      "excerpt": "一人公司的完整定义、适合做什么、怎么起步——读完你就能判断这条路是否适合你"
+    },
+    {
+      "slug": "zero-cost-roadmap",
+      "title": "零成本一人公司路线图：从0到1如何不花一分钱启动",
+      "excerpt": "分享一个不花钱启动一人公司的完整路径，从方向选择到建站到内容生产再到流量获取"
+    },
+    {
+      "slug": "zero-cost-user-research",
+      "title": "一人公司用户调研零成本实操指南：独立开发者必备的6个实战方法",
+      "excerpt": "没有预算也能深入了解用户需求——6个零成本调研方法，让独立开发者用最小投入获取最有价值的用户洞察"
+    },
+    {
+      "slug": "ai-agentic-affiliate-seo",
+      "title": "AI代理驱动的联盟营销站：用自动化Agent做SEO、内容与链接建设",
+      "excerpt": "AI Agent正在改变联盟营销站的玩法——不仅写文章，还能自动做竞品分析、关键词挖掘、内链优化和外链外联。本文详解LangChain Agent框架和自定义Python脚本，帮你搭建全自动化联盟营销体系，并分析其中的风险与机遇。"
+    },
+    {
+      "slug": "ai-content-personalization-solopreneur",
+      "title": "AI内容个性化推荐：一人公司如何实现精准营销而不烧钱",
+      "excerpt": "大厂的个性化推荐靠千万级预算和用户数据池。一人公司用轻量级AI引擎——自定义GPT封装+RAG工具+LLM API——也能实现精准内容个性化。本文教你搭建个性化Pipeline，根据用户行为动态调整标题、CTA和推荐内容，提升转化率而不烧钱。"
+    },
+    {
+      "slug": "solo-landing-page-conversion",
+      "title": "一人公司落地页转化秘籍：没有销售团队也能写出高转化文案",
+      "excerpt": "作为一人公司创始人，你没有销售团队帮你打电话、发邮件、跟进客户。你的落地页就是你的王牌销售员——它必须24小时不间断工作，自动完成从获客到转化的完整闭环。本文分享经过实战验证的落地页转化框架，从用户心理把握、文案公式到A/B测试策略，帮你用4周时间将转化率翻倍。"
+    },
+    {
+      "slug": "solo-founder-productivity-system",
+      "title": "一人公司创始人的效率系统：如何用4小时完成8小时的工作",
+      "excerpt": "一人公司创始人最稀缺的资源不是钱，是时间和注意力。本文分享一套经过实战验证的个人效率系统，涵盖深度工作模块化、AI自动化替代、注意力能量管理三大核心策略，配合14个即用型工作流模板和8款效率工具推荐，帮你每天只工作4小时但产出不减反增。"
+    },
+    {
+      "slug": "ai-content-ab-testing-seo",
+      "title": "内容站AI驱动的A/B测试：用数据优化每篇文章提升排名",
+      "excerpt": "独立开发者如何用AI对内容做系统化A/B测试？本文从标题优化、内容结构、CTA测试到排名追踪，完整拆解一人公司可执行的AI内容实验体系，帮你用数据驱动每篇文章的SEO增长。"
+    },
+    {
+      "slug": "second-brain-solo-entrepreneur",
+      "title": "一人公司第二大脑：个人知识管理体系（PKM）搭建指南",
+      "excerpt": "独立开发者最宝贵的资产不是代码，是经验。本文手把手教你搭建一套专为一人公司设计的第二大脑体系——从信息捕获到知识输出，让你的认知复利不再流失。"
+    },
+    {
+      "slug": "ai-content-ab-testing-seo",
+      "title": "内容站AI驱动的A/B测试：用数据优化每篇文章提升排名",
+      "excerpt": "独立开发者如何用AI对内容做系统化A/B测试？本文从标题优化、内容结构、CTA测试到排名追踪，完整拆解一人公司可执行的AI内容实验体系，帮你用数据驱动每篇文章的SEO增长。"
+    },
+    {
+      "slug": "second-brain-solo-entrepreneur",
+      "title": "一人公司第二大脑：个人知识管理体系（PKM）搭建指南",
+      "excerpt": "独立开发者最宝贵的资产不是代码，是经验。本文手把手教你搭建一套专为一人公司设计的第二大脑体系——从信息捕获到知识输出，让你的认知复利不再流失。"
+    },
+    {
+      "slug": "solopreneur-cold-email-outreach-playbook",
+      "title": "一人公司冷邮件开发客户指南：让潜在客户主动回复的模板和策略",
+      "excerpt": "系统化的冷邮件获客全流程：从收件人筛选、标题写作、正文模板到跟进序列，用低成本撬动高价值B2B客户"
+    },
+    {
+      "slug": "indie-hacker-product-hunt-launch",
+      "title": "独立开发者Product Hunt发布指南：如何获取第一批1000个用户",
+      "excerpt": "从产品准备、预告策略、发布当天执行到后续转化，全流程拆解Product Hunt发布的每一个关键节点"
+    },
+    {
+      "slug": "yiren-meiti-gongsi-ai",
+      "title": "一人媒体公司实操指南：2026年用AI工具打造你的内容商业帝国",
+      "excerpt": "一个人如何用AI写作、视频生成和自动化工具搭建年入百万的内容商业？本文拆解一人媒体公司的完整商业模型与实操路径。"
+    },
+    {
+      "slug": "shuzi-chanpin-chuangye",
+      "title": "一人公司数字产品创业全攻略：从创意到被动收入的完整路径",
+      "excerpt": "模板、课程、SaaS小工具、数字资源……一人公司如何从零开始打造数字产品并实现被动收入？完整框架与实操指南。"
+    },
+    {
+      "slug": "solopreneur-burnout-prevention",
+      "title": "一人公司防倦怠指南：从识别信号到建立可持续工作系统",
+      "excerpt": "一人公司最大的风险不是市场竞争，是创始人倦怠。识别burnout的7个早期信号，建立预防性工作系统和自我修复机制。"
+    },
+    {
+      "slug": "micro-saas-validation-solo",
+      "title": "一人公司Micro SaaS验证指南：用200美元和2周时间验证一个产品想法",
+      "excerpt": "不写一行代码，用200美元预算和2周时间完成一个SaaS产品创意的市场验证。从问题访谈、着陆页测试到付费意愿验证的完整流程。"
+    },
+    {
+      "slug": "solo-founder-decision-fatigue",
+      "title": "一人公司决策疲劳破解：用系统代替意志力做决策",
+      "excerpt": "一人公司创始人每天要做上百个决策。决策疲劳是导致糟糕决策和倦怠的核心原因。用决策框架、自动化规则和优先级系统来解放你的大脑。"
+    },
+    {
+      "slug": "yiren-gongsi-shequn-yunying",
+      "title": "一人公司社群运营实战：把你的关注者变成收入引擎",
+      "excerpt": "一个300人的活跃社群价值超过3万人的被动关注者。从平台选型到价值设计到变现路径完整拆解。"
+    },
+    {
+      "slug": "duli-kaifazhe-dengjiliebiao-zhinan",
+      "title": "独立开发者的等待列表营销指南：产品未出先收钱",
+      "excerpt": "等待列表驱动的发布策略让你在产品没写一行代码前就已验证需求、积累用户、甚至收到第一笔钱。"
+    }
+  ],
+  "mood": [
+    {
+      "slug": "ai-digital-human-realistic",
+      "title": "AI数字人怎么做才不像机器人？5个一眼真人的技巧",
+      "excerpt": "HeYGen、D-ID、阿里数字人……测试了5个主流平台，总结出让AI数字人逼真的技巧。",
+      "site": "mood"
+    },
+    {
+      "slug": "ai-video-script-tools",
+      "title": "情绪短视频脚本怎么写？ChatGPT/Claude/DeepSeek三款AI工具实测",
+      "excerpt": "用同一段情绪故事脚本，实测ChatGPT、Claude、DeepSeek写情绪短视频脚本的差距，附20个万能Prompt"
+    },
+    {
+      "slug": "ai-voiceover-music-tools",
+      "title": "情绪短视频的配音和配乐工具推荐：一个BGM就能让视频播放量翻倍",
+      "excerpt": "实测ElevenLabs、剪映配音、Fish Audio、Suno AI音乐生成，影响情绪的声线和BGM怎么选"
+    },
+    {
+      "slug": "clipchamp-capcut-emotional-editing",
+      "title": "剪映VS Clipchamp做情绪短视频深度对比：谁更适合新手？",
+      "excerpt": "从音乐踩点、转场滤镜、文字特效三个维度实测剪映和Clipchamp，告诉你零基础选哪个"
+    },
+    {
+      "slug": "emotion-short-video-basics",
+      "title": "情绪短视频入门：为什么有的视频能让你看哭，有的看完就划走？",
+      "excerpt": "揭秘情绪短视频的核心公式——3秒代入感+15秒高潮+5秒余韵，零基础也能做出打动人心的视频"
+    },
+    {
+      "slug": "emotional-prompt-engineering",
+      "title": "表演级Prompt模板：给ChatGPT/Claude的12个情绪引导词",
+      "excerpt": "为什么你写的AI脚本没人看，别人写的能刷哭几十万人？差距就在Prompt里的情绪引导词。",
+      "site": "mood"
+    },
+    {
+      "slug": "emotional-video-six-emotions",
+      "title": "情绪短视频的6种底层情绪：从心理学拆解爆款密码",
+      "excerpt": "喜悦、悲伤、愤怒、恐惧、厌恶、惊讶——六种底层情绪在短视频中的应用场景与操作公式，每种附真实案例"
+    },
+    {
+      "slug": "mood-ai-assist-boundary",
+      "title": "AI辅助创作的边界：我自己用AI工具做情绪短视频的真实经验",
+      "excerpt": "哪些环节适合用AI、哪些必须人工，附工具清单和使用心得"
+    },
+    {
+      "slug": "mood-ai-toolchain-practical",
+      "title": "AI生成情绪短视频6个实战工具链：从脚本到成片全链路实测",
+      "excerpt": "ChatGPT写脚本→Midjourney/可灵出素材→剪映/CapCut剪辑→ElevenLabs配音，6个工具链全链路实测，附成本计算和效率对比"
+    },
+    {
+      "slug": "mood-batch-production-sop",
+      "title": "一人公司日更5条情绪视频的SOP：从选题到发布2小时搞定",
+      "excerpt": "一套完整的情绪短视频批量生产流程，从选题→脚本→AI生成→剪辑→发布，一人公司每天产出3-5条情绪视频"
+    },
+    {
+      "slug": "mood-camera-language",
+      "title": "情绪短视频的镜头语言入门",
+      "excerpt": "为什么有的画面一看就有\"电影感\"？5个零基础能上手的镜头技巧。",
+      "site": "mood"
+    },
+    {
+      "slug": "mood-comment-section-operations",
+      "title": "情绪短视频评论区运营：3句话让用户追着留言",
+      "excerpt": "情绪视频的三段式评论引导话术设计法、置顶评论的3种策略、回复评论的5个技巧——把每条视频的评论区变成你的第二道内容"
+    },
+    {
+      "slug": "mood-completion-rate-tips",
+      "title": "看完率提升的10个剪辑技巧：从Silent Diary数据提炼",
+      "excerpt": "基于Silent Diary 28.5%完播率的数据分解，每招都能提升2-5%"
+    },
+    {
+      "slug": "mood-content-calendar-planning",
+      "title": "全年情绪短视频选题日历：春夏秋冬照着发",
+      "excerpt": "一年52周的情绪话题规划模板，把节日、季节变化和社会情绪变成你的选题源，再也不用愁明天发什么"
+    },
+    {
+      "slug": "mood-daily-publishing-strategy",
+      "title": "情绪短视频的日更策略：如何保持高质量不下滑",
+      "excerpt": "内容储备、批量生产、复用素材的具体方法，持续输出不内耗"
+    },
+    {
+      "slug": "mood-mobile-filming-skills",
+      "title": "如何用手机拍出高级感情绪短片？零设备投入方案",
+      "excerpt": "从灯光、构图到运镜的完整实操指南，一部手机也能拍出专业感"
+    },
+    {
+      "slug": "mood-music-beat-matching-advanced",
+      "title": "情绪短视频音乐卡点高级技巧：剪映时间线操作每一步",
+      "excerpt": "从简单的节奏对齐到情绪起伏的音画配合，8个剪映/CapCut实操步骤让你做出有电影感的情绪视频"
+    },
+    {
+      "slug": "mood-music-selection-guide",
+      "title": "情绪短视频的BGM选曲指南：从古典到Lo-fi的全品类拆解",
+      "excerpt": "不同情绪类型的配乐选择标准和曲库推荐，让你的视频配乐不翻车"
+    },
+    {
+      "slug": "mood-persona-building-guide",
+      "title": "情绪短视频3种人设搭建指南：Silent Diary风/故事讲述者/第一人称独白",
+      "excerpt": "Silent Diary风、故事讲述者、第一人称独白——3种主流情绪视频人设的搭建方法，每种风格从定位到执行的完整框架"
+    },
+    {
+      "slug": "mood-presentation-vs-tiktok",
+      "title": "Silent Diary风格 vs TikTok爆款：情绪短视频的中西差异",
+      "excerpt": "对比分析两种风格的受众、算法和变现路径，找到最适合你的方向"
+    },
+    {
+      "slug": "mood-short-vs-long-duration",
+      "title": "30秒vs60秒：情绪视频到底拍多长才爆",
+      "excerpt": "抖音30秒完播率最高，视频号60秒转化最好。拆解四大平台的最佳时长策略，告诉你怎么根据平台调时长"
+    },
+    {
+      "slug": "mood-storyboard-templates-five",
+      "title": "情绪短视频5套分镜头脚本模板：直接套用出片",
+      "excerpt": "失落-治愈/惊喜-感动/思念-重逢/独白-共鸣/反差-转折，5套可直接套用的分镜脚本模板，每套附完整时间线和画面描述"
+    },
+    {
+      "slug": "mood-to-personal-ip-monetization",
+      "title": "情绪短视频如何变现：从内容到IP到收入的完整路线图",
+      "excerpt": "情绪视频做起来了，怎么靠它赚钱？广告分成、知识付费、直播带货、品牌合作——4条变现路径的实操方法和投入产出比"
+    },
+    {
+      "slug": "mood-to-private-domain-conversion",
+      "title": "从情绪内容到私域转化：抖音和小红书的变现路径对比",
+      "excerpt": "对比两个平台的粉丝转化逻辑和实际收益模型，找到高价值的变现路径"
+    },
+    {
+      "slug": "mood-to-private-domain-traffic",
+      "title": "情绪流量怎么导入私域？从评论区到微信的完整操作流程",
+      "excerpt": "情绪视频火了人没火？3步把情绪流量变成私域粉丝：评论区引导→主页设置→私信话术，完整转化流程拆解"
+    },
+    {
+      "slug": "mood-xiaohongshu-comment-strategy",
+      "title": "小红书情绪视频的评论区运营：3步让用户主动收藏",
+      "excerpt": "基于实际数据的评论区引导话术和互动策略，提升收藏率50%"
+    },
+    {
+      "slug": "silent-diary-cold-start",
+      "title": "Silent Diary冷启动全攻略：从0粉丝到第一条爆款",
+      "excerpt": "Silent Diary类视频从零启号的完整路线图，包括前10条视频的策略分布和关键数据指标"
+    },
+    {
+      "slug": "silent-diary-intro",
+      "title": "Silent Diary是什么？为什么每条都能刷哭你",
+      "excerpt": "一条没有台词、没有剧情的视频，凭什么几千万播放？拆解 Silent Diary 的情绪密码。",
+      "site": "mood"
+    },
+    {
+      "slug": "silent-diary-narrative",
+      "title": "拆解 Silent Diary 的3种经典叙事结构",
+      "excerpt": "Silent Diary 每条视频都有固定的叙事骨架。拆解它的3种核心结构，每个附可直接套用的模板。",
+      "site": "mood"
+    },
+    {
+      "slug": "viral-duan-emotional-video-case",
+      "title": "爆款情绪短视频案例分析：从文案到配乐到节奏，一条条拆给你看",
+      "excerpt": "拆解10条百万播放的情绪短视频，分析它们的标题、文案结构、BGM选择、剪辑节奏——学会借势"
+    },
+    {
+      "slug": "mood-bgm-selection-guide",
+      "title": "情绪短视频的BGM怎么选：从Spotify到无版权音乐库的全攻略",
+      "excerpt": "BGM决定了一条情绪视频的生死——同一个画面换一首BGM，完播率可能差3倍。实测5个音乐来源渠道和12首曲子的数据对比"
+    },
+    {
+      "slug": "mood-phone-cinematic",
+      "title": "零设备投入：如何用手机拍出高级感情绪短片",
+      "excerpt": "不用相机、不用灯光、不用稳定器——只靠一部手机就能拍出电影级情绪短片的完整技巧拆解，附数据对比和实操参数"
+    },
+    {
+      "slug": "mood-xiaohongshu-comment-ops",
+      "title": "小红书情绪视频的评论区运营：如何让用户主动收藏",
+      "excerpt": "一条情绪视频在小红书上的数据，80%由评论区决定。拆解3种置顶评论策略、5个回复技巧和1个让收藏率翻倍的方法"
+    },
+    {
+      "slug": "mood-loopable-micro-story",
+      "title": "循环微故事设计：让情绪短视频被反复观看的心理学密码",
+      "excerpt": "为什么有些短视频你忍不住看了两遍三遍甚至十遍？秘密在于循环结构的心理学设计。本文深入拆解无缝衔接的叙事技巧、情绪悬念重置模式和分镜模式，教你设计出让人主动重播的情绪微故事，大幅提升停留时间和重播率。"
+    },
+    {
+      "slug": "youtube-shorts-vs-tiktok-vs-reels-emotional",
+      "title": "YouTube Shorts vs TikTok vs 小红书：2026年情绪短视频该主攻哪个平台",
+      "excerpt": "情绪短视频创作者在2026年面临着一个关键选择：YouTube Shorts的搜索红利、TikTok的算法推流、小红书的种草社区生态，三个平台各有千秋但资源有限。本文从流量分配机制、用户画像、变现路径、内容适配度四个维度深度对比分析三大平台，帮你找到最适合你内容类型的主阵地。"
+    },
+    {
+      "slug": "ai-generated-emotional-short-films",
+      "title": "AI生成情绪短片：用Sora/可灵/Runway做情绪短视频的完整教程",
+      "excerpt": "文生视频AI已经跨越了恐怖谷。本文手把手教你用Sora、可灵和Runway Gen-3制作高质量情绪短片——不需要摄像机、演员和剧组，一个人就能完成从创意到发布的全流程。"
+    },
+    {
+      "slug": "mood-video-hook-techniques",
+      "title": "情绪短视频7秒钩子技巧：前3帧决定视频生死的心理学",
+      "excerpt": "从心理学底层拆解情绪短视频的开场钩子设计：前7秒如何抓住注意力、前3帧如何制造悬念、不同类型情绪的钩子模板"
+    },
+    {
+      "slug": "secai-xinlixue-qingxu-shipin",
+      "title": "色彩心理学在情绪短视频中的实战应用：用颜色操控观众情绪的完整指南",
+      "excerpt": "六种情绪对应的专业调色配方——怀旧暖黄、忧郁冷蓝、浪漫暖粉、戏剧高反差、治愈柔绿、希望金光——手把手教你用调色放大情感冲击力。"
+    },
+    {
+      "slug": "iphone-street-photography-tips",
+      "title": "iPhone街头摄影完全指南：用手机拍出电影感的10个技巧",
+      "excerpt": "不需要专业相机，你的iPhone就是最好的街头摄影工具。从构图、光影到后期调色，教你用手机拍出令人惊艳的街头影像。"
+    },
+    {
+      "slug": "mood-board-creation-tools",
+      "title": "情绪板创作完全指南：最好的数字情绪板工具和工作流",
+      "excerpt": "情绪板是创意工作的起点。从Pinterest、Milanote到PureRef，对比最好的数字情绪板工具和高效创建方法，搭建你的视觉灵感系统。"
+    },
+    {
+      "slug": "qingxu-shipin-shengyin-sheji",
+      "title": "情绪短视频声音设计全攻略：用音效操控观众情绪的科学",
+      "excerpt": "观众的情绪体验50%25来自听觉。从环境音采集到拟音设计到沉默运用，让普通视频变成电影感的声音设计手册。"
+    }
+  ]
 }

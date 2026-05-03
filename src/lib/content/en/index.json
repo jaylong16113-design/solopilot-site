@@ -1,1010 +1,1060 @@
 {
-    "tool": [
-        {
-            "slug": "10-free-ecommerce-tools",
-            "title": "10 Free Ecommerce Tools in 2026: The Zero-Cost Stack That Built 6-Figure Stores",
-            "excerpt": "From Feishu to Canva to ChatGPT — a complete free tool stack for product management, design, video, analytics, and customer service. Perfect for solopreneurs and cross-border sellers."
-        },
-        {
-            "slug": "ai-ab-testing-product-images",
-            "title": "AI Product Image A/B Testing: The Complete Playbook from Batch Generation to Data-Driven Decisions",
-            "excerpt": "A complete closed-loop workflow — use AI to generate dozens of image variants, run free A/B tests with Google Optimize, and analyze conversion funnel data in GA4. Each test cycle costs under $30."
-        },
-        {
-            "slug": "ai-ad-optimization-guide",
-            "title": "AI Ad Optimization Playbook: How to Triple ROI with Automated Algorithms",
-            "excerpt": "A cross-platform AI advertising guide covering Facebook, Google, TikTok, and Amazon. Hands-on review of Madgicx, Optmyzr, and Pacvue — build your automated ad optimization system from scratch."
-        },
-        {
-            "slug": "ai-auto-price-monitoring",
-            "title": "AI Auto Price Monitoring & Dynamic Pricing: The Complete Guide from Rule Engines to AI Algorithms",
-            "excerpt": "A full-stack auto pricing guide covering Taobao, Pinduoduo, and 1688. Three approaches — official tools, DIY Python systems, and Coze/AI workflows — for sellers of all technical skill levels."
-        },
-        {
-            "slug": "ai-auto-reply-messages",
-            "title": "Best AI Auto-Reply for Buyer Messages: Feishu + DeepSeek + Qianniu Full-Chain Automation",
-            "excerpt": "Build a completely free AI auto-reply system from scratch — handle buyer inquiries 24/7 and reduce human escalation by 60%"
-        },
-        {
-            "slug": "ai-auto-subtitle-translate",
-            "title": "AI-Powered Auto Subtitles and Translation: A Complete Guide for Cross-Border E-Commerce Sellers",
-            "excerpt": "An end-to-end AI workflow from speech recognition to subtitle generation to multi-language translation — testing Whisper, CapCut, Jianying, HeyGen and more for cross-border e-commerce video production"
-        },
-        {
-            "slug": "ai-banner-generator",
-            "title": "AI Batch Banner Generation for E-Commerce: Canva, Gaoding, Alimama — The Complete Guide",
-            "excerpt": "Testing Canva Magic Design, Gaoding AI, and Alimama Creative Center — learn to mass-produce e-commerce ad creatives at scale"
-        },
-        {
-            "slug": "ai-batch-video-ecommerce",
-            "title": "AI Batch Product Video Tutorial: Make Your Products Come Alive and Double Conversions",
-            "excerpt": "From editing newbie to batch-producing product showcase videos — a full AI video tool workflow breakdown"
-        },
-        {
-            "slug": "ai-chatbot-setup-guide",
-            "title": "AI Chatbot Setup Guide: Complete Hands-On Flow from Zero to Launch",
-            "excerpt": "Build an AI customer service bot from scratch — covering model selection, knowledge base setup, conversation training, multi-channel integration, and launch monitoring"
-        },
-        {
-            "slug": "ai-competitor-analysis",
-            "title": "AI-Powered Competitor Analysis Guide: From Data Collection to Strategy Output",
-            "excerpt": "Using Oulu + DataHawk + AI models for a complete workflow — dissecting competitor strategies and turning their data into your decisions"
-        },
-        {
-            "slug": "ai-cross-border-product-research",
-            "title": "AI Cross-Border Product Research Guide: Finding Winning Products from Massive Data",
-            "excerpt": "Use AI product research to uncover the next bestseller from massive data — no more gut-feel decisions, turning product selection from guesswork into science"
-        },
-        {
-            "slug": "ai-customer-service-automation-2026",
-            "title": "AI Customer Service Automation 2026: Tidio vs Gorgias vs Zendesk vs DIY",
-            "excerpt": "Tidio, Gorgias, Zendesk, and ChatGPT-based solutions — which one is the ecommerce customer service king? Boosting response efficiency across Shopify, Amazon, and beyond"
-        },
-        {
-            "slug": "ai-customer-service-automation",
-            "title": "AI Customer Service Automation: Build a 24/7 Smart Reply System with ChatGPT + Feishu",
-            "excerpt": "Cover 80% of common questions, keep transfer rate under 20%, at a fraction of human cost"
-        },
-        {
-            "slug": "ai-ecommerce-data-analysis",
-            "title": "Analyzing Business Advisor Data with AI: From Export to Execution — Complete Hands-On Workflow",
-            "excerpt": "Stop glancing at data and closing it. Use this method—AI automatically diagnoses problems and gives actionable optimization plans"
-        },
-        {
-            "slug": "ai-free-video-editing-ecommerce",
-            "title": "Complete Guide to Making E-Commerce Short Videos with Free AI Tools",
-            "excerpt": "In 2026, Taobao short video weight rose to over 30%. Zero experience, one person can produce 10-15 finished videos daily"
-        },
-        {
-            "slug": "ai-image-ecommerce-tools",
-            "title": "AI Image Tools for E-Commerce: Hands-On Comparison of ZMO.ai, Canva, Midjourney and More",
-            "excerpt": "Covering background removal, scene generation, AI models, batch processing—with a starter roadmap for new sellers"
-        },
-        {
-            "slug": "ai-product-description-writer",
-            "title": "AI Product Description Writer Deep Dive: 7 Tools That Can Double Your Conversion Rate",
-            "excerpt": "Which AI writes the best product descriptions? Real-world testing of 7 tools on conversion rate, SEO friendliness, and batch efficiency"
-        },
-        {
-            "slug": "ai-remove-background-comparison",
-            "title": "AI Background Removal Tools Compared: 5 Free Tools Tested for Speed and Cleanliness",
-            "excerpt": "Comprehensive testing across 5 product categories — clothing, plush, transparent materials — to find out which tool removes backgrounds the fastest and cleanest"
-        },
-        {
-            "slug": "ai-seo-content-generators",
-            "title": "AI SEO Content Generator Showdown: Jasper vs Writesonic vs Anyword vs Berry — Real Testing & Scores",
-            "excerpt": "Testing four major AI writing tools with the same keyword — comparing content quality, SEO optimization, cost, and batch efficiency to find your best fit"
-        },
-        {
-            "slug": "ai-seo-tools-comparison-2026",
-            "title": "AI SEO Tools Comparison 2026: Full-Stack Automation from Keyword Research to Content Ranking",
-            "excerpt": "Deep dive comparison of Ahrefs, Semrush, Surfer SEO, Frase, and ContentShake — find the perfect AI SEO tool stack for your business"
-        },
-        {
-            "slug": "ai-tools-2026-comparison",
-            "title": "2026 AI E-Commerce Tools Mega Roundup",
-            "excerpt": "Complete coverage of images, copywriting, video, and customer service"
-        },
-        {
-            "slug": "ai-video-generator-review",
-            "title": "AI Video Generator Showdown: Runway vs Pika vs Kling vs Kling for E-Commerce",
-            "excerpt": "Put four major AI video tools to the test with the same product footage — scored on quality, control, and cost"
-        },
-        {
-            "slug": "ai-voice-clone-livestream",
-            "title": "AI Voice Clone Tools for Livestream Selling: From ElevenLabs to Fish Audio — A Complete Tutorial",
-            "excerpt": "Clone your host's voice for 24/7 unmanned livestreams — testing 4 voice cloning tools on Douyin and Taobao live scenarios"
-        },
-        {
-            "slug": "ai-xiaohongshu-copywriting",
-            "title": "Writing Xiaohongshu Viral Posts with AI: Prompt Templates and Real-World Case Studies",
-            "excerpt": "12 battle-tested prompt templates covering beauty, food, home, tech, and fashion — from note structure to viral formulas to data review"
-        },
-        {
-            "slug": "aliexpress-ai-translation-tools",
-            "title": "Best AI Translation Tools for AliExpress Sellers",
-            "excerpt": "Covering English, Spanish, French and other major markets"
-        },
-        {
-            "slug": "chatgpt-cross-border-listing",
-            "title": "ChatGPT for Cross-Border E-Commerce Listing Optimization: 15 Practical Prompt Templates Tested",
-            "excerpt": "From titles to five bullet points to A+ content — testing ChatGPT, Claude, and Gemini on real Amazon listing performance"
-        },
-        {
-            "slug": "chatgpt-taobao-title-prompts",
-            "title": "ChatGPT Taobao Title Prompts: From Keyword Research to Writing",
-            "excerpt": "From keyword research to title writing to A/B testing, AI-powered search traffic growth"
-        },
-        {
-            "slug": "cross-border-ecommerce-ai-tools",
-            "title": "AI Tools for Cross-Border E-Commerce: Product Research to Customer Service",
-            "excerpt": "Curated list of AI tools covering product research, listings, images, advertising and customer service"
-        },
-        {
-            "slug": "ecommerce-funnel-optimization",
-            "title": "E-Commerce Conversion Funnel Optimization Guide",
-            "excerpt": "Break down each stage to improve ROI"
-        },
-        {
-            "slug": "free-ai-product-image-tools",
-            "title": "Free AI Product Image Generation Tools — Recommendations & Tutorials",
-            "excerpt": "5 free AI product image tools compared and reviewed"
-        },
-        {
-            "slug": "pinduoduo-zero-cost-traffic",
-            "title": "5 Zero-Cost Organic Traffic Strategies for Pinduoduo",
-            "excerpt": "Get search traffic without spending on ads"
-        },
-        {
-            "slug": "shein-temu-ai-tools",
-            "title": "AI Product Selection Tools for SHEIN and TEMU Sellers",
-            "excerpt": "Analyze trending categories and find high-potential products"
-        },
-        {
-            "slug": "shopify-free-apps-2026",
-            "title": "15 Essential Free Shopify Apps for Independent Stores (2026)",
-            "excerpt": "Get your store running without spending a cent"
-        },
-        {
-            "slug": "taobao-keyword-tool-free",
-            "title": "3 Free Taobao Keyword Research Tools",
-            "excerpt": "Find hidden high-conversion keywords at zero cost"
-        },
-        {
-            "slug": "taobao-live-ai-digital-human",
-            "title": "Complete Beginner's Guide to AI Digital Human Livestreaming",
-            "excerpt": "From tools to setup — everything covered in one article"
-        },
-        {
-            "slug": "taobao-seo-guide-2026",
-            "title": "Complete Taobao SEO Guide 2026 — Latest Edition",
-            "excerpt": "3 major search algorithm changes and 15 optimization dimensions"
-        },
-        {
-            "slug": "wechat-xiaohongshu-ecommerce-traffic",
-            "title": "How to Drive Traffic from WeChat and Xiaohongshu to Taobao – Complete Tutorial",
-            "excerpt": "Turning social traffic into low-cost conversions"
-        },
-        {
-            "slug": "ai-predictive-inventory-management",
-            "title": "AI Predictive Inventory Management for Dropshippers: Never Run Out of Stock Again",
-            "excerpt": "ML models forecast demand spikes and automate reorder timing for dropshippers. Covers API-first tools integrating with AliExpress and 1688 suppliers."
-        },
-        {
-            "slug": "ai-cross-border-customs-automation",
-            "title": "AI Cross-Border Customs Automation: HS Code Classification & Duty Calculation for 2026",
-            "excerpt": "LLMs plus image recognition auto-classify HS codes and calculate duties in real time. Generate compliant invoices for cross-border sellers in 2026."
-        },
-        {
-            "slug": "ai-virtual-try-on-fashion",
-            "title": "AI Virtual Try-On & Size Recommendation: How Fashion E-Commerce Cut Returns by 40%",
-            "excerpt": "Generative AI virtual try-on lets customers test clothes via upload or live camera. How leading fashion brands dramatically cut return rates."
-        },
-        {
-            "slug": "ai-dynamic-bundling-upsell",
-            "title": "AI Dynamic Product Bundling & Upsell Engines: Boost AOV by 30% Automatically",
-            "excerpt": "Real-time AI bundles based on customer behavior and cart contents. Use reinforcement learning to boost average order value by 15-30%."
-        },
-        {
-            "slug": "ai-fraud-detection-cross-border",
-            "title": "AI Fraud Detection & Chargeback Prevention for Cross-Border E-Commerce",
-            "excerpt": "Anomaly detection, device fingerprinting, and behavioral analysis block fraud for cross-border e-commerce. Tailored for high-risk regions."
-        },
-        {
-            "slug": "ai-logistics-orchestrator",
-            "title": "AI-Powered Cross-Border Logistics Orchestrator: Real-Time Tariffs, Routes & Customs Automation",
-            "excerpt": "Discover how AI logistics orchestrators automate cross-border shipping with real-time tariffs, dynamic routing, and customs clearance for e-commerce sellers."
-        },
-        {
-            "slug": "ai-multilingual-listing-optimizer",
-            "title": "Hyper-Localized Multilingual Listings: How AI Adapts Product Pages for Global Markets",
-            "excerpt": "Learn how AI-powered multilingual listing optimizers adapt product pages for global markets with cultural nuance, local SEO, and conversion-optimized copy."
-        },
-        {
-            "slug": "ai-dynamic-pricing-engine",
-            "title": "Dynamic Global Pricing Engine: AI-Driven Real-Time Price Optimization for Cross-Border Sellers",
-            "excerpt": "Master AI-driven dynamic pricing for cross-border e-commerce with real-time competitor monitoring, currency adjustments, and market-specific strategies."
-        },
-        {
-            "slug": "ai-cross-border-fraud-compliance",
-            "title": "Cross-Border Fraud & Compliance Shield: AI Tools to Protect Your International E-Commerce Business",
-            "excerpt": "Protect your international e-commerce business with AI-powered fraud detection, AML compliance, and regulatory monitoring across 180+ countries."
-        },
-        {
-            "slug": "ai-visual-localization-ecommerce",
-            "title": "Visual AI for International E-Commerce: Culturally Adapted Product Images That Convert Worldwide",
-            "excerpt": "Learn how AI visual localization adapts product images for global markets — culturally relevant backgrounds, models, colors, and text that boost conversion."
-        },
-        {
-            "slug": "ai-workflow-orchestrators-ecommerce",
-            "title": "AI Workflow Orchestrators for E-commerce: Automate Your Entire Business with n8n, Make, and Zapier",
-            "excerpt": "Learn how AI-powered workflow orchestrators like n8n, Make, and Zapier can automate your e-commerce operations end-to-end, from inventory syncing to customer follow-ups."
-        },
-        {
-            "slug": "ai-review-management-reputation",
-            "title": "AI Review Management & Reputation Automation: Turn Customer Feedback Into Sales",
-            "excerpt": "Master AI-driven review management for e-commerce — automate responses, analyze sentiment, detect fake reviews, and boost your rating with smart reputation tools."
-        },
-        {
-            "slug": "ai-voice-agents-ecommerce",
-            "title": "AI Voice Agents for E-commerce: Automate Customer Phone Support with Conversational AI",
-            "excerpt": "Discover how AI voice agents are transforming e-commerce phone support — from answering order status questions to handling returns, all with natural-sounding conversations."
-        },
-        {
-            "slug": "ai-product-video-script-tools",
-            "title": "AI Product Video Script Tools: Generate Compelling Sales Scripts in Minutes",
-            "excerpt": "Stop staring at a blank page. Discover the best AI tools for writing product video scripts that convert — from short-form TikTok hooks to in-depth demo narrations."
-        },
-        {
-            "slug": "ai-analytics-dashboard-ecommerce",
-            "title": "AI Analytics Dashboards for E-commerce: Track KPIs That Actually Drive Growth",
-            "excerpt": "Go beyond basic Google Analytics. Learn how AI-powered e-commerce dashboards surface actionable insights, predict trends, and tell you exactly what to optimize next."
-        },
-        {
-            "slug": "ai-product-video-generator-tools",
-            "title": "AI Product Video Generator Tools: Turn Product Photos Into Sales Videos in Minutes",
-            "excerpt": "Turn static product photos into high-converting sales videos with AI-powered video generators. Compare the best tools for e-commerce sellers in 2026."
-        },
-        {
-            "slug": "ai-social-media-scheduler-ecommerce",
-            "title": "Best AI Social Media Schedulers for E-Commerce: Automate Your Content Calendar in 2026",
-            "excerpt": "Stop posting manually. Compare the top AI social media schedulers for e-commerce brands and learn how to automate your entire content calendar across platforms."
-        },
-        {
-            "slug": "ai-market-research-tools-cross-border",
-            "title": "AI Market Research Tools for Cross-Border Sellers: Spot Trends Before They Go Mainstream",
-            "excerpt": "Discover the best AI market research tools that help cross-border sellers identify trending products before the competition catches on."
-        },
-        {
-            "slug": "ai-email-marketing-automation-ecommerce",
-            "title": "AI Email Marketing Automation for E-Commerce: Recover Abandoned Carts and Boost LTV",
-            "excerpt": "Turn one-time buyers into repeat customers with AI email automation. Compare Klaviyo, Omnisend, Mailchimp, and ActiveCampaign for e-commerce."
-        },
-        {
-            "slug": "ai-listing-optimizer-amazon-shopify",
-            "title": "AI Listing Optimization Tools: Amazon vs Shopify — Which Platform Has Better AI Tools?",
-            "excerpt": "Compare the best AI listing optimization tools for Amazon and Shopify sellers, from keyword research to image optimization to conversion rate analysis."
-        },
-        {
-            "slug": "ai-chatgpt-customer-persona-builder",
-            "title": "How to Build E-Commerce Customer Personas with ChatGPT: From Demographics to Psychographics",
-            "excerpt": "Learn how to use ChatGPT to create detailed e-commerce customer personas that go beyond demographics into psychographics, buying triggers, and pain points — making your marketing 10x more effective."
-        },
-        {
-            "slug": "ai-landing-page-builders-ecommerce",
-            "title": "Best AI Landing Page Builders for E-Commerce: Convert More Visitors in 2026",
-            "excerpt": "Compare the top AI-powered landing page builders for e-commerce stores. From Unbounce to Instapage to Carrd, discover which tool converts best for product launches, sales funnels, and seasonal campaigns."
-        },
-        {
-            "slug": "ai-amazon-competitor-price-monitoring",
-            "title": "AI-Powered Amazon Competitor Price Monitoring: Tools, Strategies, and Automation",
-            "excerpt": "Dominate the Buy Box with AI-driven competitor price monitoring. Compare the best tools — Keepa, Jungle Scout, Helium 10, Sellery, and Prisync — and learn how to automate repricing without racing to the bottom."
-        },
-        {
-            "slug": "ai-writing-assistants-listing-optimization-2026",
-            "title": "Best AI Writing Assistants for Product Listing Optimization: 2026 Deep Dive",
-            "excerpt": "We tested ChatGPT, Claude, Jasper, Writesonic, and Copy.ai on real product listings. See which AI writing assistant produces the highest-converting Amazon, Shopify, and Etsy product descriptions in 2026."
-        },
-        {
-            "slug": "ai-influencer-marketing-ecommerce",
-            "title": "AI Tools for Influencer Marketing in E-Commerce: Find, Vet, and Track ROI",
-            "excerpt": "Discover how AI is revolutionizing influencer marketing for e-commerce brands. Compare tools like Upfluence, Grin, Modash, and HypeAuditor — and learn how to find the right influencers, detect fake followers, and measure real ROI."
-        },
-        {
-            "slug": "ai-content-repurposing-tools",
-            "title": "AI Content Repurposing Tools: The Complete Guide to Turning One Video into 30 Pieces of Content",
-            "excerpt": "From TikTok clips to blog posts, email newsletters, and social media graphics — build an AI-powered workflow that multiplies every piece of content 30x across platforms."
-        },
-        {
-            "slug": "ai-inventory-forecasting-tools",
-            "title": "AI Inventory Forecasting Tools: A Practical Guide from Excel to Machine Learning to Eliminate Stockouts and Overstock",
-            "excerpt": "How cross-border e-commerce solo operators can use AI for inventory forecasting — comparing Inventory Planner, Prediko, Cogsy, and building a complete system."
-        },
-        {
-            "slug": "cross-border-payment-automation",
-            "title": "Cross-Border Payment Automation: The Complete Stripe/Wise/Payoneer Guide",
-            "excerpt": "A complete cross-border payment solution for solo operators — multi-currency collection, automated withdrawals, and financial reconciliation."
-        }
-    ],
-    "wear": [
-        {
-            "slug": "big-body-suit-guide",
-            "title": "Big Body Suit Guide – How to Choose a Flattering Suit for Larger Builds",
-            "excerpt": "The right fit and fabric choices make the suit your best styling tool"
-        },
-        {
-            "slug": "business-perfume-guide",
-            "title": "Business Perfume Guide – How to Choose the Right Scent for Every Season and Occasion",
-            "excerpt": "From spring freshness to winter warmth, from meetings to dinners — pick your perfect workplace scent"
-        },
-        {
-            "slug": "business-travel-pack-suit",
-            "title": "How to Pack a Suit for Business Travel – Wrinkle-Free Method + 3-Day Plan",
-            "excerpt": "A 5-step folding method keeps your suit crisp on arrival, plus a complete 3-day packing strategy"
-        },
-        {
-            "slug": "business-wear-101",
-            "title": "Business Wear 101 – From Office Newcomer to Polished Gentleman",
-            "excerpt": "A complete roadmap from your first suit to wearing it with confidence"
-        },
-        {
-            "slug": "custom-vs-rtw-suit",
-            "title": "Custom Suit vs Ready-to-Wear: Which Should You Choose and When",
-            "excerpt": "A deep comparison across price, craftsmanship, and occasion — helping you make the smartest decision"
-        },
-        {
-            "slug": "dating-outfit-guide",
-            "title": "Men's Dating Outfit Guide — Complete Looks from Coffee to Dinner to Formal Events",
-            "excerpt": "Full outfit plans for 3 dating scenarios — let your clothes communicate respect and taste"
-        },
-        {
-            "slug": "first-suit-guide",
-            "title": "First Suit Buying Guide: How to Choose Your First Suit Without Making Mistakes",
-            "excerpt": "First suit buying guide covering budget, occasion, fit, fabric, and styling tips for beginners"
-        },
-        {
-            "slug": "interview-suit-guide",
-            "title": "What to Wear to a Job Interview — Industry-Specific Suit Guide That Gets You Hired",
-            "excerpt": "Complete interview outfit playbooks for finance, tech, sales, and government — one formula per industry"
-        },
-        {
-            "slug": "short-men-suit-tips",
-            "title": "The Complete Guide to Suits for Short Men — Look Taller, Sharper, and More Confident",
-            "excerpt": "Height is just a number. Master the art of proportion with the right fit, color strategy, and styling details that make any man look his best in a suit."
-        },
-        {
-            "slug": "smart-casual-suit-guide",
-            "title": "The Ultimate Smart Casual Suit Guide — One Jacket for the Office, Dates, and Weekends",
-            "excerpt": "Master the art of smart casual dressing with a blazer or sport coat that transitions effortlessly from work to weekend."
-        },
-        {
-            "slug": "sports-suit-vs-suit",
-            "title": "Sports Suit vs Traditional Suit — Fabric, Fit, and Use Cases Compared",
-            "excerpt": "Can't decide between a stretchy sports suit and a classic wool suit? Here's everything you need to know about their differences in fabric, construction, pricing, and when to wear each."
-        },
-        {
-            "slug": "sports-vs-business-vs-casual-suit",
-            "title": "Sports Jacket vs Business Suit vs Blazer — The Complete Guide to Knowing the Difference",
-            "excerpt": "They may look similar, but these three categories of tailored jackets have completely different origins, fabrics, and styling rules. Here's everything you need to know."
-        },
-        {
-            "slug": "suit-accessories-guide",
-            "title": "Suit Accessories Guide — Pocket Squares, Lapel Pins, and Cufflinks to Elevate Your Look",
-            "excerpt": "From pocket square folds to cufflink etiquette, master suit accessories and take your style up a notch."
-        },
-        {
-            "slug": "suit-bag-guide",
-            "title": "Bag Pairing Guide for Suits — Briefcases, Totes, and Backpacks That Work",
-            "excerpt": "Which bag goes with which suit style — a complete guide from corporate executive to business traveler"
-        },
-        {
-            "slug": "suit-belt-guide",
-            "title": "How to Choose a Belt for Your Suit — Complete Rules on Color, Width, and Material",
-            "excerpt": "The color, width, and material of your belt determines whether your outfit looks refined or cheap"
-        },
-        {
-            "slug": "suit-body-type-guide",
-            "title": "How to Choose a Suit for Your Body Type — Complete Guide for Slim, Heavy, Short, and Tall Men",
-            "excerpt": "Core suit selection tips for 4 body types, from cut to fabric to details fully explained"
-        },
-        {
-            "slug": "suit-budget-guide",
-            "title": "Suit Buying Guide at $150 / $400 / $700 — Best Brands and Styles at Every Price Point",
-            "excerpt": "Three budget tiers fully broken down — fabric, fit, and brand recommendations so you buy smart"
-        },
-        {
-            "slug": "suit-care-guide",
-            "title": "Suit Care Guide — Make One Suit Last 3 Years, No Pilling No Deformation",
-            "excerpt": "Complete care routine from daily wear to storage, cleaning, and ironing"
-        },
-        {
-            "slug": "suit-color-guide",
-            "title": "How to Choose Suit Colors — From Black, Gray, and Navy to Earth Tones",
-            "excerpt": "What to wear for every occasion — start with navy"
-        },
-        {
-            "slug": "suit-fabric-guide",
-            "title": "The Complete Guide to Suit Fabrics — Read the Label, Pick the Right Suit",
-            "excerpt": "From pure wool to blends to synthetics to linen — know what works for you"
-        },
-        {
-            "slug": "suit-ironing-guide",
-            "title": "How to Iron a Suit at Home: Complete Guide to Crisp Results",
-            "excerpt": "Steam vs flat iron, temperature control, and emergency wrinkle fixes"
-        },
-        {
-            "slug": "suit-materials-tech",
-            "title": "Sports Suit Fabric Technology: Polyester, Spandex, and Coatings Explained",
-            "excerpt": "Fabric composition, stretch technology, and functional coatings — what to look for"
-        },
-        {
-            "slug": "suit-measure-guide",
-            "title": "DIY Suit Measurement Guide: Get Tailor-Quality Results at Home",
-            "excerpt": "7-step measuring routine with size chart — never guess your suit size again"
-        },
-        {
-            "slug": "suit-mistakes-beginners",
-            "title": "10 Most Common Beginner Suit Mistakes — and How to Fix Every One",
-            "excerpt": "Sleeve length, button rules, tie length, socks — the full checklist"
-        },
-        {
-            "slug": "suit-occasion-guide",
-            "title": "The Complete Suit Guide for Every Occasion — Interviews, Meetings, Weddings, Office & Dinners",
-            "excerpt": "From interview to wedding to dinner party, here's how to dress your suit right for any scenario"
-        },
-        {
-            "slug": "suit-online-shopping-tips",
-            "title": "Buying Suits Online? 5 Must-Check Points + 3 Advanced Tips to Avoid Regret",
-            "excerpt": "From sizing to fabric to return policies, five things to confirm before you click \"buy\""
-        },
-        {
-            "slug": "suit-pocket-guide",
-            "title": "The Complete Guide to Suit Pockets — From Pocket Square Folds to Practical Storage",
-            "excerpt": "7 classic pocket square folds plus the right way to use every suit and trouser pocket. Stop bulging your pockets."
-        },
-        {
-            "slug": "suit-seasonal-guide",
-            "title": "What Suit to Wear in Spring, Summer, Fall & Winter — A Complete Seasonal Guide",
-            "excerpt": "From linen to heavy wool, from light to dark — the full logic of seasonal suit choices explained"
-        },
-        {
-            "slug": "suit-shoes-guide",
-            "title": "What Shoes to Wear with a Suit — Complete Dress Shoe Buying Guide",
-            "excerpt": "Oxford, Derby, or Loafer? The definitive guide to picking the right dress shoes for any suit and any occasion"
-        },
-        {
-            "slug": "suit-size-guide",
-            "title": "Suit Size Chart — Never Buy the Wrong Size Online Again",
-            "excerpt": "From height and weight to chest and shoulders, master every sizing system and find your perfect fit every time"
-        },
-        {
-            "slug": "suit-styling-rules",
-            "title": "5 Golden Rules of Suit Styling — Get It Right 90% of the Time",
-            "excerpt": "Three-color principle, the one-centimeter rule, button etiquette — five rules that cover almost every scenario"
-        },
-        {
-            "slug": "suit-tailoring-process",
-            "title": "The Complete Suit Tailoring Process — From Measurements to Pickup, Explained Step by Step",
-            "excerpt": "First time getting a custom suit? Here's everything you need to know — measuring, fabrics, fittings, and more"
-        },
-        {
-            "slug": "suit-trends-2026",
-            "title": "Men's Suit Trends 2026 — What to Wear to Stay Ahead of the Curve",
-            "excerpt": "From silhouette to colors to styling, 5 major trends to help you pick your next suit"
-        },
-        {
-            "slug": "suit-underwear-guide",
-            "title": "What to Wear Under a Suit — Complete Undergarment Guide",
-            "excerpt": "6 steps to master your full suit under-layer and avoid embarrassing peek-a-boo collars and short socks"
-        },
-        {
-            "slug": "tie-knot-guide",
-            "title": "The Complete Guide to Tying a Tie — Master 8 Knots from Beginner to Pro",
-            "excerpt": "Ever bought a great tie but can't tie it right? 8 knots from easy to advanced, with scenario recommendations and troubleshooting"
-        },
-        {
-            "slug": "wedding-suit-guide",
-            "title": "What to Wear to a Wedding — The Complete Guide for Grooms and Guests",
-            "excerpt": "7 steps to nail your wedding outfit, whether you're the groom or a guest"
-        },
-        {
-            "slug": "tech-casual-suit-guide",
-            "title": "The Rise of the Tech-Casual Suit: Blending Performance Fabrics with Tailored Style",
-            "excerpt": "Performance fabric suits with moisture-wicking, stretch, and wrinkle resistance. Brands leading the trend and how to style them for hybrid work."
-        },
-        {
-            "slug": "mix-match-suiting-guide",
-            "title": "Mix-and-Match Suiting 2026: The Complete Guide to Pattern Breaking and Intentional Mismatching",
-            "excerpt": "Move beyond matched sets. Combine patterns, textures, and colors using color theory and pattern scaling for business and formal settings."
-        },
-        {
-            "slug": "summer-suit-fabrics-guide",
-            "title": "Summer Suit Fabrics Guide: Stay Cool in Linen, Seersucker, and Lightweight Wool",
-            "excerpt": "The complete guide to summer suit fabrics — linen, seersucker, lightweight wool, and cotton — with tips on breathability, wrinkle resistance, and styling."
-        },
-        {
-            "slug": "suit-lapel-styles-guide",
-            "title": "Suit Lapel Styles Explained: Notch, Peak, Shawl — How to Choose the Right One",
-            "excerpt": "Everything you need to know about suit lapel styles — notch, peak, and shawl — and how to choose the right one for your face shape, occasion, and style."
-        },
-        {
-            "slug": "sustainable-eco-friendly-suits",
-            "title": "Sustainable & Eco-Friendly Suiting Materials: The Complete Guide to Green Tailoring",
-            "excerpt": "From organic wool and Tencel to recycled synthetics and Piñatex, discover the sustainable suiting materials reshaping men's fashion — and how to build an eco-conscious wardrobe without compromising on style."
-        },
-        {
-            "slug": "double-breasted-suit-guide",
-            "title": "The Double-Breasted Suit Revival: How to Wear It, Style It, and Master It in 2026",
-            "excerpt": "Once considered a relic of 1980s power dressing, the double-breasted suit is back. Learn how to choose, fit, and style a DB suit for modern proportions — from lapels to button stance."
-        },
-        {
-            "slug": "suit-dry-cleaning-vs-home-care",
-            "title": "Suit Dry Cleaning vs Home Care: The Truth About Fabric Longevity and Cost",
-            "excerpt": "Is dry cleaning always better for your suits? We break down the cost, fabric impact, and best practices for both professional cleaning and at-home care."
-        },
-        {
-            "slug": "formal-attire-dress-codes-explained",
-            "title": "Formal Attire Dress Codes Explained: From White Tie to Business Casual",
-            "excerpt": "A complete guide to men's formal dress codes — white tie, black tie, business formal, smart casual, and everything in between."
-        },
-        {
-            "slug": "navy-blazer-styling-guide",
-            "title": "The Navy Blazer: How to Style One Jacket for 10 Different Occasions",
-            "excerpt": "Master the art of styling a navy blazer for everything from job interviews to weekend brunches. The ultimate guide to the most versatile piece in menswear."
-        },
-        {
-            "slug": "suit-fabrics-humid-climate",
-            "title": "Best Suit Fabrics for Hot and Humid Climates: Stay Cool Without Sacrificing Style",
-            "excerpt": "Discover the best suit fabrics for tropical and humid weather — from high-twist wool to fresco to linen blends — and stay sharp even when the temperature soars."
-        },
-        {
-            "slug": "modern-business-casual-guide",
-            "title": "The Modern Business Casual Guide: Dress Codes from Silicon Valley to Wall Street",
-            "excerpt": "What does Business Casual actually mean? Decode the unspoken dress codes for tech, finance, consulting, and creative industries."
-        },
-        {
-            "slug": "suit-alteration-cost-guide",
-            "title": "The Complete Suit Alteration Guide: What's Worth Altering, Where, and How Much It Costs",
-            "excerpt": "An ill-fitting suit is worse than no suit. A detailed guide to 15 key alteration points, real costs, and how to judge whether a suit is worth altering."
-        }
-    ],
-    "ops": [
-        {
-            "slug": "15-free-tools-solo",
-            "title": "15 Free Tools Every Solo Entrepreneur Must Use — From Site Building to Operations",
-            "excerpt": "A complete free tool stack covering website building, design, content, analytics, automation, and operations — everything a solo company needs to start lean and grow fast"
-        },
-        {
-            "slug": "adsense-first-month",
-            "title": "Google AdSense First Month Income — Real Expectations and a Six-Step Strategy for New Sites",
-            "excerpt": "How much does a new site actually earn from AdSense in month one? Realistic revenue expectations, the income formula explained, and six actionable steps to build a sustainable AdSense income stream from scratch."
-        },
-        {
-            "slug": "ai-assisted-product-prototyping",
-            "title": "AI-Assisted Product Prototyping — A Zero-Design-Background Guide for Solo Founders to Validate Ideas Fast",
-            "excerpt": "No designer, no budget, no problem. How solo companies use AI tools to go from sketch to interactive prototype and quickly validate product ideas."
-        },
-        {
-            "slug": "ai-automation-workflow",
-            "title": "How to Build an AI Automation Workflow From Zero — Compress a Week's Work into One Day",
-            "excerpt": "An eight-step guide to building an AI automation workflow — from process mapping to automated deployment, compress 40 hours of weekly repetitive work into under 10 hours"
-        },
-        {
-            "slug": "ai-writing-workflow",
-            "title": "Full Automated AI Batch Writing Workflow — From Keywords to Live Deployment",
-            "excerpt": "A complete six-step AI batch writing workflow from keyword research to image generation to automated deployment — specific methods to increase efficiency by 10x"
-        },
-        {
-            "slug": "build-in-public",
-            "title": "Build in Public: The Fastest Way to Launch a Solo Company — AgentClaw's 4-Hour Launch Playbook",
-            "excerpt": "From buying a domain to 55 articles live — 4 hours of work achieving what would traditionally cost $2,200 and two weeks. The Build in Public philosophy and practical how-to guide."
-        },
-        {
-            "slug": "content-site-1000-month",
-            "title": "From Zero to $1,000/Month with a Content Site — A Real Breakdown with Milestones",
-            "excerpt": "A real content site's complete journey from zero to $1,000/month in 12 months, including key actions and core data for each month"
-        },
-        {
-            "slug": "content-site-monetization",
-            "title": "Content Site Monetization Models — A Deep Comparison",
-            "excerpt": "AdSense, CPS, digital products, and services — a detailed comparison to help you find the right path."
-        },
-        {
-            "slug": "cps-affiliate-strategy",
-            "title": "CPS Affiliate Monetization Strategy for Solo Entrepreneurs",
-            "excerpt": "Earning commissions through Taobao and JD affiliate programs"
-        },
-        {
-            "slug": "customer-success-solo",
-            "title": "How to Do Customer Success as a Solo Founder — Efficient Strategies for Indie Developers to Retain Users",
-            "excerpt": "Customer success isn't just for big companies. A systematic approach lets solo founders dramatically reduce churn, boost repeat purchases, and spark word-of-mouth growth."
-        },
-        {
-            "slug": "data-driven-content",
-            "title": "Driving Content Strategy with 1,992 Data Points",
-            "excerpt": "Using data to create precisely targeted content"
-        },
-        {
-            "slug": "email-list-from-zero",
-            "title": "Building an Email List from Zero — Practical Strategies to Get 1,000 Real Subscribers as an Indie Developer",
-            "excerpt": "An email list is an indie developer's most underrated asset. Here are concrete methods to get 1,000 subscribers without spending money, plus content strategy and growth loops."
-        },
-        {
-            "slug": "feishu-bitable-project-management",
-            "title": "The Solo Founder's Complete Guide to Project Management with Feishu Bitable",
-            "excerpt": "Build your startup project management system with Feishu Bitable for free — from task tracking to data analysis, manage everything solo."
-        },
-        {
-            "slug": "from-0-to-1000-visitors",
-            "title": "From Zero to 1,000 Daily Visitors: A Practical Content Site Roadmap",
-            "excerpt": "A three-month growth roadmap — no paid promotion needed, just the right SEO strategy and consistent output."
-        },
-        {
-            "slug": "github-actions-automation",
-            "title": "GitHub Actions: Automate Your Website Updates — From Push to Live in 30 Seconds",
-            "excerpt": "A fully automated deployment solution: write an article, git push, and let automation handle the rest."
-        },
-        {
-            "slug": "keyword-research-guide",
-            "title": "SEO Keyword Research Guide for Content Sites — Tools, Methods, and Real-World Case Studies",
-            "excerpt": "Start keyword research from scratch using free and paid tools to find high-conversion, low-competition keywords."
-        },
-        {
-            "slug": "multi-site-one-domain",
-            "title": "Running Three Content Sites on One Domain — A Next.js Sub-Path Architecture Guide",
-            "excerpt": "One domain, one GitHub repo, one Vercel project — run three content sites and save two-thirds on domain costs."
-        },
-        {
-            "slug": "nextjs-solo-devs-guide",
-            "title": "Why Next.js Is the Best Tech Stack for Solo Content Site Developers",
-            "excerpt": "Comparing WordPress, Hugo, Astro, and Next.js — with real data showing why Next.js + Vercel is the optimal choice for solo entrepreneurs."
-        },
-        {
-            "slug": "niche-selection-guide",
-            "title": "The Complete Guide to Niche Selection for Solo Entrepreneurs: Find Your Blue Ocean",
-            "excerpt": "A systematic three-axis method — interest, skill, and market demand — to find the perfect niche for your solo company, with real cases and common pitfalls"
-        },
-        {
-            "slug": "no-code-automation-workflow",
-            "title": "No-Code Automation Workflow Guide: Save 20 Hours Per Week as a Solo Entrepreneur",
-            "excerpt": "Build automated workflows from scratch with Make and Zapier — 10 real-world cases covering customer service, content publishing, finance, and competitor monitoring"
-        },
-        {
-            "slug": "one-person-ai-agent",
-            "title": "Building Your AI Agent Team: How One Solo Founder Runs a Complete Operations Department with AI",
-            "excerpt": "One person + four AI agents = a complete operations team. From content creation to data analysis to customer service to business monitoring — build your virtual team step by step"
-        },
-        {
-            "slug": "project-management-solo",
-            "title": "The Complete Solo Project Management Guide: Build Your Operations System with Feishu Bitable from Scratch",
-            "excerpt": "From task tracking to content calendar to data review — build a complete project management system for your solo company with Feishu Bitable in just 10 minutes per day"
-        },
-        {
-            "slug": "seo-guide-solo-company",
-            "title": "SEO Guide for Solo Entrepreneurs: Get Quality Traffic Without Spending a Dime",
-            "excerpt": "Zero ad budget SEO strategy for content sites — from keyword research to content optimization to link building, covering every key step for solo companies to earn organic search traffic"
-        },
-        {
-            "slug": "social-media-automation",
-            "title": "Social Media Automation Workflow: How Solo Entrepreneurs Manage Every Platform with Tools",
-            "excerpt": "Build a fully automated social media publishing system with Buffer, Make, and Feishu — covering Twitter, LinkedIn, newsletter, and more — managed in just 15 minutes a day"
-        },
-        {
-            "slug": "solo-booking-system",
-            "title": "Setting Up a Booking System with Calendly/Feishu Calendar — A Complete Guide to Client Scheduling Automation for Solo Companies",
-            "excerpt": "Build an automated client booking system from scratch with support for different service types, auto-reminders, and follow-ups"
-        },
-        {
-            "slug": "solo-content-operations",
-            "title": "Managing 255 Articles Solo: A Content Operations System with Feishu Multidimensional Tables",
-            "excerpt": "Using Feishu multidimensional tables for content lifecycle management, keyword association, and ranking tracking across 255 articles"
-        },
-        {
-            "slug": "solo-customer-acquisition",
-            "title": "How Solo Entrepreneurs Acquire Customers — Free Channels and Proven Methods",
-            "excerpt": "7 channels and a complete workflow for landing your first customers from zero, without spending a dime on ads"
-        },
-        {
-            "slug": "solo-founder-product-docs",
-            "title": "How Indie Developers Write Great Product Docs — A Practical Guide for Solo-Founder SaaS Products",
-            "excerpt": "Product documentation isn't just for big companies. A well-written guide can slash support tickets, boost conversions, and build user trust"
-        },
-        {
-            "slug": "solo-income-diversification",
-            "title": "Diversified Income Model for Solo Companies",
-            "excerpt": "Monetizing through AdSense, CPS affiliates, SaaS, and more"
-        },
-        {
-            "slug": "solo-pricing-strategy",
-            "title": "How Solo Entrepreneurs Should Price — SaaS, Content, and Consulting Pricing Strategies",
-            "excerpt": "Covers pricing methods, psychology, and battle-tested templates for the 3 most common solo business models"
-        },
-        {
-            "slug": "solo-tax-guide",
-            "title": "Solo Entrepreneur Tax & Registration Guide: From Zero to Compliant",
-            "excerpt": "A complete hands-on guide to sole proprietor registration, invoicing, and tax filing for solo entrepreneurs"
-        },
-        {
-            "slug": "tech-blog-traffic-start",
-            "title": "Tech Blog Traffic from Zero: Topic Selection, SEO, and Distribution Guide",
-            "excerpt": "A complete methodology for solo tech bloggers — from picking the right topics to getting consistent search traffic"
-        },
-        {
-            "slug": "vercel-deployment-guide",
-            "title": "Vercel Free Deployment Guide: From GitHub to Custom Domain, Step by Step",
-            "excerpt": "Deploy a production website for free — no server, no DevOps, no hidden costs"
-        },
-        {
-            "slug": "what-is-solo-company",
-            "title": "What Is a Solo Company? The Best Way for Indie Developers to Build in the AI Era",
-            "excerpt": "The complete definition of a solo company, what directions work best, and how to start — everything you need to decide if this path is for you"
-        },
-        {
-            "slug": "zero-cost-roadmap",
-            "title": "Zero-Cost Solo Company Roadmap: Start Without Spending a Penny",
-            "excerpt": "A complete zero-cost path to launching a solo company — domain selection, free hosting, AI content, and SEO traffic, all without a budget"
-        },
-        {
-            "slug": "zero-cost-user-research",
-            "title": "Zero-Cost User Research for Solo Companies: 6 Proven Methods for Indie Developers",
-            "excerpt": "No budget? No problem. These 6 zero-cost user research methods help indie developers get the most valuable user insights with minimal investment"
-        },
-        {
-            "slug": "ai-agentic-affiliate-seo",
-            "title": "Agentic Affiliate Sites: How AI Agents Automate SEO, Content & Link Building for Solopreneurs",
-            "excerpt": "Autonomous AI agents automate competitor analysis, keyword discovery, content creation, and link building. Frameworks for solopreneur affiliate sites."
-        },
-        {
-            "slug": "ai-content-personalization-solopreneur",
-            "title": "AI-Driven Content Personalization for Solopreneurs: One-to-One Marketing Without a Team",
-            "excerpt": "Lightweight AI engines and RAG tools personalize content for different audience segments. Set up a pipeline using LLM APIs as a solo operator."
-        },
-        {
-            "slug": "solo-landing-page-conversion",
-            "title": "Landing Page Conversion Playbook for Solo Founders: Write Copy That Sells Without a Sales Team",
-            "excerpt": "A proven playbook for solo founders to build high-converting landing pages that sell your product without a dedicated sales team or expensive copywriters."
-        },
-        {
-            "slug": "solo-founder-productivity-system",
-            "title": "The Solo Founder's Productivity System: How to Get 8 Hours of Work Done in 4",
-            "excerpt": "A proven productivity system for solo founders that doubles output without burning out using time blocking, deep work, and automation strategies."
-        },
-        {
-            "slug": "ai-content-ab-testing-seo",
-            "title": "AI-Powered Content A/B Testing for SEO: The Solopreneur's Guide to Data-Driven Organic Growth",
-            "excerpt": "Learn how to use AI tools to run systematic content A/B tests that boost SEO performance, improve click-through rates, and drive organic traffic without a marketing team."
-        },
-        {
-            "slug": "second-brain-solo-entrepreneur",
-            "title": "Building a Second Brain for Solo Entrepreneurs: The Ultimate Knowledge Management System for Indie Hackers",
-            "excerpt": "A practical guide for solopreneurs to build a knowledge management system (Second Brain) that captures insights, connects ideas, and accelerates decision-making without the overhead of enterprise tools."
-        },
-        {
-            "slug": "solopreneur-cold-email-outreach-playbook",
-            "title": "The Solopreneur's Cold Email Outreach Playbook: Templates and Sequences That Convert",
-            "excerpt": "Master cold email outreach as a solopreneur. Templates, follow-up sequences, tools, and metrics that turn cold inboxes into warm conversations."
-        },
-        {
-            "slug": "indie-hacker-product-hunt-launch",
-            "title": "The Indie Hacker's Product Hunt Launch Guide: How to Get Your First 1,000 Users",
-            "excerpt": "A complete Product Hunt launch playbook for indie hackers. Pre-launch strategy, launch day execution, post-launch conversion — everything you need."
-        },
-        {
-            "slug": "one-person-media-company-ai",
-            "title": "How to Build a One-Person Media Company with AI Tools in 2026",
-            "excerpt": "Learn how solopreneurs are using AI writing, video generation, and automation tools to build profitable one-person media companies that rival traditional publishers."
-        },
-        {
-            "slug": "solopreneur-digital-product-creation",
-            "title": "The Solopreneur's Guide to Creating and Selling Digital Products: From Idea to Passive Income",
-            "excerpt": "A complete framework for creating, marketing, and selling digital products as a solopreneur. Covering templates, courses, SaaS micro-tools, and more."
-        },
-        {
-            "slug": "solopreneur-burnout-prevention",
-            "title": "The Solopreneur's Guide to Burnout Prevention: From Early Signs to Sustainable Systems",
-            "excerpt": "The biggest risk for a solo company isn't market competition — it's founder burnout. Identify the 7 early warning signs and build preventive work systems."
-        },
-        {
-            "slug": "micro-saas-validation-solo",
-            "title": "Micro SaaS Validation for Solo Founders: Validate Any Idea with $200 and 2 Weeks",
-            "excerpt": "Don't write a single line of code. Use $200 and 2 weeks to validate a SaaS product idea through customer interviews, landing page testing, and willingness-to-pay verification."
-        },
-        {
-            "slug": "solo-founder-decision-fatigue",
-            "title": "Overcoming Decision Fatigue as a Solo Founder: Replace Willpower with Systems",
-            "excerpt": "Solo founders make hundreds of decisions daily. Decision fatigue is the root cause of bad choices and burnout. Use decision frameworks, automation rules, and priority systems to free your brain."
-        }
-    ],
-    "mood": [
-        {
-            "slug": "ai-digital-human-realistic",
-            "title": "How to Make AI Digital Humans Look Real: 5 Techniques That Fool the Eye",
-            "excerpt": "HeyGen / D-ID / Tencent Zhiying / Alibaba Digital Human — tested 5 platforms to find the tricks that make AI avatars genuinely believable"
-        },
-        {
-            "slug": "ai-video-script-tools",
-            "title": "How to Write Emotional Short Video Scripts with AI: ChatGPT vs Claude vs DeepSeek — Hands-On Test",
-            "excerpt": "Using the same emotional story prompt, we put ChatGPT, Claude, and DeepSeek head-to-head. Plus 20 ready-to-use prompt templates."
-        },
-        {
-            "slug": "ai-voiceover-music-tools",
-            "title": "Best Voiceover and Music Tools for Emotional Short Videos: One BGM Can Double Your Views",
-            "excerpt": "Real-world testing of ElevenLabs, CapCut voiceover, Fish Audio, and Suno AI music generation — how to pick the right voice and music for maximum emotional impact."
-        },
-        {
-            "slug": "clipchamp-capcut-emotional-editing",
-            "title": "CapCut vs Clipchamp for Emotional Short Videos: Deep Comparison for Beginners",
-            "excerpt": "Tested across music sync, transitions, filters, and text effects — find out which editor is best for zero-experience creators."
-        },
-        {
-            "slug": "emotion-short-video-basics",
-            "title": "Emotional Short Video Basics: Why Some Videos Make You Cry While Others Get Swiped Away",
-            "excerpt": "Unveiling the core formula of emotional short videos — 3 seconds of immersion + 15 seconds of climax + 5 seconds of aftertaste. Make videos that move people, even with zero experience."
-        },
-        {
-            "slug": "emotional-prompt-engineering",
-            "title": "Master-Level Prompt Templates: 12 Emotional Trigger Words for ChatGPT/Claude",
-            "excerpt": "Why do your AI scripts fall flat while others make hundreds of thousands cry? The difference is in the emotional trigger words inside your prompts."
-        },
-        {
-            "slug": "emotional-video-six-emotions",
-            "title": "The 6 Emotions That Make Short-Form Videos Go Viral: A Psychological Breakdown of Hit Content",
-            "excerpt": "Joy, sadness, anger, fear, disgust, surprise — six core emotions in short videos, with real-world applications and case studies for each"
-        },
-        {
-            "slug": "mood-ai-assist-boundary",
-            "title": "Where AI Fails at Emotional Content: Hard Lessons from a Real Creator",
-            "excerpt": "Which parts of the creative process are safe to hand to AI, and which must stay human — with a full tool list and honest workflow"
-        },
-        {
-            "slug": "mood-ai-digital-human-realistic",
-            "title": "How to Make AI Digital Humans Look Real: 5 Techniques That Fool the Eye",
-            "excerpt": "HeyGen / D-ID / Tencent Zhiying / Alibaba Digital Human — tested 5 platforms to find the tricks that make AI avatars genuinely believable"
-        },
-        {
-            "slug": "mood-ai-toolchain-practical",
-            "title": "6 AI Toolchains for Emotional Short Videos: From Script to Final Cut, Tested End-to-End",
-            "excerpt": "ChatGPT for scripts → Midjourney/Kling for visuals → CapCut for editing → ElevenLabs for voiceover — 6 toolchains tested end-to-end with cost breakdown and efficiency comparison"
-        },
-        {
-            "slug": "mood-batch-production-sop",
-            "title": "SOP for One-Person Teams: Producing 5 Mood Videos a Day From Topic Selection to Publishing in Under 2 Hours",
-            "excerpt": "A complete batch production workflow for emotional short videos — from topic selection to script to AI generation to editing to publishing, one person producing 3-5 mood videos daily"
-        },
-        {
-            "slug": "mood-camera-language",
-            "title": "Cinematic Camera Language for Mood Videos: A Beginner's Guide",
-            "excerpt": "Why do some shots just look like film? 5 camera techniques you can learn from scratch, plus CapCut color grading settings that work."
-        },
-        {
-            "slug": "mood-comment-section-operations",
-            "title": "Emotional Video Comment Section Operations: 3 Sentences to Get Users Flooding Your Comments",
-            "excerpt": "Three-layered comment-scripting for emotional videos, 3 pinned-comment strategies, 5 reply techniques — turn every video's comment section into your second content stream"
-        },
-        {
-            "slug": "mood-completion-rate-tips",
-            "title": "10 Editing Tricks to Boost Video Completion Rate — Extracted from Silent Diary's Data",
-            "excerpt": "Based on Silent Diary's 28.5% completion rate breakdown — each trick adds 2-5%"
-        },
-        {
-            "slug": "mood-content-calendar-planning",
-            "title": "Full-Year Emotional Content Calendar: Spring, Summer, Fall, Winter — Just Follow Along",
-            "excerpt": "A 52-week emotional topic planning template that turns holidays, seasons, and social sentiment into your topic pipeline — never wonder what to post tomorrow again"
-        },
-        {
-            "slug": "mood-daily-publishing-strategy",
-            "title": "Daily Publishing Without Burnout: How to Keep Emotional Content Fresh for 90 Days",
-            "excerpt": "Content stocking, batch production, and asset reuse strategies — keep shipping without losing your mind"
-        },
-        {
-            "slug": "mood-mobile-filming-skills",
-            "title": "How to Shoot Cinematic Mood Videos with Just Your Phone — Zero Equipment Required",
-            "excerpt": "A complete hands-on guide to lighting, composition, and camera movement — all with just a smartphone"
-        },
-        {
-            "slug": "mood-music-beat-matching-advanced",
-            "title": "Advanced Beat Matching for Emotional Short Videos: Step-by-Step CapCut Timeline Mastery",
-            "excerpt": "From simple rhythm alignment to emotion-driven audio-visual harmony — 8 hands-on CapCut steps to make your emotional videos feel cinematic"
-        },
-        {
-            "slug": "mood-music-selection-guide",
-            "title": "The Ultimate BGM Guide for Emotional Short Videos: From Classical to Lo-fi, Every Genre Covered",
-            "excerpt": "Music selection criteria and library recommendations for every emotional tone — never pick the wrong track again"
-        },
-        {
-            "slug": "mood-persona-building-guide",
-            "title": "3 Mood Video Personas: Silent Diary / Storyteller / First-Person Monologue — Build Yours",
-            "excerpt": "Silent Diary, Storyteller, and First-Person Monologue — 3 dominant emotional video personas, with full frameworks from positioning to execution"
-        },
-        {
-            "slug": "mood-presentation-vs-tiktok",
-            "title": "Silent Diary vs TikTok Bangers: East vs West in Emotional Short Videos",
-            "excerpt": "A side-by-side comparison of audiences, algorithms, and monetization paths — find the style that fits you best"
-        },
-        {
-            "slug": "mood-short-vs-long-duration",
-            "title": "30 Seconds vs 60 Seconds: How Long Should Your Mood Video Be to Go Viral?",
-            "excerpt": "On Douyin, 30-second videos have the highest completion rates. On WeChat Video, 60-second videos convert best. Breaking down the optimal video length strategy for four major platforms and how to adjust your cuts accordingly."
-        },
-        {
-            "slug": "mood-storyboard-templates-five",
-            "title": "5 Ready-to-Use Storyboard Templates for Emotional Short Videos",
-            "excerpt": "Grief-Healing / Surprise-Gratitude / Longing-Reunion / Monologue-Connection / Contrast-Twist — 5 plug-and-play storyboard templates with full timelines and shot descriptions"
-        },
-        {
-            "slug": "mood-to-personal-ip-monetization",
-            "title": "From Emotional Videos to Real Money: A Complete Roadmap from Content to Personal Brand to Income",
-            "excerpt": "Your mood videos took off — now how do you actually make money? Ad revenue sharing, knowledge products, live selling, brand deals — 4 monetization paths with real execution guides and ROI breakdowns"
-        },
-        {
-            "slug": "mood-to-private-domain-conversion",
-            "title": "From Emotional Content to Private Domain: Monetization on Douyin vs Xiaohongshu",
-            "excerpt": "A head-to-head comparison of follower conversion logic and actual revenue models across two platforms — find the high-value path to monetization"
-        },
-        {
-            "slug": "mood-to-private-domain-traffic",
-            "title": "From Viral Views to Loyal Fans: The Complete Playbook for Moving Emotional Traffic into Your Private Channel",
-            "excerpt": "Your mood video blew up — but did you capture those viewers? A 3-step funnel: comment section hooks → profile optimization → DM scripts. The full conversion pipeline, tested and broken down."
-        },
-        {
-            "slug": "mood-xiaohongshu-comment-strategy",
-            "title": "Xiaohongshu Comment Strategy for Mood Videos: 3 Steps to Get Users Saving Your Posts",
-            "excerpt": "Data-backed comment strategies and engagement scripts that boost save rates by 50%"
-        },
-        {
-            "slug": "silent-diary-cold-start",
-            "title": "Silent Diary Cold Start Playbook: From Zero Followers to Your First Viral Hit",
-            "excerpt": "The complete roadmap for launching a Silent Diary-style channel from scratch, including strategy for the first 10 videos and key metrics"
-        },
-        {
-            "slug": "silent-diary-intro",
-            "title": "What Is Silent Diary? Why Does Every Video Make You Cry?",
-            "excerpt": "A video with no dialogue and no plot, getting tens of millions of views — how? Deconstructing Silent Diary's emotional code."
-        },
-        {
-            "slug": "silent-diary-narrative",
-            "title": "Silent Diary's 3 Classic Narrative Structures, Deconstructed",
-            "excerpt": "Every Silent Diary video follows a fixed narrative skeleton. Here are their 3 core structures with templates you can use today."
-        },
-        {
-            "slug": "viral-duan-emotional-video-case",
-            "title": "Viral Emotional Short Video Case Studies: Dissecting 10 Million-View Videos From Script to Music to Pacing",
-            "excerpt": "Breaking down 10 viral emotional videos with millions of views — analyzing their hooks, narrative structure, BGM choices, and editing rhythm so you can learn from the best."
-        },
-        {
-            "slug": "mood-loopable-micro-story",
-            "title": "The Loopable Micro-Story: Designing Emotional Videos That Beg to Be Watched Again",
-            "excerpt": "Structural psychology of short videos that seamlessly loop. Craft emotional narratives that reward repeat viewing with storyboard patterns."
-        },
-        {
-            "slug": "youtube-shorts-vs-tiktok-vs-reels-emotional",
-            "title": "YouTube Shorts vs TikTok vs Instagram Reels for Emotional Content: Where Your Mood Videos Will Thrive in 2026",
-            "excerpt": "Compare YouTube Shorts, TikTok, and Instagram Reels for emotional and mood-based content in 2026 — discover where your videos will resonate most and grow fastest."
-        },
-        {
-            "slug": "ai-generated-emotional-short-films",
-            "title": "AI-Generated Emotional Short Films: Using Text-to-Video (Sora, Kling, Runway) for Mood Content",
-            "excerpt": "Text-to-video AI has crossed the uncanny valley. Learn how creators are using Sora, Kling, and Runway Gen-3 to produce emotionally resonant short films — no cameras, no actors, no crew required."
-        },
-        {
-            "slug": "mood-video-hook-techniques",
-            "title": "7-Second Hook Techniques for Mood Videos: Why Your First Frame Decides Everything",
-            "excerpt": "Master the art of the 7-second hook for emotional short videos. Attention residue, emotional anchoring, and 7 proven hook types backed by viewer psychology."
-        },
-        {
-            "slug": "color-psychology-emotional-video",
-            "title": "The Psychology of Color in Emotional Short Videos: How to Use Color Grading to Trigger Specific Feelings",
-            "excerpt": "Master color grading for emotional short videos. Learn which color palettes trigger nostalgia, excitement, sadness, or calm — and how to apply them for maximum emotional impact."
-        },
-        {
-            "slug": "iphone-street-photography-tips",
-            "title": "iPhone Street Photography Guide: 10 Tips for Cinematic Mobile Photos",
-            "excerpt": "You don't need a professional camera — your iPhone is the best street photography tool. From composition and lighting to color grading, learn to capture stunning street images with your phone."
-        },
-        {
-            "slug": "mood-board-creation-tools",
-            "title": "Mood Board Creation Guide: Best Digital Tools and Workflows",
-            "excerpt": "Mood boards are the foundation of creative work. From Pinterest and Milanote to PureRef, compare the best digital mood board tools and efficient creation methods to build your visual inspiration system."
-        }
-    ]
+  "tool": [
+    {
+      "slug": "10-free-ecommerce-tools",
+      "title": "10 Free Ecommerce Tools in 2026: The Zero-Cost Stack That Built 6-Figure Stores",
+      "excerpt": "From Feishu to Canva to ChatGPT — a complete free tool stack for product management, design, video, analytics, and customer service. Perfect for solopreneurs and cross-border sellers."
+    },
+    {
+      "slug": "ai-ab-testing-product-images",
+      "title": "AI Product Image A/B Testing: The Complete Playbook from Batch Generation to Data-Driven Decisions",
+      "excerpt": "A complete closed-loop workflow — use AI to generate dozens of image variants, run free A/B tests with Google Optimize, and analyze conversion funnel data in GA4. Each test cycle costs under $30."
+    },
+    {
+      "slug": "ai-ad-optimization-guide",
+      "title": "AI Ad Optimization Playbook: How to Triple ROI with Automated Algorithms",
+      "excerpt": "A cross-platform AI advertising guide covering Facebook, Google, TikTok, and Amazon. Hands-on review of Madgicx, Optmyzr, and Pacvue — build your automated ad optimization system from scratch."
+    },
+    {
+      "slug": "ai-auto-price-monitoring",
+      "title": "AI Auto Price Monitoring & Dynamic Pricing: The Complete Guide from Rule Engines to AI Algorithms",
+      "excerpt": "A full-stack auto pricing guide covering Taobao, Pinduoduo, and 1688. Three approaches — official tools, DIY Python systems, and Coze/AI workflows — for sellers of all technical skill levels."
+    },
+    {
+      "slug": "ai-auto-reply-messages",
+      "title": "Best AI Auto-Reply for Buyer Messages: Feishu + DeepSeek + Qianniu Full-Chain Automation",
+      "excerpt": "Build a completely free AI auto-reply system from scratch — handle buyer inquiries 24/7 and reduce human escalation by 60%"
+    },
+    {
+      "slug": "ai-auto-subtitle-translate",
+      "title": "AI-Powered Auto Subtitles and Translation: A Complete Guide for Cross-Border E-Commerce Sellers",
+      "excerpt": "An end-to-end AI workflow from speech recognition to subtitle generation to multi-language translation — testing Whisper, CapCut, Jianying, HeyGen and more for cross-border e-commerce video production"
+    },
+    {
+      "slug": "ai-banner-generator",
+      "title": "AI Batch Banner Generation for E-Commerce: Canva, Gaoding, Alimama — The Complete Guide",
+      "excerpt": "Testing Canva Magic Design, Gaoding AI, and Alimama Creative Center — learn to mass-produce e-commerce ad creatives at scale"
+    },
+    {
+      "slug": "ai-batch-video-ecommerce",
+      "title": "AI Batch Product Video Tutorial: Make Your Products Come Alive and Double Conversions",
+      "excerpt": "From editing newbie to batch-producing product showcase videos — a full AI video tool workflow breakdown"
+    },
+    {
+      "slug": "ai-chatbot-setup-guide",
+      "title": "AI Chatbot Setup Guide: Complete Hands-On Flow from Zero to Launch",
+      "excerpt": "Build an AI customer service bot from scratch — covering model selection, knowledge base setup, conversation training, multi-channel integration, and launch monitoring"
+    },
+    {
+      "slug": "ai-competitor-analysis",
+      "title": "AI-Powered Competitor Analysis Guide: From Data Collection to Strategy Output",
+      "excerpt": "Using Oulu + DataHawk + AI models for a complete workflow — dissecting competitor strategies and turning their data into your decisions"
+    },
+    {
+      "slug": "ai-cross-border-product-research",
+      "title": "AI Cross-Border Product Research Guide: Finding Winning Products from Massive Data",
+      "excerpt": "Use AI product research to uncover the next bestseller from massive data — no more gut-feel decisions, turning product selection from guesswork into science"
+    },
+    {
+      "slug": "ai-customer-service-automation-2026",
+      "title": "AI Customer Service Automation 2026: Tidio vs Gorgias vs Zendesk vs DIY",
+      "excerpt": "Tidio, Gorgias, Zendesk, and ChatGPT-based solutions — which one is the ecommerce customer service king? Boosting response efficiency across Shopify, Amazon, and beyond"
+    },
+    {
+      "slug": "ai-customer-service-automation",
+      "title": "AI Customer Service Automation: Build a 24/7 Smart Reply System with ChatGPT + Feishu",
+      "excerpt": "Cover 80% of common questions, keep transfer rate under 20%, at a fraction of human cost"
+    },
+    {
+      "slug": "ai-ecommerce-data-analysis",
+      "title": "Analyzing Business Advisor Data with AI: From Export to Execution — Complete Hands-On Workflow",
+      "excerpt": "Stop glancing at data and closing it. Use this method—AI automatically diagnoses problems and gives actionable optimization plans"
+    },
+    {
+      "slug": "ai-free-video-editing-ecommerce",
+      "title": "Complete Guide to Making E-Commerce Short Videos with Free AI Tools",
+      "excerpt": "In 2026, Taobao short video weight rose to over 30%. Zero experience, one person can produce 10-15 finished videos daily"
+    },
+    {
+      "slug": "ai-image-ecommerce-tools",
+      "title": "AI Image Tools for E-Commerce: Hands-On Comparison of ZMO.ai, Canva, Midjourney and More",
+      "excerpt": "Covering background removal, scene generation, AI models, batch processing—with a starter roadmap for new sellers"
+    },
+    {
+      "slug": "ai-product-description-writer",
+      "title": "AI Product Description Writer Deep Dive: 7 Tools That Can Double Your Conversion Rate",
+      "excerpt": "Which AI writes the best product descriptions? Real-world testing of 7 tools on conversion rate, SEO friendliness, and batch efficiency"
+    },
+    {
+      "slug": "ai-remove-background-comparison",
+      "title": "AI Background Removal Tools Compared: 5 Free Tools Tested for Speed and Cleanliness",
+      "excerpt": "Comprehensive testing across 5 product categories — clothing, plush, transparent materials — to find out which tool removes backgrounds the fastest and cleanest"
+    },
+    {
+      "slug": "ai-seo-content-generators",
+      "title": "AI SEO Content Generator Showdown: Jasper vs Writesonic vs Anyword vs Berry — Real Testing & Scores",
+      "excerpt": "Testing four major AI writing tools with the same keyword — comparing content quality, SEO optimization, cost, and batch efficiency to find your best fit"
+    },
+    {
+      "slug": "ai-seo-tools-comparison-2026",
+      "title": "AI SEO Tools Comparison 2026: Full-Stack Automation from Keyword Research to Content Ranking",
+      "excerpt": "Deep dive comparison of Ahrefs, Semrush, Surfer SEO, Frase, and ContentShake — find the perfect AI SEO tool stack for your business"
+    },
+    {
+      "slug": "ai-tools-2026-comparison",
+      "title": "2026 AI E-Commerce Tools Mega Roundup",
+      "excerpt": "Complete coverage of images, copywriting, video, and customer service"
+    },
+    {
+      "slug": "ai-video-generator-review",
+      "title": "AI Video Generator Showdown: Runway vs Pika vs Kling vs Kling for E-Commerce",
+      "excerpt": "Put four major AI video tools to the test with the same product footage — scored on quality, control, and cost"
+    },
+    {
+      "slug": "ai-voice-clone-livestream",
+      "title": "AI Voice Clone Tools for Livestream Selling: From ElevenLabs to Fish Audio — A Complete Tutorial",
+      "excerpt": "Clone your host's voice for 24/7 unmanned livestreams — testing 4 voice cloning tools on Douyin and Taobao live scenarios"
+    },
+    {
+      "slug": "ai-xiaohongshu-copywriting",
+      "title": "Writing Xiaohongshu Viral Posts with AI: Prompt Templates and Real-World Case Studies",
+      "excerpt": "12 battle-tested prompt templates covering beauty, food, home, tech, and fashion — from note structure to viral formulas to data review"
+    },
+    {
+      "slug": "aliexpress-ai-translation-tools",
+      "title": "Best AI Translation Tools for AliExpress Sellers",
+      "excerpt": "Covering English, Spanish, French and other major markets"
+    },
+    {
+      "slug": "chatgpt-cross-border-listing",
+      "title": "ChatGPT for Cross-Border E-Commerce Listing Optimization: 15 Practical Prompt Templates Tested",
+      "excerpt": "From titles to five bullet points to A+ content — testing ChatGPT, Claude, and Gemini on real Amazon listing performance"
+    },
+    {
+      "slug": "chatgpt-taobao-title-prompts",
+      "title": "ChatGPT Taobao Title Prompts: From Keyword Research to Writing",
+      "excerpt": "From keyword research to title writing to A/B testing, AI-powered search traffic growth"
+    },
+    {
+      "slug": "cross-border-ecommerce-ai-tools",
+      "title": "AI Tools for Cross-Border E-Commerce: Product Research to Customer Service",
+      "excerpt": "Curated list of AI tools covering product research, listings, images, advertising and customer service"
+    },
+    {
+      "slug": "ecommerce-funnel-optimization",
+      "title": "E-Commerce Conversion Funnel Optimization Guide",
+      "excerpt": "Break down each stage to improve ROI"
+    },
+    {
+      "slug": "free-ai-product-image-tools",
+      "title": "Free AI Product Image Generation Tools — Recommendations & Tutorials",
+      "excerpt": "5 free AI product image tools compared and reviewed"
+    },
+    {
+      "slug": "pinduoduo-zero-cost-traffic",
+      "title": "5 Zero-Cost Organic Traffic Strategies for Pinduoduo",
+      "excerpt": "Get search traffic without spending on ads"
+    },
+    {
+      "slug": "shein-temu-ai-tools",
+      "title": "AI Product Selection Tools for SHEIN and TEMU Sellers",
+      "excerpt": "Analyze trending categories and find high-potential products"
+    },
+    {
+      "slug": "shopify-free-apps-2026",
+      "title": "15 Essential Free Shopify Apps for Independent Stores (2026)",
+      "excerpt": "Get your store running without spending a cent"
+    },
+    {
+      "slug": "taobao-keyword-tool-free",
+      "title": "3 Free Taobao Keyword Research Tools",
+      "excerpt": "Find hidden high-conversion keywords at zero cost"
+    },
+    {
+      "slug": "taobao-live-ai-digital-human",
+      "title": "Complete Beginner's Guide to AI Digital Human Livestreaming",
+      "excerpt": "From tools to setup — everything covered in one article"
+    },
+    {
+      "slug": "taobao-seo-guide-2026",
+      "title": "Complete Taobao SEO Guide 2026 — Latest Edition",
+      "excerpt": "3 major search algorithm changes and 15 optimization dimensions"
+    },
+    {
+      "slug": "wechat-xiaohongshu-ecommerce-traffic",
+      "title": "How to Drive Traffic from WeChat and Xiaohongshu to Taobao – Complete Tutorial",
+      "excerpt": "Turning social traffic into low-cost conversions"
+    },
+    {
+      "slug": "ai-predictive-inventory-management",
+      "title": "AI Predictive Inventory Management for Dropshippers: Never Run Out of Stock Again",
+      "excerpt": "ML models forecast demand spikes and automate reorder timing for dropshippers. Covers API-first tools integrating with AliExpress and 1688 suppliers."
+    },
+    {
+      "slug": "ai-cross-border-customs-automation",
+      "title": "AI Cross-Border Customs Automation: HS Code Classification & Duty Calculation for 2026",
+      "excerpt": "LLMs plus image recognition auto-classify HS codes and calculate duties in real time. Generate compliant invoices for cross-border sellers in 2026."
+    },
+    {
+      "slug": "ai-virtual-try-on-fashion",
+      "title": "AI Virtual Try-On & Size Recommendation: How Fashion E-Commerce Cut Returns by 40%",
+      "excerpt": "Generative AI virtual try-on lets customers test clothes via upload or live camera. How leading fashion brands dramatically cut return rates."
+    },
+    {
+      "slug": "ai-dynamic-bundling-upsell",
+      "title": "AI Dynamic Product Bundling & Upsell Engines: Boost AOV by 30% Automatically",
+      "excerpt": "Real-time AI bundles based on customer behavior and cart contents. Use reinforcement learning to boost average order value by 15-30%."
+    },
+    {
+      "slug": "ai-fraud-detection-cross-border",
+      "title": "AI Fraud Detection & Chargeback Prevention for Cross-Border E-Commerce",
+      "excerpt": "Anomaly detection, device fingerprinting, and behavioral analysis block fraud for cross-border e-commerce. Tailored for high-risk regions."
+    },
+    {
+      "slug": "ai-logistics-orchestrator",
+      "title": "AI-Powered Cross-Border Logistics Orchestrator: Real-Time Tariffs, Routes & Customs Automation",
+      "excerpt": "Discover how AI logistics orchestrators automate cross-border shipping with real-time tariffs, dynamic routing, and customs clearance for e-commerce sellers."
+    },
+    {
+      "slug": "ai-multilingual-listing-optimizer",
+      "title": "Hyper-Localized Multilingual Listings: How AI Adapts Product Pages for Global Markets",
+      "excerpt": "Learn how AI-powered multilingual listing optimizers adapt product pages for global markets with cultural nuance, local SEO, and conversion-optimized copy."
+    },
+    {
+      "slug": "ai-dynamic-pricing-engine",
+      "title": "Dynamic Global Pricing Engine: AI-Driven Real-Time Price Optimization for Cross-Border Sellers",
+      "excerpt": "Master AI-driven dynamic pricing for cross-border e-commerce with real-time competitor monitoring, currency adjustments, and market-specific strategies."
+    },
+    {
+      "slug": "ai-cross-border-fraud-compliance",
+      "title": "Cross-Border Fraud & Compliance Shield: AI Tools to Protect Your International E-Commerce Business",
+      "excerpt": "Protect your international e-commerce business with AI-powered fraud detection, AML compliance, and regulatory monitoring across 180+ countries."
+    },
+    {
+      "slug": "ai-visual-localization-ecommerce",
+      "title": "Visual AI for International E-Commerce: Culturally Adapted Product Images That Convert Worldwide",
+      "excerpt": "Learn how AI visual localization adapts product images for global markets — culturally relevant backgrounds, models, colors, and text that boost conversion."
+    },
+    {
+      "slug": "ai-workflow-orchestrators-ecommerce",
+      "title": "AI Workflow Orchestrators for E-commerce: Automate Your Entire Business with n8n, Make, and Zapier",
+      "excerpt": "Learn how AI-powered workflow orchestrators like n8n, Make, and Zapier can automate your e-commerce operations end-to-end, from inventory syncing to customer follow-ups."
+    },
+    {
+      "slug": "ai-review-management-reputation",
+      "title": "AI Review Management & Reputation Automation: Turn Customer Feedback Into Sales",
+      "excerpt": "Master AI-driven review management for e-commerce — automate responses, analyze sentiment, detect fake reviews, and boost your rating with smart reputation tools."
+    },
+    {
+      "slug": "ai-voice-agents-ecommerce",
+      "title": "AI Voice Agents for E-commerce: Automate Customer Phone Support with Conversational AI",
+      "excerpt": "Discover how AI voice agents are transforming e-commerce phone support — from answering order status questions to handling returns, all with natural-sounding conversations."
+    },
+    {
+      "slug": "ai-product-video-script-tools",
+      "title": "AI Product Video Script Tools: Generate Compelling Sales Scripts in Minutes",
+      "excerpt": "Stop staring at a blank page. Discover the best AI tools for writing product video scripts that convert — from short-form TikTok hooks to in-depth demo narrations."
+    },
+    {
+      "slug": "ai-analytics-dashboard-ecommerce",
+      "title": "AI Analytics Dashboards for E-commerce: Track KPIs That Actually Drive Growth",
+      "excerpt": "Go beyond basic Google Analytics. Learn how AI-powered e-commerce dashboards surface actionable insights, predict trends, and tell you exactly what to optimize next."
+    },
+    {
+      "slug": "ai-product-video-generator-tools",
+      "title": "AI Product Video Generator Tools: Turn Product Photos Into Sales Videos in Minutes",
+      "excerpt": "Turn static product photos into high-converting sales videos with AI-powered video generators. Compare the best tools for e-commerce sellers in 2026."
+    },
+    {
+      "slug": "ai-social-media-scheduler-ecommerce",
+      "title": "Best AI Social Media Schedulers for E-Commerce: Automate Your Content Calendar in 2026",
+      "excerpt": "Stop posting manually. Compare the top AI social media schedulers for e-commerce brands and learn how to automate your entire content calendar across platforms."
+    },
+    {
+      "slug": "ai-market-research-tools-cross-border",
+      "title": "AI Market Research Tools for Cross-Border Sellers: Spot Trends Before They Go Mainstream",
+      "excerpt": "Discover the best AI market research tools that help cross-border sellers identify trending products before the competition catches on."
+    },
+    {
+      "slug": "ai-email-marketing-automation-ecommerce",
+      "title": "AI Email Marketing Automation for E-Commerce: Recover Abandoned Carts and Boost LTV",
+      "excerpt": "Turn one-time buyers into repeat customers with AI email automation. Compare Klaviyo, Omnisend, Mailchimp, and ActiveCampaign for e-commerce."
+    },
+    {
+      "slug": "ai-listing-optimizer-amazon-shopify",
+      "title": "AI Listing Optimization Tools: Amazon vs Shopify — Which Platform Has Better AI Tools?",
+      "excerpt": "Compare the best AI listing optimization tools for Amazon and Shopify sellers, from keyword research to image optimization to conversion rate analysis."
+    },
+    {
+      "slug": "ai-chatgpt-customer-persona-builder",
+      "title": "How to Build E-Commerce Customer Personas with ChatGPT: From Demographics to Psychographics",
+      "excerpt": "Learn how to use ChatGPT to create detailed e-commerce customer personas that go beyond demographics into psychographics, buying triggers, and pain points — making your marketing 10x more effective."
+    },
+    {
+      "slug": "ai-landing-page-builders-ecommerce",
+      "title": "Best AI Landing Page Builders for E-Commerce: Convert More Visitors in 2026",
+      "excerpt": "Compare the top AI-powered landing page builders for e-commerce stores. From Unbounce to Instapage to Carrd, discover which tool converts best for product launches, sales funnels, and seasonal campaigns."
+    },
+    {
+      "slug": "ai-amazon-competitor-price-monitoring",
+      "title": "AI-Powered Amazon Competitor Price Monitoring: Tools, Strategies, and Automation",
+      "excerpt": "Dominate the Buy Box with AI-driven competitor price monitoring. Compare the best tools — Keepa, Jungle Scout, Helium 10, Sellery, and Prisync — and learn how to automate repricing without racing to the bottom."
+    },
+    {
+      "slug": "ai-writing-assistants-listing-optimization-2026",
+      "title": "Best AI Writing Assistants for Product Listing Optimization: 2026 Deep Dive",
+      "excerpt": "We tested ChatGPT, Claude, Jasper, Writesonic, and Copy.ai on real product listings. See which AI writing assistant produces the highest-converting Amazon, Shopify, and Etsy product descriptions in 2026."
+    },
+    {
+      "slug": "ai-influencer-marketing-ecommerce",
+      "title": "AI Tools for Influencer Marketing in E-Commerce: Find, Vet, and Track ROI",
+      "excerpt": "Discover how AI is revolutionizing influencer marketing for e-commerce brands. Compare tools like Upfluence, Grin, Modash, and HypeAuditor — and learn how to find the right influencers, detect fake followers, and measure real ROI."
+    },
+    {
+      "slug": "ai-content-repurposing-tools",
+      "title": "AI Content Repurposing Tools: The Complete Guide to Turning One Video into 30 Pieces of Content",
+      "excerpt": "From TikTok clips to blog posts, email newsletters, and social media graphics — build an AI-powered workflow that multiplies every piece of content 30x across platforms."
+    },
+    {
+      "slug": "ai-inventory-forecasting-tools",
+      "title": "AI Inventory Forecasting Tools: A Practical Guide from Excel to Machine Learning to Eliminate Stockouts and Overstock",
+      "excerpt": "How cross-border e-commerce solo operators can use AI for inventory forecasting — comparing Inventory Planner, Prediko, Cogsy, and building a complete system."
+    },
+    {
+      "slug": "cross-border-payment-automation",
+      "title": "Cross-Border Payment Automation: The Complete Stripe/Wise/Payoneer Guide",
+      "excerpt": "A complete cross-border payment solution for solo operators — multi-currency collection, automated withdrawals, and financial reconciliation."
+    },
+    {
+      "slug": "ai-realtime-conversational-commerce",
+      "title": "AI Real-Time Conversational Commerce: How Live Chat Bots Are Closing Sales 24/7",
+      "excerpt": "Real-time AI chat isn't just customer service anymore — it's your highest-converting sales channel. Compare the best conversational commerce tools and learn how to build an AI sales agent that closes deals while you sleep."
+    },
+    {
+      "slug": "ai-visual-search-shoppable-images",
+      "title": "AI Visual Search & Shoppable Images: The Next Frontier in E-Commerce Discovery",
+      "excerpt": "Snap a photo, find the product. AI visual search is transforming how customers discover and buy. Here's how to make every image in your store shoppable."
+    },
+    {
+      "slug": "ai-supplier-communication-automation",
+      "title": "AI Supplier Communication Tools: Automating Cross-Border Sourcing Conversations",
+      "excerpt": "AI-powered communication tools now handle multilingual negotiations, quality checks, and order tracking — cutting sourcing time by 70%."
+    },
+    {
+      "slug": "ai-ugc-video-creation-ecommerce",
+      "title": "AI UGC-Style Video Creation: How E-Commerce Brands Are Scaling Authentic Product Reviews",
+      "excerpt": "AI now generates synthetic UGC-style videos that look and feel authentic, complete with 'real person' testimonials, unboxing reactions, and lifestyle demos."
+    },
+    {
+      "slug": "ai-customer-lifetime-value-prediction",
+      "title": "AI Customer Lifetime Value Prediction: Tools That Tell You Who to Keep and Who to Let Go",
+      "excerpt": "AI-powered CLV prediction tools analyze purchase patterns and engagement signals to calculate exactly how much each customer is worth."
+    }
+  ],
+  "wear": [
+    {
+      "slug": "big-body-suit-guide",
+      "title": "Big Body Suit Guide – How to Choose a Flattering Suit for Larger Builds",
+      "excerpt": "The right fit and fabric choices make the suit your best styling tool"
+    },
+    {
+      "slug": "business-perfume-guide",
+      "title": "Business Perfume Guide – How to Choose the Right Scent for Every Season and Occasion",
+      "excerpt": "From spring freshness to winter warmth, from meetings to dinners — pick your perfect workplace scent"
+    },
+    {
+      "slug": "business-travel-pack-suit",
+      "title": "How to Pack a Suit for Business Travel – Wrinkle-Free Method + 3-Day Plan",
+      "excerpt": "A 5-step folding method keeps your suit crisp on arrival, plus a complete 3-day packing strategy"
+    },
+    {
+      "slug": "business-wear-101",
+      "title": "Business Wear 101 – From Office Newcomer to Polished Gentleman",
+      "excerpt": "A complete roadmap from your first suit to wearing it with confidence"
+    },
+    {
+      "slug": "custom-vs-rtw-suit",
+      "title": "Custom Suit vs Ready-to-Wear: Which Should You Choose and When",
+      "excerpt": "A deep comparison across price, craftsmanship, and occasion — helping you make the smartest decision"
+    },
+    {
+      "slug": "dating-outfit-guide",
+      "title": "Men's Dating Outfit Guide — Complete Looks from Coffee to Dinner to Formal Events",
+      "excerpt": "Full outfit plans for 3 dating scenarios — let your clothes communicate respect and taste"
+    },
+    {
+      "slug": "first-suit-guide",
+      "title": "First Suit Buying Guide: How to Choose Your First Suit Without Making Mistakes",
+      "excerpt": "First suit buying guide covering budget, occasion, fit, fabric, and styling tips for beginners"
+    },
+    {
+      "slug": "interview-suit-guide",
+      "title": "What to Wear to a Job Interview — Industry-Specific Suit Guide That Gets You Hired",
+      "excerpt": "Complete interview outfit playbooks for finance, tech, sales, and government — one formula per industry"
+    },
+    {
+      "slug": "short-men-suit-tips",
+      "title": "The Complete Guide to Suits for Short Men — Look Taller, Sharper, and More Confident",
+      "excerpt": "Height is just a number. Master the art of proportion with the right fit, color strategy, and styling details that make any man look his best in a suit."
+    },
+    {
+      "slug": "smart-casual-suit-guide",
+      "title": "The Ultimate Smart Casual Suit Guide — One Jacket for the Office, Dates, and Weekends",
+      "excerpt": "Master the art of smart casual dressing with a blazer or sport coat that transitions effortlessly from work to weekend."
+    },
+    {
+      "slug": "sports-suit-vs-suit",
+      "title": "Sports Suit vs Traditional Suit — Fabric, Fit, and Use Cases Compared",
+      "excerpt": "Can't decide between a stretchy sports suit and a classic wool suit? Here's everything you need to know about their differences in fabric, construction, pricing, and when to wear each."
+    },
+    {
+      "slug": "sports-vs-business-vs-casual-suit",
+      "title": "Sports Jacket vs Business Suit vs Blazer — The Complete Guide to Knowing the Difference",
+      "excerpt": "They may look similar, but these three categories of tailored jackets have completely different origins, fabrics, and styling rules. Here's everything you need to know."
+    },
+    {
+      "slug": "suit-accessories-guide",
+      "title": "Suit Accessories Guide — Pocket Squares, Lapel Pins, and Cufflinks to Elevate Your Look",
+      "excerpt": "From pocket square folds to cufflink etiquette, master suit accessories and take your style up a notch."
+    },
+    {
+      "slug": "suit-bag-guide",
+      "title": "Bag Pairing Guide for Suits — Briefcases, Totes, and Backpacks That Work",
+      "excerpt": "Which bag goes with which suit style — a complete guide from corporate executive to business traveler"
+    },
+    {
+      "slug": "suit-belt-guide",
+      "title": "How to Choose a Belt for Your Suit — Complete Rules on Color, Width, and Material",
+      "excerpt": "The color, width, and material of your belt determines whether your outfit looks refined or cheap"
+    },
+    {
+      "slug": "suit-body-type-guide",
+      "title": "How to Choose a Suit for Your Body Type — Complete Guide for Slim, Heavy, Short, and Tall Men",
+      "excerpt": "Core suit selection tips for 4 body types, from cut to fabric to details fully explained"
+    },
+    {
+      "slug": "suit-budget-guide",
+      "title": "Suit Buying Guide at $150 / $400 / $700 — Best Brands and Styles at Every Price Point",
+      "excerpt": "Three budget tiers fully broken down — fabric, fit, and brand recommendations so you buy smart"
+    },
+    {
+      "slug": "suit-care-guide",
+      "title": "Suit Care Guide — Make One Suit Last 3 Years, No Pilling No Deformation",
+      "excerpt": "Complete care routine from daily wear to storage, cleaning, and ironing"
+    },
+    {
+      "slug": "suit-color-guide",
+      "title": "How to Choose Suit Colors — From Black, Gray, and Navy to Earth Tones",
+      "excerpt": "What to wear for every occasion — start with navy"
+    },
+    {
+      "slug": "suit-fabric-guide",
+      "title": "The Complete Guide to Suit Fabrics — Read the Label, Pick the Right Suit",
+      "excerpt": "From pure wool to blends to synthetics to linen — know what works for you"
+    },
+    {
+      "slug": "suit-ironing-guide",
+      "title": "How to Iron a Suit at Home: Complete Guide to Crisp Results",
+      "excerpt": "Steam vs flat iron, temperature control, and emergency wrinkle fixes"
+    },
+    {
+      "slug": "suit-materials-tech",
+      "title": "Sports Suit Fabric Technology: Polyester, Spandex, and Coatings Explained",
+      "excerpt": "Fabric composition, stretch technology, and functional coatings — what to look for"
+    },
+    {
+      "slug": "suit-measure-guide",
+      "title": "DIY Suit Measurement Guide: Get Tailor-Quality Results at Home",
+      "excerpt": "7-step measuring routine with size chart — never guess your suit size again"
+    },
+    {
+      "slug": "suit-mistakes-beginners",
+      "title": "10 Most Common Beginner Suit Mistakes — and How to Fix Every One",
+      "excerpt": "Sleeve length, button rules, tie length, socks — the full checklist"
+    },
+    {
+      "slug": "suit-occasion-guide",
+      "title": "The Complete Suit Guide for Every Occasion — Interviews, Meetings, Weddings, Office & Dinners",
+      "excerpt": "From interview to wedding to dinner party, here's how to dress your suit right for any scenario"
+    },
+    {
+      "slug": "suit-online-shopping-tips",
+      "title": "Buying Suits Online? 5 Must-Check Points + 3 Advanced Tips to Avoid Regret",
+      "excerpt": "From sizing to fabric to return policies, five things to confirm before you click \"buy\""
+    },
+    {
+      "slug": "suit-pocket-guide",
+      "title": "The Complete Guide to Suit Pockets — From Pocket Square Folds to Practical Storage",
+      "excerpt": "7 classic pocket square folds plus the right way to use every suit and trouser pocket. Stop bulging your pockets."
+    },
+    {
+      "slug": "suit-seasonal-guide",
+      "title": "What Suit to Wear in Spring, Summer, Fall & Winter — A Complete Seasonal Guide",
+      "excerpt": "From linen to heavy wool, from light to dark — the full logic of seasonal suit choices explained"
+    },
+    {
+      "slug": "suit-shoes-guide",
+      "title": "What Shoes to Wear with a Suit — Complete Dress Shoe Buying Guide",
+      "excerpt": "Oxford, Derby, or Loafer? The definitive guide to picking the right dress shoes for any suit and any occasion"
+    },
+    {
+      "slug": "suit-size-guide",
+      "title": "Suit Size Chart — Never Buy the Wrong Size Online Again",
+      "excerpt": "From height and weight to chest and shoulders, master every sizing system and find your perfect fit every time"
+    },
+    {
+      "slug": "suit-styling-rules",
+      "title": "5 Golden Rules of Suit Styling — Get It Right 90% of the Time",
+      "excerpt": "Three-color principle, the one-centimeter rule, button etiquette — five rules that cover almost every scenario"
+    },
+    {
+      "slug": "suit-tailoring-process",
+      "title": "The Complete Suit Tailoring Process — From Measurements to Pickup, Explained Step by Step",
+      "excerpt": "First time getting a custom suit? Here's everything you need to know — measuring, fabrics, fittings, and more"
+    },
+    {
+      "slug": "suit-trends-2026",
+      "title": "Men's Suit Trends 2026 — What to Wear to Stay Ahead of the Curve",
+      "excerpt": "From silhouette to colors to styling, 5 major trends to help you pick your next suit"
+    },
+    {
+      "slug": "suit-underwear-guide",
+      "title": "What to Wear Under a Suit — Complete Undergarment Guide",
+      "excerpt": "6 steps to master your full suit under-layer and avoid embarrassing peek-a-boo collars and short socks"
+    },
+    {
+      "slug": "tie-knot-guide",
+      "title": "The Complete Guide to Tying a Tie — Master 8 Knots from Beginner to Pro",
+      "excerpt": "Ever bought a great tie but can't tie it right? 8 knots from easy to advanced, with scenario recommendations and troubleshooting"
+    },
+    {
+      "slug": "wedding-suit-guide",
+      "title": "What to Wear to a Wedding — The Complete Guide for Grooms and Guests",
+      "excerpt": "7 steps to nail your wedding outfit, whether you're the groom or a guest"
+    },
+    {
+      "slug": "tech-casual-suit-guide",
+      "title": "The Rise of the Tech-Casual Suit: Blending Performance Fabrics with Tailored Style",
+      "excerpt": "Performance fabric suits with moisture-wicking, stretch, and wrinkle resistance. Brands leading the trend and how to style them for hybrid work."
+    },
+    {
+      "slug": "mix-match-suiting-guide",
+      "title": "Mix-and-Match Suiting 2026: The Complete Guide to Pattern Breaking and Intentional Mismatching",
+      "excerpt": "Move beyond matched sets. Combine patterns, textures, and colors using color theory and pattern scaling for business and formal settings."
+    },
+    {
+      "slug": "summer-suit-fabrics-guide",
+      "title": "Summer Suit Fabrics Guide: Stay Cool in Linen, Seersucker, and Lightweight Wool",
+      "excerpt": "The complete guide to summer suit fabrics — linen, seersucker, lightweight wool, and cotton — with tips on breathability, wrinkle resistance, and styling."
+    },
+    {
+      "slug": "suit-lapel-styles-guide",
+      "title": "Suit Lapel Styles Explained: Notch, Peak, Shawl — How to Choose the Right One",
+      "excerpt": "Everything you need to know about suit lapel styles — notch, peak, and shawl — and how to choose the right one for your face shape, occasion, and style."
+    },
+    {
+      "slug": "sustainable-eco-friendly-suits",
+      "title": "Sustainable & Eco-Friendly Suiting Materials: The Complete Guide to Green Tailoring",
+      "excerpt": "From organic wool and Tencel to recycled synthetics and Piñatex, discover the sustainable suiting materials reshaping men's fashion — and how to build an eco-conscious wardrobe without compromising on style."
+    },
+    {
+      "slug": "double-breasted-suit-guide",
+      "title": "The Double-Breasted Suit Revival: How to Wear It, Style It, and Master It in 2026",
+      "excerpt": "Once considered a relic of 1980s power dressing, the double-breasted suit is back. Learn how to choose, fit, and style a DB suit for modern proportions — from lapels to button stance."
+    },
+    {
+      "slug": "suit-dry-cleaning-vs-home-care",
+      "title": "Suit Dry Cleaning vs Home Care: The Truth About Fabric Longevity and Cost",
+      "excerpt": "Is dry cleaning always better for your suits? We break down the cost, fabric impact, and best practices for both professional cleaning and at-home care."
+    },
+    {
+      "slug": "formal-attire-dress-codes-explained",
+      "title": "Formal Attire Dress Codes Explained: From White Tie to Business Casual",
+      "excerpt": "A complete guide to men's formal dress codes — white tie, black tie, business formal, smart casual, and everything in between."
+    },
+    {
+      "slug": "navy-blazer-styling-guide",
+      "title": "The Navy Blazer: How to Style One Jacket for 10 Different Occasions",
+      "excerpt": "Master the art of styling a navy blazer for everything from job interviews to weekend brunches. The ultimate guide to the most versatile piece in menswear."
+    },
+    {
+      "slug": "suit-fabrics-humid-climate",
+      "title": "Best Suit Fabrics for Hot and Humid Climates: Stay Cool Without Sacrificing Style",
+      "excerpt": "Discover the best suit fabrics for tropical and humid weather — from high-twist wool to fresco to linen blends — and stay sharp even when the temperature soars."
+    },
+    {
+      "slug": "modern-business-casual-guide",
+      "title": "The Modern Business Casual Guide: Dress Codes from Silicon Valley to Wall Street",
+      "excerpt": "What does Business Casual actually mean? Decode the unspoken dress codes for tech, finance, consulting, and creative industries."
+    },
+    {
+      "slug": "suit-alteration-cost-guide",
+      "title": "The Complete Suit Alteration Guide: What's Worth Altering, Where, and How Much It Costs",
+      "excerpt": "An ill-fitting suit is worse than no suit. A detailed guide to 15 key alteration points, real costs, and how to judge whether a suit is worth altering."
+    },
+    {
+      "slug": "summer-wedding-guest-attire-guide",
+      "title": "Summer Wedding Guest Attire: What to Wear to Look Sharp Without Overheating",
+      "excerpt": "Dressing for a summer wedding is a minefield. Master the art of seasonal wedding guest dressing with fabric choices, color palettes, and outfit formulas for every type of summer wedding."
+    },
+    {
+      "slug": "business-casual-shoe-encyclopedia",
+      "title": "The Business Casual Shoe Encyclopedia: Oxfords, Derbies, Loafers, and When to Wear Each",
+      "excerpt": "From Oxford vs Derby identification to loafer etiquette to the definitive color-matching rules, this is your complete guide to business casual footwear."
+    }
+  ],
+  "ops": [
+    {
+      "slug": "15-free-tools-solo",
+      "title": "15 Free Tools Every Solo Entrepreneur Must Use — From Site Building to Operations",
+      "excerpt": "A complete free tool stack covering website building, design, content, analytics, automation, and operations — everything a solo company needs to start lean and grow fast"
+    },
+    {
+      "slug": "adsense-first-month",
+      "title": "Google AdSense First Month Income — Real Expectations and a Six-Step Strategy for New Sites",
+      "excerpt": "How much does a new site actually earn from AdSense in month one? Realistic revenue expectations, the income formula explained, and six actionable steps to build a sustainable AdSense income stream from scratch."
+    },
+    {
+      "slug": "ai-assisted-product-prototyping",
+      "title": "AI-Assisted Product Prototyping — A Zero-Design-Background Guide for Solo Founders to Validate Ideas Fast",
+      "excerpt": "No designer, no budget, no problem. How solo companies use AI tools to go from sketch to interactive prototype and quickly validate product ideas."
+    },
+    {
+      "slug": "ai-automation-workflow",
+      "title": "How to Build an AI Automation Workflow From Zero — Compress a Week's Work into One Day",
+      "excerpt": "An eight-step guide to building an AI automation workflow — from process mapping to automated deployment, compress 40 hours of weekly repetitive work into under 10 hours"
+    },
+    {
+      "slug": "ai-writing-workflow",
+      "title": "Full Automated AI Batch Writing Workflow — From Keywords to Live Deployment",
+      "excerpt": "A complete six-step AI batch writing workflow from keyword research to image generation to automated deployment — specific methods to increase efficiency by 10x"
+    },
+    {
+      "slug": "build-in-public",
+      "title": "Build in Public: The Fastest Way to Launch a Solo Company — AgentClaw's 4-Hour Launch Playbook",
+      "excerpt": "From buying a domain to 55 articles live — 4 hours of work achieving what would traditionally cost $2,200 and two weeks. The Build in Public philosophy and practical how-to guide."
+    },
+    {
+      "slug": "content-site-1000-month",
+      "title": "From Zero to $1,000/Month with a Content Site — A Real Breakdown with Milestones",
+      "excerpt": "A real content site's complete journey from zero to $1,000/month in 12 months, including key actions and core data for each month"
+    },
+    {
+      "slug": "content-site-monetization",
+      "title": "Content Site Monetization Models — A Deep Comparison",
+      "excerpt": "AdSense, CPS, digital products, and services — a detailed comparison to help you find the right path."
+    },
+    {
+      "slug": "cps-affiliate-strategy",
+      "title": "CPS Affiliate Monetization Strategy for Solo Entrepreneurs",
+      "excerpt": "Earning commissions through Taobao and JD affiliate programs"
+    },
+    {
+      "slug": "customer-success-solo",
+      "title": "How to Do Customer Success as a Solo Founder — Efficient Strategies for Indie Developers to Retain Users",
+      "excerpt": "Customer success isn't just for big companies. A systematic approach lets solo founders dramatically reduce churn, boost repeat purchases, and spark word-of-mouth growth."
+    },
+    {
+      "slug": "data-driven-content",
+      "title": "Driving Content Strategy with 1,992 Data Points",
+      "excerpt": "Using data to create precisely targeted content"
+    },
+    {
+      "slug": "email-list-from-zero",
+      "title": "Building an Email List from Zero — Practical Strategies to Get 1,000 Real Subscribers as an Indie Developer",
+      "excerpt": "An email list is an indie developer's most underrated asset. Here are concrete methods to get 1,000 subscribers without spending money, plus content strategy and growth loops."
+    },
+    {
+      "slug": "feishu-bitable-project-management",
+      "title": "The Solo Founder's Complete Guide to Project Management with Feishu Bitable",
+      "excerpt": "Build your startup project management system with Feishu Bitable for free — from task tracking to data analysis, manage everything solo."
+    },
+    {
+      "slug": "from-0-to-1000-visitors",
+      "title": "From Zero to 1,000 Daily Visitors: A Practical Content Site Roadmap",
+      "excerpt": "A three-month growth roadmap — no paid promotion needed, just the right SEO strategy and consistent output."
+    },
+    {
+      "slug": "github-actions-automation",
+      "title": "GitHub Actions: Automate Your Website Updates — From Push to Live in 30 Seconds",
+      "excerpt": "A fully automated deployment solution: write an article, git push, and let automation handle the rest."
+    },
+    {
+      "slug": "keyword-research-guide",
+      "title": "SEO Keyword Research Guide for Content Sites — Tools, Methods, and Real-World Case Studies",
+      "excerpt": "Start keyword research from scratch using free and paid tools to find high-conversion, low-competition keywords."
+    },
+    {
+      "slug": "multi-site-one-domain",
+      "title": "Running Three Content Sites on One Domain — A Next.js Sub-Path Architecture Guide",
+      "excerpt": "One domain, one GitHub repo, one Vercel project — run three content sites and save two-thirds on domain costs."
+    },
+    {
+      "slug": "nextjs-solo-devs-guide",
+      "title": "Why Next.js Is the Best Tech Stack for Solo Content Site Developers",
+      "excerpt": "Comparing WordPress, Hugo, Astro, and Next.js — with real data showing why Next.js + Vercel is the optimal choice for solo entrepreneurs."
+    },
+    {
+      "slug": "niche-selection-guide",
+      "title": "The Complete Guide to Niche Selection for Solo Entrepreneurs: Find Your Blue Ocean",
+      "excerpt": "A systematic three-axis method — interest, skill, and market demand — to find the perfect niche for your solo company, with real cases and common pitfalls"
+    },
+    {
+      "slug": "no-code-automation-workflow",
+      "title": "No-Code Automation Workflow Guide: Save 20 Hours Per Week as a Solo Entrepreneur",
+      "excerpt": "Build automated workflows from scratch with Make and Zapier — 10 real-world cases covering customer service, content publishing, finance, and competitor monitoring"
+    },
+    {
+      "slug": "one-person-ai-agent",
+      "title": "Building Your AI Agent Team: How One Solo Founder Runs a Complete Operations Department with AI",
+      "excerpt": "One person + four AI agents = a complete operations team. From content creation to data analysis to customer service to business monitoring — build your virtual team step by step"
+    },
+    {
+      "slug": "project-management-solo",
+      "title": "The Complete Solo Project Management Guide: Build Your Operations System with Feishu Bitable from Scratch",
+      "excerpt": "From task tracking to content calendar to data review — build a complete project management system for your solo company with Feishu Bitable in just 10 minutes per day"
+    },
+    {
+      "slug": "seo-guide-solo-company",
+      "title": "SEO Guide for Solo Entrepreneurs: Get Quality Traffic Without Spending a Dime",
+      "excerpt": "Zero ad budget SEO strategy for content sites — from keyword research to content optimization to link building, covering every key step for solo companies to earn organic search traffic"
+    },
+    {
+      "slug": "social-media-automation",
+      "title": "Social Media Automation Workflow: How Solo Entrepreneurs Manage Every Platform with Tools",
+      "excerpt": "Build a fully automated social media publishing system with Buffer, Make, and Feishu — covering Twitter, LinkedIn, newsletter, and more — managed in just 15 minutes a day"
+    },
+    {
+      "slug": "solo-booking-system",
+      "title": "Setting Up a Booking System with Calendly/Feishu Calendar — A Complete Guide to Client Scheduling Automation for Solo Companies",
+      "excerpt": "Build an automated client booking system from scratch with support for different service types, auto-reminders, and follow-ups"
+    },
+    {
+      "slug": "solo-content-operations",
+      "title": "Managing 255 Articles Solo: A Content Operations System with Feishu Multidimensional Tables",
+      "excerpt": "Using Feishu multidimensional tables for content lifecycle management, keyword association, and ranking tracking across 255 articles"
+    },
+    {
+      "slug": "solo-customer-acquisition",
+      "title": "How Solo Entrepreneurs Acquire Customers — Free Channels and Proven Methods",
+      "excerpt": "7 channels and a complete workflow for landing your first customers from zero, without spending a dime on ads"
+    },
+    {
+      "slug": "solo-founder-product-docs",
+      "title": "How Indie Developers Write Great Product Docs — A Practical Guide for Solo-Founder SaaS Products",
+      "excerpt": "Product documentation isn't just for big companies. A well-written guide can slash support tickets, boost conversions, and build user trust"
+    },
+    {
+      "slug": "solo-income-diversification",
+      "title": "Diversified Income Model for Solo Companies",
+      "excerpt": "Monetizing through AdSense, CPS affiliates, SaaS, and more"
+    },
+    {
+      "slug": "solo-pricing-strategy",
+      "title": "How Solo Entrepreneurs Should Price — SaaS, Content, and Consulting Pricing Strategies",
+      "excerpt": "Covers pricing methods, psychology, and battle-tested templates for the 3 most common solo business models"
+    },
+    {
+      "slug": "solo-tax-guide",
+      "title": "Solo Entrepreneur Tax & Registration Guide: From Zero to Compliant",
+      "excerpt": "A complete hands-on guide to sole proprietor registration, invoicing, and tax filing for solo entrepreneurs"
+    },
+    {
+      "slug": "tech-blog-traffic-start",
+      "title": "Tech Blog Traffic from Zero: Topic Selection, SEO, and Distribution Guide",
+      "excerpt": "A complete methodology for solo tech bloggers — from picking the right topics to getting consistent search traffic"
+    },
+    {
+      "slug": "vercel-deployment-guide",
+      "title": "Vercel Free Deployment Guide: From GitHub to Custom Domain, Step by Step",
+      "excerpt": "Deploy a production website for free — no server, no DevOps, no hidden costs"
+    },
+    {
+      "slug": "what-is-solo-company",
+      "title": "What Is a Solo Company? The Best Way for Indie Developers to Build in the AI Era",
+      "excerpt": "The complete definition of a solo company, what directions work best, and how to start — everything you need to decide if this path is for you"
+    },
+    {
+      "slug": "zero-cost-roadmap",
+      "title": "Zero-Cost Solo Company Roadmap: Start Without Spending a Penny",
+      "excerpt": "A complete zero-cost path to launching a solo company — domain selection, free hosting, AI content, and SEO traffic, all without a budget"
+    },
+    {
+      "slug": "zero-cost-user-research",
+      "title": "Zero-Cost User Research for Solo Companies: 6 Proven Methods for Indie Developers",
+      "excerpt": "No budget? No problem. These 6 zero-cost user research methods help indie developers get the most valuable user insights with minimal investment"
+    },
+    {
+      "slug": "ai-agentic-affiliate-seo",
+      "title": "Agentic Affiliate Sites: How AI Agents Automate SEO, Content & Link Building for Solopreneurs",
+      "excerpt": "Autonomous AI agents automate competitor analysis, keyword discovery, content creation, and link building. Frameworks for solopreneur affiliate sites."
+    },
+    {
+      "slug": "ai-content-personalization-solopreneur",
+      "title": "AI-Driven Content Personalization for Solopreneurs: One-to-One Marketing Without a Team",
+      "excerpt": "Lightweight AI engines and RAG tools personalize content for different audience segments. Set up a pipeline using LLM APIs as a solo operator."
+    },
+    {
+      "slug": "solo-landing-page-conversion",
+      "title": "Landing Page Conversion Playbook for Solo Founders: Write Copy That Sells Without a Sales Team",
+      "excerpt": "A proven playbook for solo founders to build high-converting landing pages that sell your product without a dedicated sales team or expensive copywriters."
+    },
+    {
+      "slug": "solo-founder-productivity-system",
+      "title": "The Solo Founder's Productivity System: How to Get 8 Hours of Work Done in 4",
+      "excerpt": "A proven productivity system for solo founders that doubles output without burning out using time blocking, deep work, and automation strategies."
+    },
+    {
+      "slug": "ai-content-ab-testing-seo",
+      "title": "AI-Powered Content A/B Testing for SEO: The Solopreneur's Guide to Data-Driven Organic Growth",
+      "excerpt": "Learn how to use AI tools to run systematic content A/B tests that boost SEO performance, improve click-through rates, and drive organic traffic without a marketing team."
+    },
+    {
+      "slug": "second-brain-solo-entrepreneur",
+      "title": "Building a Second Brain for Solo Entrepreneurs: The Ultimate Knowledge Management System for Indie Hackers",
+      "excerpt": "A practical guide for solopreneurs to build a knowledge management system (Second Brain) that captures insights, connects ideas, and accelerates decision-making without the overhead of enterprise tools."
+    },
+    {
+      "slug": "solopreneur-cold-email-outreach-playbook",
+      "title": "The Solopreneur's Cold Email Outreach Playbook: Templates and Sequences That Convert",
+      "excerpt": "Master cold email outreach as a solopreneur. Templates, follow-up sequences, tools, and metrics that turn cold inboxes into warm conversations."
+    },
+    {
+      "slug": "indie-hacker-product-hunt-launch",
+      "title": "The Indie Hacker's Product Hunt Launch Guide: How to Get Your First 1,000 Users",
+      "excerpt": "A complete Product Hunt launch playbook for indie hackers. Pre-launch strategy, launch day execution, post-launch conversion — everything you need."
+    },
+    {
+      "slug": "one-person-media-company-ai",
+      "title": "How to Build a One-Person Media Company with AI Tools in 2026",
+      "excerpt": "Learn how solopreneurs are using AI writing, video generation, and automation tools to build profitable one-person media companies that rival traditional publishers."
+    },
+    {
+      "slug": "solopreneur-digital-product-creation",
+      "title": "The Solopreneur's Guide to Creating and Selling Digital Products: From Idea to Passive Income",
+      "excerpt": "A complete framework for creating, marketing, and selling digital products as a solopreneur. Covering templates, courses, SaaS micro-tools, and more."
+    },
+    {
+      "slug": "solopreneur-burnout-prevention",
+      "title": "The Solopreneur's Guide to Burnout Prevention: From Early Signs to Sustainable Systems",
+      "excerpt": "The biggest risk for a solo company isn't market competition — it's founder burnout. Identify the 7 early warning signs and build preventive work systems."
+    },
+    {
+      "slug": "micro-saas-validation-solo",
+      "title": "Micro SaaS Validation for Solo Founders: Validate Any Idea with $200 and 2 Weeks",
+      "excerpt": "Don't write a single line of code. Use $200 and 2 weeks to validate a SaaS product idea through customer interviews, landing page testing, and willingness-to-pay verification."
+    },
+    {
+      "slug": "solo-founder-decision-fatigue",
+      "title": "Overcoming Decision Fatigue as a Solo Founder: Replace Willpower with Systems",
+      "excerpt": "Solo founders make hundreds of decisions daily. Decision fatigue is the root cause of bad choices and burnout. Use decision frameworks, automation rules, and priority systems to free your brain."
+    },
+    {
+      "slug": "solopreneur-community-building-playbook",
+      "title": "The Solopreneur's Community Building Playbook: Turn Followers Into a Revenue Engine",
+      "excerpt": "A loyal community is the ultimate business moat for a solo founder. Covers strategy from first member to monetization, using Discord, Circle, and email-first approaches."
+    },
+    {
+      "slug": "solo-founder-waitlist-launch-strategy",
+      "title": "The Solo Founder's Waitlist Launch Strategy: Build Hype Before You Build Product",
+      "excerpt": "A waitlist-driven launch validates demand, builds an audience, and funds development — all before you write a single line of code."
+    }
+  ],
+  "mood": [
+    {
+      "slug": "ai-digital-human-realistic",
+      "title": "How to Make AI Digital Humans Look Real: 5 Techniques That Fool the Eye",
+      "excerpt": "HeyGen / D-ID / Tencent Zhiying / Alibaba Digital Human — tested 5 platforms to find the tricks that make AI avatars genuinely believable"
+    },
+    {
+      "slug": "ai-video-script-tools",
+      "title": "How to Write Emotional Short Video Scripts with AI: ChatGPT vs Claude vs DeepSeek — Hands-On Test",
+      "excerpt": "Using the same emotional story prompt, we put ChatGPT, Claude, and DeepSeek head-to-head. Plus 20 ready-to-use prompt templates."
+    },
+    {
+      "slug": "ai-voiceover-music-tools",
+      "title": "Best Voiceover and Music Tools for Emotional Short Videos: One BGM Can Double Your Views",
+      "excerpt": "Real-world testing of ElevenLabs, CapCut voiceover, Fish Audio, and Suno AI music generation — how to pick the right voice and music for maximum emotional impact."
+    },
+    {
+      "slug": "clipchamp-capcut-emotional-editing",
+      "title": "CapCut vs Clipchamp for Emotional Short Videos: Deep Comparison for Beginners",
+      "excerpt": "Tested across music sync, transitions, filters, and text effects — find out which editor is best for zero-experience creators."
+    },
+    {
+      "slug": "emotion-short-video-basics",
+      "title": "Emotional Short Video Basics: Why Some Videos Make You Cry While Others Get Swiped Away",
+      "excerpt": "Unveiling the core formula of emotional short videos — 3 seconds of immersion + 15 seconds of climax + 5 seconds of aftertaste. Make videos that move people, even with zero experience."
+    },
+    {
+      "slug": "emotional-prompt-engineering",
+      "title": "Master-Level Prompt Templates: 12 Emotional Trigger Words for ChatGPT/Claude",
+      "excerpt": "Why do your AI scripts fall flat while others make hundreds of thousands cry? The difference is in the emotional trigger words inside your prompts."
+    },
+    {
+      "slug": "emotional-video-six-emotions",
+      "title": "The 6 Emotions That Make Short-Form Videos Go Viral: A Psychological Breakdown of Hit Content",
+      "excerpt": "Joy, sadness, anger, fear, disgust, surprise — six core emotions in short videos, with real-world applications and case studies for each"
+    },
+    {
+      "slug": "mood-ai-assist-boundary",
+      "title": "Where AI Fails at Emotional Content: Hard Lessons from a Real Creator",
+      "excerpt": "Which parts of the creative process are safe to hand to AI, and which must stay human — with a full tool list and honest workflow"
+    },
+    {
+      "slug": "mood-ai-digital-human-realistic",
+      "title": "How to Make AI Digital Humans Look Real: 5 Techniques That Fool the Eye",
+      "excerpt": "HeyGen / D-ID / Tencent Zhiying / Alibaba Digital Human — tested 5 platforms to find the tricks that make AI avatars genuinely believable"
+    },
+    {
+      "slug": "mood-ai-toolchain-practical",
+      "title": "6 AI Toolchains for Emotional Short Videos: From Script to Final Cut, Tested End-to-End",
+      "excerpt": "ChatGPT for scripts → Midjourney/Kling for visuals → CapCut for editing → ElevenLabs for voiceover — 6 toolchains tested end-to-end with cost breakdown and efficiency comparison"
+    },
+    {
+      "slug": "mood-batch-production-sop",
+      "title": "SOP for One-Person Teams: Producing 5 Mood Videos a Day From Topic Selection to Publishing in Under 2 Hours",
+      "excerpt": "A complete batch production workflow for emotional short videos — from topic selection to script to AI generation to editing to publishing, one person producing 3-5 mood videos daily"
+    },
+    {
+      "slug": "mood-camera-language",
+      "title": "Cinematic Camera Language for Mood Videos: A Beginner's Guide",
+      "excerpt": "Why do some shots just look like film? 5 camera techniques you can learn from scratch, plus CapCut color grading settings that work."
+    },
+    {
+      "slug": "mood-comment-section-operations",
+      "title": "Emotional Video Comment Section Operations: 3 Sentences to Get Users Flooding Your Comments",
+      "excerpt": "Three-layered comment-scripting for emotional videos, 3 pinned-comment strategies, 5 reply techniques — turn every video's comment section into your second content stream"
+    },
+    {
+      "slug": "mood-completion-rate-tips",
+      "title": "10 Editing Tricks to Boost Video Completion Rate — Extracted from Silent Diary's Data",
+      "excerpt": "Based on Silent Diary's 28.5% completion rate breakdown — each trick adds 2-5%"
+    },
+    {
+      "slug": "mood-content-calendar-planning",
+      "title": "Full-Year Emotional Content Calendar: Spring, Summer, Fall, Winter — Just Follow Along",
+      "excerpt": "A 52-week emotional topic planning template that turns holidays, seasons, and social sentiment into your topic pipeline — never wonder what to post tomorrow again"
+    },
+    {
+      "slug": "mood-daily-publishing-strategy",
+      "title": "Daily Publishing Without Burnout: How to Keep Emotional Content Fresh for 90 Days",
+      "excerpt": "Content stocking, batch production, and asset reuse strategies — keep shipping without losing your mind"
+    },
+    {
+      "slug": "mood-mobile-filming-skills",
+      "title": "How to Shoot Cinematic Mood Videos with Just Your Phone — Zero Equipment Required",
+      "excerpt": "A complete hands-on guide to lighting, composition, and camera movement — all with just a smartphone"
+    },
+    {
+      "slug": "mood-music-beat-matching-advanced",
+      "title": "Advanced Beat Matching for Emotional Short Videos: Step-by-Step CapCut Timeline Mastery",
+      "excerpt": "From simple rhythm alignment to emotion-driven audio-visual harmony — 8 hands-on CapCut steps to make your emotional videos feel cinematic"
+    },
+    {
+      "slug": "mood-music-selection-guide",
+      "title": "The Ultimate BGM Guide for Emotional Short Videos: From Classical to Lo-fi, Every Genre Covered",
+      "excerpt": "Music selection criteria and library recommendations for every emotional tone — never pick the wrong track again"
+    },
+    {
+      "slug": "mood-persona-building-guide",
+      "title": "3 Mood Video Personas: Silent Diary / Storyteller / First-Person Monologue — Build Yours",
+      "excerpt": "Silent Diary, Storyteller, and First-Person Monologue — 3 dominant emotional video personas, with full frameworks from positioning to execution"
+    },
+    {
+      "slug": "mood-presentation-vs-tiktok",
+      "title": "Silent Diary vs TikTok Bangers: East vs West in Emotional Short Videos",
+      "excerpt": "A side-by-side comparison of audiences, algorithms, and monetization paths — find the style that fits you best"
+    },
+    {
+      "slug": "mood-short-vs-long-duration",
+      "title": "30 Seconds vs 60 Seconds: How Long Should Your Mood Video Be to Go Viral?",
+      "excerpt": "On Douyin, 30-second videos have the highest completion rates. On WeChat Video, 60-second videos convert best. Breaking down the optimal video length strategy for four major platforms and how to adjust your cuts accordingly."
+    },
+    {
+      "slug": "mood-storyboard-templates-five",
+      "title": "5 Ready-to-Use Storyboard Templates for Emotional Short Videos",
+      "excerpt": "Grief-Healing / Surprise-Gratitude / Longing-Reunion / Monologue-Connection / Contrast-Twist — 5 plug-and-play storyboard templates with full timelines and shot descriptions"
+    },
+    {
+      "slug": "mood-to-personal-ip-monetization",
+      "title": "From Emotional Videos to Real Money: A Complete Roadmap from Content to Personal Brand to Income",
+      "excerpt": "Your mood videos took off — now how do you actually make money? Ad revenue sharing, knowledge products, live selling, brand deals — 4 monetization paths with real execution guides and ROI breakdowns"
+    },
+    {
+      "slug": "mood-to-private-domain-conversion",
+      "title": "From Emotional Content to Private Domain: Monetization on Douyin vs Xiaohongshu",
+      "excerpt": "A head-to-head comparison of follower conversion logic and actual revenue models across two platforms — find the high-value path to monetization"
+    },
+    {
+      "slug": "mood-to-private-domain-traffic",
+      "title": "From Viral Views to Loyal Fans: The Complete Playbook for Moving Emotional Traffic into Your Private Channel",
+      "excerpt": "Your mood video blew up — but did you capture those viewers? A 3-step funnel: comment section hooks → profile optimization → DM scripts. The full conversion pipeline, tested and broken down."
+    },
+    {
+      "slug": "mood-xiaohongshu-comment-strategy",
+      "title": "Xiaohongshu Comment Strategy for Mood Videos: 3 Steps to Get Users Saving Your Posts",
+      "excerpt": "Data-backed comment strategies and engagement scripts that boost save rates by 50%"
+    },
+    {
+      "slug": "silent-diary-cold-start",
+      "title": "Silent Diary Cold Start Playbook: From Zero Followers to Your First Viral Hit",
+      "excerpt": "The complete roadmap for launching a Silent Diary-style channel from scratch, including strategy for the first 10 videos and key metrics"
+    },
+    {
+      "slug": "silent-diary-intro",
+      "title": "What Is Silent Diary? Why Does Every Video Make You Cry?",
+      "excerpt": "A video with no dialogue and no plot, getting tens of millions of views — how? Deconstructing Silent Diary's emotional code."
+    },
+    {
+      "slug": "silent-diary-narrative",
+      "title": "Silent Diary's 3 Classic Narrative Structures, Deconstructed",
+      "excerpt": "Every Silent Diary video follows a fixed narrative skeleton. Here are their 3 core structures with templates you can use today."
+    },
+    {
+      "slug": "viral-duan-emotional-video-case",
+      "title": "Viral Emotional Short Video Case Studies: Dissecting 10 Million-View Videos From Script to Music to Pacing",
+      "excerpt": "Breaking down 10 viral emotional videos with millions of views — analyzing their hooks, narrative structure, BGM choices, and editing rhythm so you can learn from the best."
+    },
+    {
+      "slug": "mood-loopable-micro-story",
+      "title": "The Loopable Micro-Story: Designing Emotional Videos That Beg to Be Watched Again",
+      "excerpt": "Structural psychology of short videos that seamlessly loop. Craft emotional narratives that reward repeat viewing with storyboard patterns."
+    },
+    {
+      "slug": "youtube-shorts-vs-tiktok-vs-reels-emotional",
+      "title": "YouTube Shorts vs TikTok vs Instagram Reels for Emotional Content: Where Your Mood Videos Will Thrive in 2026",
+      "excerpt": "Compare YouTube Shorts, TikTok, and Instagram Reels for emotional and mood-based content in 2026 — discover where your videos will resonate most and grow fastest."
+    },
+    {
+      "slug": "ai-generated-emotional-short-films",
+      "title": "AI-Generated Emotional Short Films: Using Text-to-Video (Sora, Kling, Runway) for Mood Content",
+      "excerpt": "Text-to-video AI has crossed the uncanny valley. Learn how creators are using Sora, Kling, and Runway Gen-3 to produce emotionally resonant short films — no cameras, no actors, no crew required."
+    },
+    {
+      "slug": "mood-video-hook-techniques",
+      "title": "7-Second Hook Techniques for Mood Videos: Why Your First Frame Decides Everything",
+      "excerpt": "Master the art of the 7-second hook for emotional short videos. Attention residue, emotional anchoring, and 7 proven hook types backed by viewer psychology."
+    },
+    {
+      "slug": "color-psychology-emotional-video",
+      "title": "The Psychology of Color in Emotional Short Videos: How to Use Color Grading to Trigger Specific Feelings",
+      "excerpt": "Master color grading for emotional short videos. Learn which color palettes trigger nostalgia, excitement, sadness, or calm — and how to apply them for maximum emotional impact."
+    },
+    {
+      "slug": "iphone-street-photography-tips",
+      "title": "iPhone Street Photography Guide: 10 Tips for Cinematic Mobile Photos",
+      "excerpt": "You don't need a professional camera — your iPhone is the best street photography tool. From composition and lighting to color grading, learn to capture stunning street images with your phone."
+    },
+    {
+      "slug": "mood-board-creation-tools",
+      "title": "Mood Board Creation Guide: Best Digital Tools and Workflows",
+      "excerpt": "Mood boards are the foundation of creative work. From Pinterest and Milanote to PureRef, compare the best digital mood board tools and efficient creation methods to build your visual inspiration system."
+    },
+    {
+      "slug": "emotional-video-sound-design",
+      "title": "The Complete Guide to Sound Design for Emotional Short Videos: Foley, Ambience, and Silence",
+      "excerpt": "Sound is 50% of emotional impact. Master foley, ambient soundscapes, strategic silence, and audio pacing to make your mood videos resonate on a visceral level."
+    }
+  ]
 }
