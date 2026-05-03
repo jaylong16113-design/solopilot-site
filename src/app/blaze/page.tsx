@@ -84,7 +84,7 @@ function isKocResult(r: any): r is KocResult {
 // ── Page Component ──
 
 export default function BlazePage() {
-  const { locale, t } = useI18n()
+  const { locale, t, setLocale } = useI18n()
   const isZh = locale === 'zh'
 
   const [activeTab, setActiveTab] = useState<Tab>('search')
@@ -331,9 +331,17 @@ export default function BlazePage() {
               </div>
             </div>
           </div>
-          <div className="blaze-status">
-            <span className="blaze-status-dot"></span>
-            {isZh ? '3个模块已就绪' : '3 Modules Active'}
+          <div style={{display:'flex',alignItems:'center',gap:'10px'}}>
+            <button onClick={() => setLocale(locale === 'zh' ? 'en' : 'zh')}
+              style={{padding:'4px 10px',borderRadius:'999px',background:'var(--deep)',
+                border:'1px solid var(--border)',fontSize:'11px',fontWeight:500,
+                color:'var(--t3)',cursor:'pointer',fontFamily:'var(--font)'}}>
+              {locale === 'zh' ? '🌐 EN' : '🌐 中文'}
+            </button>
+            <div className="blaze-status">
+              <span className="blaze-status-dot"></span>
+              {isZh ? '3个模块已就绪' : '3 Modules Active'}
+            </div>
           </div>
         </header>
 

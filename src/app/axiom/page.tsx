@@ -4,7 +4,7 @@ import { useEffect, useRef } from 'react'
 import { useI18n } from '@/lib/i18n/i18n'
 
 export default function AxiomPage() {
-  const { locale, t } = useI18n()
+  const { locale, t, setLocale } = useI18n()
   const containerRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
@@ -381,7 +381,19 @@ body::before{content:'';position:fixed;inset:0;background-image:radial-gradient(
               <div className="logo-tagline">{t('axiom_tagline')}</div>
             </div>
           </div>
-          <div className="header-right">
+          <div className="header-right" style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+            <button onClick={() => setLocale(locale === 'zh' ? 'en' : 'zh')}
+              style={{
+                padding: '4px 10px', borderRadius: 'var(--radius-pill)',
+                background: 'var(--deep)', border: '1px solid var(--border-default)',
+                fontSize: '11px', fontWeight: 500, color: 'var(--text-tertiary)',
+                cursor: 'pointer', fontFamily: 'var(--font)', transition: 'all .15s',
+              }}
+              onMouseEnter={e => { (e.target as HTMLElement).style.borderColor = 'var(--border-strong)'; (e.target as HTMLElement).style.color = 'var(--text-secondary)' }}
+              onMouseLeave={e => { (e.target as HTMLElement).style.borderColor = 'var(--border-default)'; (e.target as HTMLElement).style.color = 'var(--text-tertiary)' }}
+            >
+              {locale === 'zh' ? '🌐 EN' : '🌐 中文'}
+            </button>
             <div className="status-badge">
               <span className="status-dot"></span>{t('axiom_engine_ready')} · 10M Max
             </div>

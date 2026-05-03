@@ -4,7 +4,7 @@ import { useEffect, useRef } from 'react'
 import { useI18n } from '@/lib/i18n/i18n'
 
 export default function ForgePage() {
-  const { locale, t } = useI18n()
+  const { locale, t, setLocale } = useI18n()
   const containerRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
@@ -192,9 +192,17 @@ body::before{content:'';position:fixed;inset:0;background-image:radial-gradient(
               </div>
             </div>
           </div>
-          <div className="status-badge">
-            <span className="status-dot"></span>
-            {locale === 'zh' ? '9模块就绪' : '9 Modules Ready'}
+          <div style={{display:'flex',alignItems:'center',gap:'10px'}}>
+            <button onClick={() => setLocale(locale === 'zh' ? 'en' : 'zh')}
+              style={{padding:'4px 10px',borderRadius:'999px',background:'var(--deep)',
+                border:'1px solid var(--border)',fontSize:'11px',fontWeight:500,
+                color:'var(--t3)',cursor:'pointer',fontFamily:'var(--font)'}}>
+              {locale === 'zh' ? '🌐 EN' : '🌐 中文'}
+            </button>
+            <div className="status-badge">
+              <span className="status-dot"></span>
+              {locale === 'zh' ? '9模块就绪' : '9 Modules Ready'}
+            </div>
           </div>
         </header>
 
