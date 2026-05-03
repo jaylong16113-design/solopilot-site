@@ -32,6 +32,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="zh-CN" className="bg-background text-foreground">
       <head>
+        <meta name="baidu-site-verification" content="REPLACE_WITH_YOUR_BAIDU_CODE" />
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5426111418472003" crossOrigin="anonymous"></script>
         <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
       </head>

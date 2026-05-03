@@ -3,10 +3,10 @@ import { readFileSync } from "fs";
 import { join } from "path";
 
 const channels = [
-  { key: "tool", icon: "✦", title: "AI 工具站", copy: "跨境电商 AI 工具评测、对比与实操清单", count: "37", tone: "from-primary/20" },
-  { key: "wear", icon: "◌", title: "穿搭站", copy: "男士西装配搭指南，建立可复制的形象系统", count: "36", tone: "from-accent/20" },
-  { key: "ops", icon: "⌁", title: "运营站", copy: "一人公司运营 SOP、增长实验与零成本路径", count: "36", tone: "from-warning/20" },
-  { key: "mood", icon: "◍", title: "情绪短视频", copy: "情绪钩子、AI 工具链与爆款短视频拆解", count: "10", tone: "from-info/20" },
+  { key: "tool", icon: "✦", title: "AI 工具站", copy: "跨境电商 AI 工具评测、对比与实操清单", tone: "from-primary/20" },
+  { key: "wear", icon: "◌", title: "穿搭站", copy: "男士西装配搭指南，建立可复制的形象系统", tone: "from-accent/20" },
+  { key: "ops", icon: "⌁", title: "运营站", copy: "一人公司运营 SOP、增长实验与零成本路径", tone: "from-warning/20" },
+  { key: "mood", icon: "◍", title: "情绪短视频", copy: "情绪钩子、AI 工具链与爆款短视频拆解", tone: "from-info/20" },
 ];
 
 function getStats() {
@@ -18,7 +18,7 @@ function getStats() {
     const pages = total * 2 + 10 + 2;
     return { articles: total, pages, tool: index.tool?.length||0, wear: index.wear?.length||0, ops: index.ops?.length||0, mood: index.mood?.length||0 };
   } catch {
-    return { articles: 174, pages: 380, tool: 52, wear: 42, ops: 44, mood: 36 };
+    return { articles: 464, pages: 940, tool: 80, wear: 54, ops: 57, mood: 43 };
   }
 }
 
