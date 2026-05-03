@@ -1,13 +1,13 @@
 import { NextResponse } from 'next/server'
 import type { NextRequest } from 'next/server'
 
-const TOOL_PATHS = ['/axiom', '/forge', '/blaze', '/hunter', '/burberry', '/login']
+const TOOL_PATHS = ['/axiom', '/forge', '/blaze', '/hunter', '/mist', '/login']
 
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl
   
   // Skip auth for login page itself, api endpoints, homepage, content pages
-  const isToolPage = ['/axiom', '/forge', '/blaze', '/hunter', '/burberry'].some(p => 
+  const isToolPage = ['/axiom', '/forge', '/blaze', '/hunter', '/mist'].some(p => 
     pathname === p || pathname.startsWith(p + '/')
   )
   if (!isToolPage) return NextResponse.next()
@@ -25,5 +25,5 @@ export function middleware(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ['/axiom/:path*', '/forge/:path*', '/blaze/:path*', '/hunter/:path*', '/burberry/:path*']
+  matcher: ['/axiom/:path*', '/forge/:path*', '/blaze/:path*', '/hunter/:path*', '/mist/:path*']
 }
