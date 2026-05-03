@@ -424,6 +424,31 @@
       "slug": "ai-automated-invoice-generation",
       "title": "AI Automated Invoice Generation: Streamline Billing for Your E-Commerce or SaaS Business",
       "excerpt": "Eliminate manual invoicing with AI-powered tools that generate, send, and reconcile invoices automatically across multiple platforms and currencies."
+    },
+    {
+      "slug": "ai-tiktok-dropshipping-automation",
+      "title": "AI Tools for Automating TikTok Shop Dropshipping",
+      "excerpt": "Discover AI tools for automating TikTok Shop dropshipping — product sourcing, order fulfillment, inventory sync, and viral product hunting."
+    },
+    {
+      "slug": "ai-whatsapp-marketing-ecommerce",
+      "title": "AI WhatsApp Marketing Automation for Ecommerce",
+      "excerpt": "Explore AI-powered WhatsApp marketing automation for ecommerce — broadcast campaigns, chatbots, abandoned cart recovery via the WhatsApp Business API."
+    },
+    {
+      "slug": "ai-product-video-translation-dubbing",
+      "title": "AI Tools for Product Video Translation and Dubbing",
+      "excerpt": "Learn how AI video translation and dubbing tools help ecommerce brands localize product videos with voice cloning, lip sync, and subtitles."
+    },
+    {
+      "slug": "ai-social-media-competitor-monitoring",
+      "title": "AI Social Media Competitor Monitoring Tools for Ecommerce",
+      "excerpt": "Discover AI social media competitor monitoring tools that track rivals on Instagram, TikTok, and Facebook — analyzing content strategy and campaigns."
+    },
+    {
+      "slug": "ai-shopify-store-optimization-tools",
+      "title": "Best AI Tools for Shopify Store Optimization",
+      "excerpt": "Explore top AI tools for Shopify optimization — theme personalization, speed optimization, CRO, and SEO — without writing code."
     }
   ],
   "wear": [
@@ -706,6 +731,16 @@
       "slug": "suit-lapel-guide",
       "title": "Suit Lapels Complete Guide: Notch, Peak, and Shawl Explained for Every Occasion",
       "excerpt": "Master the art of suit lapels — learn the difference between notch, peak, and shawl lapels, which suits each face and body type, and how to match lapels to your occasion."
+    },
+    {
+      "slug": "charcoal-gray-suit-guide",
+      "title": "The Charcoal Gray Suit: Why It's the Most Underrated Color in a Man's Wardrobe",
+      "excerpt": "Discover why the charcoal gray suit is the most versatile, underrated piece in modern menswear — one suit, infinite looks."
+    },
+    {
+      "slug": "complete-suit-wardrobe-building",
+      "title": "How to Build a Complete Suit Wardrobe: From 1 Suit to 10 Looks",
+      "excerpt": "A strategic guide to building a versatile suit wardrobe from scratch — maximize your style options while minimizing spend and closet space."
     }
   ],
   "ops": [
@@ -993,6 +1028,16 @@
       "slug": "solopreneur-client-onboarding-system",
       "title": "The Solopreneur's Client Onboarding System: From First Contact to Repeat Revenue",
       "excerpt": "Build an automated client onboarding system that impresses new clients, reduces your administrative overhead, and sets the stage for long-term recurring revenue."
+    },
+    {
+      "slug": "solopreneur-linkedin-personal-brand-2026",
+      "title": "The Solopreneur's Guide to Building a Personal Brand on LinkedIn in 2026",
+      "excerpt": "A practical playbook for solopreneurs to build a magnetic LinkedIn personal brand that attracts clients and opportunities without burning out."
+    },
+    {
+      "slug": "solopreneur-digital-products-passive-income",
+      "title": "How to Build Passive Income with Digital Products as a Solopreneur",
+      "excerpt": "A step-by-step guide for solopreneurs to create, launch, and scale digital products that generate passive income while serving your audience."
     }
   ],
   "mood": [
@@ -1205,6 +1250,11 @@
       "slug": "emotional-short-video-platform-trends-2026",
       "title": "Emotional Short Video Platform Trends 2026: Where Mood Content Thrives",
       "excerpt": "A deep dive into the 2026 landscape for emotional short videos — which platforms are rewarding mood content, what the algorithms prioritize, and how to distribute your silent diary / storytelling videos for maximum reach."
+    },
+    {
+      "slug": "slow-burn-emotional-video-techniques",
+      "title": "Mastering the Art of Slow-Burn Emotional Videos: When Less is More",
+      "excerpt": "Master the counterintuitive craft of slow-burn videos — where silence and restraint create deeper emotional impact than any flashy edit."
     }
   ]
 }
